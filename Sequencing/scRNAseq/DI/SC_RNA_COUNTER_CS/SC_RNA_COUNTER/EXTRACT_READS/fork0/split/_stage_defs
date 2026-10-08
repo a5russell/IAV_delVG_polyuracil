@@ -1,0 +1,148 @@
+{
+    "chunks": [
+        {
+            "gem_group": 1, 
+            "read_group": "DIcorr2:MissingLibrary:1:HJLLJBCXY:1", 
+            "__mem_gb": 6, 
+            "read_chunks": {
+                "I1": "/tscc/lustre/ddn/scratch/a5russell/DelVG_IFN/Sequencing/scRNAseq/DIcorr/bamtofastq_S1_L001_I1_001.fastq.gz", 
+                "I2": null, 
+                "R1": "/tscc/lustre/ddn/scratch/a5russell/DelVG_IFN/Sequencing/scRNAseq/DIcorr/bamtofastq_S1_L001_R1_001.fastq.gz", 
+                "R2": "/tscc/lustre/ddn/scratch/a5russell/DelVG_IFN/Sequencing/scRNAseq/DIcorr/bamtofastq_S1_L001_R2_001.fastq.gz"
+            }, 
+            "chemistry": {
+                "si_read_offset": 0, 
+                "strandedness": "+", 
+                "umi_read_offset": 16, 
+                "barcode_read_type": "R1", 
+                "umi_read_type": "R1", 
+                "barcode_read_length": 16, 
+                "rna_read_type": "R2", 
+                "barcode_whitelist": "737K-august-2016", 
+                "si_read_type": "I1", 
+                "rna_read_length": null, 
+                "description": "Single Cell 3' v2", 
+                "rna_read_offset": 0, 
+                "barcode_read_offset": 0, 
+                "read_type_to_bcl_processor_filename": {
+                    "I1": "I1", 
+                    "I2": null, 
+                    "R1": "RA", 
+                    "R2": null
+                }, 
+                "rna_read2_type": null, 
+                "name": "SC3Pv2", 
+                "umi_read_length": 10, 
+                "si_read_length": null, 
+                "read_type_to_bcl2fastq_filename": {
+                    "I1": "I1", 
+                    "I2": null, 
+                    "R1": "R1", 
+                    "R2": "R2"
+                }, 
+                "rna_read2_length": null, 
+                "rna_read2_offset": 0, 
+                "retain_trimmed_suffix_read": "R1"
+            }, 
+            "reads_interleaved": false, 
+            "initial_reads": null
+        }, 
+        {
+            "gem_group": 1, 
+            "read_group": "DIcorr2:MissingLibrary:1:HJLLJBCXY:2", 
+            "__mem_gb": 6, 
+            "read_chunks": {
+                "I1": "/tscc/lustre/ddn/scratch/a5russell/DelVG_IFN/Sequencing/scRNAseq/DIcorr/bamtofastq_S1_L002_I1_001.fastq.gz", 
+                "I2": null, 
+                "R1": "/tscc/lustre/ddn/scratch/a5russell/DelVG_IFN/Sequencing/scRNAseq/DIcorr/bamtofastq_S1_L002_R1_001.fastq.gz", 
+                "R2": "/tscc/lustre/ddn/scratch/a5russell/DelVG_IFN/Sequencing/scRNAseq/DIcorr/bamtofastq_S1_L002_R2_001.fastq.gz"
+            }, 
+            "chemistry": {
+                "si_read_offset": 0, 
+                "strandedness": "+", 
+                "umi_read_offset": 16, 
+                "barcode_read_type": "R1", 
+                "umi_read_type": "R1", 
+                "barcode_read_length": 16, 
+                "rna_read_type": "R2", 
+                "barcode_whitelist": "737K-august-2016", 
+                "si_read_type": "I1", 
+                "rna_read_length": null, 
+                "description": "Single Cell 3' v2", 
+                "rna_read_offset": 0, 
+                "barcode_read_offset": 0, 
+                "read_type_to_bcl_processor_filename": {
+                    "I1": "I1", 
+                    "I2": null, 
+                    "R1": "RA", 
+                    "R2": null
+                }, 
+                "rna_read2_type": null, 
+                "name": "SC3Pv2", 
+                "umi_read_length": 10, 
+                "si_read_length": null, 
+                "read_type_to_bcl2fastq_filename": {
+                    "I1": "I1", 
+                    "I2": null, 
+                    "R1": "R1", 
+                    "R2": "R2"
+                }, 
+                "rna_read2_length": null, 
+                "rna_read2_offset": 0, 
+                "retain_trimmed_suffix_read": "R1"
+            }, 
+            "reads_interleaved": false, 
+            "initial_reads": null
+        }, 
+        {
+            "gem_group": 1, 
+            "read_group": "DIcorr2:MissingLibrary:1:HNGGKBCXY:2", 
+            "__mem_gb": 6, 
+            "read_chunks": {
+                "I1": "/tscc/lustre/ddn/scratch/a5russell/DelVG_IFN/Sequencing/scRNAseq/DIcorr/bamtofastq_S1_L002_I1_002.fastq.gz", 
+                "I2": null, 
+                "R1": "/tscc/lustre/ddn/scratch/a5russell/DelVG_IFN/Sequencing/scRNAseq/DIcorr/bamtofastq_S1_L002_R1_002.fastq.gz", 
+                "R2": "/tscc/lustre/ddn/scratch/a5russell/DelVG_IFN/Sequencing/scRNAseq/DIcorr/bamtofastq_S1_L002_R2_002.fastq.gz"
+            }, 
+            "chemistry": {
+                "si_read_offset": 0, 
+                "strandedness": "+", 
+                "umi_read_offset": 16, 
+                "barcode_read_type": "R1", 
+                "umi_read_type": "R1", 
+                "barcode_read_length": 16, 
+                "rna_read_type": "R2", 
+                "barcode_whitelist": "737K-august-2016", 
+                "si_read_type": "I1", 
+                "rna_read_length": null, 
+                "description": "Single Cell 3' v2", 
+                "rna_read_offset": 0, 
+                "barcode_read_offset": 0, 
+                "read_type_to_bcl_processor_filename": {
+                    "I1": "I1", 
+                    "I2": null, 
+                    "R1": "RA", 
+                    "R2": null
+                }, 
+                "rna_read2_type": null, 
+                "name": "SC3Pv2", 
+                "umi_read_length": 10, 
+                "si_read_length": null, 
+                "read_type_to_bcl2fastq_filename": {
+                    "I1": "I1", 
+                    "I2": null, 
+                    "R1": "R1", 
+                    "R2": "R2"
+                }, 
+                "rna_read2_length": null, 
+                "rna_read2_offset": 0, 
+                "retain_trimmed_suffix_read": "R1"
+            }, 
+            "reads_interleaved": false, 
+            "initial_reads": null
+        }
+    ], 
+    "join": {
+        "__mem_gb": 6
+    }
+}

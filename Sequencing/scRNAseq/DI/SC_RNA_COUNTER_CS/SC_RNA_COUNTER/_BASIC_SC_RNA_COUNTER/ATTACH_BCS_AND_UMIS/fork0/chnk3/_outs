@@ -1,0 +1,7 @@
+{
+    "output": "/tscc/lustre/ddn/scratch/a5russell/DIcorr2/SC_RNA_COUNTER_CS/SC_RNA_COUNTER/_BASIC_SC_RNA_COUNTER/ATTACH_BCS_AND_UMIS/fork0/chnk3/files/output.bam", 
+    "barcode_summary": "/tscc/lustre/ddn/scratch/a5russell/DIcorr2/SC_RNA_COUNTER_CS/SC_RNA_COUNTER/_BASIC_SC_RNA_COUNTER/ATTACH_BCS_AND_UMIS/fork0/chnk3/files/barcode_summary.h5", 
+    "num_alignments": 5875280, 
+    "chunked_reporter": "/tscc/lustre/ddn/scratch/a5russell/DIcorr2/SC_RNA_COUNTER_CS/SC_RNA_COUNTER/_BASIC_SC_RNA_COUNTER/ATTACH_BCS_AND_UMIS/fork0/chnk3/files/chunked_reporter.pickle", 
+    "summary": "/tscc/lustre/ddn/scratch/a5russell/DIcorr2/SC_RNA_COUNTER_CS/SC_RNA_COUNTER/_BASIC_SC_RNA_COUNTER/ATTACH_BCS_AND_UMIS/fork0/chnk3/files/summary.json"
+}

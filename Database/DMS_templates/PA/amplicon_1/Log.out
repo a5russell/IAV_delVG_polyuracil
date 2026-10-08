@@ -1,0 +1,57 @@
+STAR version=2.7.11b
+STAR compilation time,server,dir=2025-01-09T12:32:06+0000 :/opt/conda/conda-bld/star_1736425784849/work/source
+##### Command Line:
+/tscc/nfs/home/a5russell/mambaforge/envs/NEP/bin/STAR-avx2 --runMode genomeGenerate --runThreadN 1 --genomeDir Database/DMS_templates/PA/amplicon_1 --genomeFastaFiles Database/DMS_templates/PA/amplicon_1.fa --genomeSAindexNbases 3
+##### Initial USER parameters from Command Line:
+###### All USER parameters from Command Line:
+runMode                       genomeGenerate        ~RE-DEFINED
+runThreadN                    1     ~RE-DEFINED
+genomeDir                     Database/DMS_templates/PA/amplicon_1     ~RE-DEFINED
+genomeFastaFiles              Database/DMS_templates/PA/amplicon_1.fa        ~RE-DEFINED
+genomeSAindexNbases           3     ~RE-DEFINED
+##### Finished reading parameters from all sources
+
+##### Final user re-defined parameters-----------------:
+runMode                           genomeGenerate   
+runThreadN                        1
+genomeDir                         Database/DMS_templates/PA/amplicon_1
+genomeFastaFiles                  Database/DMS_templates/PA/amplicon_1.fa   
+genomeSAindexNbases               3
+
+-------------------------------
+##### Final effective command line:
+/tscc/nfs/home/a5russell/mambaforge/envs/NEP/bin/STAR-avx2   --runMode genomeGenerate      --runThreadN 1   --genomeDir Database/DMS_templates/PA/amplicon_1   --genomeFastaFiles Database/DMS_templates/PA/amplicon_1.fa      --genomeSAindexNbases 3
+----------------------------------------
+
+Number of fastq files for each mate = 1
+ParametersSolo: --soloCellFilterType CellRanger2.2 filtering parameters:  3000 0.99 10
+Finished loading and checking parameters
+--genomeDir directory created: Database/DMS_templates/PA/amplicon_1/
+Oct 30 09:55:20 ... starting to generate Genome files
+Database/DMS_templates/PA/amplicon_1.fa : chr # 0  "PA_amplicon_1" chrStart: 0
+Chromosome sequence lengths: 
+PA_amplicon_1	265
+Genome sequence total length = 265
+Genome size with padding = 262144
+Estimated genome size with padding and SJs: total=genome+SJ=201262144 = 262144 + 201000000
+GstrandBit=32
+Number of SA indices: 530
+Oct 30 09:55:20 ... starting to sort Suffix Array. This may take a long time...
+Number of chunks: 1;   chunks size limit: 18599685304 bytes
+Oct 30 09:55:20 ... sorting Suffix Array chunks and saving them to disk...
+Writing 4240 bytes into Database/DMS_templates/PA/amplicon_1//SA_0 ; empty space on disk = 1730284344111104 bytes ... done
+Oct 30 09:55:20 ... loading chunks from disk, packing SA...
+Oct 30 09:55:20 ... finished generating suffix array
+Oct 30 09:55:20 ... generating Suffix Array index
+Oct 30 09:55:20 ... completed Suffix Array index
+Oct 30 09:55:20 ... writing Genome to disk ...
+Writing 262144 bytes into Database/DMS_templates/PA/amplicon_1//Genome ; empty space on disk = 1730284344111104 bytes ... done
+SA size in bytes: 2190
+Oct 30 09:55:20 ... writing Suffix Array to disk ...
+Writing 2190 bytes into Database/DMS_templates/PA/amplicon_1//SA ; empty space on disk = 1730284344111104 bytes ... done
+Oct 30 09:55:20 ... writing SAindex to disk
+Writing 8 bytes into Database/DMS_templates/PA/amplicon_1//SAindex ; empty space on disk = 1730284344111104 bytes ... done
+Writing 32 bytes into Database/DMS_templates/PA/amplicon_1//SAindex ; empty space on disk = 1730284344111104 bytes ... done
+Writing 371 bytes into Database/DMS_templates/PA/amplicon_1//SAindex ; empty space on disk = 1730284344111104 bytes ... done
+Oct 30 09:55:20 ..... finished successfully
+DONE: Genome generation, EXITING

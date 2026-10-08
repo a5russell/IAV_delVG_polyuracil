@@ -1,0 +1,7 @@
+	/tscc/nfs/home/a5russell/mambaforge/envs/NEP/bin/STAR-avx2 --runMode alignReads --runThreadN 15 --genomeDir Database/human_WSN/human_445 --readFilesIn Sequencing/totalRNAseq/trimmed_reads/PB1-U20A-BAL_2_R1_001.fastq Sequencing/totalRNAseq/trimmed_reads/PB1-U20A-BAL_2_R2_001.fastq --outFileNamePrefix Results/totalRNAseq/alignment/PB1-U20A-BAL_2_ --outSAMtype BAM Unsorted --outReadsUnmapped Fastx
+	STAR version: 2.7.11b   compiled: 2025-07-24T03:06:21+0000 :/opt/conda/conda-bld/star_1753326220084/work/source
+Aug 08 00:45:51 ..... started STAR run
+Aug 08 00:45:51 ..... loading genome
+Aug 08 00:46:21 ..... started mapping
+Aug 08 00:52:04 ..... finished mapping
+Aug 08 00:52:05 ..... finished successfully

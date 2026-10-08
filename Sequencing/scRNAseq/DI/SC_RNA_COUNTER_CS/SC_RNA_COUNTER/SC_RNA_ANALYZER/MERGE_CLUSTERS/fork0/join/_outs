@@ -1,0 +1,4 @@
+{
+    "clusters_csv": "/tscc/lustre/ddn/scratch/a5russell/DIcorr2/SC_RNA_COUNTER_CS/SC_RNA_COUNTER/SC_RNA_ANALYZER/MERGE_CLUSTERS/fork0/files/clusters_csv", 
+    "clusters_h5": "/tscc/lustre/ddn/scratch/a5russell/DIcorr2/SC_RNA_COUNTER_CS/SC_RNA_COUNTER/SC_RNA_ANALYZER/MERGE_CLUSTERS/fork0/files/clusters_h5.h5"
+}

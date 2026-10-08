@@ -1,0 +1,15 @@
+@include "sc_rna_counter_cs.mro"
+
+call RUN_GRAPH_CLUSTERING(
+    matrix_h5 = "/tscc/lustre/ddn/scratch/a5russell/DIcorr2/SC_RNA_COUNTER_CS/SC_RNA_COUNTER/SC_RNA_ANALYZER/RUN_PREPROCESS/fork0/files/preprocessed_matrix_h5.h5",
+    pca_h5 = "/tscc/lustre/ddn/scratch/a5russell/DIcorr2/SC_RNA_COUNTER_CS/SC_RNA_COUNTER/SC_RNA_ANALYZER/RUN_PCA/fork0/files/pca_h5.h5",
+    num_neighbors = null,
+    neighbor_a = null,
+    neighbor_b = null,
+    num_bcs = null,
+    input_pcs = null,
+    balltree_leaf_size = null,
+    similarity_type = "nn",
+    skip = null,
+    is_multi_genome = true,
+)

@@ -1,0 +1,33 @@
+{
+    "__mem_gb": 12,
+    "__threads": 1,
+    "chunk_len": "40000000",
+    "chunk_start": "0",
+    "filtered_barcodes": "/tscc/lustre/ddn/scratch/a5russell/DIcorr2/SC_RNA_COUNTER_CS/SC_RNA_COUNTER/_BASIC_SC_RNA_COUNTER/FILTER_BARCODES/fork0/files/filtered_barcodes.csv",
+    "molecule_info": "/tscc/lustre/ddn/scratch/a5russell/DIcorr2/SC_RNA_COUNTER_CS/SC_RNA_COUNTER/_BASIC_SC_RNA_COUNTER/REPORT_MOLECULES/fork0/files/output.h5",
+    "subsample_info": {
+        "all_target_rpc": [
+            5000,
+            10000,
+            20000,
+            50000,
+            75000,
+            100000,
+            200000,
+            300000,
+            4957,
+            9914,
+            14872,
+            19829,
+            24786,
+            29743,
+            34700,
+            39658,
+            44615,
+            49572
+        ],
+        "subsample_rate": 0.6999928532305933,
+        "subsample_type": "raw_rpc",
+        "target_rpc": 34700
+    }
+}

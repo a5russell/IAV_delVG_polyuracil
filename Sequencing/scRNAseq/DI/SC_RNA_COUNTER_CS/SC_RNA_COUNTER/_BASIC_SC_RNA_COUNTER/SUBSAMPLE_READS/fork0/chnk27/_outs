@@ -1,0 +1,8 @@
+{
+    "subsampled_matrices": {
+        "filtered_matrices": "/tscc/lustre/ddn/scratch/a5russell/DIcorr2/SC_RNA_COUNTER_CS/SC_RNA_COUNTER/_BASIC_SC_RNA_COUNTER/SUBSAMPLE_READS/fork0/chnk27/files/filtered_matrices.h5", 
+        "raw_matrices": "/tscc/lustre/ddn/scratch/a5russell/DIcorr2/SC_RNA_COUNTER_CS/SC_RNA_COUNTER/_BASIC_SC_RNA_COUNTER/SUBSAMPLE_READS/fork0/chnk27/files/raw_matrices.h5"
+    }, 
+    "chunked_reporter": "/tscc/lustre/ddn/scratch/a5russell/DIcorr2/SC_RNA_COUNTER_CS/SC_RNA_COUNTER/_BASIC_SC_RNA_COUNTER/SUBSAMPLE_READS/fork0/chnk27/files/chunked_reporter.pickle", 
+    "summary": "/tscc/lustre/ddn/scratch/a5russell/DIcorr2/SC_RNA_COUNTER_CS/SC_RNA_COUNTER/_BASIC_SC_RNA_COUNTER/SUBSAMPLE_READS/fork0/chnk27/files/summary.json"
+}

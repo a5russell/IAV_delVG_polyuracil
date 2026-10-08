@@ -1,0 +1,19 @@
+### /tscc/nfs/home/a5russell/mambaforge/envs/NEP/bin/STAR-avx2   --runMode genomeGenerate      --runThreadN 4   --genomeDir human_445   --genomeFastaFiles human_445.fa      --sjdbGTFfile human_445.gtf   --sjdbOverhang 149
+### GstrandBit 32
+versionGenome	2.7.4a
+genomeType	Full
+genomeFastaFiles	human_445.fa 
+genomeSAindexNbases	14
+genomeChrBinNbits	18
+genomeSAsparseD	1
+genomeTransformType	None
+genomeTransformVCF	-
+sjdbOverhang	149
+sjdbFileChrStartEnd	- 
+sjdbGTFfile	human_445.gtf
+sjdbGTFchrPrefix	-
+sjdbGTFfeatureExon	exon
+sjdbGTFtagExonParentTranscript	transcript_id
+sjdbGTFtagExonParentGene	gene_id
+sjdbInsertSave	Basic
+genomeFileSizes	3163939089 24120192314

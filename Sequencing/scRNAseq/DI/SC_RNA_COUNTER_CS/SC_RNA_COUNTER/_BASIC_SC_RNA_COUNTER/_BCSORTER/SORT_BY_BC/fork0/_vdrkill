@@ -1,0 +1,26 @@
+{
+    "count": 18,
+    "size": 30316376496,
+    "timestamp": "2026-07-20 18:09:27",
+    "paths": [
+        "/tscc/lustre/ddn/scratch/a5russell/DIcorr2/SC_RNA_COUNTER_CS/SC_RNA_COUNTER/_BASIC_SC_RNA_COUNTER/_BCSORTER/SORT_BY_BC/fork0/files/default.bam",
+        "/tscc/lustre/ddn/scratch/a5russell/DIcorr2/SC_RNA_COUNTER_CS/SC_RNA_COUNTER/_BASIC_SC_RNA_COUNTER/_BCSORTER/SORT_BY_BC/fork0/chnk0/files/default.bam",
+        "/tscc/lustre/ddn/scratch/a5russell/DIcorr2/SC_RNA_COUNTER_CS/SC_RNA_COUNTER/_BASIC_SC_RNA_COUNTER/_BCSORTER/SORT_BY_BC/fork0/chnk1/files/default.bam",
+        "/tscc/lustre/ddn/scratch/a5russell/DIcorr2/SC_RNA_COUNTER_CS/SC_RNA_COUNTER/_BASIC_SC_RNA_COUNTER/_BCSORTER/SORT_BY_BC/fork0/chnk2/files/default.bam",
+        "/tscc/lustre/ddn/scratch/a5russell/DIcorr2/SC_RNA_COUNTER_CS/SC_RNA_COUNTER/_BASIC_SC_RNA_COUNTER/_BCSORTER/SORT_BY_BC/fork0/chnk3/files/default.bam",
+        "/tscc/lustre/ddn/scratch/a5russell/DIcorr2/SC_RNA_COUNTER_CS/SC_RNA_COUNTER/_BASIC_SC_RNA_COUNTER/_BCSORTER/SORT_BY_BC/fork0/chnk4/files/default.bam",
+        "/tscc/lustre/ddn/scratch/a5russell/DIcorr2/SC_RNA_COUNTER_CS/SC_RNA_COUNTER/_BASIC_SC_RNA_COUNTER/_BCSORTER/SORT_BY_BC/fork0/chnk5/files/default.bam",
+        "/tscc/lustre/ddn/scratch/a5russell/DIcorr2/SC_RNA_COUNTER_CS/SC_RNA_COUNTER/_BASIC_SC_RNA_COUNTER/_BCSORTER/SORT_BY_BC/fork0/chnk6/files/default.bam",
+        "/tscc/lustre/ddn/scratch/a5russell/DIcorr2/SC_RNA_COUNTER_CS/SC_RNA_COUNTER/_BASIC_SC_RNA_COUNTER/_BCSORTER/SORT_BY_BC/fork0/chnk7/files/default.bam",
+        "/tscc/lustre/ddn/scratch/a5russell/DIcorr2/SC_RNA_COUNTER_CS/SC_RNA_COUNTER/_BASIC_SC_RNA_COUNTER/_BCSORTER/SORT_BY_BC/fork0/chnk8/files/default.bam",
+        "/tscc/lustre/ddn/scratch/a5russell/DIcorr2/SC_RNA_COUNTER_CS/SC_RNA_COUNTER/_BASIC_SC_RNA_COUNTER/_BCSORTER/SORT_BY_BC/fork0/chnk9/files/default.bam",
+        "/tscc/lustre/ddn/scratch/a5russell/DIcorr2/SC_RNA_COUNTER_CS/SC_RNA_COUNTER/_BASIC_SC_RNA_COUNTER/_BCSORTER/SORT_BY_BC/fork0/chnk10/files/default.bam",
+        "/tscc/lustre/ddn/scratch/a5russell/DIcorr2/SC_RNA_COUNTER_CS/SC_RNA_COUNTER/_BASIC_SC_RNA_COUNTER/_BCSORTER/SORT_BY_BC/fork0/chnk11/files/default.bam",
+        "/tscc/lustre/ddn/scratch/a5russell/DIcorr2/SC_RNA_COUNTER_CS/SC_RNA_COUNTER/_BASIC_SC_RNA_COUNTER/_BCSORTER/SORT_BY_BC/fork0/chnk12/files/default.bam",
+        "/tscc/lustre/ddn/scratch/a5russell/DIcorr2/SC_RNA_COUNTER_CS/SC_RNA_COUNTER/_BASIC_SC_RNA_COUNTER/_BCSORTER/SORT_BY_BC/fork0/chnk13/files/default.bam",
+        "/tscc/lustre/ddn/scratch/a5russell/DIcorr2/SC_RNA_COUNTER_CS/SC_RNA_COUNTER/_BASIC_SC_RNA_COUNTER/_BCSORTER/SORT_BY_BC/fork0/chnk14/files/default.bam",
+        "/tscc/lustre/ddn/scratch/a5russell/DIcorr2/SC_RNA_COUNTER_CS/SC_RNA_COUNTER/_BASIC_SC_RNA_COUNTER/_BCSORTER/SORT_BY_BC/fork0/chnk15/files/default.bam",
+        "/tscc/lustre/ddn/scratch/a5russell/DIcorr2/SC_RNA_COUNTER_CS/SC_RNA_COUNTER/_BASIC_SC_RNA_COUNTER/_BCSORTER/SORT_BY_BC/fork0/chnk16/files/default.bam"
+    ],
+    "errors": null
+}

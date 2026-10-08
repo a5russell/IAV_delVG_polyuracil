@@ -1,0 +1,11 @@
+{
+    "canine_conf_mapped_deduped_effective_barcode_diversity": 131.61797815610709, 
+    "canine_conf_mapped_deduped_effective_umi_diversity": 522655.04417804803, 
+    "canine_transcriptome_conf_mapped_deduped_reads_frac": 0.008727024230231478, 
+    "human_conf_mapped_deduped_effective_barcode_diversity": 2591.1379972440495, 
+    "human_conf_mapped_deduped_effective_umi_diversity": 923662.9608619328, 
+    "human_transcriptome_conf_mapped_deduped_reads_frac": 0.5028820818372216, 
+    "multi_conf_mapped_deduped_effective_barcode_diversity": 2658.9656055753894, 
+    "multi_conf_mapped_deduped_effective_umi_diversity": 923881.930482275, 
+    "multi_transcriptome_conf_mapped_deduped_reads_frac": 0.511609106067453
+}

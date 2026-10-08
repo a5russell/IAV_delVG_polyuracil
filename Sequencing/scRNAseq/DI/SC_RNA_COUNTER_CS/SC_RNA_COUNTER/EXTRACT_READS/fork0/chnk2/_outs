@@ -1,0 +1,32 @@
+{
+    "read_groups": [
+        "DIcorr2:MissingLibrary:1:HNGGKBCXY:2", 
+        "DIcorr2:MissingLibrary:1:HNGGKBCXY:2", 
+        "DIcorr2:MissingLibrary:1:HNGGKBCXY:2"
+    ], 
+    "bam_comments": [
+        "10x_bam_to_fastq:I1(BC:QT)", 
+        "10x_bam_to_fastq:R1(CR:CY,UR:UY,TR:TQ)", 
+        "10x_bam_to_fastq:R2(SEQ:QUAL)"
+    ], 
+    "gem_groups": [
+        1, 
+        1, 
+        1
+    ], 
+    "barcode_counts": "/tscc/lustre/ddn/scratch/a5russell/DIcorr2/SC_RNA_COUNTER_CS/SC_RNA_COUNTER/EXTRACT_READS/fork0/chnk2/files/barcode_counts.json", 
+    "trimmed_seqs": [
+        "/tscc/lustre/ddn/scratch/a5russell/DIcorr2/SC_RNA_COUNTER_CS/SC_RNA_COUNTER/EXTRACT_READS/fork0/chnk2/files/trimmed_seqs.bam/1.bam", 
+        "/tscc/lustre/ddn/scratch/a5russell/DIcorr2/SC_RNA_COUNTER_CS/SC_RNA_COUNTER/EXTRACT_READS/fork0/chnk2/files/trimmed_seqs.bam/2.bam", 
+        "/tscc/lustre/ddn/scratch/a5russell/DIcorr2/SC_RNA_COUNTER_CS/SC_RNA_COUNTER/EXTRACT_READS/fork0/chnk2/files/trimmed_seqs.bam/3.bam"
+    ], 
+    "align": null, 
+    "summary": "/tscc/lustre/ddn/scratch/a5russell/DIcorr2/SC_RNA_COUNTER_CS/SC_RNA_COUNTER/EXTRACT_READS/fork0/chnk2/files/summary.json", 
+    "reads": [
+        "/tscc/lustre/ddn/scratch/a5russell/DIcorr2/SC_RNA_COUNTER_CS/SC_RNA_COUNTER/EXTRACT_READS/fork0/chnk2/files/reads.fastq/1.fastq", 
+        "/tscc/lustre/ddn/scratch/a5russell/DIcorr2/SC_RNA_COUNTER_CS/SC_RNA_COUNTER/EXTRACT_READS/fork0/chnk2/files/reads.fastq/2.fastq", 
+        "/tscc/lustre/ddn/scratch/a5russell/DIcorr2/SC_RNA_COUNTER_CS/SC_RNA_COUNTER/EXTRACT_READS/fork0/chnk2/files/reads.fastq/3.fastq"
+    ], 
+    "read2s": [], 
+    "chunked_reporter": "/tscc/lustre/ddn/scratch/a5russell/DIcorr2/SC_RNA_COUNTER_CS/SC_RNA_COUNTER/EXTRACT_READS/fork0/chnk2/files/chunked_reporter.pickle"
+}

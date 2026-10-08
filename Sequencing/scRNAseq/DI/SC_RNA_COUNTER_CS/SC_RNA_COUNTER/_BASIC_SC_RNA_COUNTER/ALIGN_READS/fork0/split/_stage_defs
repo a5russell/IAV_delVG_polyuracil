@@ -1,0 +1,200 @@
+{
+    "chunks": [
+        {
+            "read_chunk": "/tscc/lustre/ddn/scratch/a5russell/DIcorr2/SC_RNA_COUNTER_CS/SC_RNA_COUNTER/EXTRACT_READS/fork0/chnk0/files/reads.fastq/1.fastq", 
+            "__threads": 4, 
+            "read_group": "DIcorr2:MissingLibrary:1:HJLLJBCXY:1", 
+            "__mem_gb": 16, 
+            "read2_chunk": null
+        }, 
+        {
+            "read_chunk": "/tscc/lustre/ddn/scratch/a5russell/DIcorr2/SC_RNA_COUNTER_CS/SC_RNA_COUNTER/EXTRACT_READS/fork0/chnk0/files/reads.fastq/2.fastq", 
+            "__threads": 4, 
+            "read_group": "DIcorr2:MissingLibrary:1:HJLLJBCXY:1", 
+            "__mem_gb": 16, 
+            "read2_chunk": null
+        }, 
+        {
+            "read_chunk": "/tscc/lustre/ddn/scratch/a5russell/DIcorr2/SC_RNA_COUNTER_CS/SC_RNA_COUNTER/EXTRACT_READS/fork0/chnk0/files/reads.fastq/3.fastq", 
+            "__threads": 4, 
+            "read_group": "DIcorr2:MissingLibrary:1:HJLLJBCXY:1", 
+            "__mem_gb": 16, 
+            "read2_chunk": null
+        }, 
+        {
+            "read_chunk": "/tscc/lustre/ddn/scratch/a5russell/DIcorr2/SC_RNA_COUNTER_CS/SC_RNA_COUNTER/EXTRACT_READS/fork0/chnk0/files/reads.fastq/4.fastq", 
+            "__threads": 4, 
+            "read_group": "DIcorr2:MissingLibrary:1:HJLLJBCXY:1", 
+            "__mem_gb": 16, 
+            "read2_chunk": null
+        }, 
+        {
+            "read_chunk": "/tscc/lustre/ddn/scratch/a5russell/DIcorr2/SC_RNA_COUNTER_CS/SC_RNA_COUNTER/EXTRACT_READS/fork0/chnk0/files/reads.fastq/5.fastq", 
+            "__threads": 4, 
+            "read_group": "DIcorr2:MissingLibrary:1:HJLLJBCXY:1", 
+            "__mem_gb": 16, 
+            "read2_chunk": null
+        }, 
+        {
+            "read_chunk": "/tscc/lustre/ddn/scratch/a5russell/DIcorr2/SC_RNA_COUNTER_CS/SC_RNA_COUNTER/EXTRACT_READS/fork0/chnk0/files/reads.fastq/6.fastq", 
+            "__threads": 4, 
+            "read_group": "DIcorr2:MissingLibrary:1:HJLLJBCXY:1", 
+            "__mem_gb": 16, 
+            "read2_chunk": null
+        }, 
+        {
+            "read_chunk": "/tscc/lustre/ddn/scratch/a5russell/DIcorr2/SC_RNA_COUNTER_CS/SC_RNA_COUNTER/EXTRACT_READS/fork0/chnk0/files/reads.fastq/7.fastq", 
+            "__threads": 4, 
+            "read_group": "DIcorr2:MissingLibrary:1:HJLLJBCXY:1", 
+            "__mem_gb": 16, 
+            "read2_chunk": null
+        }, 
+        {
+            "read_chunk": "/tscc/lustre/ddn/scratch/a5russell/DIcorr2/SC_RNA_COUNTER_CS/SC_RNA_COUNTER/EXTRACT_READS/fork0/chnk1/files/reads.fastq/1.fastq", 
+            "__threads": 4, 
+            "read_group": "DIcorr2:MissingLibrary:1:HJLLJBCXY:2", 
+            "__mem_gb": 16, 
+            "read2_chunk": null
+        }, 
+        {
+            "read_chunk": "/tscc/lustre/ddn/scratch/a5russell/DIcorr2/SC_RNA_COUNTER_CS/SC_RNA_COUNTER/EXTRACT_READS/fork0/chnk1/files/reads.fastq/2.fastq", 
+            "__threads": 4, 
+            "read_group": "DIcorr2:MissingLibrary:1:HJLLJBCXY:2", 
+            "__mem_gb": 16, 
+            "read2_chunk": null
+        }, 
+        {
+            "read_chunk": "/tscc/lustre/ddn/scratch/a5russell/DIcorr2/SC_RNA_COUNTER_CS/SC_RNA_COUNTER/EXTRACT_READS/fork0/chnk1/files/reads.fastq/3.fastq", 
+            "__threads": 4, 
+            "read_group": "DIcorr2:MissingLibrary:1:HJLLJBCXY:2", 
+            "__mem_gb": 16, 
+            "read2_chunk": null
+        }, 
+        {
+            "read_chunk": "/tscc/lustre/ddn/scratch/a5russell/DIcorr2/SC_RNA_COUNTER_CS/SC_RNA_COUNTER/EXTRACT_READS/fork0/chnk1/files/reads.fastq/4.fastq", 
+            "__threads": 4, 
+            "read_group": "DIcorr2:MissingLibrary:1:HJLLJBCXY:2", 
+            "__mem_gb": 16, 
+            "read2_chunk": null
+        }, 
+        {
+            "read_chunk": "/tscc/lustre/ddn/scratch/a5russell/DIcorr2/SC_RNA_COUNTER_CS/SC_RNA_COUNTER/EXTRACT_READS/fork0/chnk1/files/reads.fastq/5.fastq", 
+            "__threads": 4, 
+            "read_group": "DIcorr2:MissingLibrary:1:HJLLJBCXY:2", 
+            "__mem_gb": 16, 
+            "read2_chunk": null
+        }, 
+        {
+            "read_chunk": "/tscc/lustre/ddn/scratch/a5russell/DIcorr2/SC_RNA_COUNTER_CS/SC_RNA_COUNTER/EXTRACT_READS/fork0/chnk1/files/reads.fastq/6.fastq", 
+            "__threads": 4, 
+            "read_group": "DIcorr2:MissingLibrary:1:HJLLJBCXY:2", 
+            "__mem_gb": 16, 
+            "read2_chunk": null
+        }, 
+        {
+            "read_chunk": "/tscc/lustre/ddn/scratch/a5russell/DIcorr2/SC_RNA_COUNTER_CS/SC_RNA_COUNTER/EXTRACT_READS/fork0/chnk1/files/reads.fastq/7.fastq", 
+            "__threads": 4, 
+            "read_group": "DIcorr2:MissingLibrary:1:HJLLJBCXY:2", 
+            "__mem_gb": 16, 
+            "read2_chunk": null
+        }, 
+        {
+            "read_chunk": "/tscc/lustre/ddn/scratch/a5russell/DIcorr2/SC_RNA_COUNTER_CS/SC_RNA_COUNTER/EXTRACT_READS/fork0/chnk1/files/reads.fastq/8.fastq", 
+            "__threads": 4, 
+            "read_group": "DIcorr2:MissingLibrary:1:HJLLJBCXY:2", 
+            "__mem_gb": 16, 
+            "read2_chunk": null
+        }, 
+        {
+            "read_chunk": "/tscc/lustre/ddn/scratch/a5russell/DIcorr2/SC_RNA_COUNTER_CS/SC_RNA_COUNTER/EXTRACT_READS/fork0/chnk1/files/reads.fastq/9.fastq", 
+            "__threads": 4, 
+            "read_group": "DIcorr2:MissingLibrary:1:HJLLJBCXY:2", 
+            "__mem_gb": 16, 
+            "read2_chunk": null
+        }, 
+        {
+            "read_chunk": "/tscc/lustre/ddn/scratch/a5russell/DIcorr2/SC_RNA_COUNTER_CS/SC_RNA_COUNTER/EXTRACT_READS/fork0/chnk1/files/reads.fastq/10.fastq", 
+            "__threads": 4, 
+            "read_group": "DIcorr2:MissingLibrary:1:HJLLJBCXY:2", 
+            "__mem_gb": 16, 
+            "read2_chunk": null
+        }, 
+        {
+            "read_chunk": "/tscc/lustre/ddn/scratch/a5russell/DIcorr2/SC_RNA_COUNTER_CS/SC_RNA_COUNTER/EXTRACT_READS/fork0/chnk1/files/reads.fastq/11.fastq", 
+            "__threads": 4, 
+            "read_group": "DIcorr2:MissingLibrary:1:HJLLJBCXY:2", 
+            "__mem_gb": 16, 
+            "read2_chunk": null
+        }, 
+        {
+            "read_chunk": "/tscc/lustre/ddn/scratch/a5russell/DIcorr2/SC_RNA_COUNTER_CS/SC_RNA_COUNTER/EXTRACT_READS/fork0/chnk1/files/reads.fastq/12.fastq", 
+            "__threads": 4, 
+            "read_group": "DIcorr2:MissingLibrary:1:HJLLJBCXY:2", 
+            "__mem_gb": 16, 
+            "read2_chunk": null
+        }, 
+        {
+            "read_chunk": "/tscc/lustre/ddn/scratch/a5russell/DIcorr2/SC_RNA_COUNTER_CS/SC_RNA_COUNTER/EXTRACT_READS/fork0/chnk1/files/reads.fastq/13.fastq", 
+            "__threads": 4, 
+            "read_group": "DIcorr2:MissingLibrary:1:HJLLJBCXY:2", 
+            "__mem_gb": 16, 
+            "read2_chunk": null
+        }, 
+        {
+            "read_chunk": "/tscc/lustre/ddn/scratch/a5russell/DIcorr2/SC_RNA_COUNTER_CS/SC_RNA_COUNTER/EXTRACT_READS/fork0/chnk1/files/reads.fastq/14.fastq", 
+            "__threads": 4, 
+            "read_group": "DIcorr2:MissingLibrary:1:HJLLJBCXY:2", 
+            "__mem_gb": 16, 
+            "read2_chunk": null
+        }, 
+        {
+            "read_chunk": "/tscc/lustre/ddn/scratch/a5russell/DIcorr2/SC_RNA_COUNTER_CS/SC_RNA_COUNTER/EXTRACT_READS/fork0/chnk1/files/reads.fastq/15.fastq", 
+            "__threads": 4, 
+            "read_group": "DIcorr2:MissingLibrary:1:HJLLJBCXY:2", 
+            "__mem_gb": 16, 
+            "read2_chunk": null
+        }, 
+        {
+            "read_chunk": "/tscc/lustre/ddn/scratch/a5russell/DIcorr2/SC_RNA_COUNTER_CS/SC_RNA_COUNTER/EXTRACT_READS/fork0/chnk1/files/reads.fastq/16.fastq", 
+            "__threads": 4, 
+            "read_group": "DIcorr2:MissingLibrary:1:HJLLJBCXY:2", 
+            "__mem_gb": 16, 
+            "read2_chunk": null
+        }, 
+        {
+            "read_chunk": "/tscc/lustre/ddn/scratch/a5russell/DIcorr2/SC_RNA_COUNTER_CS/SC_RNA_COUNTER/EXTRACT_READS/fork0/chnk1/files/reads.fastq/17.fastq", 
+            "__threads": 4, 
+            "read_group": "DIcorr2:MissingLibrary:1:HJLLJBCXY:2", 
+            "__mem_gb": 16, 
+            "read2_chunk": null
+        }, 
+        {
+            "read_chunk": "/tscc/lustre/ddn/scratch/a5russell/DIcorr2/SC_RNA_COUNTER_CS/SC_RNA_COUNTER/EXTRACT_READS/fork0/chnk1/files/reads.fastq/18.fastq", 
+            "__threads": 4, 
+            "read_group": "DIcorr2:MissingLibrary:1:HJLLJBCXY:2", 
+            "__mem_gb": 16, 
+            "read2_chunk": null
+        }, 
+        {
+            "read_chunk": "/tscc/lustre/ddn/scratch/a5russell/DIcorr2/SC_RNA_COUNTER_CS/SC_RNA_COUNTER/EXTRACT_READS/fork0/chnk2/files/reads.fastq/1.fastq", 
+            "__threads": 4, 
+            "read_group": "DIcorr2:MissingLibrary:1:HNGGKBCXY:2", 
+            "__mem_gb": 16, 
+            "read2_chunk": null
+        }, 
+        {
+            "read_chunk": "/tscc/lustre/ddn/scratch/a5russell/DIcorr2/SC_RNA_COUNTER_CS/SC_RNA_COUNTER/EXTRACT_READS/fork0/chnk2/files/reads.fastq/2.fastq", 
+            "__threads": 4, 
+            "read_group": "DIcorr2:MissingLibrary:1:HNGGKBCXY:2", 
+            "__mem_gb": 16, 
+            "read2_chunk": null
+        }, 
+        {
+            "read_chunk": "/tscc/lustre/ddn/scratch/a5russell/DIcorr2/SC_RNA_COUNTER_CS/SC_RNA_COUNTER/EXTRACT_READS/fork0/chnk2/files/reads.fastq/3.fastq", 
+            "__threads": 4, 
+            "read_group": "DIcorr2:MissingLibrary:1:HNGGKBCXY:2", 
+            "__mem_gb": 16, 
+            "read2_chunk": null
+        }
+    ]
+}

@@ -1,0 +1,99 @@
+STAR version=2.7.11b
+STAR compilation time,server,dir=2025-07-24T03:06:21+0000 :/opt/conda/conda-bld/star_1753326220084/work/source
+##### Command Line:
+/tscc/nfs/home/a5russell/mambaforge/envs/NEP/bin/STAR-avx2 --runMode alignReads --runThreadN 6 --genomeDir Database/nativeRACE/RACE_targets --readFilesIn Sequencing/native/depleted/vir1_2_UnCapped_vir1-neg-2_R2_001.fastq --outFileNamePrefix Results/nativeSeqAlign/depleted/vir1-neg-2UnCapped --outSAMtype BAM Unsorted --alignIntronMax 1
+##### Initial USER parameters from Command Line:
+outFileNamePrefix                 Results/nativeSeqAlign/depleted/vir1-neg-2UnCapped
+###### All USER parameters from Command Line:
+runMode                       alignReads        ~RE-DEFINED
+runThreadN                    6     ~RE-DEFINED
+genomeDir                     Database/nativeRACE/RACE_targets     ~RE-DEFINED
+readFilesIn                   Sequencing/native/depleted/vir1_2_UnCapped_vir1-neg-2_R2_001.fastq        ~RE-DEFINED
+outFileNamePrefix             Results/nativeSeqAlign/depleted/vir1-neg-2UnCapped     ~RE-DEFINED
+outSAMtype                    BAM   Unsorted        ~RE-DEFINED
+alignIntronMax                1     ~RE-DEFINED
+##### Finished reading parameters from all sources
+
+##### Final user re-defined parameters-----------------:
+runMode                           alignReads   
+runThreadN                        6
+genomeDir                         Database/nativeRACE/RACE_targets
+readFilesIn                       Sequencing/native/depleted/vir1_2_UnCapped_vir1-neg-2_R2_001.fastq   
+outFileNamePrefix                 Results/nativeSeqAlign/depleted/vir1-neg-2UnCapped
+outSAMtype                        BAM   Unsorted   
+alignIntronMax                    1
+
+-------------------------------
+##### Final effective command line:
+/tscc/nfs/home/a5russell/mambaforge/envs/NEP/bin/STAR-avx2   --runMode alignReads      --runThreadN 6   --genomeDir Database/nativeRACE/RACE_targets   --readFilesIn Sequencing/native/depleted/vir1_2_UnCapped_vir1-neg-2_R2_001.fastq      --outFileNamePrefix Results/nativeSeqAlign/depleted/vir1-neg-2UnCapped   --outSAMtype BAM   Unsorted      --alignIntronMax 1
+----------------------------------------
+
+Number of fastq files for each mate = 1
+ParametersSolo: --soloCellFilterType CellRanger2.2 filtering parameters:  3000 0.99 10
+Finished loading and checking parameters
+Reading genome generation parameters:
+### /tscc/nfs/home/a5russell/mambaforge/envs/NEP/bin/STAR-avx2   --runMode genomeGenerate      --runThreadN 1   --genomeDir Database/nativeRACE/RACE_targets   --genomeFastaFiles Database/nativeRACE/RACE_targets.fa      --genomeSAindexNbases 3
+### GstrandBit=32
+versionGenome                 2.7.4a     ~RE-DEFINED
+genomeType                    Full     ~RE-DEFINED
+genomeFastaFiles              Database/nativeRACE/RACE_targets.fa        ~RE-DEFINED
+genomeSAindexNbases           3     ~RE-DEFINED
+genomeChrBinNbits             18     ~RE-DEFINED
+genomeSAsparseD               1     ~RE-DEFINED
+genomeTransformType           None     ~RE-DEFINED
+genomeTransformVCF            -     ~RE-DEFINED
+sjdbOverhang                  0     ~RE-DEFINED
+sjdbFileChrStartEnd           -        ~RE-DEFINED
+sjdbGTFfile                   -     ~RE-DEFINED
+sjdbGTFchrPrefix              -     ~RE-DEFINED
+sjdbGTFfeatureExon            exon     ~RE-DEFINED
+sjdbGTFtagExonParentTranscripttranscript_id     ~RE-DEFINED
+sjdbGTFtagExonParentGene      gene_id     ~RE-DEFINED
+sjdbInsertSave                Basic     ~RE-DEFINED
+genomeFileSizes               786432   57052        ~RE-DEFINED
+Genome version is compatible with current STAR
+Number of real (reference) chromosomes= 3
+1	PB2	2341	0
+2	PB1	2341	262144
+3	PA	2233	524288
+Started loading the genome: Thu Jul  9 10:10:52 2026
+
+Genome: size given as a parameter = 786432
+SA: size given as a parameter = 57052
+SAindex: size given as a parameter = 1
+Read from SAindex: pGe.gSAindexNbases=3  nSAi=84
+nGenome=786432;  nSAbyte=57052
+GstrandBit=32   SA number of indices=13830
+Shared memory is not used for genomes. Allocated a private copy of the genome.
+Genome file size: 786432 bytes; state: good=1 eof=0 fail=0 bad=0
+Loading Genome ... done! state: good=1 eof=0 fail=0 bad=0; loaded 786432 bytes
+SA file size: 57052 bytes; state: good=1 eof=0 fail=0 bad=0
+Loading SA ... done! state: good=1 eof=0 fail=0 bad=0; loaded 57052 bytes
+Loading SAindex ... done: 411 bytes
+Finished loading the genome: Thu Jul  9 10:10:52 2026
+
+To accommodate alignIntronMax=1 redefined winBinNbits=8
+To accommodate alignIntronMax=1 and alignMatesGapMax=0, redefined winFlankNbins=1 and winAnchorDistNbins=2
+Created thread # 1
+Created thread # 2
+Created thread # 3
+Created thread # 4
+Created thread # 5
+Thread #4 end of input stream, nextChar=-1
+Completed: thread #0
+Completed: thread #1
+Joined thread # 1
+Completed: thread #5
+Completed: thread #2
+Joined thread # 2
+Completed: thread #3
+Joined thread # 3
+Completed: thread #4
+Joined thread # 4
+Joined thread # 5
+Jul 09 10:10:54 ..... finished mapping
+RAM after mapping:
+VmPeak:	 1257292 kB; VmSize:	 1253060 kB; VmHWM:	  904572 kB; VmRSS:	  901824 kB; 
+RAM after freeing genome index memory:
+VmPeak:	 1257292 kB; VmSize:	 1252288 kB; VmHWM:	  904572 kB; VmRSS:	  901052 kB; 
+ALL DONE!

@@ -1,0 +1,7 @@
+	/tscc/nfs/home/a5russell/mambaforge/envs/NEP/bin/STAR-avx2 --runMode alignReads --runThreadN 2 --genomeDir Database/DMS_templates/PB1/vRNA --readFilesIn Sequencing/wholeGenome/supernatant/PB1/1_vRNA_Capped_R1.fastq Sequencing/wholeGenome/supernatant/PB1/1_vRNA_Capped_R2.fastq --outFileNamePrefix Results/wholeGenomeAlign/supernatant/PB1/1_vRNA_Capped_ --outSAMtype BAM Unsorted --alignIntronMax 1 --outFilterMismatchNmax 999 --alignEndsType EndToEnd --outFilterMismatchNoverReadLmax 0.02
+	STAR version: 2.7.11b   compiled: 2025-07-24T03:06:21+0000 :/opt/conda/conda-bld/star_1753326220084/work/source
+Apr 13 13:38:56 ..... started STAR run
+Apr 13 13:38:56 ..... loading genome
+Apr 13 13:38:56 ..... started mapping
+Apr 13 13:39:11 ..... finished mapping
+Apr 13 13:39:11 ..... finished successfully

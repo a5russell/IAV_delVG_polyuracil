@@ -1,0 +1,54 @@
+PB1_cRNA	ABR	CDS	1	795	.	+	0	gene_id "PB1_mRNA"; gene_name "PB1_mRNA"; transcript_id "PB1_mRNA"; tss_id "PB1_mRNA";
+PB1_cRNA	ABR	exon	1	795	.	+	.	gene_id "PB1_mRNA"; gene_name "PB1_mRNA"; transcript_id "PB1_mRNA"; tss_id "PB1_mRNA";
+PB1_cRNA	ABR	CDS	1	795	.	-	0	gene_id "PB1_vRNA"; gene_name "PB1_vRNA"; transcript_id "PB1_vRNA"; tss_id "PB1_vRNA";
+PB1_cRNA	ABR	exon	1	795	.	-	.	gene_id "PB1_vRNA"; gene_name "PB1_vRNA"; transcript_id "PB1_vRNA"; tss_id "PB1_vRNA";
+PB2_cRNA	ABR	CDS	1	2341	.	+	0	gene_id "PB2_mRNA"; gene_name "PB2_mRNA"; transcript_id "PB2_mRNA"; tss_id "PB2_mRNA";
+PB2_cRNA	ABR	exon	1	2341	.	+	.	gene_id "PB2_mRNA"; gene_name "PB2_mRNA"; transcript_id "PB2_mRNA"; tss_id "PB2_mRNA";
+PB2_cRNA	ABR	CDS	1	2341	.	-	0	gene_id "PB2_vRNA"; gene_name "PB2_vRNA"; transcript_id "PB2_vRNA"; tss_id "PB2_vRNA";
+PB2_cRNA	ABR	exon	1	2341	.	-	.	gene_id "PB2_vRNA"; gene_name "PB2_vRNA"; transcript_id "PB2_vRNA"; tss_id "PB2_vRNA";
+PA_cRNA	ABR	CDS	1	2233	.	+	0	gene_id "PA_mRNA"; gene_name "PA_mRNA"; transcript_id "PA_mRNA"; tss_id "PA_mRNA";
+PA_cRNA	ABR	exon	1	2233	.	+	.	gene_id "PA_mRNA"; gene_name "PA_mRNA"; transcript_id "PA_mRNA"; tss_id "PA_mRNA";
+PA_cRNA	ABR	CDS	1	2233	.	-	0	gene_id "PA_vRNA"; gene_name "PA_vRNA"; transcript_id "PA_vRNA"; tss_id "PA_vRNA";
+PA_cRNA	ABR	exon	1	2233	.	-	.	gene_id "PA_vRNA"; gene_name "PA_vRNA"; transcript_id "PA_vRNA"; tss_id "PA_vRNA";
+HA_cRNA	ABR	CDS	1	1775	.	+	0	gene_id "HA_mRNA"; gene_name "HA_mRNA"; transcript_id "HA_mRNA"; tss_id "HA_mRNA";
+HA_cRNA	ABR	exon	1	1775	.	+	.	gene_id "HA_mRNA"; gene_name "HA_mRNA"; transcript_id "HA_mRNA"; tss_id "HA_mRNA";
+HA_cRNA	ABR	CDS	1	1775	.	-	0	gene_id "HA_vRNA"; gene_name "HA_vRNA"; transcript_id "HA_vRNA"; tss_id "HA_vRNA";
+HA_cRNA	ABR	exon	1	1775	.	-	.	gene_id "HA_vRNA"; gene_name "HA_vRNA"; transcript_id "HA_vRNA"; tss_id "HA_vRNA";
+NP_cRNA	ABR	CDS	1	1565	.	+	0	gene_id "NP_mRNA"; gene_name "NP_mRNA"; transcript_id "NP_mRNA"; tss_id "NP_mRNA";
+NP_cRNA	ABR	exon	1	1565	.	+	.	gene_id "NP_mRNA"; gene_name "NP_mRNA"; transcript_id "NP_mRNA"; tss_id "NP_mRNA";
+NP_cRNA	ABR	CDS	1	1565	.	-	0	gene_id "NP_vRNA"; gene_name "NP_vRNA"; transcript_id "NP_vRNA"; tss_id "NP_vRNA";
+NP_cRNA	ABR	exon	1	1565	.	-	.	gene_id "NP_vRNA"; gene_name "NP_vRNA"; transcript_id "NP_vRNA"; tss_id "NP_vRNA";
+NA_cRNA	ABR	CDS	1	1409	.	+	0	gene_id "NA_mRNA"; gene_name "NA_mRNA"; transcript_id "NA_mRNA"; tss_id "NA_mRNA";
+NA_cRNA	ABR	exon	1	1409	.	+	.	gene_id "NA_mRNA"; gene_name "NA_mRNA"; transcript_id "NA_mRNA"; tss_id "NA_mRNA";
+NA_cRNA	ABR	CDS	1	1409	.	-	0	gene_id "NA_vRNA"; gene_name "NA_vRNA"; transcript_id "NA_vRNA"; tss_id "NA_vRNA";
+NA_cRNA	ABR	exon	1	1409	.	-	.	gene_id "NA_vRNA"; gene_name "NA_vRNA"; transcript_id "NA_vRNA"; tss_id "NA_vRNA";
+M_cRNA	ABR	CDS	1	1027	.	+	0	gene_id "M_mRNA"; gene_name "M_mRNA"; p_id "M1"; transcript_id "M1"; tss_id "M_mRNA";
+M_cRNA	ABR	exon	1	1027	.	+	.	gene_id "M_mRNA"; gene_name "M_mRNA"; p_id "M1"; transcript_id "M1"; tss_id "M_mRNA";
+M_cRNA	ABR	CDS	1	1027	.	-	0	gene_id "M_vRNA"; gene_name "M_vRNA"; transcript_id "M_vRNA"; tss_id "M_vRNA";
+M_cRNA	ABR	exon	1	1027	.	-	.	gene_id "M_vRNA"; gene_name "M_vRNA"; transcript_id "M_vRNA"; tss_id "M_vRNA";
+M_cRNA	ABR	CDS	1	52	.	+	0	gene_id "M_mRNA"; gene_name "M_mRNA"; p_id "M2"; transcript_id "M2"; tss_id "M_mRNA";
+M_cRNA	ABR	exon	1	52	.	+	.	gene_id "M_mRNA"; gene_name "M_mRNA"; p_id "M2"; transcript_id "M2"; tss_id "M_mRNA";
+M_cRNA	ABR	CDS	741	1027	.	+	0	gene_id "M_mRNA"; gene_name "M_mRNA"; p_id "M2"; transcript_id "M2"; tss_id "M_mRNA";
+M_cRNA	ABR	exon	741	1027	.	+	.	gene_id "M_mRNA"; gene_name "M_mRNA"; p_id "M2"; transcript_id "M2"; tss_id "M_mRNA";
+M_cRNA	ABR	CDS	1	146	.	+	0	gene_id "M_mRNA"; gene_name "M_mRNA"; p_id "M4"; transcript_id "M4"; tss_id "M_mRNA";
+M_cRNA	ABR	exon	1	146	.	+	.	gene_id "M_mRNA"; gene_name "M_mRNA"; p_id "M4"; transcript_id "M4"; tss_id "M_mRNA";
+M_cRNA	ABR	CDS	741	1027	.	+	0	gene_id "M_mRNA"; gene_name "M_mRNA"; p_id "M4"; transcript_id "M4"; tss_id "M_mRNA";
+M_cRNA	ABR	exon	741	1027	.	+	.	gene_id "M_mRNA"; gene_name "M_mRNA"; p_id "M4"; transcript_id "M4"; tss_id "M_mRNA";
+NS_cRNA	ABR	CDS	1	890	.	+	0	gene_id "NS_mRNA"; gene_name "NS_mRNA"; p_id "NS1"; transcript_id "NS1"; tss_id "NS_mRNA";
+NS_cRNA	ABR	exon	1	890	.	+	.	gene_id "NS_mRNA"; gene_name "NS_mRNA"; p_id "NS1"; transcript_id "NS1"; tss_id "NS_mRNA";
+NS_cRNA	ABR	CDS	1	890	.	-	0	gene_id "NS_vRNA"; gene_name "NS_vRNA"; transcript_id "NS_vRNA"; tss_id "NS_vRNA";
+NS_cRNA	ABR	exon	1	890	.	-	.	gene_id "NS_vRNA"; gene_name "NS_vRNA"; transcript_id "NS_vRNA"; tss_id "NS_vRNA";
+NS_cRNA	ABR	CDS	1	57	.	+	0	gene_id "NS_mRNA"; gene_name "NS_mRNA"; p_id "NS2"; transcript_id "NS2"; tss_id "NS_mRNA";
+NS_cRNA	ABR	exon	1	57	.	+	.	gene_id "NS_mRNA"; gene_name "NS_mRNA"; p_id "NS2"; transcript_id "NS2"; tss_id "NS_mRNA";
+NS_cRNA	ABR	CDS	530	890	.	+	0	gene_id "NS_mRNA"; gene_name "NS_mRNA"; p_id "NS2"; transcript_id "NS2"; tss_id "NS_mRNA";
+NS_cRNA	ABR	exon	530	890	.	+	.	gene_id "NS_mRNA"; gene_name "NS_mRNA"; p_id "NS2"; transcript_id "NS2"; tss_id "NS_mRNA";
+
+
+
+
+
+
+
+
+
+

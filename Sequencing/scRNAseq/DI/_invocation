@@ -1,0 +1,18 @@
+@include "sc_rna_counter_cs.mro"
+
+call SC_RNA_COUNTER_CS(
+    sample_id = "DIcorr2",
+    sample_def = [ 
+        {
+            "fastq_mode": "ILMN_BCL2FASTQ",
+            "gem_group": null,
+            "lanes": null,
+            "read_path": "/tscc/lustre/ddn/scratch/a5russell/DelVG_IFN/Sequencing/scRNAseq/DIcorr",
+            "sample_indices": [ "any" ],
+            "sample_names": [ "bamtofastq" ]
+        }
+    ],
+    sample_desc = "",
+    reference_path = "/tscc/nfs/home/a5russell/scratch/human_and_canine",
+    recovered_cells = null,
+)

@@ -1,0 +1,6 @@
+{
+    "__mem_gb": 6,
+    "__threads": 1,
+    "filtered_barcodes": "/tscc/lustre/ddn/scratch/a5russell/DIcorr2/SC_RNA_COUNTER_CS/SC_RNA_COUNTER/_BASIC_SC_RNA_COUNTER/FILTER_BARCODES/fork0/files/filtered_barcodes.csv",
+    "molecule_info": "/tscc/lustre/ddn/scratch/a5russell/DIcorr2/SC_RNA_COUNTER_CS/SC_RNA_COUNTER/_BASIC_SC_RNA_COUNTER/REPORT_MOLECULES/fork0/files/output.h5"
+}

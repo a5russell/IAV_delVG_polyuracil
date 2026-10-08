@@ -1,0 +1,13 @@
+{
+    "analysis": "/tscc/lustre/ddn/scratch/a5russell/DIcorr2/SC_RNA_COUNTER_CS/SC_RNA_COUNTER/SC_RNA_ANALYZER/SUMMARIZE_ANALYSIS/fork0/files/analysis_csv",
+    "cloupe": null,
+    "filtered_gene_bc_matrices": "/tscc/lustre/ddn/scratch/a5russell/DIcorr2/SC_RNA_COUNTER_CS/SC_RNA_COUNTER/_BASIC_SC_RNA_COUNTER/FILTER_BARCODES/fork0/files/filtered_matrices_mex",
+    "filtered_gene_bc_matrices_h5": "/tscc/lustre/ddn/scratch/a5russell/DIcorr2/SC_RNA_COUNTER_CS/SC_RNA_COUNTER/_BASIC_SC_RNA_COUNTER/FILTER_BARCODES/fork0/files/filtered_matrices_h5.h5",
+    "metrics_summary": "/tscc/lustre/ddn/scratch/a5russell/DIcorr2/SC_RNA_COUNTER_CS/SC_RNA_COUNTER/SUMMARIZE_REPORTS/fork0/files/metrics_summary_csv.csv",
+    "molecule_info": "/tscc/lustre/ddn/scratch/a5russell/DIcorr2/SC_RNA_COUNTER_CS/SC_RNA_COUNTER/_BASIC_SC_RNA_COUNTER/REPORT_MOLECULES/fork0/files/output.h5",
+    "possorted_genome_bam": "/tscc/lustre/ddn/scratch/a5russell/DIcorr2/SC_RNA_COUNTER_CS/SC_RNA_COUNTER/_BASIC_SC_RNA_COUNTER/SORT_BY_POS/fork0/files/output.bam",
+    "possorted_genome_bam_index": "/tscc/lustre/ddn/scratch/a5russell/DIcorr2/SC_RNA_COUNTER_CS/SC_RNA_COUNTER/_BASIC_SC_RNA_COUNTER/SORT_BY_POS/fork0/files/output.bam.bai",
+    "raw_gene_bc_matrices": "/tscc/lustre/ddn/scratch/a5russell/DIcorr2/SC_RNA_COUNTER_CS/SC_RNA_COUNTER/_BASIC_SC_RNA_COUNTER/COUNT_GENES/fork0/files/matrices_mex",
+    "raw_gene_bc_matrices_h5": "/tscc/lustre/ddn/scratch/a5russell/DIcorr2/SC_RNA_COUNTER_CS/SC_RNA_COUNTER/_BASIC_SC_RNA_COUNTER/COUNT_GENES/fork0/files/matrices_h5.h5",
+    "web_summary": "/tscc/lustre/ddn/scratch/a5russell/DIcorr2/SC_RNA_COUNTER_CS/SC_RNA_COUNTER/SUMMARIZE_REPORTS/fork0/files/web_summary.html"
+}

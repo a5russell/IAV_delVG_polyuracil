@@ -1,0 +1,90 @@
+{
+    "stackvars_flag": "disable", 
+    "name": "ID.DIcorr2.SC_RNA_COUNTER_CS.SC_RNA_COUNTER._BASIC_SC_RNA_COUNTER._BCSORTER.SORT_BY_BC.fork0.chnk16", 
+    "python": {
+        "binpath": "/tscc/nfs/home/a5russell/cellranger-1.3.1/anaconda-cr-cs/2.2.0-anaconda-cr-cs-c7/bin/python", 
+        "version": "2.7.12 |Anaconda 2.2.0 (64-bit)| (default, Jul  2 2016, 17:42:40) \n[GCC 4.4.7 20120313 (Red Hat 4.4.7-1)]"
+    }, 
+    "monitor_flag": "disable", 
+    "pid": 561395, 
+    "cwd": "/tscc/lustre/ddn/scratch/a5russell/DIcorr2/SC_RNA_COUNTER_CS/SC_RNA_COUNTER/_BASIC_SC_RNA_COUNTER/_BCSORTER/SORT_BY_BC/fork0/chnk16/files", 
+    "wallclock": {
+        "start": "2026-07-20 17:42:16", 
+        "end": "2026-07-20 17:47:18", 
+        "duration_seconds": 302.6213610172272
+    }, 
+    "host": "tscc-13-21", 
+    "version": {
+        "martian": "1.3.1 (2.1.2)", 
+        "pipelines": "1.3.1"
+    }, 
+    "threads": 1, 
+    "memGB": 6, 
+    "invocation": {
+        "incpaths": [
+            "sc_rna_counter_cs.mro"
+        ], 
+        "args": {
+            "sample_def": [
+                {
+                    "gem_group": null, 
+                    "lanes": null, 
+                    "sample_names": [
+                        "bamtofastq"
+                    ], 
+                    "sample_indices": [
+                        "any"
+                    ], 
+                    "fastq_mode": "ILMN_BCL2FASTQ", 
+                    "read_path": "/tscc/lustre/ddn/scratch/a5russell/DelVG_IFN/Sequencing/scRNAseq/DIcorr"
+                }
+            ], 
+            "reference_path": "/tscc/nfs/home/a5russell/scratch/human_and_canine", 
+            "recovered_cells": null, 
+            "sample_desc": "", 
+            "sample_id": "DIcorr2"
+        }, 
+        "call": "SC_RNA_COUNTER_CS", 
+        "sweepargs": []
+    }, 
+    "profile_mode": "disable", 
+    "type": "local", 
+    "rusage": {
+        "self": {
+            "ru_msgrcv": 0, 
+            "ru_utime": 261.973343, 
+            "ru_majflt": 0, 
+            "ru_isrss": 0, 
+            "ru_nsignals": 0, 
+            "ru_msgsnd": 0, 
+            "ru_idrss": 0, 
+            "ru_stime": 0.952997, 
+            "ru_inblock": 1598216, 
+            "ru_minflt": 17789, 
+            "ru_nivcsw": 3563, 
+            "ru_maxrss": 86336, 
+            "ru_nvcsw": 1523, 
+            "ru_nswap": 0, 
+            "ru_oublock": 2334456, 
+            "ru_ixrss": 0
+        }, 
+        "children": {
+            "ru_msgrcv": 0, 
+            "ru_utime": 0.001485, 
+            "ru_majflt": 0, 
+            "ru_isrss": 0, 
+            "ru_nsignals": 0, 
+            "ru_msgsnd": 0, 
+            "ru_idrss": 0, 
+            "ru_stime": 0.002231, 
+            "ru_inblock": 0, 
+            "ru_minflt": 672, 
+            "ru_nivcsw": 1, 
+            "ru_maxrss": 41728, 
+            "ru_nvcsw": 2, 
+            "ru_nswap": 0, 
+            "ru_oublock": 0, 
+            "ru_ixrss": 0
+        }
+    }
+}

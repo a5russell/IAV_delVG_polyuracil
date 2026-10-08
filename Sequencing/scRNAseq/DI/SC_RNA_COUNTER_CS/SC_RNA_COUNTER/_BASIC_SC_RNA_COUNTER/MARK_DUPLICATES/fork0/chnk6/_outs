@@ -1,0 +1,5 @@
+{
+    "output": "/tscc/lustre/ddn/scratch/a5russell/DIcorr2/SC_RNA_COUNTER_CS/SC_RNA_COUNTER/_BASIC_SC_RNA_COUNTER/MARK_DUPLICATES/fork0/chnk6/files/output.bam", 
+    "chunked_reporter": "/tscc/lustre/ddn/scratch/a5russell/DIcorr2/SC_RNA_COUNTER_CS/SC_RNA_COUNTER/_BASIC_SC_RNA_COUNTER/MARK_DUPLICATES/fork0/chnk6/files/chunked_reporter.pickle", 
+    "summary": "/tscc/lustre/ddn/scratch/a5russell/DIcorr2/SC_RNA_COUNTER_CS/SC_RNA_COUNTER/_BASIC_SC_RNA_COUNTER/MARK_DUPLICATES/fork0/chnk6/files/summary.json"
+}

@@ -1,0 +1,5 @@
+{
+    "transcriptome_outputs": "/tscc/lustre/ddn/scratch/a5russell/DIcorr2/SC_RNA_COUNTER_CS/SC_RNA_COUNTER/_BASIC_SC_RNA_COUNTER/SORT_BY_QNAME/fork0/chnk0/files/transcriptome_outputs.bam", 
+    "trimmed_outputs": "/tscc/lustre/ddn/scratch/a5russell/DIcorr2/SC_RNA_COUNTER_CS/SC_RNA_COUNTER/_BASIC_SC_RNA_COUNTER/SORT_BY_QNAME/fork0/chnk0/files/trimmed_outputs.bam", 
+    "genome_outputs": "/tscc/lustre/ddn/scratch/a5russell/DIcorr2/SC_RNA_COUNTER_CS/SC_RNA_COUNTER/_BASIC_SC_RNA_COUNTER/SORT_BY_QNAME/fork0/chnk0/files/genome_outputs.bam"
+}

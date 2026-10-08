@@ -1,0 +1,16 @@
+{
+    "canine_filtered_bcs_frac_purity_outlier": 0.008064516129032258, 
+    "canine_filtered_bcs_mean_count_purity": 0.94728768481724435, 
+    "canine_filtered_bcs_purity_outliers": 1, 
+    "filtered_bcs_inferred_multiplet_rate": 0.021530501089324618, 
+    "filtered_bcs_inferred_multiplet_rate_lb": 0.003985112563543936, 
+    "filtered_bcs_inferred_multiplet_rate_ub": 0.04538852578068264, 
+    "filtered_bcs_inferred_multiplets": 59, 
+    "filtered_bcs_inferred_normalized_multiplet_rate": 0.00781790163011061, 
+    "filtered_bcs_observed_multiplets": 5, 
+    "human_filtered_bcs_frac_purity_outlier": 0.0015238095238095239, 
+    "human_filtered_bcs_mean_count_purity": 0.99918828262743287, 
+    "human_filtered_bcs_purity_outliers": 4, 
+    "multi_filtered_bcs_frac_purity_outlier": 0.009588325652841782, 
+    "multi_filtered_bcs_mean_count_purity": 0.99684718618201162
+}

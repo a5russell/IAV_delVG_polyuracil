@@ -1,0 +1,59 @@
+@include "sc_rna_counter_cs.mro"
+
+call SC_RNA_COUNTER(
+    sample_id = "DIcorr2",
+    sample_def = [
+        {
+            "fastq_mode": "ILMN_BCL2FASTQ",
+            "gem_group": null,
+            "lanes": null,
+            "read_path": "/tscc/lustre/ddn/scratch/a5russell/DelVG_IFN/Sequencing/scRNAseq/DIcorr",
+            "sample_indices": [
+                "any"
+            ],
+            "sample_names": [
+                "bamtofastq"
+            ]
+        }
+    ],
+    chemistry_name = "auto",
+    custom_chemistry_def = null,
+    barcode_confidence_threshold = 0.975,
+    umi_min_qual_threshold = 10,
+    align = {
+        "aligner": "star",
+        "high_conf_mapq": null
+    },
+    align_threads = 4,
+    reference_path = "/tscc/nfs/home/a5russell/scratch/human_and_canine",
+    primers = [
+        {
+            "name": "P5",
+            "seq": "AATGATACGGCGACCACCGAGATCT"
+        },
+        {
+            "name": "P7",
+            "seq": "CAAGCAGAAGACGGCATACGAGAT"
+        },
+        {
+            "name": "R1",
+            "seq": "ACACTCTTTCCCTACACGACG"
+        },
+        {
+            "name": "R2",
+            "seq": "GTGACTGGAGTTCAGACGTGTG"
+        },
+        {
+            "name": "switch_oligo",
+            "seq": "AAGCAGTGGTATCAACGCAGAGTACATGGG"
+        },
+        {
+            "name": "polyA",
+            "seq": "AAAAAAAAAAAAAAAAAAAA"
+        }
+    ],
+    recovered_cells = null,
+    subsample_rate = 1,
+    initial_reads = null,
+    sample_desc = "",
+)

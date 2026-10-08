@@ -1,0 +1,3 @@
+	barcode	segment	fiveprime	threeprime	count
+0	AGCAGCCTCCAGTAGT-1	NP_mRNA	329	1372	1
+5	CGGAGTCTCAGATAAG-1	PB2_mRNA	2014	2149	1

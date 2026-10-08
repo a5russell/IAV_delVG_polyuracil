@@ -1,0 +1,14 @@
+{
+    "count": 10,
+    "size": 716680,
+    "timestamp": "2026-07-20 18:54:06",
+    "paths": [
+        "/tscc/lustre/ddn/scratch/a5russell/DIcorr2/SC_RNA_COUNTER_CS/SC_RNA_COUNTER/SC_RNA_ANALYZER/RUN_MULTIGENOME_ANALYSIS/fork0/files/multi_genome_csv",
+        "/tscc/lustre/ddn/scratch/a5russell/DIcorr2/SC_RNA_COUNTER_CS/SC_RNA_COUNTER/SC_RNA_ANALYZER/RUN_MULTIGENOME_ANALYSIS/fork0/files/multi_genome_json",
+        "/tscc/lustre/ddn/scratch/a5russell/DIcorr2/SC_RNA_COUNTER_CS/SC_RNA_COUNTER/SC_RNA_ANALYZER/RUN_MULTIGENOME_ANALYSIS/fork0/files/multi_genome_summary.json",
+        "/tscc/lustre/ddn/scratch/a5russell/DIcorr2/SC_RNA_COUNTER_CS/SC_RNA_COUNTER/SC_RNA_ANALYZER/RUN_MULTIGENOME_ANALYSIS/fork0/chnk0/files/multi_genome_csv",
+        "/tscc/lustre/ddn/scratch/a5russell/DIcorr2/SC_RNA_COUNTER_CS/SC_RNA_COUNTER/SC_RNA_ANALYZER/RUN_MULTIGENOME_ANALYSIS/fork0/chnk0/files/multi_genome_json",
+        "/tscc/lustre/ddn/scratch/a5russell/DIcorr2/SC_RNA_COUNTER_CS/SC_RNA_COUNTER/SC_RNA_ANALYZER/RUN_MULTIGENOME_ANALYSIS/fork0/chnk0/files/multi_genome_summary.json"
+    ],
+    "errors": null
+}

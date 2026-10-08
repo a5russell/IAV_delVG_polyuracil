@@ -1,0 +1,11 @@
+PASS	Basic Statistics	PB1-U20A_3_R1_001.fastq.gz
+PASS	Per base sequence quality	PB1-U20A_3_R1_001.fastq.gz
+FAIL	Per tile sequence quality	PB1-U20A_3_R1_001.fastq.gz
+PASS	Per sequence quality scores	PB1-U20A_3_R1_001.fastq.gz
+FAIL	Per base sequence content	PB1-U20A_3_R1_001.fastq.gz
+WARN	Per sequence GC content	PB1-U20A_3_R1_001.fastq.gz
+PASS	Per base N content	PB1-U20A_3_R1_001.fastq.gz
+PASS	Sequence Length Distribution	PB1-U20A_3_R1_001.fastq.gz
+FAIL	Sequence Duplication Levels	PB1-U20A_3_R1_001.fastq.gz
+WARN	Overrepresented sequences	PB1-U20A_3_R1_001.fastq.gz
+FAIL	Adapter Content	PB1-U20A_3_R1_001.fastq.gz

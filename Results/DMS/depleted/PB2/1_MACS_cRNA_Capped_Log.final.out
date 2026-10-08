@@ -1,0 +1,37 @@
+                                 Started job on |	Apr 05 17:26:19
+                             Started mapping on |	Apr 05 17:26:19
+                                    Finished on |	Apr 05 17:26:49
+       Mapping speed, Million of reads per hour |	527.10
+
+                          Number of input reads |	4392505
+                      Average input read length |	224
+                                    UNIQUE READS:
+                   Uniquely mapped reads number |	569573
+                        Uniquely mapped reads % |	12.97%
+                          Average mapped length |	195.14
+                       Number of splices: Total |	0
+            Number of splices: Annotated (sjdb) |	0
+                       Number of splices: GT/AG |	0
+                       Number of splices: GC/AG |	0
+                       Number of splices: AT/AC |	0
+               Number of splices: Non-canonical |	0
+                      Mismatch rate per base, % |	0.56%
+                         Deletion rate per base |	0.02%
+                        Deletion average length |	1.00
+                        Insertion rate per base |	0.00%
+                       Insertion average length |	1.10
+                             MULTI-MAPPING READS:
+        Number of reads mapped to multiple loci |	1216
+             % of reads mapped to multiple loci |	0.03%
+        Number of reads mapped to too many loci |	0
+             % of reads mapped to too many loci |	0.00%
+                                  UNMAPPED READS:
+  Number of reads unmapped: too many mismatches |	71800
+       % of reads unmapped: too many mismatches |	1.63%
+            Number of reads unmapped: too short |	3725111
+                 % of reads unmapped: too short |	84.81%
+                Number of reads unmapped: other |	24805
+                     % of reads unmapped: other |	0.56%
+                                  CHIMERIC READS:
+                       Number of chimeric reads |	0
+                            % of chimeric reads |	0.00%

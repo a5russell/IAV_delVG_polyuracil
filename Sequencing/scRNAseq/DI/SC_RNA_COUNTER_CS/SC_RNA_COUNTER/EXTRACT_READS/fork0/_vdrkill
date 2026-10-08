@@ -1,0 +1,22 @@
+{
+    "count": 70,
+    "size": 53847353292,
+    "timestamp": "2026-07-20 19:52:55",
+    "paths": [
+        "/tscc/lustre/ddn/scratch/a5russell/DIcorr2/SC_RNA_COUNTER_CS/SC_RNA_COUNTER/EXTRACT_READS/fork0/files/barcode_counts.json",
+        "/tscc/lustre/ddn/scratch/a5russell/DIcorr2/SC_RNA_COUNTER_CS/SC_RNA_COUNTER/EXTRACT_READS/fork0/files/summary.json",
+        "/tscc/lustre/ddn/scratch/a5russell/DIcorr2/SC_RNA_COUNTER_CS/SC_RNA_COUNTER/EXTRACT_READS/fork0/chnk0/files/barcode_counts.json",
+        "/tscc/lustre/ddn/scratch/a5russell/DIcorr2/SC_RNA_COUNTER_CS/SC_RNA_COUNTER/EXTRACT_READS/fork0/chnk0/files/chunked_reporter.pickle",
+        "/tscc/lustre/ddn/scratch/a5russell/DIcorr2/SC_RNA_COUNTER_CS/SC_RNA_COUNTER/EXTRACT_READS/fork0/chnk0/files/reads.fastq",
+        "/tscc/lustre/ddn/scratch/a5russell/DIcorr2/SC_RNA_COUNTER_CS/SC_RNA_COUNTER/EXTRACT_READS/fork0/chnk0/files/trimmed_seqs.bam",
+        "/tscc/lustre/ddn/scratch/a5russell/DIcorr2/SC_RNA_COUNTER_CS/SC_RNA_COUNTER/EXTRACT_READS/fork0/chnk1/files/barcode_counts.json",
+        "/tscc/lustre/ddn/scratch/a5russell/DIcorr2/SC_RNA_COUNTER_CS/SC_RNA_COUNTER/EXTRACT_READS/fork0/chnk1/files/chunked_reporter.pickle",
+        "/tscc/lustre/ddn/scratch/a5russell/DIcorr2/SC_RNA_COUNTER_CS/SC_RNA_COUNTER/EXTRACT_READS/fork0/chnk1/files/reads.fastq",
+        "/tscc/lustre/ddn/scratch/a5russell/DIcorr2/SC_RNA_COUNTER_CS/SC_RNA_COUNTER/EXTRACT_READS/fork0/chnk1/files/trimmed_seqs.bam",
+        "/tscc/lustre/ddn/scratch/a5russell/DIcorr2/SC_RNA_COUNTER_CS/SC_RNA_COUNTER/EXTRACT_READS/fork0/chnk2/files/barcode_counts.json",
+        "/tscc/lustre/ddn/scratch/a5russell/DIcorr2/SC_RNA_COUNTER_CS/SC_RNA_COUNTER/EXTRACT_READS/fork0/chnk2/files/chunked_reporter.pickle",
+        "/tscc/lustre/ddn/scratch/a5russell/DIcorr2/SC_RNA_COUNTER_CS/SC_RNA_COUNTER/EXTRACT_READS/fork0/chnk2/files/reads.fastq",
+        "/tscc/lustre/ddn/scratch/a5russell/DIcorr2/SC_RNA_COUNTER_CS/SC_RNA_COUNTER/EXTRACT_READS/fork0/chnk2/files/trimmed_seqs.bam"
+    ],
+    "errors": null
+}

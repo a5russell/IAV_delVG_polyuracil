@@ -1,0 +1,187 @@
+STAR version=2.7.11b
+STAR compilation time,server,dir=2025-07-24T03:06:21+0000 :/opt/conda/conda-bld/star_1753326220084/work/source
+##### Command Line:
+/tscc/nfs/home/a5russell/mambaforge/envs/NEP/bin/STAR-avx2 --runMode alignReads --runThreadN 15 --genomeDir Database/human_WSN/human_445 --readFilesIn Sequencing/totalRNAseq/trimmed_reads/PB1-U16A_1_R1_001.fastq Sequencing/totalRNAseq/trimmed_reads/PB1-U16A_1_R2_001.fastq --outFileNamePrefix Results/totalRNAseq/alignment/PB1-U16A_1_ --outSAMtype BAM Unsorted --outReadsUnmapped Fastx
+##### Initial USER parameters from Command Line:
+outFileNamePrefix                 Results/totalRNAseq/alignment/PB1-U16A_1_
+###### All USER parameters from Command Line:
+runMode                       alignReads        ~RE-DEFINED
+runThreadN                    15     ~RE-DEFINED
+genomeDir                     Database/human_WSN/human_445     ~RE-DEFINED
+readFilesIn                   Sequencing/totalRNAseq/trimmed_reads/PB1-U16A_1_R1_001.fastq   Sequencing/totalRNAseq/trimmed_reads/PB1-U16A_1_R2_001.fastq        ~RE-DEFINED
+outFileNamePrefix             Results/totalRNAseq/alignment/PB1-U16A_1_     ~RE-DEFINED
+outSAMtype                    BAM   Unsorted        ~RE-DEFINED
+outReadsUnmapped              Fastx     ~RE-DEFINED
+##### Finished reading parameters from all sources
+
+##### Final user re-defined parameters-----------------:
+runMode                           alignReads   
+runThreadN                        15
+genomeDir                         Database/human_WSN/human_445
+readFilesIn                       Sequencing/totalRNAseq/trimmed_reads/PB1-U16A_1_R1_001.fastq   Sequencing/totalRNAseq/trimmed_reads/PB1-U16A_1_R2_001.fastq   
+outFileNamePrefix                 Results/totalRNAseq/alignment/PB1-U16A_1_
+outReadsUnmapped                  Fastx
+outSAMtype                        BAM   Unsorted   
+
+-------------------------------
+##### Final effective command line:
+/tscc/nfs/home/a5russell/mambaforge/envs/NEP/bin/STAR-avx2   --runMode alignReads      --runThreadN 15   --genomeDir Database/human_WSN/human_445   --readFilesIn Sequencing/totalRNAseq/trimmed_reads/PB1-U16A_1_R1_001.fastq   Sequencing/totalRNAseq/trimmed_reads/PB1-U16A_1_R2_001.fastq      --outFileNamePrefix Results/totalRNAseq/alignment/PB1-U16A_1_   --outReadsUnmapped Fastx   --outSAMtype BAM   Unsorted   
+----------------------------------------
+
+Number of fastq files for each mate = 1
+ParametersSolo: --soloCellFilterType CellRanger2.2 filtering parameters:  3000 0.99 10
+Finished loading and checking parameters
+Reading genome generation parameters:
+### /tscc/nfs/home/a5russell/mambaforge/envs/NEP/bin/STAR-avx2   --runMode genomeGenerate      --runThreadN 4   --genomeDir human_445   --genomeFastaFiles human_445.fa      --sjdbGTFfile human_445.gtf   --sjdbOverhang 149
+### GstrandBit=32
+versionGenome                 2.7.4a     ~RE-DEFINED
+genomeType                    Full     ~RE-DEFINED
+genomeFastaFiles              human_445.fa        ~RE-DEFINED
+genomeSAindexNbases           14     ~RE-DEFINED
+genomeChrBinNbits             18     ~RE-DEFINED
+genomeSAsparseD               1     ~RE-DEFINED
+genomeTransformType           None     ~RE-DEFINED
+genomeTransformVCF            -     ~RE-DEFINED
+sjdbOverhang                  149     ~RE-DEFINED
+sjdbFileChrStartEnd           -        ~RE-DEFINED
+sjdbGTFfile                   human_445.gtf     ~RE-DEFINED
+sjdbGTFchrPrefix              -     ~RE-DEFINED
+sjdbGTFfeatureExon            exon     ~RE-DEFINED
+sjdbGTFtagExonParentTranscripttranscript_id     ~RE-DEFINED
+sjdbGTFtagExonParentGene      gene_id     ~RE-DEFINED
+sjdbInsertSave                Basic     ~RE-DEFINED
+genomeFileSizes               3163939089   24120192314        ~RE-DEFINED
+Genome version is compatible with current STAR
+Number of real (reference) chromosomes= 33
+1	1	249250621	0
+2	2	243199373	249298944
+3	3	198022430	492568576
+4	4	191154276	690749440
+5	5	180915260	882114560
+6	6	171115067	1063256064
+7	7	159138663	1234436096
+8	8	146364022	1393819648
+9	9	141213431	1540358144
+10	10	135534747	1681653760
+11	11	135006516	1817444352
+12	12	133851895	1952710656
+13	13	115169878	2086666240
+14	14	107349540	2202009600
+15	15	102531392	2309488640
+16	16	90354753	2412249088
+17	17	81195210	2502688768
+18	18	78077248	2583953408
+19	19	59128983	2662072320
+20	20	63025520	2721316864
+21	21	48129895	2784493568
+22	22	51304566	2832728064
+23	X	155270560	2884108288
+24	Y	59373566	3039559680
+25	MT	16569	3099066368
+26	PB1_cRNA	795	3099328512
+27	PB2_cRNA	2341	3099590656
+28	PA_cRNA	2233	3099852800
+29	HA_cRNA	1775	3100114944
+30	NP_cRNA	1565	3100377088
+31	NA_cRNA	1409	3100639232
+32	M_cRNA	1027	3100901376
+33	NS_cRNA	890	3101163520
+--sjdbOverhang = 149 taken from the generated genome
+Started loading the genome: Fri Aug  7 23:46:32 2026
+
+Genome: size given as a parameter = 3163939089
+SA: size given as a parameter = 24120192314
+SAindex: size given as a parameter = 1
+Read from SAindex: pGe.gSAindexNbases=14  nSAi=357913940
+nGenome=3163939089;  nSAbyte=24120192314
+GstrandBit=32   SA number of indices=5847319348
+Shared memory is not used for genomes. Allocated a private copy of the genome.
+Genome file size: 3163939089 bytes; state: good=1 eof=0 fail=0 bad=0
+Loading Genome ... done! state: good=1 eof=0 fail=0 bad=0; loaded 3163939089 bytes
+SA file size: 24120192314 bytes; state: good=1 eof=0 fail=0 bad=0
+Loading SA ... done! state: good=1 eof=0 fail=0 bad=0; loaded 24120192314 bytes
+Loading SAindex ... done: 1565873619 bytes
+Finished loading the genome: Fri Aug  7 23:47:06 2026
+
+Processing splice junctions database sjdbN=209075,   pGe.sjdbOverhang=149 
+alignIntronMax=alignMatesGapMax=0, the max intron size will be approximately determined by (2^winBinNbits)*winAnchorDistNbins=589824
+Opening the file: Results/totalRNAseq/alignment/PB1-U16A_1__STARtmp//Unmapped.out.mate0.thread0 ... ok
+Opening the file: Results/totalRNAseq/alignment/PB1-U16A_1__STARtmp//Unmapped.out.mate1.thread0 ... ok
+Opening the file: Results/totalRNAseq/alignment/PB1-U16A_1__STARtmp//Unmapped.out.mate0.thread1 ... ok
+Opening the file: Results/totalRNAseq/alignment/PB1-U16A_1__STARtmp//Unmapped.out.mate1.thread1 ... ok
+Opening the file: Results/totalRNAseq/alignment/PB1-U16A_1__STARtmp//Unmapped.out.mate0.thread2 ... ok
+Opening the file: Results/totalRNAseq/alignment/PB1-U16A_1__STARtmp//Unmapped.out.mate1.thread2 ... ok
+Opening the file: Results/totalRNAseq/alignment/PB1-U16A_1__STARtmp//Unmapped.out.mate0.thread3 ... ok
+Opening the file: Results/totalRNAseq/alignment/PB1-U16A_1__STARtmp//Unmapped.out.mate1.thread3 ... ok
+Opening the file: Results/totalRNAseq/alignment/PB1-U16A_1__STARtmp//Unmapped.out.mate0.thread4 ... ok
+Opening the file: Results/totalRNAseq/alignment/PB1-U16A_1__STARtmp//Unmapped.out.mate1.thread4 ... ok
+Opening the file: Results/totalRNAseq/alignment/PB1-U16A_1__STARtmp//Unmapped.out.mate0.thread5 ... ok
+Opening the file: Results/totalRNAseq/alignment/PB1-U16A_1__STARtmp//Unmapped.out.mate1.thread5 ... ok
+Opening the file: Results/totalRNAseq/alignment/PB1-U16A_1__STARtmp//Unmapped.out.mate0.thread6 ... ok
+Opening the file: Results/totalRNAseq/alignment/PB1-U16A_1__STARtmp//Unmapped.out.mate1.thread6 ... ok
+Opening the file: Results/totalRNAseq/alignment/PB1-U16A_1__STARtmp//Unmapped.out.mate0.thread7 ... ok
+Opening the file: Results/totalRNAseq/alignment/PB1-U16A_1__STARtmp//Unmapped.out.mate1.thread7 ... ok
+Opening the file: Results/totalRNAseq/alignment/PB1-U16A_1__STARtmp//Unmapped.out.mate0.thread8 ... ok
+Opening the file: Results/totalRNAseq/alignment/PB1-U16A_1__STARtmp//Unmapped.out.mate1.thread8 ... ok
+Opening the file: Results/totalRNAseq/alignment/PB1-U16A_1__STARtmp//Unmapped.out.mate0.thread9 ... ok
+Opening the file: Results/totalRNAseq/alignment/PB1-U16A_1__STARtmp//Unmapped.out.mate1.thread9 ... ok
+Opening the file: Results/totalRNAseq/alignment/PB1-U16A_1__STARtmp//Unmapped.out.mate0.thread10 ... ok
+Opening the file: Results/totalRNAseq/alignment/PB1-U16A_1__STARtmp//Unmapped.out.mate1.thread10 ... ok
+Opening the file: Results/totalRNAseq/alignment/PB1-U16A_1__STARtmp//Unmapped.out.mate0.thread11 ... ok
+Opening the file: Results/totalRNAseq/alignment/PB1-U16A_1__STARtmp//Unmapped.out.mate1.thread11 ... ok
+Opening the file: Results/totalRNAseq/alignment/PB1-U16A_1__STARtmp//Unmapped.out.mate0.thread12 ... ok
+Opening the file: Results/totalRNAseq/alignment/PB1-U16A_1__STARtmp//Unmapped.out.mate1.thread12 ... ok
+Opening the file: Results/totalRNAseq/alignment/PB1-U16A_1__STARtmp//Unmapped.out.mate0.thread13 ... ok
+Opening the file: Results/totalRNAseq/alignment/PB1-U16A_1__STARtmp//Unmapped.out.mate1.thread13 ... ok
+Opening the file: Results/totalRNAseq/alignment/PB1-U16A_1__STARtmp//Unmapped.out.mate0.thread14 ... ok
+Opening the file: Results/totalRNAseq/alignment/PB1-U16A_1__STARtmp//Unmapped.out.mate1.thread14 ... ok
+Created thread # 1
+Created thread # 2
+Created thread # 3
+Created thread # 4
+Created thread # 5
+Created thread # 6
+Created thread # 7
+Created thread # 8
+Created thread # 9
+Created thread # 10
+Created thread # 11
+Created thread # 12
+Created thread # 13
+Created thread # 14
+Thread #3 end of input stream, nextChar=-1
+Completed: thread #1
+Completed: thread #11
+Completed: thread #6
+Completed: thread #3
+Completed: thread #10
+Completed: thread #4
+Completed: thread #5
+Completed: thread #13
+Completed: thread #9
+Completed: thread #0
+Joined thread # 1
+Completed: thread #8
+Completed: thread #14
+Completed: thread #12
+Completed: thread #7
+Completed: thread #2
+Joined thread # 2
+Joined thread # 3
+Joined thread # 4
+Joined thread # 5
+Joined thread # 6
+Joined thread # 7
+Joined thread # 8
+Joined thread # 9
+Joined thread # 10
+Joined thread # 11
+Joined thread # 12
+Joined thread # 13
+Joined thread # 14
+Aug 07 23:51:49 ..... finished mapping
+RAM after mapping:
+VmPeak:	31434428 kB; VmSize:	31429996 kB; VmHWM:	30806056 kB; VmRSS:	30802920 kB; 
+RAM after freeing genome index memory:
+VmPeak:	31434428 kB; VmSize:	 3256156 kB; VmHWM:	30806056 kB; VmRSS:	 2629080 kB; 
+ALL DONE!

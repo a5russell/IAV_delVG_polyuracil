@@ -1,0 +1,10 @@
+@include "sc_rna_counter_cs.mro"
+
+call MARK_DUPLICATES(
+    input = "/tscc/lustre/ddn/scratch/a5russell/DIcorr2/SC_RNA_COUNTER_CS/SC_RNA_COUNTER/_BASIC_SC_RNA_COUNTER/_BCSORTER/SORT_BY_BC/fork0/files/default.bam",
+    reference_path = "/tscc/nfs/home/a5russell/scratch/human_and_canine",
+    align = {
+        "aligner": "star",
+        "high_conf_mapq": 255
+    },
+)

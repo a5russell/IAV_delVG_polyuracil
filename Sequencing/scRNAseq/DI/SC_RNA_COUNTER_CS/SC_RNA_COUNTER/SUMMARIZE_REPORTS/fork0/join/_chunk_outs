@@ -1,0 +1,7 @@
+[
+    {
+        "metrics_summary_csv": "/tscc/lustre/ddn/scratch/a5russell/DIcorr2/SC_RNA_COUNTER_CS/SC_RNA_COUNTER/SUMMARIZE_REPORTS/fork0/chnk0/files/metrics_summary_csv.csv",
+        "metrics_summary_json": "/tscc/lustre/ddn/scratch/a5russell/DIcorr2/SC_RNA_COUNTER_CS/SC_RNA_COUNTER/SUMMARIZE_REPORTS/fork0/chnk0/files/metrics_summary_json.json",
+        "web_summary": "/tscc/lustre/ddn/scratch/a5russell/DIcorr2/SC_RNA_COUNTER_CS/SC_RNA_COUNTER/SUMMARIZE_REPORTS/fork0/chnk0/files/web_summary.html"
+    }
+]

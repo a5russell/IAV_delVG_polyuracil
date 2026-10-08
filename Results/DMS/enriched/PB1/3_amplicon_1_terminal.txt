@@ -1,0 +1,7 @@
+	/tscc/nfs/home/a5russell/mambaforge/envs/NEP/bin/STAR-avx2 --runMode alignReads --runThreadN 8 --genomeDir Database/DMS_templates/PB1/amplicon_1 --readFilesIn Sequencing/wholeGenome/enriched/PB1/3_amplicon_1_R1.fastq Sequencing/wholeGenome/enriched/PB1/3_amplicon_1_R2.fastq --outFileNamePrefix Results/wholeGenomeAlign/enriched/PB1/3_amplicon_1_ --outSAMtype BAM Unsorted --alignIntronMax 1 --outFilterMismatchNmax 999 --alignEndsType EndToEnd --outFilterMismatchNoverReadLmax 0.02
+	STAR version: 2.7.11b   compiled: 2025-07-24T03:06:21+0000 :/opt/conda/conda-bld/star_1753326220084/work/source
+Apr 05 16:56:22 ..... started STAR run
+Apr 05 16:56:22 ..... loading genome
+Apr 05 16:56:22 ..... started mapping
+Apr 05 16:56:56 ..... finished mapping
+Apr 05 16:56:56 ..... finished successfully

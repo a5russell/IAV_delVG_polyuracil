@@ -1,0 +1,9 @@
+@include "sc_rna_counter_cs.mro"
+
+call RUN_PREPROCESS(
+    matrix_h5 = "/tscc/lustre/ddn/scratch/a5russell/DIcorr2/SC_RNA_COUNTER_CS/SC_RNA_COUNTER/_BASIC_SC_RNA_COUNTER/FILTER_BARCODES/fork0/files/filtered_matrices_h5.h5",
+    skip = null,
+    random_seed = null,
+    use_bcs = null,
+    num_bcs = null,
+)

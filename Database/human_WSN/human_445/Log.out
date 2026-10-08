@@ -1,0 +1,1218 @@
+STAR version=2.7.11b
+STAR compilation time,server,dir=2025-07-24T03:06:21+0000 :/opt/conda/conda-bld/star_1753326220084/work/source
+##### Command Line:
+/tscc/nfs/home/a5russell/mambaforge/envs/NEP/bin/STAR-avx2 --runThreadN 4 --runMode genomeGenerate --genomeDir human_445 --genomeFastaFiles human_445.fa --sjdbGTFfile human_445.gtf --sjdbOverhang 149
+##### Initial USER parameters from Command Line:
+###### All USER parameters from Command Line:
+runThreadN                    4     ~RE-DEFINED
+runMode                       genomeGenerate        ~RE-DEFINED
+genomeDir                     human_445     ~RE-DEFINED
+genomeFastaFiles              human_445.fa        ~RE-DEFINED
+sjdbGTFfile                   human_445.gtf     ~RE-DEFINED
+sjdbOverhang                  149     ~RE-DEFINED
+##### Finished reading parameters from all sources
+
+##### Final user re-defined parameters-----------------:
+runMode                           genomeGenerate   
+runThreadN                        4
+genomeDir                         human_445
+genomeFastaFiles                  human_445.fa   
+sjdbGTFfile                       human_445.gtf
+sjdbOverhang                      149
+
+-------------------------------
+##### Final effective command line:
+/tscc/nfs/home/a5russell/mambaforge/envs/NEP/bin/STAR-avx2   --runMode genomeGenerate      --runThreadN 4   --genomeDir human_445   --genomeFastaFiles human_445.fa      --sjdbGTFfile human_445.gtf   --sjdbOverhang 149
+----------------------------------------
+
+Number of fastq files for each mate = 1
+ParametersSolo: --soloCellFilterType CellRanger2.2 filtering parameters:  3000 0.99 10
+Finished loading and checking parameters
+--genomeDir directory exists and will be overwritten: human_445/
+Aug 07 13:50:58 ... starting to generate Genome files
+human_445.fa : chr # 0  "1" chrStart: 0
+human_445.fa : chr # 1  "2" chrStart: 249298944
+human_445.fa : chr # 2  "3" chrStart: 492568576
+human_445.fa : chr # 3  "4" chrStart: 690749440
+human_445.fa : chr # 4  "5" chrStart: 882114560
+human_445.fa : chr # 5  "6" chrStart: 1063256064
+human_445.fa : chr # 6  "7" chrStart: 1234436096
+human_445.fa : chr # 7  "8" chrStart: 1393819648
+human_445.fa : chr # 8  "9" chrStart: 1540358144
+human_445.fa : chr # 9  "10" chrStart: 1681653760
+human_445.fa : chr # 10  "11" chrStart: 1817444352
+human_445.fa : chr # 11  "12" chrStart: 1952710656
+human_445.fa : chr # 12  "13" chrStart: 2086666240
+human_445.fa : chr # 13  "14" chrStart: 2202009600
+human_445.fa : chr # 14  "15" chrStart: 2309488640
+human_445.fa : chr # 15  "16" chrStart: 2412249088
+human_445.fa : chr # 16  "17" chrStart: 2502688768
+human_445.fa : chr # 17  "18" chrStart: 2583953408
+human_445.fa : chr # 18  "19" chrStart: 2662072320
+human_445.fa : chr # 19  "20" chrStart: 2721316864
+human_445.fa : chr # 20  "21" chrStart: 2784493568
+human_445.fa : chr # 21  "22" chrStart: 2832728064
+human_445.fa : chr # 22  "X" chrStart: 2884108288
+human_445.fa : chr # 23  "Y" chrStart: 3039559680
+human_445.fa : chr # 24  "MT" chrStart: 3099066368
+human_445.fa : chr # 25  "PB1_cRNA" chrStart: 3099328512
+human_445.fa : chr # 26  "PB2_cRNA" chrStart: 3099590656
+human_445.fa : chr # 27  "PA_cRNA" chrStart: 3099852800
+human_445.fa : chr # 28  "HA_cRNA" chrStart: 3100114944
+human_445.fa : chr # 29  "NP_cRNA" chrStart: 3100377088
+human_445.fa : chr # 30  "NA_cRNA" chrStart: 3100639232
+human_445.fa : chr # 31  "M_cRNA" chrStart: 3100901376
+human_445.fa : chr # 32  "NS_cRNA" chrStart: 3101163520
+Chromosome sequence lengths: 
+1	249250621
+2	243199373
+3	198022430
+4	191154276
+5	180915260
+6	171115067
+7	159138663
+8	146364022
+9	141213431
+10	135534747
+11	135006516
+12	133851895
+13	115169878
+14	107349540
+15	102531392
+16	90354753
+17	81195210
+18	78077248
+19	59128983
+20	63025520
+21	48129895
+22	51304566
+X	155270560
+Y	59373566
+MT	16569
+PB1_cRNA	795
+PB2_cRNA	2341
+PA_cRNA	2233
+HA_cRNA	1775
+NP_cRNA	1565
+NA_cRNA	1409
+M_cRNA	1027
+NS_cRNA	890
+Genome sequence total length = 3095706016
+Genome size with padding = 3101425664
+Aug 07 13:51:38 ..... processing annotations GTF
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome '17|NT_113930.1' not found in Genome fasta files for line:
+17|NT_113930.1	unknown	exon	33860	34016	.	+	.	gene_id "LOC100505543"; gene_name "LOC100505543"; transcript_id "XR_110817.2"; tss_id "TSS16984";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome '17|NT_113930.1' not found in Genome fasta files for line:
+17|NT_113930.1	unknown	exon	33879	34016	.	+	.	gene_id "LOC100505543"; gene_name "LOC100505543"; transcript_id "XR_110815.2"; tss_id "TSS6253";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome '17|NT_113930.1' not found in Genome fasta files for line:
+17|NT_113930.1	unknown	exon	33920	34016	.	+	.	gene_id "LOC100505543"; gene_name "LOC100505543"; transcript_id "XR_110816.2"; tss_id "TSS26201";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome '17|NT_113930.1' not found in Genome fasta files for line:
+17|NT_113930.1	unknown	exon	36287	36321	.	+	.	gene_id "LOC100505543"; gene_name "LOC100505543"; transcript_id "XR_110816.2"; tss_id "TSS26201";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome '17|NT_113930.1' not found in Genome fasta files for line:
+17|NT_113930.1	unknown	exon	36287	36389	.	+	.	gene_id "LOC100505543"; gene_name "LOC100505543"; transcript_id "XR_110815.2"; tss_id "TSS6253";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome '17|NT_113930.1' not found in Genome fasta files for line:
+17|NT_113930.1	unknown	exon	36421	37580	.	+	.	gene_id "LOC100505543"; gene_name "LOC100505543"; transcript_id "XR_110817.2"; tss_id "TSS16984";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome '17|NT_113930.1' not found in Genome fasta files for line:
+17|NT_113930.1	unknown	exon	36421	37580	.	+	.	gene_id "LOC100505543"; gene_name "LOC100505543"; transcript_id "XR_110816.2"; tss_id "TSS26201";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome '17|NT_113930.1' not found in Genome fasta files for line:
+17|NT_113930.1	unknown	exon	36579	37580	.	+	.	gene_id "LOC100505543"; gene_name "LOC100505543"; transcript_id "XR_110815.2"; tss_id "TSS6253";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome '17|NT_113930.1' not found in Genome fasta files for line:
+17|NT_113930.1	unknown	exon	38698	39560	.	-	.	gene_id "LOC100133140"; gene_name "LOC100133140"; transcript_id "XR_132876.1"; tss_id "TSS6119";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome '17|NT_113930.1' not found in Genome fasta files for line:
+17|NT_113930.1	unknown	exon	116623	119732	.	+	.	gene_id "MGC70870"; gene_name "MGC70870"; transcript_id "NR_003682.1"; tss_id "TSS12984";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome '17|NT_113930.1' not found in Genome fasta files for line:
+17|NT_113930.1	unknown	exon	122497	123051	.	+	.	gene_id "LOC100287188"; gene_name "LOC100287188"; p_id "P9010"; transcript_id "XM_003119104.1"; tss_id "TSS19862";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome '17|NT_113943.1' not found in Genome fasta files for line:
+17|NT_113943.1	unknown	exon	16158	16291	.	-	.	gene_id "LOC100287250"; gene_name "LOC100287250"; p_id "P1278"; transcript_id "XM_002344452.2"; tss_id "TSS15882";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome '17|NT_113943.1' not found in Genome fasta files for line:
+17|NT_113943.1	unknown	exon	44537	47211	.	-	.	gene_id "FLJ44838"; gene_name "FLJ44838"; transcript_id "XR_110819.1"; tss_id "TSS4781";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome '17|NT_113943.1' not found in Genome fasta files for line:
+17|NT_113943.1	unknown	exon	56744	57029	.	-	.	gene_id "LOC100287250"; gene_name "LOC100287250"; p_id "P1278"; transcript_id "XM_002344452.2"; tss_id "TSS15882";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome '17|NT_113943.1' not found in Genome fasta files for line:
+17|NT_113943.1	unknown	exon	57202	57364	.	-	.	gene_id "LOC100287250"; gene_name "LOC100287250"; p_id "P1278"; transcript_id "XM_002344452.2"; tss_id "TSS15882";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome '17|NT_113943.1' not found in Genome fasta files for line:
+17|NT_113943.1	unknown	exon	58782	59058	.	-	.	gene_id "LOC100287250"; gene_name "LOC100287250"; p_id "P1278"; transcript_id "XM_002344452.2"; tss_id "TSS15882";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome '17|NT_113943.1' not found in Genome fasta files for line:
+17|NT_113943.1	unknown	exon	59260	59345	.	-	.	gene_id "LOC100287250"; gene_name "LOC100287250"; p_id "P1278"; transcript_id "XM_002344452.2"; tss_id "TSS15882";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome '17|NT_113943.1' not found in Genome fasta files for line:
+17|NT_113943.1	unknown	exon	67514	67619	.	-	.	gene_id "LOC100287250"; gene_name "LOC100287250"; p_id "P1278"; transcript_id "XM_002344452.2"; tss_id "TSS15882";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome '19|NT_113949.1' not found in Genome fasta files for line:
+19|NT_113949.1	unknown	exon	7910	7948	.	+	.	gene_id "LOC100133046"; gene_name "LOC100133046"; p_id "P4114"; transcript_id "XM_003119105.2"; tss_id "TSS14470";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome '19|NT_113949.1' not found in Genome fasta files for line:
+19|NT_113949.1	unknown	exon	8626	8661	.	+	.	gene_id "LOC100133046"; gene_name "LOC100133046"; p_id "P4114"; transcript_id "XM_003119105.2"; tss_id "TSS14470";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome '19|NT_113949.1' not found in Genome fasta files for line:
+19|NT_113949.1	unknown	exon	9432	9716	.	+	.	gene_id "LOC100133046"; gene_name "LOC100133046"; p_id "P4114"; transcript_id "XM_003119105.2"; tss_id "TSS14470";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome '19|NT_113949.1' not found in Genome fasta files for line:
+19|NT_113949.1	unknown	exon	10990	11289	.	+	.	gene_id "LOC100133046"; gene_name "LOC100133046"; p_id "P4114"; transcript_id "XM_003119105.2"; tss_id "TSS14470";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome '19|NT_113949.1' not found in Genome fasta files for line:
+19|NT_113949.1	unknown	exon	12868	13161	.	+	.	gene_id "LOC100133046"; gene_name "LOC100133046"; p_id "P4114"; transcript_id "XM_003119105.2"; tss_id "TSS14470";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome '19|NT_113949.1' not found in Genome fasta files for line:
+19|NT_113949.1	unknown	exon	18629	18733	.	+	.	gene_id "LOC100133046"; gene_name "LOC100133046"; p_id "P4114"; transcript_id "XM_003119105.2"; tss_id "TSS14470";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome '19|NT_113949.1' not found in Genome fasta files for line:
+19|NT_113949.1	unknown	exon	19196	19248	.	+	.	gene_id "LOC100133046"; gene_name "LOC100133046"; p_id "P4114"; transcript_id "XM_003119105.2"; tss_id "TSS14470";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome '19|NT_113949.1' not found in Genome fasta files for line:
+19|NT_113949.1	unknown	exon	19347	19472	.	+	.	gene_id "LOC100133046"; gene_name "LOC100133046"; p_id "P4114"; transcript_id "XM_003119105.2"; tss_id "TSS14470";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome '19|NT_113949.1' not found in Genome fasta files for line:
+19|NT_113949.1	unknown	exon	21917	21973	.	+	.	gene_id "KIR2DL2"; gene_name "KIR2DL2"; p_id "P7421"; transcript_id "XM_003403575.1"; tss_id "TSS19490";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome '19|NT_113949.1' not found in Genome fasta files for line:
+19|NT_113949.1	unknown	exon	21940	21973	.	+	.	gene_id "KIR2DL2"; gene_name "KIR2DL2"; p_id "P13138"; transcript_id "XM_003403576.1"; tss_id "TSS15075";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome '19|NT_113949.1' not found in Genome fasta files for line:
+19|NT_113949.1	unknown	exon	22882	22917	.	+	.	gene_id "KIR2DL2"; gene_name "KIR2DL2"; p_id "P7421"; transcript_id "XM_003403575.1"; tss_id "TSS19490";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome '19|NT_113949.1' not found in Genome fasta files for line:
+19|NT_113949.1	unknown	exon	22882	22917	.	+	.	gene_id "KIR2DL2"; gene_name "KIR2DL2"; p_id "P13138"; transcript_id "XM_003403576.1"; tss_id "TSS15075";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome '19|NT_113949.1' not found in Genome fasta files for line:
+19|NT_113949.1	unknown	exon	25354	25653	.	+	.	gene_id "KIR2DL2"; gene_name "KIR2DL2"; p_id "P7421"; transcript_id "XM_003403575.1"; tss_id "TSS19490";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome '19|NT_113949.1' not found in Genome fasta files for line:
+19|NT_113949.1	unknown	exon	25354	25653	.	+	.	gene_id "KIR2DL2"; gene_name "KIR2DL2"; p_id "P13138"; transcript_id "XM_003403576.1"; tss_id "TSS15075";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome '19|NT_113949.1' not found in Genome fasta files for line:
+19|NT_113949.1	unknown	exon	27168	27461	.	+	.	gene_id "KIR2DL2"; gene_name "KIR2DL2"; p_id "P7421"; transcript_id "XM_003403575.1"; tss_id "TSS19490";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome '19|NT_113949.1' not found in Genome fasta files for line:
+19|NT_113949.1	unknown	exon	27168	27461	.	+	.	gene_id "KIR2DL2"; gene_name "KIR2DL2"; p_id "P13138"; transcript_id "XM_003403576.1"; tss_id "TSS15075";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome '19|NT_113949.1' not found in Genome fasta files for line:
+19|NT_113949.1	unknown	exon	30731	30781	.	+	.	gene_id "KIR2DL2"; gene_name "KIR2DL2"; p_id "P7421"; transcript_id "XM_003403575.1"; tss_id "TSS19490";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome '19|NT_113949.1' not found in Genome fasta files for line:
+19|NT_113949.1	unknown	exon	30731	30781	.	+	.	gene_id "KIR2DL2"; gene_name "KIR2DL2"; p_id "P13138"; transcript_id "XM_003403576.1"; tss_id "TSS15075";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome '19|NT_113949.1' not found in Genome fasta files for line:
+19|NT_113949.1	unknown	exon	32208	32285	.	+	.	gene_id "KIR2DL2"; gene_name "KIR2DL2"; p_id "P13138"; transcript_id "XM_003403576.1"; tss_id "TSS15075";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome '19|NT_113949.1' not found in Genome fasta files for line:
+19|NT_113949.1	unknown	exon	35047	35148	.	+	.	gene_id "KIR2DL2"; gene_name "KIR2DL2"; p_id "P7421"; transcript_id "XM_003403575.1"; tss_id "TSS19490";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome '19|NT_113949.1' not found in Genome fasta files for line:
+19|NT_113949.1	unknown	exon	35047	35148	.	+	.	gene_id "KIR2DL2"; gene_name "KIR2DL2"; p_id "P13138"; transcript_id "XM_003403576.1"; tss_id "TSS15075";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome '19|NT_113949.1' not found in Genome fasta files for line:
+19|NT_113949.1	unknown	exon	35611	35663	.	+	.	gene_id "KIR2DL2"; gene_name "KIR2DL2"; p_id "P7421"; transcript_id "XM_003403575.1"; tss_id "TSS19490";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome '19|NT_113949.1' not found in Genome fasta files for line:
+19|NT_113949.1	unknown	exon	35611	35663	.	+	.	gene_id "KIR2DL2"; gene_name "KIR2DL2"; p_id "P13138"; transcript_id "XM_003403576.1"; tss_id "TSS15075";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome '19|NT_113949.1' not found in Genome fasta files for line:
+19|NT_113949.1	unknown	exon	35762	35938	.	+	.	gene_id "KIR2DL2"; gene_name "KIR2DL2"; p_id "P13138"; transcript_id "XM_003403576.1"; tss_id "TSS15075";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome '19|NT_113949.1' not found in Genome fasta files for line:
+19|NT_113949.1	unknown	exon	35762	36449	.	+	.	gene_id "KIR2DL2"; gene_name "KIR2DL2"; p_id "P7421"; transcript_id "XM_003403575.1"; tss_id "TSS19490";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome '19|NT_113949.1' not found in Genome fasta files for line:
+19|NT_113949.1	unknown	exon	38479	38513	.	+	.	gene_id "LOC100506173"; gene_name "LOC100506173"; p_id "P21228"; transcript_id "XM_003119122.1"; tss_id "TSS4216";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome '19|NT_113949.1' not found in Genome fasta files for line:
+19|NT_113949.1	unknown	exon	39267	39302	.	+	.	gene_id "LOC100506173"; gene_name "LOC100506173"; p_id "P21228"; transcript_id "XM_003119122.1"; tss_id "TSS4216";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome '19|NT_113949.1' not found in Genome fasta files for line:
+19|NT_113949.1	unknown	exon	40061	40345	.	+	.	gene_id "LOC100506173"; gene_name "LOC100506173"; p_id "P21228"; transcript_id "XM_003119122.1"; tss_id "TSS4216";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome '19|NT_113949.1' not found in Genome fasta files for line:
+19|NT_113949.1	unknown	exon	41796	42095	.	+	.	gene_id "LOC100506173"; gene_name "LOC100506173"; p_id "P21228"; transcript_id "XM_003119122.1"; tss_id "TSS4216";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome '19|NT_113949.1' not found in Genome fasta files for line:
+19|NT_113949.1	unknown	exon	43623	43916	.	+	.	gene_id "LOC100506173"; gene_name "LOC100506173"; p_id "P21228"; transcript_id "XM_003119122.1"; tss_id "TSS4216";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome '19|NT_113949.1' not found in Genome fasta files for line:
+19|NT_113949.1	unknown	exon	46646	46731	.	+	.	gene_id "LOC100287534"; gene_name "LOC100287534"; p_id "P23906"; transcript_id "XM_003119116.2"; tss_id "TSS2523";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome '19|NT_113949.1' not found in Genome fasta files for line:
+19|NT_113949.1	unknown	exon	46646	46731	.	+	.	gene_id "LOC100287534"; gene_name "LOC100287534"; p_id "P5566"; transcript_id "XM_003119113.2"; tss_id "TSS2523";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome '19|NT_113949.1' not found in Genome fasta files for line:
+19|NT_113949.1	unknown	exon	46646	46731	.	+	.	gene_id "LOC100287534"; gene_name "LOC100287534"; p_id "P16619"; transcript_id "XM_003119121.1"; tss_id "TSS2523";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome '19|NT_113949.1' not found in Genome fasta files for line:
+19|NT_113949.1	unknown	exon	46646	46731	.	+	.	gene_id "LOC100287534"; gene_name "LOC100287534"; p_id "P18635"; transcript_id "XM_003403577.1"; tss_id "TSS2523";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome '19|NT_113949.1' not found in Genome fasta files for line:
+19|NT_113949.1	unknown	exon	51539	51882	.	+	.	gene_id "LOC100506173"; gene_name "LOC100506173"; p_id "P21228"; transcript_id "XM_003119122.1"; tss_id "TSS4216";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome '19|NT_113949.1' not found in Genome fasta files for line:
+19|NT_113949.1	unknown	exon	56967	57288	.	+	.	gene_id "LOC100287534"; gene_name "LOC100287534"; p_id "P5566"; transcript_id "XM_002344453.3"; tss_id "TSS23167";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome '19|NT_113949.1' not found in Genome fasta files for line:
+19|NT_113949.1	unknown	exon	57059	57288	.	+	.	gene_id "LOC100287534"; gene_name "LOC100287534"; p_id "P23906"; transcript_id "XM_003119116.2"; tss_id "TSS2523";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome '19|NT_113949.1' not found in Genome fasta files for line:
+19|NT_113949.1	unknown	exon	57059	57288	.	+	.	gene_id "LOC100287534"; gene_name "LOC100287534"; p_id "P5566"; transcript_id "XM_003119113.2"; tss_id "TSS2523";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome '19|NT_113949.1' not found in Genome fasta files for line:
+19|NT_113949.1	unknown	exon	57059	57288	.	+	.	gene_id "LOC100287534"; gene_name "LOC100287534"; p_id "P16619"; transcript_id "XM_003119121.1"; tss_id "TSS2523";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome '19|NT_113949.1' not found in Genome fasta files for line:
+19|NT_113949.1	unknown	exon	57059	57288	.	+	.	gene_id "LOC100287534"; gene_name "LOC100287534"; p_id "P18635"; transcript_id "XM_003403577.1"; tss_id "TSS2523";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome '19|NT_113949.1' not found in Genome fasta files for line:
+19|NT_113949.1	unknown	exon	57488	57523	.	+	.	gene_id "LOC100287534"; gene_name "LOC100287534"; p_id "P5566"; transcript_id "XM_002344453.3"; tss_id "TSS23167";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome '19|NT_113949.1' not found in Genome fasta files for line:
+19|NT_113949.1	unknown	exon	57488	57523	.	+	.	gene_id "LOC100287534"; gene_name "LOC100287534"; p_id "P23906"; transcript_id "XM_003119116.2"; tss_id "TSS2523";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome '19|NT_113949.1' not found in Genome fasta files for line:
+19|NT_113949.1	unknown	exon	57488	57523	.	+	.	gene_id "LOC100287534"; gene_name "LOC100287534"; p_id "P5566"; transcript_id "XM_003119113.2"; tss_id "TSS2523";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome '19|NT_113949.1' not found in Genome fasta files for line:
+19|NT_113949.1	unknown	exon	57488	57523	.	+	.	gene_id "LOC100287534"; gene_name "LOC100287534"; p_id "P16619"; transcript_id "XM_003119121.1"; tss_id "TSS2523";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome '19|NT_113949.1' not found in Genome fasta files for line:
+19|NT_113949.1	unknown	exon	57488	57523	.	+	.	gene_id "LOC100287534"; gene_name "LOC100287534"; p_id "P18635"; transcript_id "XM_003403577.1"; tss_id "TSS2523";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome '19|NT_113949.1' not found in Genome fasta files for line:
+19|NT_113949.1	unknown	exon	58390	58674	.	+	.	gene_id "LOC100287534"; gene_name "LOC100287534"; p_id "P5566"; transcript_id "XM_002344453.3"; tss_id "TSS23167";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome '19|NT_113949.1' not found in Genome fasta files for line:
+19|NT_113949.1	unknown	exon	58390	58674	.	+	.	gene_id "LOC100287534"; gene_name "LOC100287534"; p_id "P23906"; transcript_id "XM_003119116.2"; tss_id "TSS2523";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome '19|NT_113949.1' not found in Genome fasta files for line:
+19|NT_113949.1	unknown	exon	58390	58674	.	+	.	gene_id "LOC100287534"; gene_name "LOC100287534"; p_id "P5566"; transcript_id "XM_003119113.2"; tss_id "TSS2523";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome '19|NT_113949.1' not found in Genome fasta files for line:
+19|NT_113949.1	unknown	exon	58390	58674	.	+	.	gene_id "LOC100287534"; gene_name "LOC100287534"; p_id "P16619"; transcript_id "XM_003119121.1"; tss_id "TSS2523";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome '19|NT_113949.1' not found in Genome fasta files for line:
+19|NT_113949.1	unknown	exon	58390	58674	.	+	.	gene_id "LOC100287534"; gene_name "LOC100287534"; p_id "P18635"; transcript_id "XM_003403577.1"; tss_id "TSS2523";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome '19|NT_113949.1' not found in Genome fasta files for line:
+19|NT_113949.1	unknown	exon	59554	59847	.	+	.	gene_id "LOC100287534"; gene_name "LOC100287534"; p_id "P5566"; transcript_id "XM_002344453.3"; tss_id "TSS23167";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome '19|NT_113949.1' not found in Genome fasta files for line:
+19|NT_113949.1	unknown	exon	59554	59847	.	+	.	gene_id "LOC100287534"; gene_name "LOC100287534"; p_id "P23906"; transcript_id "XM_003119116.2"; tss_id "TSS2523";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome '19|NT_113949.1' not found in Genome fasta files for line:
+19|NT_113949.1	unknown	exon	59554	59847	.	+	.	gene_id "LOC100287534"; gene_name "LOC100287534"; p_id "P5566"; transcript_id "XM_003119113.2"; tss_id "TSS2523";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome '19|NT_113949.1' not found in Genome fasta files for line:
+19|NT_113949.1	unknown	exon	59554	59847	.	+	.	gene_id "LOC100287534"; gene_name "LOC100287534"; p_id "P16619"; transcript_id "XM_003119121.1"; tss_id "TSS2523";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome '19|NT_113949.1' not found in Genome fasta files for line:
+19|NT_113949.1	unknown	exon	59554	59847	.	+	.	gene_id "LOC100287534"; gene_name "LOC100287534"; p_id "P18635"; transcript_id "XM_003403577.1"; tss_id "TSS2523";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome '19|NT_113949.1' not found in Genome fasta files for line:
+19|NT_113949.1	unknown	exon	62436	62486	.	+	.	gene_id "LOC100287534"; gene_name "LOC100287534"; p_id "P5566"; transcript_id "XM_002344453.3"; tss_id "TSS23167";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome '19|NT_113949.1' not found in Genome fasta files for line:
+19|NT_113949.1	unknown	exon	62436	62486	.	+	.	gene_id "LOC100287534"; gene_name "LOC100287534"; p_id "P23906"; transcript_id "XM_003119116.2"; tss_id "TSS2523";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome '19|NT_113949.1' not found in Genome fasta files for line:
+19|NT_113949.1	unknown	exon	62436	62486	.	+	.	gene_id "LOC100287534"; gene_name "LOC100287534"; p_id "P5566"; transcript_id "XM_003119113.2"; tss_id "TSS2523";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome '19|NT_113949.1' not found in Genome fasta files for line:
+19|NT_113949.1	unknown	exon	66730	66834	.	+	.	gene_id "LOC100287534"; gene_name "LOC100287534"; p_id "P5566"; transcript_id "XM_002344453.3"; tss_id "TSS23167";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome '19|NT_113949.1' not found in Genome fasta files for line:
+19|NT_113949.1	unknown	exon	66730	66834	.	+	.	gene_id "LOC100287534"; gene_name "LOC100287534"; p_id "P5566"; transcript_id "XM_003119113.2"; tss_id "TSS2523";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome '19|NT_113949.1' not found in Genome fasta files for line:
+19|NT_113949.1	unknown	exon	66730	66834	.	+	.	gene_id "LOC100287534"; gene_name "LOC100287534"; p_id "P18635"; transcript_id "XM_003403577.1"; tss_id "TSS2523";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome '19|NT_113949.1' not found in Genome fasta files for line:
+19|NT_113949.1	unknown	exon	67296	67348	.	+	.	gene_id "LOC100287534"; gene_name "LOC100287534"; p_id "P5566"; transcript_id "XM_002344453.3"; tss_id "TSS23167";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome '19|NT_113949.1' not found in Genome fasta files for line:
+19|NT_113949.1	unknown	exon	67296	67348	.	+	.	gene_id "LOC100287534"; gene_name "LOC100287534"; p_id "P23906"; transcript_id "XM_003119116.2"; tss_id "TSS2523";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome '19|NT_113949.1' not found in Genome fasta files for line:
+19|NT_113949.1	unknown	exon	67296	67348	.	+	.	gene_id "LOC100287534"; gene_name "LOC100287534"; p_id "P5566"; transcript_id "XM_003119113.2"; tss_id "TSS2523";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome '19|NT_113949.1' not found in Genome fasta files for line:
+19|NT_113949.1	unknown	exon	67296	67348	.	+	.	gene_id "LOC100287534"; gene_name "LOC100287534"; p_id "P16619"; transcript_id "XM_003119121.1"; tss_id "TSS2523";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome '19|NT_113949.1' not found in Genome fasta files for line:
+19|NT_113949.1	unknown	exon	67296	67348	.	+	.	gene_id "LOC100287534"; gene_name "LOC100287534"; p_id "P18635"; transcript_id "XM_003403577.1"; tss_id "TSS2523";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome '19|NT_113949.1' not found in Genome fasta files for line:
+19|NT_113949.1	unknown	exon	67448	67717	.	+	.	gene_id "LOC100287534"; gene_name "LOC100287534"; p_id "P23906"; transcript_id "XM_003119116.2"; tss_id "TSS2523";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome '19|NT_113949.1' not found in Genome fasta files for line:
+19|NT_113949.1	unknown	exon	67448	67717	.	+	.	gene_id "LOC100287534"; gene_name "LOC100287534"; p_id "P16619"; transcript_id "XM_003119121.1"; tss_id "TSS2523";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome '19|NT_113949.1' not found in Genome fasta files for line:
+19|NT_113949.1	unknown	exon	67448	67717	.	+	.	gene_id "LOC100287534"; gene_name "LOC100287534"; p_id "P18635"; transcript_id "XM_003403577.1"; tss_id "TSS2523";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome '19|NT_113949.1' not found in Genome fasta files for line:
+19|NT_113949.1	unknown	exon	67448	68128	.	+	.	gene_id "LOC100287534"; gene_name "LOC100287534"; p_id "P5566"; transcript_id "XM_002344453.3"; tss_id "TSS23167";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome '19|NT_113949.1' not found in Genome fasta files for line:
+19|NT_113949.1	unknown	exon	67448	68128	.	+	.	gene_id "LOC100287534"; gene_name "LOC100287534"; p_id "P5566"; transcript_id "XM_003119113.2"; tss_id "TSS2523";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome '19|NT_113949.1' not found in Genome fasta files for line:
+19|NT_113949.1	unknown	exon	70097	70141	.	+	.	gene_id "KIR3DS1"; gene_name "KIR3DS1"; p_id "P10968"; transcript_id "NM_001083539.1"; tss_id "TSS5761";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome '19|NT_113949.1' not found in Genome fasta files for line:
+19|NT_113949.1	unknown	exon	71141	71176	.	+	.	gene_id "KIR3DS1"; gene_name "KIR3DS1"; p_id "P10968"; transcript_id "NM_001083539.1"; tss_id "TSS5761";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome '19|NT_113949.1' not found in Genome fasta files for line:
+19|NT_113949.1	unknown	exon	71921	72205	.	+	.	gene_id "KIR3DS1"; gene_name "KIR3DS1"; p_id "P10968"; transcript_id "NM_001083539.1"; tss_id "TSS5761";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome '19|NT_113949.1' not found in Genome fasta files for line:
+19|NT_113949.1	unknown	exon	73694	73993	.	+	.	gene_id "KIR3DS1"; gene_name "KIR3DS1"; p_id "P10968"; transcript_id "NM_001083539.1"; tss_id "TSS5761";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome '19|NT_113949.1' not found in Genome fasta files for line:
+19|NT_113949.1	unknown	exon	75574	75867	.	+	.	gene_id "KIR3DS1"; gene_name "KIR3DS1"; p_id "P10968"; transcript_id "NM_001083539.1"; tss_id "TSS5761";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome '19|NT_113949.1' not found in Genome fasta files for line:
+19|NT_113949.1	unknown	exon	79038	79088	.	+	.	gene_id "KIR3DS1"; gene_name "KIR3DS1"; p_id "P10968"; transcript_id "NM_001083539.1"; tss_id "TSS5761";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome '19|NT_113949.1' not found in Genome fasta files for line:
+19|NT_113949.1	unknown	exon	83369	83474	.	+	.	gene_id "KIR3DS1"; gene_name "KIR3DS1"; p_id "P10968"; transcript_id "NM_001083539.1"; tss_id "TSS5761";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome '19|NT_113949.1' not found in Genome fasta files for line:
+19|NT_113949.1	unknown	exon	83937	83987	.	+	.	gene_id "KIR3DS1"; gene_name "KIR3DS1"; p_id "P10968"; transcript_id "NM_001083539.1"; tss_id "TSS5761";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome '19|NT_113949.1' not found in Genome fasta files for line:
+19|NT_113949.1	unknown	exon	84086	84658	.	+	.	gene_id "KIR3DS1"; gene_name "KIR3DS1"; p_id "P10968"; transcript_id "NM_001083539.1"; tss_id "TSS5761";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome '19|NT_113949.1' not found in Genome fasta files for line:
+19|NT_113949.1	unknown	exon	86691	86779	.	+	.	gene_id "KIR2DL5A"; gene_name "KIR2DL5A"; p_id "P13934"; transcript_id "NM_020535.3"; tss_id "TSS7524";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome '19|NT_113949.1' not found in Genome fasta files for line:
+19|NT_113949.1	unknown	exon	87513	87548	.	+	.	gene_id "KIR2DL5A"; gene_name "KIR2DL5A"; p_id "P13934"; transcript_id "NM_020535.3"; tss_id "TSS7524";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome '19|NT_113949.1' not found in Genome fasta files for line:
+19|NT_113949.1	unknown	exon	88311	88595	.	+	.	gene_id "KIR2DL5A"; gene_name "KIR2DL5A"; p_id "P13934"; transcript_id "NM_020535.3"; tss_id "TSS7524";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome '19|NT_113949.1' not found in Genome fasta files for line:
+19|NT_113949.1	unknown	exon	89471	89764	.	+	.	gene_id "KIR2DL5A"; gene_name "KIR2DL5A"; p_id "P13934"; transcript_id "NM_020535.3"; tss_id "TSS7524";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome '19|NT_113949.1' not found in Genome fasta files for line:
+19|NT_113949.1	unknown	exon	91937	91987	.	+	.	gene_id "KIR2DL5A"; gene_name "KIR2DL5A"; p_id "P13934"; transcript_id "NM_020535.3"; tss_id "TSS7524";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome '19|NT_113949.1' not found in Genome fasta files for line:
+19|NT_113949.1	unknown	exon	94753	94857	.	+	.	gene_id "KIR2DL5A"; gene_name "KIR2DL5A"; p_id "P13934"; transcript_id "NM_020535.3"; tss_id "TSS7524";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome '19|NT_113949.1' not found in Genome fasta files for line:
+19|NT_113949.1	unknown	exon	95320	95372	.	+	.	gene_id "KIR2DL5A"; gene_name "KIR2DL5A"; p_id "P13934"; transcript_id "NM_020535.3"; tss_id "TSS7524";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome '19|NT_113949.1' not found in Genome fasta files for line:
+19|NT_113949.1	unknown	exon	95473	96155	.	+	.	gene_id "KIR2DL5A"; gene_name "KIR2DL5A"; p_id "P13934"; transcript_id "NM_020535.3"; tss_id "TSS7524";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome '19|NT_113949.1' not found in Genome fasta files for line:
+19|NT_113949.1	unknown	exon	98112	98179	.	+	.	gene_id "KIR2DS5"; gene_name "KIR2DS5"; p_id "P26156"; transcript_id "NM_014513.2"; tss_id "TSS17502";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome '19|NT_113949.1' not found in Genome fasta files for line:
+19|NT_113949.1	unknown	exon	99656	99691	.	+	.	gene_id "KIR2DS5"; gene_name "KIR2DS5"; p_id "P26156"; transcript_id "NM_014513.2"; tss_id "TSS17502";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome '19|NT_113949.1' not found in Genome fasta files for line:
+19|NT_113949.1	unknown	exon	102136	102435	.	+	.	gene_id "KIR2DS5"; gene_name "KIR2DS5"; p_id "P26156"; transcript_id "NM_014513.2"; tss_id "TSS17502";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome '19|NT_113949.1' not found in Genome fasta files for line:
+19|NT_113949.1	unknown	exon	103964	104257	.	+	.	gene_id "KIR2DS5"; gene_name "KIR2DS5"; p_id "P26156"; transcript_id "NM_014513.2"; tss_id "TSS17502";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome '19|NT_113949.1' not found in Genome fasta files for line:
+19|NT_113949.1	unknown	exon	107405	107455	.	+	.	gene_id "KIR2DS5"; gene_name "KIR2DS5"; p_id "P26156"; transcript_id "NM_014513.2"; tss_id "TSS17502";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome '19|NT_113949.1' not found in Genome fasta files for line:
+19|NT_113949.1	unknown	exon	111721	111825	.	+	.	gene_id "KIR2DS5"; gene_name "KIR2DS5"; p_id "P26156"; transcript_id "NM_014513.2"; tss_id "TSS17502";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome '19|NT_113949.1' not found in Genome fasta files for line:
+19|NT_113949.1	unknown	exon	112288	112340	.	+	.	gene_id "KIR2DS5"; gene_name "KIR2DS5"; p_id "P26156"; transcript_id "NM_014513.2"; tss_id "TSS17502";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome '19|NT_113949.1' not found in Genome fasta files for line:
+19|NT_113949.1	unknown	exon	112439	113132	.	+	.	gene_id "KIR2DS5"; gene_name "KIR2DS5"; p_id "P26156"; transcript_id "NM_014513.2"; tss_id "TSS17502";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome '19|NT_113949.1' not found in Genome fasta files for line:
+19|NT_113949.1	unknown	exon	115099	115145	.	+	.	gene_id "KIR2DS1"; gene_name "KIR2DS1"; p_id "P2049"; transcript_id "NM_014512.1"; tss_id "TSS12546";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome '19|NT_113949.1' not found in Genome fasta files for line:
+19|NT_113949.1	unknown	exon	116110	116145	.	+	.	gene_id "KIR2DS1"; gene_name "KIR2DS1"; p_id "P2049"; transcript_id "NM_014512.1"; tss_id "TSS12546";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome '19|NT_113949.1' not found in Genome fasta files for line:
+19|NT_113949.1	unknown	exon	118594	118893	.	+	.	gene_id "KIR2DS1"; gene_name "KIR2DS1"; p_id "P2049"; transcript_id "NM_014512.1"; tss_id "TSS12546";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome '19|NT_113949.1' not found in Genome fasta files for line:
+19|NT_113949.1	unknown	exon	120419	120712	.	+	.	gene_id "KIR2DS1"; gene_name "KIR2DS1"; p_id "P2049"; transcript_id "NM_014512.1"; tss_id "TSS12546";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome '19|NT_113949.1' not found in Genome fasta files for line:
+19|NT_113949.1	unknown	exon	123867	123917	.	+	.	gene_id "KIR2DS1"; gene_name "KIR2DS1"; p_id "P2049"; transcript_id "NM_014512.1"; tss_id "TSS12546";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome '19|NT_113949.1' not found in Genome fasta files for line:
+19|NT_113949.1	unknown	exon	128181	128285	.	+	.	gene_id "KIR2DS1"; gene_name "KIR2DS1"; p_id "P2049"; transcript_id "NM_014512.1"; tss_id "TSS12546";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome '19|NT_113949.1' not found in Genome fasta files for line:
+19|NT_113949.1	unknown	exon	128748	128800	.	+	.	gene_id "KIR2DS1"; gene_name "KIR2DS1"; p_id "P2049"; transcript_id "NM_014512.1"; tss_id "TSS12546";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome '19|NT_113949.1' not found in Genome fasta files for line:
+19|NT_113949.1	unknown	exon	128899	129113	.	+	.	gene_id "KIR2DS1"; gene_name "KIR2DS1"; p_id "P2049"; transcript_id "NM_014512.1"; tss_id "TSS12546";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome '19|NT_113949.1' not found in Genome fasta files for line:
+19|NT_113949.1	unknown	exon	131449	131501	.	+	.	gene_id "KIR2DS2"; gene_name "KIR2DS2"; p_id "P5647"; transcript_id "NM_012312.2"; tss_id "TSS6317";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome '19|NT_113949.1' not found in Genome fasta files for line:
+19|NT_113949.1	unknown	exon	132294	132329	.	+	.	gene_id "KIR2DS2"; gene_name "KIR2DS2"; p_id "P5647"; transcript_id "NM_012312.2"; tss_id "TSS6317";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome '19|NT_113949.1' not found in Genome fasta files for line:
+19|NT_113949.1	unknown	exon	134766	135065	.	+	.	gene_id "KIR2DS2"; gene_name "KIR2DS2"; p_id "P5647"; transcript_id "NM_012312.2"; tss_id "TSS6317";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome '19|NT_113949.1' not found in Genome fasta files for line:
+19|NT_113949.1	unknown	exon	136584	136877	.	+	.	gene_id "KIR2DS2"; gene_name "KIR2DS2"; p_id "P5647"; transcript_id "NM_012312.2"; tss_id "TSS6317";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome '19|NT_113949.1' not found in Genome fasta files for line:
+19|NT_113949.1	unknown	exon	140046	140096	.	+	.	gene_id "KIR2DS2"; gene_name "KIR2DS2"; p_id "P5647"; transcript_id "NM_012312.2"; tss_id "TSS6317";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome '19|NT_113949.1' not found in Genome fasta files for line:
+19|NT_113949.1	unknown	exon	144361	144465	.	+	.	gene_id "KIR2DS2"; gene_name "KIR2DS2"; p_id "P5647"; transcript_id "NM_012312.2"; tss_id "TSS6317";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome '19|NT_113949.1' not found in Genome fasta files for line:
+19|NT_113949.1	unknown	exon	144928	144980	.	+	.	gene_id "KIR2DS2"; gene_name "KIR2DS2"; p_id "P5647"; transcript_id "NM_012312.2"; tss_id "TSS6317";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome '19|NT_113949.1' not found in Genome fasta files for line:
+19|NT_113949.1	unknown	exon	145079	145745	.	+	.	gene_id "KIR2DS2"; gene_name "KIR2DS2"; p_id "P5647"; transcript_id "NM_012312.2"; tss_id "TSS6317";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome '19|NT_113949.1' not found in Genome fasta files for line:
+19|NT_113949.1	unknown	exon	147670	147682	.	+	.	gene_id "LOC727787"; gene_name "LOC727787"; p_id "P6326"; transcript_id "XM_003119124.2"; tss_id "TSS28138";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome '19|NT_113949.1' not found in Genome fasta files for line:
+19|NT_113949.1	unknown	exon	148412	148447	.	+	.	gene_id "LOC727787"; gene_name "LOC727787"; p_id "P6326"; transcript_id "XM_003119124.2"; tss_id "TSS28138";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome '19|NT_113949.1' not found in Genome fasta files for line:
+19|NT_113949.1	unknown	exon	149190	149474	.	+	.	gene_id "LOC727787"; gene_name "LOC727787"; p_id "P6326"; transcript_id "XM_003119124.2"; tss_id "TSS28138";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome '19|NT_113949.1' not found in Genome fasta files for line:
+19|NT_113949.1	unknown	exon	150939	151238	.	+	.	gene_id "LOC727787"; gene_name "LOC727787"; p_id "P6326"; transcript_id "XM_003119124.2"; tss_id "TSS28138";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome '19|NT_113949.1' not found in Genome fasta files for line:
+19|NT_113949.1	unknown	exon	152818	153111	.	+	.	gene_id "LOC727787"; gene_name "LOC727787"; p_id "P6326"; transcript_id "XM_003119124.2"; tss_id "TSS28138";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome '19|NT_113949.1' not found in Genome fasta files for line:
+19|NT_113949.1	unknown	exon	156276	156326	.	+	.	gene_id "LOC727787"; gene_name "LOC727787"; p_id "P6326"; transcript_id "XM_003119124.2"; tss_id "TSS28138";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome '19|NT_113949.1' not found in Genome fasta files for line:
+19|NT_113949.1	unknown	exon	156530	156558	.	+	.	gene_id "LOC727787"; gene_name "LOC727787"; p_id "P6326"; transcript_id "XM_003119124.2"; tss_id "TSS28138";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome '1|NT_113878.1' not found in Genome fasta files for line:
+1|NT_113878.1	unknown	exon	28999	29091	.	+	.	gene_id "LOC100505603"; gene_name "LOC100505603"; p_id "P3315"; transcript_id "XM_003119074.1"; tss_id "TSS25244";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome '1|NT_113878.1' not found in Genome fasta files for line:
+1|NT_113878.1	unknown	exon	29636	29833	.	+	.	gene_id "LOC100505603"; gene_name "LOC100505603"; p_id "P3315"; transcript_id "XM_003119071.1"; tss_id "TSS24277";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome '1|NT_113878.1' not found in Genome fasta files for line:
+1|NT_113878.1	unknown	exon	29642	29833	.	+	.	gene_id "LOC100505603"; gene_name "LOC100505603"; p_id "P3315"; transcript_id "XM_003119072.1"; tss_id "TSS5638";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome '1|NT_113878.1' not found in Genome fasta files for line:
+1|NT_113878.1	unknown	exon	29648	29833	.	+	.	gene_id "LOC100505603"; gene_name "LOC100505603"; p_id "P18216"; transcript_id "XM_003119080.1"; tss_id "TSS5636";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome '1|NT_113878.1' not found in Genome fasta files for line:
+1|NT_113878.1	unknown	exon	29657	29829	.	+	.	gene_id "LOC100505603"; gene_name "LOC100505603"; p_id "P3315"; transcript_id "XM_003119077.1"; tss_id "TSS16549";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome '1|NT_113878.1' not found in Genome fasta files for line:
+1|NT_113878.1	unknown	exon	29657	29829	.	+	.	gene_id "LOC100505603"; gene_name "LOC100505603"; p_id "P3315"; transcript_id "XM_003119073.1"; tss_id "TSS16549";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome '1|NT_113878.1' not found in Genome fasta files for line:
+1|NT_113878.1	unknown	exon	29659	29811	.	+	.	gene_id "LOC100505603"; gene_name "LOC100505603"; p_id "P3315"; transcript_id "XM_003119075.1"; tss_id "TSS16551";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome '1|NT_113878.1' not found in Genome fasta files for line:
+1|NT_113878.1	unknown	exon	29864	29922	.	+	.	gene_id "LOC100505603"; gene_name "LOC100505603"; p_id "P3315"; transcript_id "XM_003119076.1"; tss_id "TSS20495";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome '1|NT_113878.1' not found in Genome fasta files for line:
+1|NT_113878.1	unknown	exon	30745	30969	.	+	.	gene_id "LOC100505603"; gene_name "LOC100505603"; p_id "P3315"; transcript_id "XM_003119078.1"; tss_id "TSS12944";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome '1|NT_113878.1' not found in Genome fasta files for line:
+1|NT_113878.1	unknown	exon	30764	30880	.	+	.	gene_id "LOC100505603"; gene_name "LOC100505603"; p_id "P18216"; transcript_id "XM_003119080.1"; tss_id "TSS5636";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome '1|NT_113878.1' not found in Genome fasta files for line:
+1|NT_113878.1	unknown	exon	30764	30969	.	+	.	gene_id "LOC100505603"; gene_name "LOC100505603"; p_id "P3315"; transcript_id "XM_003119071.1"; tss_id "TSS24277";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome '1|NT_113878.1' not found in Genome fasta files for line:
+1|NT_113878.1	unknown	exon	30764	30969	.	+	.	gene_id "LOC100505603"; gene_name "LOC100505603"; p_id "P3315"; transcript_id "XM_003119075.1"; tss_id "TSS16551";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome '1|NT_113878.1' not found in Genome fasta files for line:
+1|NT_113878.1	unknown	exon	30764	30969	.	+	.	gene_id "LOC100505603"; gene_name "LOC100505603"; p_id "P3315"; transcript_id "XM_003119076.1"; tss_id "TSS20495";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome '1|NT_113878.1' not found in Genome fasta files for line:
+1|NT_113878.1	unknown	exon	30764	30969	.	+	.	gene_id "LOC100505603"; gene_name "LOC100505603"; p_id "P3315"; transcript_id "XM_003119074.1"; tss_id "TSS25244";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome '1|NT_113878.1' not found in Genome fasta files for line:
+1|NT_113878.1	unknown	exon	30764	30969	.	+	.	gene_id "LOC100505603"; gene_name "LOC100505603"; p_id "P3315"; transcript_id "XM_003119073.1"; tss_id "TSS16549";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome '1|NT_113878.1' not found in Genome fasta files for line:
+1|NT_113878.1	unknown	exon	30768	30969	.	+	.	gene_id "LOC100505603"; gene_name "LOC100505603"; p_id "P3315"; transcript_id "XM_003119072.1"; tss_id "TSS5638";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome '1|NT_113878.1' not found in Genome fasta files for line:
+1|NT_113878.1	unknown	exon	30768	30969	.	+	.	gene_id "LOC100505603"; gene_name "LOC100505603"; p_id "P3315"; transcript_id "XM_003119077.1"; tss_id "TSS16549";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome '1|NT_113878.1' not found in Genome fasta files for line:
+1|NT_113878.1	unknown	exon	31272	33288	.	+	.	gene_id "LOC100505603"; gene_name "LOC100505603"; p_id "P3315"; transcript_id "XM_003119078.1"; tss_id "TSS12944";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome '1|NT_113878.1' not found in Genome fasta files for line:
+1|NT_113878.1	unknown	exon	31272	33288	.	+	.	gene_id "LOC100505603"; gene_name "LOC100505603"; p_id "P3315"; transcript_id "XM_003119072.1"; tss_id "TSS5638";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome '1|NT_113878.1' not found in Genome fasta files for line:
+1|NT_113878.1	unknown	exon	31272	33288	.	+	.	gene_id "LOC100505603"; gene_name "LOC100505603"; p_id "P3315"; transcript_id "XM_003119071.1"; tss_id "TSS24277";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome '1|NT_113878.1' not found in Genome fasta files for line:
+1|NT_113878.1	unknown	exon	31272	33288	.	+	.	gene_id "LOC100505603"; gene_name "LOC100505603"; p_id "P3315"; transcript_id "XM_003119077.1"; tss_id "TSS16549";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome '1|NT_113878.1' not found in Genome fasta files for line:
+1|NT_113878.1	unknown	exon	31272	33288	.	+	.	gene_id "LOC100505603"; gene_name "LOC100505603"; p_id "P3315"; transcript_id "XM_003119075.1"; tss_id "TSS16551";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome '1|NT_113878.1' not found in Genome fasta files for line:
+1|NT_113878.1	unknown	exon	31272	33288	.	+	.	gene_id "LOC100505603"; gene_name "LOC100505603"; p_id "P3315"; transcript_id "XM_003119076.1"; tss_id "TSS20495";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome '1|NT_113878.1' not found in Genome fasta files for line:
+1|NT_113878.1	unknown	exon	31272	33288	.	+	.	gene_id "LOC100505603"; gene_name "LOC100505603"; p_id "P3315"; transcript_id "XM_003119074.1"; tss_id "TSS25244";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome '1|NT_113878.1' not found in Genome fasta files for line:
+1|NT_113878.1	unknown	exon	31272	33288	.	+	.	gene_id "LOC100505603"; gene_name "LOC100505603"; p_id "P3315"; transcript_id "XM_003119073.1"; tss_id "TSS16549";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome '1|NT_113878.1' not found in Genome fasta files for line:
+1|NT_113878.1	unknown	exon	31281	33288	.	+	.	gene_id "LOC100505603"; gene_name "LOC100505603"; p_id "P18216"; transcript_id "XM_003119080.1"; tss_id "TSS5636";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome '1|NT_113878.1' not found in Genome fasta files for line:
+1|NT_113878.1	unknown	exon	34630	37549	.	-	.	gene_id "LOC100505793"; gene_name "LOC100505793"; p_id "P16654"; transcript_id "XM_003119081.2"; tss_id "TSS16194";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome '1|NT_113878.1' not found in Genome fasta files for line:
+1|NT_113878.1	unknown	exon	34630	37782	.	-	.	gene_id "LOC100505793"; gene_name "LOC100505793"; p_id "P9963"; transcript_id "XM_003119082.1"; tss_id "TSS16194";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome '1|NT_113878.1' not found in Genome fasta files for line:
+1|NT_113878.1	unknown	exon	37489	37549	.	-	.	gene_id "LOC100505793"; gene_name "LOC100505793"; p_id "P16080"; transcript_id "XM_003119084.1"; tss_id "TSS16194";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome '1|NT_113878.1' not found in Genome fasta files for line:
+1|NT_113878.1	unknown	exon	38906	41272	.	-	.	gene_id "LOC100505793"; gene_name "LOC100505793"; p_id "P1208"; transcript_id "XM_003119083.2"; tss_id "TSS16194";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome '1|NT_113878.1' not found in Genome fasta files for line:
+1|NT_113878.1	unknown	exon	41406	41459	.	-	.	gene_id "LOC100505793"; gene_name "LOC100505793"; p_id "P16654"; transcript_id "XM_003119081.2"; tss_id "TSS16194";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome '1|NT_113878.1' not found in Genome fasta files for line:
+1|NT_113878.1	unknown	exon	41406	41459	.	-	.	gene_id "LOC100505793"; gene_name "LOC100505793"; p_id "P1208"; transcript_id "XM_003119083.2"; tss_id "TSS16194";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome '1|NT_113878.1' not found in Genome fasta files for line:
+1|NT_113878.1	unknown	exon	41406	41459	.	-	.	gene_id "LOC100505793"; gene_name "LOC100505793"; p_id "P9963"; transcript_id "XM_003119082.1"; tss_id "TSS16194";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome '1|NT_113878.1' not found in Genome fasta files for line:
+1|NT_113878.1	unknown	exon	41683	41845	.	-	.	gene_id "LOC100505793"; gene_name "LOC100505793"; p_id "P16654"; transcript_id "XM_003119081.2"; tss_id "TSS16194";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome '1|NT_113878.1' not found in Genome fasta files for line:
+1|NT_113878.1	unknown	exon	41683	41845	.	-	.	gene_id "LOC100505793"; gene_name "LOC100505793"; p_id "P16080"; transcript_id "XM_003119084.1"; tss_id "TSS16194";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome '1|NT_113878.1' not found in Genome fasta files for line:
+1|NT_113878.1	unknown	exon	41683	41845	.	-	.	gene_id "LOC100505793"; gene_name "LOC100505793"; p_id "P1208"; transcript_id "XM_003119083.2"; tss_id "TSS16194";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome '1|NT_113878.1' not found in Genome fasta files for line:
+1|NT_113878.1	unknown	exon	41683	41845	.	-	.	gene_id "LOC100505793"; gene_name "LOC100505793"; p_id "P9963"; transcript_id "XM_003119082.1"; tss_id "TSS16194";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome '1|NT_113878.1' not found in Genome fasta files for line:
+1|NT_113878.1	unknown	exon	44809	44912	.	-	.	gene_id "LOC100505793"; gene_name "LOC100505793"; p_id "P16654"; transcript_id "XM_003119081.2"; tss_id "TSS16194";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome '1|NT_113878.1' not found in Genome fasta files for line:
+1|NT_113878.1	unknown	exon	44809	44912	.	-	.	gene_id "LOC100505793"; gene_name "LOC100505793"; p_id "P16080"; transcript_id "XM_003119084.1"; tss_id "TSS16194";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome '1|NT_113878.1' not found in Genome fasta files for line:
+1|NT_113878.1	unknown	exon	44809	44912	.	-	.	gene_id "LOC100505793"; gene_name "LOC100505793"; p_id "P1208"; transcript_id "XM_003119083.2"; tss_id "TSS16194";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome '1|NT_113878.1' not found in Genome fasta files for line:
+1|NT_113878.1	unknown	exon	44809	44912	.	-	.	gene_id "LOC100505793"; gene_name "LOC100505793"; p_id "P9963"; transcript_id "XM_003119082.1"; tss_id "TSS16194";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome '1|NT_113878.1' not found in Genome fasta files for line:
+1|NT_113878.1	unknown	exon	48547	48651	.	-	.	gene_id "LOC100505793"; gene_name "LOC100505793"; p_id "P16654"; transcript_id "XM_003119081.2"; tss_id "TSS16194";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome '1|NT_113878.1' not found in Genome fasta files for line:
+1|NT_113878.1	unknown	exon	48547	48651	.	-	.	gene_id "LOC100505793"; gene_name "LOC100505793"; p_id "P16080"; transcript_id "XM_003119084.1"; tss_id "TSS16194";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome '1|NT_113878.1' not found in Genome fasta files for line:
+1|NT_113878.1	unknown	exon	48547	48651	.	-	.	gene_id "LOC100505793"; gene_name "LOC100505793"; p_id "P1208"; transcript_id "XM_003119083.2"; tss_id "TSS16194";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome '1|NT_113878.1' not found in Genome fasta files for line:
+1|NT_113878.1	unknown	exon	48547	48651	.	-	.	gene_id "LOC100505793"; gene_name "LOC100505793"; p_id "P9963"; transcript_id "XM_003119082.1"; tss_id "TSS16194";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome '1|NT_113878.1' not found in Genome fasta files for line:
+1|NT_113878.1	unknown	exon	50009	50171	.	-	.	gene_id "LOC100505793"; gene_name "LOC100505793"; p_id "P16654"; transcript_id "XM_003119081.2"; tss_id "TSS16194";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome '1|NT_113878.1' not found in Genome fasta files for line:
+1|NT_113878.1	unknown	exon	50009	50171	.	-	.	gene_id "LOC100505793"; gene_name "LOC100505793"; p_id "P16080"; transcript_id "XM_003119084.1"; tss_id "TSS16194";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome '1|NT_113878.1' not found in Genome fasta files for line:
+1|NT_113878.1	unknown	exon	50009	50171	.	-	.	gene_id "LOC100505793"; gene_name "LOC100505793"; p_id "P1208"; transcript_id "XM_003119083.2"; tss_id "TSS16194";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome '1|NT_113878.1' not found in Genome fasta files for line:
+1|NT_113878.1	unknown	exon	50009	50171	.	-	.	gene_id "LOC100505793"; gene_name "LOC100505793"; p_id "P9963"; transcript_id "XM_003119082.1"; tss_id "TSS16194";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome '1|NT_113878.1' not found in Genome fasta files for line:
+1|NT_113878.1	unknown	exon	77568	77652	.	-	.	gene_id "LOC100289079"; gene_name "LOC100289079"; p_id "P24649"; transcript_id "XM_002344448.1"; tss_id "TSS768";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome '1|NT_113878.1' not found in Genome fasta files for line:
+1|NT_113878.1	unknown	exon	77958	78243	.	-	.	gene_id "LOC100289079"; gene_name "LOC100289079"; p_id "P24649"; transcript_id "XM_002344448.1"; tss_id "TSS768";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome '1|NT_113878.1' not found in Genome fasta files for line:
+1|NT_113878.1	unknown	exon	84116	84200	.	-	.	gene_id "LOC100289079"; gene_name "LOC100289079"; p_id "P24649"; transcript_id "XM_002344448.1"; tss_id "TSS768";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome '1|NT_167207.1' not found in Genome fasta files for line:
+1|NT_167207.1	unknown	exon	3828	3918	.	-	.	gene_id "LOC100506543"; gene_name "LOC100506543"; transcript_id "XR_110939.1"; tss_id "TSS13967";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome '1|NT_167207.1' not found in Genome fasta files for line:
+1|NT_167207.1	unknown	exon	3978	4856	.	-	.	gene_id "LOC100506543"; gene_name "LOC100506543"; transcript_id "XR_110939.1"; tss_id "TSS13967";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome '1|NT_167207.1' not found in Genome fasta files for line:
+1|NT_167207.1	unknown	exon	54448	54826	.	-	.	gene_id "HYDIN2"; gene_name "HYDIN2"; transcript_id "XR_110941.2"; tss_id "TSS18074";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome '1|NT_167207.1' not found in Genome fasta files for line:
+1|NT_167207.1	unknown	exon	55679	55909	.	-	.	gene_id "HYDIN2"; gene_name "HYDIN2"; transcript_id "XR_110941.2"; tss_id "TSS18074";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome '1|NT_167207.1' not found in Genome fasta files for line:
+1|NT_167207.1	unknown	exon	66421	66571	.	-	.	gene_id "HYDIN2"; gene_name "HYDIN2"; transcript_id "XR_110941.2"; tss_id "TSS18074";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome '1|NT_167207.1' not found in Genome fasta files for line:
+1|NT_167207.1	unknown	exon	67426	67589	.	-	.	gene_id "HYDIN2"; gene_name "HYDIN2"; transcript_id "XR_110941.2"; tss_id "TSS18074";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome '1|NT_167207.1' not found in Genome fasta files for line:
+1|NT_167207.1	unknown	exon	68779	68991	.	-	.	gene_id "HYDIN2"; gene_name "HYDIN2"; transcript_id "XR_110941.2"; tss_id "TSS18074";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome '1|NT_167207.1' not found in Genome fasta files for line:
+1|NT_167207.1	unknown	exon	72027	72246	.	-	.	gene_id "HYDIN2"; gene_name "HYDIN2"; transcript_id "XR_110941.2"; tss_id "TSS18074";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome '1|NT_167207.1' not found in Genome fasta files for line:
+1|NT_167207.1	unknown	exon	73067	73344	.	-	.	gene_id "HYDIN2"; gene_name "HYDIN2"; transcript_id "XR_110941.2"; tss_id "TSS18074";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome '1|NT_167207.1' not found in Genome fasta files for line:
+1|NT_167207.1	unknown	exon	74769	74927	.	-	.	gene_id "HYDIN2"; gene_name "HYDIN2"; transcript_id "XR_110941.2"; tss_id "TSS18074";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome '1|NT_167207.1' not found in Genome fasta files for line:
+1|NT_167207.1	unknown	exon	76784	76982	.	-	.	gene_id "HYDIN2"; gene_name "HYDIN2"; transcript_id "XR_110941.2"; tss_id "TSS18074";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome '1|NT_167207.1' not found in Genome fasta files for line:
+1|NT_167207.1	unknown	exon	79155	79324	.	-	.	gene_id "HYDIN2"; gene_name "HYDIN2"; transcript_id "XR_110941.2"; tss_id "TSS18074";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome '1|NT_167207.1' not found in Genome fasta files for line:
+1|NT_167207.1	unknown	exon	88829	89050	.	-	.	gene_id "HYDIN2"; gene_name "HYDIN2"; transcript_id "XR_110941.2"; tss_id "TSS18074";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome '1|NT_167207.1' not found in Genome fasta files for line:
+1|NT_167207.1	unknown	exon	89550	89757	.	-	.	gene_id "HYDIN2"; gene_name "HYDIN2"; transcript_id "XR_110941.2"; tss_id "TSS18074";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome '1|NT_167207.1' not found in Genome fasta files for line:
+1|NT_167207.1	unknown	exon	94229	94376	.	-	.	gene_id "HYDIN2"; gene_name "HYDIN2"; transcript_id "XR_110941.2"; tss_id "TSS18074";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome '1|NT_167207.1' not found in Genome fasta files for line:
+1|NT_167207.1	unknown	exon	96805	96970	.	-	.	gene_id "HYDIN2"; gene_name "HYDIN2"; transcript_id "XR_110941.2"; tss_id "TSS18074";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome '1|NT_167207.1' not found in Genome fasta files for line:
+1|NT_167207.1	unknown	exon	99167	99305	.	-	.	gene_id "HYDIN2"; gene_name "HYDIN2"; transcript_id "XR_110941.2"; tss_id "TSS18074";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome '1|NT_167207.1' not found in Genome fasta files for line:
+1|NT_167207.1	unknown	exon	99788	100000	.	-	.	gene_id "HYDIN2"; gene_name "HYDIN2"; transcript_id "XR_110941.2"; tss_id "TSS18074";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome '1|NT_167207.1' not found in Genome fasta files for line:
+1|NT_167207.1	unknown	exon	101147	101353	.	-	.	gene_id "HYDIN2"; gene_name "HYDIN2"; transcript_id "XR_110941.2"; tss_id "TSS18074";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome '1|NT_167207.1' not found in Genome fasta files for line:
+1|NT_167207.1	unknown	exon	102183	102280	.	-	.	gene_id "HYDIN2"; gene_name "HYDIN2"; transcript_id "XR_110941.2"; tss_id "TSS18074";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome '1|NT_167207.1' not found in Genome fasta files for line:
+1|NT_167207.1	unknown	exon	105244	105404	.	-	.	gene_id "HYDIN2"; gene_name "HYDIN2"; transcript_id "XR_110941.2"; tss_id "TSS18074";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome '1|NT_167207.1' not found in Genome fasta files for line:
+1|NT_167207.1	unknown	exon	107641	107859	.	-	.	gene_id "HYDIN2"; gene_name "HYDIN2"; transcript_id "XR_110941.2"; tss_id "TSS18074";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome '1|NT_167207.1' not found in Genome fasta files for line:
+1|NT_167207.1	unknown	exon	111105	111247	.	-	.	gene_id "HYDIN2"; gene_name "HYDIN2"; transcript_id "XR_110941.2"; tss_id "TSS18074";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome '1|NT_167207.1' not found in Genome fasta files for line:
+1|NT_167207.1	unknown	exon	113358	113645	.	-	.	gene_id "HYDIN2"; gene_name "HYDIN2"; transcript_id "XR_110941.2"; tss_id "TSS18074";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome '1|NT_167207.1' not found in Genome fasta files for line:
+1|NT_167207.1	unknown	exon	113870	113972	.	-	.	gene_id "HYDIN2"; gene_name "HYDIN2"; transcript_id "XR_110941.2"; tss_id "TSS18074";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome '1|NT_167207.1' not found in Genome fasta files for line:
+1|NT_167207.1	unknown	exon	118357	118546	.	-	.	gene_id "HYDIN2"; gene_name "HYDIN2"; transcript_id "XR_110941.2"; tss_id "TSS18074";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome '1|NT_167207.1' not found in Genome fasta files for line:
+1|NT_167207.1	unknown	exon	118665	118816	.	-	.	gene_id "HYDIN2"; gene_name "HYDIN2"; transcript_id "XR_110941.2"; tss_id "TSS18074";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome '1|NT_167207.1' not found in Genome fasta files for line:
+1|NT_167207.1	unknown	exon	121724	121959	.	-	.	gene_id "HYDIN2"; gene_name "HYDIN2"; transcript_id "XR_110941.2"; tss_id "TSS18074";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome '1|NT_167207.1' not found in Genome fasta files for line:
+1|NT_167207.1	unknown	exon	122984	123188	.	-	.	gene_id "HYDIN2"; gene_name "HYDIN2"; transcript_id "XR_110941.2"; tss_id "TSS18074";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome '1|NT_167207.1' not found in Genome fasta files for line:
+1|NT_167207.1	unknown	exon	128618	128735	.	-	.	gene_id "HYDIN2"; gene_name "HYDIN2"; transcript_id "XR_110941.2"; tss_id "TSS18074";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome '1|NT_167207.1' not found in Genome fasta files for line:
+1|NT_167207.1	unknown	exon	130676	130914	.	-	.	gene_id "HYDIN2"; gene_name "HYDIN2"; transcript_id "XR_110941.2"; tss_id "TSS18074";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome '1|NT_167207.1' not found in Genome fasta files for line:
+1|NT_167207.1	unknown	exon	131391	131559	.	-	.	gene_id "HYDIN2"; gene_name "HYDIN2"; transcript_id "XR_110941.2"; tss_id "TSS18074";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome '1|NT_167207.1' not found in Genome fasta files for line:
+1|NT_167207.1	unknown	exon	133482	133581	.	-	.	gene_id "HYDIN2"; gene_name "HYDIN2"; transcript_id "XR_110941.2"; tss_id "TSS18074";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome '1|NT_167207.1' not found in Genome fasta files for line:
+1|NT_167207.1	unknown	exon	135014	135113	.	-	.	gene_id "HYDIN2"; gene_name "HYDIN2"; transcript_id "XR_110941.2"; tss_id "TSS18074";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome '1|NT_167207.1' not found in Genome fasta files for line:
+1|NT_167207.1	unknown	exon	140029	140227	.	-	.	gene_id "HYDIN2"; gene_name "HYDIN2"; transcript_id "XR_110941.2"; tss_id "TSS18074";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome '1|NT_167207.1' not found in Genome fasta files for line:
+1|NT_167207.1	unknown	exon	142945	143117	.	-	.	gene_id "HYDIN2"; gene_name "HYDIN2"; transcript_id "XR_110941.2"; tss_id "TSS18074";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome '1|NT_167207.1' not found in Genome fasta files for line:
+1|NT_167207.1	unknown	exon	143225	143384	.	-	.	gene_id "HYDIN2"; gene_name "HYDIN2"; transcript_id "XR_110941.2"; tss_id "TSS18074";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome '1|NT_167207.1' not found in Genome fasta files for line:
+1|NT_167207.1	unknown	exon	146663	146782	.	-	.	gene_id "HYDIN2"; gene_name "HYDIN2"; transcript_id "XR_110941.2"; tss_id "TSS18074";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome '1|NT_167207.1' not found in Genome fasta files for line:
+1|NT_167207.1	unknown	exon	147543	147725	.	-	.	gene_id "HYDIN2"; gene_name "HYDIN2"; transcript_id "XR_110941.2"; tss_id "TSS18074";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome '1|NT_167207.1' not found in Genome fasta files for line:
+1|NT_167207.1	unknown	exon	147944	148152	.	-	.	gene_id "HYDIN2"; gene_name "HYDIN2"; transcript_id "XR_110941.2"; tss_id "TSS18074";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome '1|NT_167207.1' not found in Genome fasta files for line:
+1|NT_167207.1	unknown	exon	157506	157724	.	-	.	gene_id "HYDIN2"; gene_name "HYDIN2"; transcript_id "XR_110941.2"; tss_id "TSS18074";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome '1|NT_167207.1' not found in Genome fasta files for line:
+1|NT_167207.1	unknown	exon	159890	160501	.	-	.	gene_id "HYDIN2"; gene_name "HYDIN2"; transcript_id "XR_110941.2"; tss_id "TSS18074";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome '1|NT_167207.1' not found in Genome fasta files for line:
+1|NT_167207.1	unknown	exon	175198	175360	.	-	.	gene_id "HYDIN2"; gene_name "HYDIN2"; transcript_id "XR_110941.2"; tss_id "TSS18074";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome '1|NT_167207.1' not found in Genome fasta files for line:
+1|NT_167207.1	unknown	exon	177863	178004	.	-	.	gene_id "HYDIN2"; gene_name "HYDIN2"; transcript_id "XR_110941.2"; tss_id "TSS18074";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome '1|NT_167207.1' not found in Genome fasta files for line:
+1|NT_167207.1	unknown	exon	180885	181068	.	-	.	gene_id "HYDIN2"; gene_name "HYDIN2"; transcript_id "XR_110941.2"; tss_id "TSS18074";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome '1|NT_167207.1' not found in Genome fasta files for line:
+1|NT_167207.1	unknown	exon	183063	183153	.	-	.	gene_id "HYDIN2"; gene_name "HYDIN2"; transcript_id "XR_110941.2"; tss_id "TSS18074";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome '1|NT_167207.1' not found in Genome fasta files for line:
+1|NT_167207.1	unknown	exon	189908	190187	.	-	.	gene_id "HYDIN2"; gene_name "HYDIN2"; transcript_id "XR_110941.2"; tss_id "TSS18074";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome '1|NT_167207.1' not found in Genome fasta files for line:
+1|NT_167207.1	unknown	exon	192961	193134	.	-	.	gene_id "HYDIN2"; gene_name "HYDIN2"; transcript_id "XR_110941.2"; tss_id "TSS18074";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome '1|NT_167207.1' not found in Genome fasta files for line:
+1|NT_167207.1	unknown	exon	197234	197407	.	-	.	gene_id "HYDIN2"; gene_name "HYDIN2"; transcript_id "XR_110941.2"; tss_id "TSS18074";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome '1|NT_167207.1' not found in Genome fasta files for line:
+1|NT_167207.1	unknown	exon	199546	199725	.	-	.	gene_id "HYDIN2"; gene_name "HYDIN2"; transcript_id "XR_110941.2"; tss_id "TSS18074";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome '1|NT_167207.1' not found in Genome fasta files for line:
+1|NT_167207.1	unknown	exon	202310	202478	.	-	.	gene_id "HYDIN2"; gene_name "HYDIN2"; transcript_id "XR_110941.2"; tss_id "TSS18074";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome '1|NT_167207.1' not found in Genome fasta files for line:
+1|NT_167207.1	unknown	exon	208162	208401	.	-	.	gene_id "HYDIN2"; gene_name "HYDIN2"; transcript_id "XR_110941.2"; tss_id "TSS18074";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome '1|NT_167207.1' not found in Genome fasta files for line:
+1|NT_167207.1	unknown	exon	210980	211129	.	-	.	gene_id "HYDIN2"; gene_name "HYDIN2"; transcript_id "XR_110941.2"; tss_id "TSS18074";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome '1|NT_167207.1' not found in Genome fasta files for line:
+1|NT_167207.1	unknown	exon	211466	211657	.	-	.	gene_id "HYDIN2"; gene_name "HYDIN2"; transcript_id "XR_110941.2"; tss_id "TSS18074";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome '1|NT_167207.1' not found in Genome fasta files for line:
+1|NT_167207.1	unknown	exon	211810	211937	.	-	.	gene_id "HYDIN2"; gene_name "HYDIN2"; transcript_id "XR_110941.2"; tss_id "TSS18074";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome '1|NT_167207.1' not found in Genome fasta files for line:
+1|NT_167207.1	unknown	exon	212171	212307	.	-	.	gene_id "HYDIN2"; gene_name "HYDIN2"; transcript_id "XR_110941.2"; tss_id "TSS18074";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome '1|NT_167207.1' not found in Genome fasta files for line:
+1|NT_167207.1	unknown	exon	212773	212906	.	-	.	gene_id "HYDIN2"; gene_name "HYDIN2"; transcript_id "XR_110941.2"; tss_id "TSS18074";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome '1|NT_167207.1' not found in Genome fasta files for line:
+1|NT_167207.1	unknown	exon	216549	216676	.	-	.	gene_id "HYDIN2"; gene_name "HYDIN2"; transcript_id "XR_110941.2"; tss_id "TSS18074";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome '1|NT_167207.1' not found in Genome fasta files for line:
+1|NT_167207.1	unknown	exon	219057	219234	.	-	.	gene_id "HYDIN2"; gene_name "HYDIN2"; transcript_id "XR_110941.2"; tss_id "TSS18074";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome '1|NT_167207.1' not found in Genome fasta files for line:
+1|NT_167207.1	unknown	exon	222857	222994	.	-	.	gene_id "HYDIN2"; gene_name "HYDIN2"; transcript_id "XR_110941.2"; tss_id "TSS18074";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome '1|NT_167207.1' not found in Genome fasta files for line:
+1|NT_167207.1	unknown	exon	225601	225810	.	-	.	gene_id "HYDIN2"; gene_name "HYDIN2"; transcript_id "XR_110941.2"; tss_id "TSS18074";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome '1|NT_167207.1' not found in Genome fasta files for line:
+1|NT_167207.1	unknown	exon	226070	226189	.	-	.	gene_id "HYDIN2"; gene_name "HYDIN2"; transcript_id "XR_110941.2"; tss_id "TSS18074";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome '1|NT_167207.1' not found in Genome fasta files for line:
+1|NT_167207.1	unknown	exon	228990	229068	.	-	.	gene_id "HYDIN2"; gene_name "HYDIN2"; transcript_id "XR_110941.2"; tss_id "TSS18074";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome '1|NT_167207.1' not found in Genome fasta files for line:
+1|NT_167207.1	unknown	exon	229742	229863	.	-	.	gene_id "HYDIN2"; gene_name "HYDIN2"; transcript_id "XR_110941.2"; tss_id "TSS18074";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome '1|NT_167207.1' not found in Genome fasta files for line:
+1|NT_167207.1	unknown	exon	242419	242434	.	-	.	gene_id "HYDIN2"; gene_name "HYDIN2"; transcript_id "XR_110941.2"; tss_id "TSS18074";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome '1|NT_167207.1' not found in Genome fasta files for line:
+1|NT_167207.1	unknown	exon	261869	262182	.	-	.	gene_id "HYDIN2"; gene_name "HYDIN2"; transcript_id "XR_110941.2"; tss_id "TSS18074";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome '1|NT_167207.1' not found in Genome fasta files for line:
+1|NT_167207.1	unknown	exon	263913	264056	.	-	.	gene_id "HYDIN2"; gene_name "HYDIN2"; transcript_id "XR_110941.2"; tss_id "TSS18074";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome '1|NT_167207.1' not found in Genome fasta files for line:
+1|NT_167207.1	unknown	exon	269130	269273	.	-	.	gene_id "HYDIN2"; gene_name "HYDIN2"; transcript_id "XR_110941.2"; tss_id "TSS18074";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome '1|NT_167207.1' not found in Genome fasta files for line:
+1|NT_167207.1	unknown	exon	271671	271944	.	-	.	gene_id "HYDIN2"; gene_name "HYDIN2"; transcript_id "XR_110941.2"; tss_id "TSS18074";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome '1|NT_167207.1' not found in Genome fasta files for line:
+1|NT_167207.1	unknown	exon	275764	276002	.	-	.	gene_id "HYDIN2"; gene_name "HYDIN2"; transcript_id "XR_110941.2"; tss_id "TSS18074";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome '1|NT_167207.1' not found in Genome fasta files for line:
+1|NT_167207.1	unknown	exon	304560	304712	.	-	.	gene_id "HYDIN2"; gene_name "HYDIN2"; transcript_id "XR_110941.2"; tss_id "TSS18074";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome '1|NT_167207.1' not found in Genome fasta files for line:
+1|NT_167207.1	unknown	exon	306215	306379	.	-	.	gene_id "HYDIN2"; gene_name "HYDIN2"; transcript_id "XR_110941.2"; tss_id "TSS18074";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome '1|NT_167207.1' not found in Genome fasta files for line:
+1|NT_167207.1	unknown	exon	308751	308886	.	-	.	gene_id "HYDIN2"; gene_name "HYDIN2"; transcript_id "XR_110941.2"; tss_id "TSS18074";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome '1|NT_167207.1' not found in Genome fasta files for line:
+1|NT_167207.1	unknown	exon	311337	311437	.	-	.	gene_id "HYDIN2"; gene_name "HYDIN2"; transcript_id "XR_110941.2"; tss_id "TSS18074";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome '1|NT_167207.1' not found in Genome fasta files for line:
+1|NT_167207.1	unknown	exon	313315	313550	.	-	.	gene_id "HYDIN2"; gene_name "HYDIN2"; transcript_id "XR_110941.2"; tss_id "TSS18074";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome '1|NT_167207.1' not found in Genome fasta files for line:
+1|NT_167207.1	unknown	exon	323935	324002	.	-	.	gene_id "HYDIN2"; gene_name "HYDIN2"; transcript_id "XR_110941.2"; tss_id "TSS18074";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome '1|NT_167207.1' not found in Genome fasta files for line:
+1|NT_167207.1	unknown	exon	332345	332568	.	-	.	gene_id "HYDIN2"; gene_name "HYDIN2"; transcript_id "XR_110941.2"; tss_id "TSS18074";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome '1|NT_167207.1' not found in Genome fasta files for line:
+1|NT_167207.1	unknown	exon	337864	337982	.	-	.	gene_id "HYDIN2"; gene_name "HYDIN2"; transcript_id "XR_110941.2"; tss_id "TSS18074";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome '1|NT_167207.1' not found in Genome fasta files for line:
+1|NT_167207.1	unknown	exon	359838	359937	.	-	.	gene_id "HYDIN2"; gene_name "HYDIN2"; transcript_id "XR_110941.2"; tss_id "TSS18074";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome '1|NT_167207.1' not found in Genome fasta files for line:
+1|NT_167207.1	unknown	exon	373777	373960	.	-	.	gene_id "HYDIN2"; gene_name "HYDIN2"; transcript_id "XR_110941.2"; tss_id "TSS18074";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome '1|NT_167207.1' not found in Genome fasta files for line:
+1|NT_167207.1	unknown	exon	380975	381176	.	-	.	gene_id "HYDIN2"; gene_name "HYDIN2"; transcript_id "XR_110941.2"; tss_id "TSS18074";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome '1|NT_167207.1' not found in Genome fasta files for line:
+1|NT_167207.1	unknown	exon	397530	397654	.	-	.	gene_id "HYDIN2"; gene_name "HYDIN2"; transcript_id "XR_110941.2"; tss_id "TSS18074";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome '1|NT_167207.1' not found in Genome fasta files for line:
+1|NT_167207.1	unknown	exon	407431	407630	.	-	.	gene_id "HYDIN2"; gene_name "HYDIN2"; transcript_id "XR_110941.2"; tss_id "TSS18074";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome '1|NT_167207.1' not found in Genome fasta files for line:
+1|NT_167207.1	unknown	exon	417776	417897	.	-	.	gene_id "HYDIN2"; gene_name "HYDIN2"; transcript_id "XR_110941.2"; tss_id "TSS18074";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome '1|NT_167207.1' not found in Genome fasta files for line:
+1|NT_167207.1	unknown	exon	418665	418731	.	-	.	gene_id "HYDIN2"; gene_name "HYDIN2"; transcript_id "XR_110941.2"; tss_id "TSS18074";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome '1|NT_167207.1' not found in Genome fasta files for line:
+1|NT_167207.1	unknown	exon	429710	430271	.	-	.	gene_id "LOC100506560"; gene_name "LOC100506560"; transcript_id "XR_110940.1"; tss_id "TSS20285";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome '1|NT_167207.1' not found in Genome fasta files for line:
+1|NT_167207.1	unknown	exon	438554	440529	.	-	.	gene_id "LOC100506560"; gene_name "LOC100506560"; transcript_id "XR_110940.1"; tss_id "TSS20285";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome '4|NT_113885.1' not found in Genome fasta files for line:
+4|NT_113885.1	unknown	exon	49162	49618	.	-	.	gene_id "MGC39584"; gene_name "MGC39584"; transcript_id "NR_038377.1"; tss_id "TSS26786";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome '4|NT_113885.1' not found in Genome fasta files for line:
+4|NT_113885.1	unknown	exon	50562	50619	.	-	.	gene_id "MGC39584"; gene_name "MGC39584"; transcript_id "NR_038377.1"; tss_id "TSS26786";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome '4|NT_113885.1' not found in Genome fasta files for line:
+4|NT_113885.1	unknown	exon	59869	59956	.	-	.	gene_id "MGC39584"; gene_name "MGC39584"; transcript_id "NR_038377.1"; tss_id "TSS26786";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome '4|NT_113885.1' not found in Genome fasta files for line:
+4|NT_113885.1	unknown	exon	75049	75288	.	-	.	gene_id "MGC39584"; gene_name "MGC39584"; transcript_id "NR_038377.1"; tss_id "TSS26786";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome '4|NT_113885.1' not found in Genome fasta files for line:
+4|NT_113885.1	unknown	exon	75488	75675	.	-	.	gene_id "MGC39584"; gene_name "MGC39584"; transcript_id "NR_038377.1"; tss_id "TSS26786";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome '4|NT_113885.1' not found in Genome fasta files for line:
+4|NT_113885.1	unknown	exon	88200	88375	.	-	.	gene_id "MGC39584"; gene_name "MGC39584"; transcript_id "NR_038377.1"; tss_id "TSS26786";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome '4|NT_113888.1' not found in Genome fasta files for line:
+4|NT_113888.1	unknown	exon	53589	55676	.	-	.	gene_id "MAFIP"; gene_name "MAFIP"; p_id "P24098"; transcript_id "NM_001190825.1"; tss_id "TSS6540";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome '4|NT_113888.1' not found in Genome fasta files for line:
+4|NT_113888.1	unknown	exon	112792	112850	.	-	.	gene_id "MAFIP"; gene_name "MAFIP"; p_id "P24098"; transcript_id "NM_001190825.1"; tss_id "TSS6540";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome '4|NT_113888.1' not found in Genome fasta files for line:
+4|NT_113888.1	unknown	exon	114986	115010	.	-	.	gene_id "MAFIP"; gene_name "MAFIP"; p_id "P24098"; transcript_id "NM_001190825.1"; tss_id "TSS6540";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome '7|NT_113901.1' not found in Genome fasta files for line:
+7|NT_113901.1	unknown	exon	42938	44923	.	-	.	gene_id "LOC389831"; gene_name "LOC389831"; p_id "P9521"; transcript_id "NM_001242480.1"; tss_id "TSS19399";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome '7|NT_113901.1' not found in Genome fasta files for line:
+7|NT_113901.1	unknown	exon	48955	49119	.	-	.	gene_id "LOC389831"; gene_name "LOC389831"; p_id "P9521"; transcript_id "NM_001242480.1"; tss_id "TSS19399";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome '7|NT_113901.1' not found in Genome fasta files for line:
+7|NT_113901.1	unknown	exon	74121	74180	.	-	.	gene_id "LOC389831"; gene_name "LOC389831"; p_id "P9521"; transcript_id "NM_001242480.1"; tss_id "TSS19399";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome '7|NT_113901.1' not found in Genome fasta files for line:
+7|NT_113901.1	unknown	exon	86518	86719	.	-	.	gene_id "LOC389831"; gene_name "LOC389831"; p_id "P9521"; transcript_id "NM_001242480.1"; tss_id "TSS19399";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome '7|NT_113901.1' not found in Genome fasta files for line:
+7|NT_113901.1	unknown	exon	137967	138140	.	+	.	gene_id "LOC100507312"; gene_name "LOC100507312"; transcript_id "XR_110811.1"; tss_id "TSS16246";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome '7|NT_113901.1' not found in Genome fasta files for line:
+7|NT_113901.1	unknown	exon	137995	138140	.	+	.	gene_id "LOC100507312"; gene_name "LOC100507312"; transcript_id "XR_110813.1"; tss_id "TSS5320";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome '7|NT_113901.1' not found in Genome fasta files for line:
+7|NT_113901.1	unknown	exon	138044	138140	.	+	.	gene_id "LOC100507312"; gene_name "LOC100507312"; transcript_id "XR_110812.1"; tss_id "TSS25125";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome '7|NT_113901.1' not found in Genome fasta files for line:
+7|NT_113901.1	unknown	exon	140414	140448	.	+	.	gene_id "LOC100507312"; gene_name "LOC100507312"; transcript_id "XR_110812.1"; tss_id "TSS25125";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome '7|NT_113901.1' not found in Genome fasta files for line:
+7|NT_113901.1	unknown	exon	140414	140516	.	+	.	gene_id "LOC100507312"; gene_name "LOC100507312"; transcript_id "XR_110811.1"; tss_id "TSS16246";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome '7|NT_113901.1' not found in Genome fasta files for line:
+7|NT_113901.1	unknown	exon	140425	140516	.	+	.	gene_id "LOC100507312"; gene_name "LOC100507312"; transcript_id "XR_110813.1"; tss_id "TSS5320";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome '7|NT_113901.1' not found in Genome fasta files for line:
+7|NT_113901.1	unknown	exon	140548	141789	.	+	.	gene_id "LOC100507312"; gene_name "LOC100507312"; transcript_id "XR_110812.1"; tss_id "TSS25125";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome '7|NT_113901.1' not found in Genome fasta files for line:
+7|NT_113901.1	unknown	exon	140706	141789	.	+	.	gene_id "LOC100507312"; gene_name "LOC100507312"; transcript_id "XR_110813.1"; tss_id "TSS5320";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome '7|NT_113901.1' not found in Genome fasta files for line:
+7|NT_113901.1	unknown	exon	140706	141789	.	+	.	gene_id "LOC100507312"; gene_name "LOC100507312"; transcript_id "XR_110811.1"; tss_id "TSS16246";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome '7|NT_113901.1' not found in Genome fasta files for line:
+7|NT_113901.1	unknown	exon	142823	143685	.	-	.	gene_id "LOC645561"; gene_name "LOC645561"; transcript_id "XR_132875.1"; tss_id "TSS3181";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome '8|NT_113907.1' not found in Genome fasta files for line:
+8|NT_113907.1	unknown	exon	16229	16437	.	+	.	gene_id "LOC100132336"; gene_name "LOC100132336"; p_id "P6119"; transcript_id "XM_001714378.3"; tss_id "TSS15817";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome '8|NT_113907.1' not found in Genome fasta files for line:
+8|NT_113907.1	unknown	exon	21658	21972	.	+	.	gene_id "LOC100132336"; gene_name "LOC100132336"; p_id "P6119"; transcript_id "XM_001714378.3"; tss_id "TSS15817";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome '8|NT_113907.1' not found in Genome fasta files for line:
+8|NT_113907.1	unknown	exon	24294	24361	.	+	.	gene_id "LOC100132336"; gene_name "LOC100132336"; p_id "P6119"; transcript_id "XM_001714378.3"; tss_id "TSS15817";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome '8|NT_113909.1' not found in Genome fasta files for line:
+8|NT_113909.1	unknown	exon	12494	13055	.	-	.	gene_id "KIAA0146"; gene_name "KIAA0146"; p_id "P9473"; transcript_id "XM_003403573.1-1"; tss_id "TSS8110";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome '8|NT_113909.1' not found in Genome fasta files for line:
+8|NT_113909.1	unknown	exon	15785	15889	.	-	.	gene_id "KIAA0146"; gene_name "KIAA0146"; p_id "P9473"; transcript_id "XM_003403573.1-1"; tss_id "TSS8110";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome '8|NT_113909.1' not found in Genome fasta files for line:
+8|NT_113909.1	unknown	exon	22828	22894	.	-	.	gene_id "KIAA0146"; gene_name "KIAA0146"; p_id "P9473"; transcript_id "XM_003403573.1-1"; tss_id "TSS8110";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome '8|NT_113909.1' not found in Genome fasta files for line:
+8|NT_113909.1	unknown	exon	26905	27060	.	-	.	gene_id "KIAA0146"; gene_name "KIAA0146"; p_id "P9473"; transcript_id "XM_003403573.1-1"; tss_id "TSS8110";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome '8|NT_113909.1' not found in Genome fasta files for line:
+8|NT_113909.1	unknown	exon	27539	27652	.	-	.	gene_id "KIAA0146"; gene_name "KIAA0146"; p_id "P9473"; transcript_id "XM_003403573.1-1"; tss_id "TSS8110";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome '8|NT_113909.1' not found in Genome fasta files for line:
+8|NT_113909.1	unknown	exon	30202	30258	.	-	.	gene_id "KIAA0146"; gene_name "KIAA0146"; p_id "P9473"; transcript_id "XM_003403573.1-1"; tss_id "TSS8110";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome '9|NT_113911.1' not found in Genome fasta files for line:
+9|NT_113911.1	unknown	exon	2261	2326	.	+	.	gene_id "ADAMTSL2"; gene_name "ADAMTSL2"; p_id "P21350"; transcript_id "XM_003403574.1-1"; tss_id "TSS26604";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome '9|NT_113911.1' not found in Genome fasta files for line:
+9|NT_113911.1	unknown	exon	2565	2901	.	+	.	gene_id "ADAMTSL2"; gene_name "ADAMTSL2"; p_id "P21350"; transcript_id "XM_003403574.1-1"; tss_id "TSS26604";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome '9|NT_113911.1' not found in Genome fasta files for line:
+9|NT_113911.1	unknown	exon	3766	4138	.	+	.	gene_id "ADAMTSL2"; gene_name "ADAMTSL2"; p_id "P21350"; transcript_id "XM_003403574.1-1"; tss_id "TSS26604";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome '9|NT_113911.1' not found in Genome fasta files for line:
+9|NT_113911.1	unknown	exon	9406	9503	.	+	.	gene_id "ADAMTSL2"; gene_name "ADAMTSL2"; p_id "P21350"; transcript_id "XM_003403574.1-1"; tss_id "TSS26604";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome '9|NT_113911.1' not found in Genome fasta files for line:
+9|NT_113911.1	unknown	exon	14328	14454	.	+	.	gene_id "ADAMTSL2"; gene_name "ADAMTSL2"; p_id "P21350"; transcript_id "XM_003403574.1-1"; tss_id "TSS26604";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome '9|NT_113911.1' not found in Genome fasta files for line:
+9|NT_113911.1	unknown	exon	15665	15878	.	+	.	gene_id "ADAMTSL2"; gene_name "ADAMTSL2"; p_id "P21350"; transcript_id "XM_003403574.1-1"; tss_id "TSS26604";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome '9|NT_113911.1' not found in Genome fasta files for line:
+9|NT_113911.1	unknown	exon	15995	16150	.	+	.	gene_id "ADAMTSL2"; gene_name "ADAMTSL2"; p_id "P21350"; transcript_id "XM_003403574.1-1"; tss_id "TSS26604";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome '9|NT_113911.1' not found in Genome fasta files for line:
+9|NT_113911.1	unknown	exon	16800	16970	.	+	.	gene_id "ADAMTSL2"; gene_name "ADAMTSL2"; p_id "P21350"; transcript_id "XM_003403574.1-1"; tss_id "TSS26604";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome '9|NT_113911.1' not found in Genome fasta files for line:
+9|NT_113911.1	unknown	exon	17723	17899	.	+	.	gene_id "ADAMTSL2"; gene_name "ADAMTSL2"; p_id "P21350"; transcript_id "XM_003403574.1-1"; tss_id "TSS26604";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome '9|NT_113911.1' not found in Genome fasta files for line:
+9|NT_113911.1	unknown	exon	21235	21379	.	+	.	gene_id "ADAMTSL2"; gene_name "ADAMTSL2"; p_id "P21350"; transcript_id "XM_003403574.1-1"; tss_id "TSS26604";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome '9|NT_113911.1' not found in Genome fasta files for line:
+9|NT_113911.1	unknown	exon	22138	22432	.	+	.	gene_id "ADAMTSL2"; gene_name "ADAMTSL2"; p_id "P21350"; transcript_id "XM_003403574.1-1"; tss_id "TSS26604";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome '9|NT_113911.1' not found in Genome fasta files for line:
+9|NT_113911.1	unknown	exon	26413	26820	.	-	.	gene_id "LOC643750"; gene_name "LOC643750"; p_id "P15006"; transcript_id "XM_927040.5"; tss_id "TSS3613";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome '9|NT_113911.1' not found in Genome fasta files for line:
+9|NT_113911.1	unknown	exon	27522	27614	.	-	.	gene_id "LOC643750"; gene_name "LOC643750"; p_id "P15006"; transcript_id "XM_927040.5"; tss_id "TSS3613";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome 'Un|NT_113889.1' not found in Genome fasta files for line:
+Un|NT_113889.1	unknown	exon	38784	39019	.	-	.	gene_id "LOC100233156"; gene_name "LOC100233156"; transcript_id "NR_037871.1"; tss_id "TSS21956";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome 'Un|NT_113889.1' not found in Genome fasta files for line:
+Un|NT_113889.1	unknown	exon	38786	40028	.	-	.	gene_id "LOC100233156"; gene_name "LOC100233156"; transcript_id "NR_037872.1"; tss_id "TSS21956";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome 'Un|NT_113889.1' not found in Genome fasta files for line:
+Un|NT_113889.1	unknown	exon	39874	40028	.	-	.	gene_id "LOC100233156"; gene_name "LOC100233156"; transcript_id "NR_037871.1"; tss_id "TSS21956";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome 'Un|NT_113889.1' not found in Genome fasta files for line:
+Un|NT_113889.1	unknown	exon	40642	40872	.	-	.	gene_id "LOC100233156"; gene_name "LOC100233156"; transcript_id "NR_037871.1"; tss_id "TSS21956";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome 'Un|NT_113889.1' not found in Genome fasta files for line:
+Un|NT_113889.1	unknown	exon	40642	40872	.	-	.	gene_id "LOC100233156"; gene_name "LOC100233156"; transcript_id "NR_037872.1"; tss_id "TSS21956";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome 'Un|NT_113889.1' not found in Genome fasta files for line:
+Un|NT_113889.1	unknown	exon	46845	55049	.	-	.	gene_id "LOC389834"; gene_name "LOC389834"; transcript_id "NR_027420.1"; tss_id "TSS20957";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome 'Un|NT_113889.1' not found in Genome fasta files for line:
+Un|NT_113889.1	unknown	exon	95174	95232	.	-	.	gene_id "LOC100233156"; gene_name "LOC100233156"; transcript_id "NR_037871.1"; tss_id "TSS21956";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome 'Un|NT_113889.1' not found in Genome fasta files for line:
+Un|NT_113889.1	unknown	exon	95174	95232	.	-	.	gene_id "LOC100233156"; gene_name "LOC100233156"; transcript_id "NR_037872.1"; tss_id "TSS21956";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome 'Un|NT_113889.1' not found in Genome fasta files for line:
+Un|NT_113889.1	unknown	exon	97368	97454	.	-	.	gene_id "LOC100233156"; gene_name "LOC100233156"; transcript_id "NR_037871.1"; tss_id "TSS21956";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome 'Un|NT_113889.1' not found in Genome fasta files for line:
+Un|NT_113889.1	unknown	exon	97368	97454	.	-	.	gene_id "LOC100233156"; gene_name "LOC100233156"; transcript_id "NR_037872.1"; tss_id "TSS21956";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome 'Un|NT_113923.1' not found in Genome fasta files for line:
+Un|NT_113923.1	unknown	exon	24049	24163	.	+	.	gene_id "LINC00281"; gene_name "LINC00281"; transcript_id "NR_027278.1"; tss_id "TSS10239";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome 'Un|NT_113923.1' not found in Genome fasta files for line:
+Un|NT_113923.1	unknown	exon	47751	47809	.	+	.	gene_id "LINC00281"; gene_name "LINC00281"; transcript_id "NR_027278.1"; tss_id "TSS10239";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome 'Un|NT_113923.1' not found in Genome fasta files for line:
+Un|NT_113923.1	unknown	exon	48278	48302	.	+	.	gene_id "LINC00281"; gene_name "LINC00281"; transcript_id "NR_027278.1"; tss_id "TSS10239";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome 'Un|NT_113923.1' not found in Genome fasta files for line:
+Un|NT_113923.1	unknown	exon	51247	51333	.	+	.	gene_id "LINC00281"; gene_name "LINC00281"; transcript_id "NR_027278.1"; tss_id "TSS10239";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome 'Un|NT_113923.1' not found in Genome fasta files for line:
+Un|NT_113923.1	unknown	exon	56231	56296	.	+	.	gene_id "LINC00281"; gene_name "LINC00281"; transcript_id "NR_027278.1"; tss_id "TSS10239";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome 'Un|NT_113923.1' not found in Genome fasta files for line:
+Un|NT_113923.1	unknown	exon	58299	58360	.	+	.	gene_id "LINC00281"; gene_name "LINC00281"; transcript_id "NR_027278.1"; tss_id "TSS10239";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome 'Un|NT_113923.1' not found in Genome fasta files for line:
+Un|NT_113923.1	unknown	exon	58826	58859	.	+	.	gene_id "LINC00281"; gene_name "LINC00281"; transcript_id "NR_027278.1"; tss_id "TSS10239";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome 'Un|NT_113923.1' not found in Genome fasta files for line:
+Un|NT_113923.1	unknown	exon	59255	60768	.	+	.	gene_id "LINC00281"; gene_name "LINC00281"; transcript_id "NR_027278.1"; tss_id "TSS10239";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome 'Un|NT_113961.1' not found in Genome fasta files for line:
+Un|NT_113961.1	unknown	exon	48503	48813	.	+	.	gene_id "FLJ43315"; gene_name "FLJ43315"; transcript_id "NR_033856.1"; tss_id "TSS6642";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome 'Un|NT_113961.1' not found in Genome fasta files for line:
+Un|NT_113961.1	unknown	exon	55718	55853	.	+	.	gene_id "FLJ43315"; gene_name "FLJ43315"; transcript_id "NR_033856.1"; tss_id "TSS6642";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome 'Un|NT_113961.1' not found in Genome fasta files for line:
+Un|NT_113961.1	unknown	exon	57666	57783	.	+	.	gene_id "FLJ43315"; gene_name "FLJ43315"; transcript_id "NR_033856.1"; tss_id "TSS6642";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome 'Un|NT_113961.1' not found in Genome fasta files for line:
+Un|NT_113961.1	unknown	exon	59457	59572	.	+	.	gene_id "FLJ43315"; gene_name "FLJ43315"; transcript_id "NR_033856.1"; tss_id "TSS6642";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome 'Un|NT_113961.1' not found in Genome fasta files for line:
+Un|NT_113961.1	unknown	exon	62873	62967	.	+	.	gene_id "FLJ43315"; gene_name "FLJ43315"; transcript_id "NR_033856.1"; tss_id "TSS6642";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome 'Un|NT_113961.1' not found in Genome fasta files for line:
+Un|NT_113961.1	unknown	exon	86029	86304	.	+	.	gene_id "FLJ43315"; gene_name "FLJ43315"; transcript_id "NR_033856.1"; tss_id "TSS6642";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome 'Un|NT_113961.1' not found in Genome fasta files for line:
+Un|NT_113961.1	unknown	exon	91697	93165	.	+	.	gene_id "FLJ43315"; gene_name "FLJ43315"; transcript_id "NR_033856.1"; tss_id "TSS6642";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome 'Un|NT_113961.1' not found in Genome fasta files for line:
+Un|NT_113961.1	unknown	exon	102127	102202	.	+	.	gene_id "LOC644339"; gene_name "LOC644339"; transcript_id "XR_132877.1"; tss_id "TSS29216";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome 'Un|NT_113961.1' not found in Genome fasta files for line:
+Un|NT_113961.1	unknown	exon	102291	102451	.	+	.	gene_id "LOC644339"; gene_name "LOC644339"; transcript_id "XR_132877.1"; tss_id "TSS29216";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome 'Un|NT_113961.1' not found in Genome fasta files for line:
+Un|NT_113961.1	unknown	exon	102818	103297	.	+	.	gene_id "LOC644339"; gene_name "LOC644339"; transcript_id "XR_132877.1"; tss_id "TSS29216";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome 'Un|NT_113961.1' not found in Genome fasta files for line:
+Un|NT_113961.1	unknown	exon	103468	103666	.	+	.	gene_id "LOC644339"; gene_name "LOC644339"; transcript_id "XR_132877.1"; tss_id "TSS29216";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome 'Un|NT_113961.1' not found in Genome fasta files for line:
+Un|NT_113961.1	unknown	exon	106948	107062	.	+	.	gene_id "LOC644339"; gene_name "LOC644339"; transcript_id "XR_132877.1"; tss_id "TSS29216";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome 'Un|NT_113961.1' not found in Genome fasta files for line:
+Un|NT_113961.1	unknown	exon	107226	107398	.	+	.	gene_id "LOC644339"; gene_name "LOC644339"; transcript_id "XR_132877.1"; tss_id "TSS29216";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome 'Un|NT_113961.1' not found in Genome fasta files for line:
+Un|NT_113961.1	unknown	exon	111300	111407	.	+	.	gene_id "LOC644339"; gene_name "LOC644339"; transcript_id "XR_132877.1"; tss_id "TSS29216";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome 'Un|NT_113961.1' not found in Genome fasta files for line:
+Un|NT_113961.1	unknown	exon	112452	112587	.	+	.	gene_id "LOC644339"; gene_name "LOC644339"; transcript_id "XR_132877.1"; tss_id "TSS29216";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome 'Un|NT_113961.1' not found in Genome fasta files for line:
+Un|NT_113961.1	unknown	exon	115237	115292	.	+	.	gene_id "LOC644339"; gene_name "LOC644339"; transcript_id "XR_132877.1"; tss_id "TSS29216";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome 'Un|NT_113961.1' not found in Genome fasta files for line:
+Un|NT_113961.1	unknown	exon	122221	122251	.	+	.	gene_id "LOC644339"; gene_name "LOC644339"; transcript_id "XR_132877.1"; tss_id "TSS29216";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome 'Un|NT_113961.1' not found in Genome fasta files for line:
+Un|NT_113961.1	unknown	exon	126938	127007	.	+	.	gene_id "LOC644339"; gene_name "LOC644339"; transcript_id "XR_132877.1"; tss_id "TSS29216";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome 'Un|NT_113961.1' not found in Genome fasta files for line:
+Un|NT_113961.1	unknown	exon	130972	131081	.	+	.	gene_id "LOC644339"; gene_name "LOC644339"; transcript_id "XR_132877.1"; tss_id "TSS29216";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome 'Un|NT_113961.1' not found in Genome fasta files for line:
+Un|NT_113961.1	unknown	exon	135596	135623	.	+	.	gene_id "LOC644339"; gene_name "LOC644339"; transcript_id "XR_132877.1"; tss_id "TSS29216";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome 'Un|NT_113961.1' not found in Genome fasta files for line:
+Un|NT_113961.1	unknown	exon	135710	135782	.	+	.	gene_id "LOC644339"; gene_name "LOC644339"; transcript_id "XR_132877.1"; tss_id "TSS29216";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome 'Un|NT_113961.1' not found in Genome fasta files for line:
+Un|NT_113961.1	unknown	exon	141724	141794	.	+	.	gene_id "LOC644339"; gene_name "LOC644339"; transcript_id "XR_132877.1"; tss_id "TSS29216";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome 'Un|NT_113961.1' not found in Genome fasta files for line:
+Un|NT_113961.1	unknown	exon	145847	146010	.	+	.	gene_id "LOC644339"; gene_name "LOC644339"; transcript_id "XR_132877.1"; tss_id "TSS29216";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome 'Un|NT_113961.1' not found in Genome fasta files for line:
+Un|NT_113961.1	unknown	exon	147383	147559	.	+	.	gene_id "LOC644339"; gene_name "LOC644339"; transcript_id "XR_132877.1"; tss_id "TSS29216";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome 'Un|NT_113961.1' not found in Genome fasta files for line:
+Un|NT_113961.1	unknown	exon	148729	149698	.	+	.	gene_id "LOC644339"; gene_name "LOC644339"; transcript_id "XR_132877.1"; tss_id "TSS29216";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome 'Un|NT_167208.1' not found in Genome fasta files for line:
+Un|NT_167208.1	unknown	exon	69571	69990	.	+	.	gene_id "LOC100288902"; gene_name "LOC100288902"; p_id "P2788"; transcript_id "XM_002343872.2"; tss_id "TSS23032";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome 'Un|NT_167208.1' not found in Genome fasta files for line:
+Un|NT_167208.1	unknown	exon	108007	108247	.	-	.	gene_id "LOC100288966"; gene_name "LOC100288966"; p_id "P1481"; transcript_id "XM_002343873.2"; tss_id "TSS4867";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome 'Un|NT_167208.1' not found in Genome fasta files for line:
+Un|NT_167208.1	unknown	exon	109884	110007	.	-	.	gene_id "LOC100288966"; gene_name "LOC100288966"; p_id "P1481"; transcript_id "XM_002343873.2"; tss_id "TSS4867";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome 'Un|NT_167208.1' not found in Genome fasta files for line:
+Un|NT_167208.1	unknown	exon	118422	118588	.	-	.	gene_id "LOC100288966"; gene_name "LOC100288966"; p_id "P1481"; transcript_id "XM_002343873.2"; tss_id "TSS4867";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome 'Un|NT_167208.1' not found in Genome fasta files for line:
+Un|NT_167208.1	unknown	exon	119629	119673	.	-	.	gene_id "LOC100288966"; gene_name "LOC100288966"; p_id "P1481"; transcript_id "XM_002343873.2"; tss_id "TSS4867";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome 'Un|NT_167208.1' not found in Genome fasta files for line:
+Un|NT_167208.1	unknown	exon	121073	121143	.	-	.	gene_id "LOC100288966"; gene_name "LOC100288966"; p_id "P1481"; transcript_id "XM_002343873.2"; tss_id "TSS4867";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome 'Un|NT_167208.1' not found in Genome fasta files for line:
+Un|NT_167208.1	unknown	exon	126648	126718	.	-	.	gene_id "LOC100288966"; gene_name "LOC100288966"; p_id "P1481"; transcript_id "XM_002343873.2"; tss_id "TSS4867";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome 'Un|NT_167208.1' not found in Genome fasta files for line:
+Un|NT_167208.1	unknown	exon	129228	129365	.	-	.	gene_id "LOC100288966"; gene_name "LOC100288966"; p_id "P1481"; transcript_id "XM_002343873.2"; tss_id "TSS4867";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome 'Un|NT_167208.1' not found in Genome fasta files for line:
+Un|NT_167208.1	unknown	exon	131064	131170	.	-	.	gene_id "LOC100288966"; gene_name "LOC100288966"; p_id "P1481"; transcript_id "XM_002343873.2"; tss_id "TSS4867";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome 'Un|NT_167208.1' not found in Genome fasta files for line:
+Un|NT_167208.1	unknown	exon	133943	134116	.	-	.	gene_id "LOC100288966"; gene_name "LOC100288966"; p_id "P1481"; transcript_id "XM_002343873.2"; tss_id "TSS4867";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome 'Un|NT_167208.1' not found in Genome fasta files for line:
+Un|NT_167208.1	unknown	exon	134276	134390	.	-	.	gene_id "LOC100288966"; gene_name "LOC100288966"; p_id "P1481"; transcript_id "XM_002343873.2"; tss_id "TSS4867";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome 'Un|NT_167208.1' not found in Genome fasta files for line:
+Un|NT_167208.1	unknown	exon	138767	139339	.	-	.	gene_id "LOC100288966"; gene_name "LOC100288966"; p_id "P1481"; transcript_id "XM_002343873.2"; tss_id "TSS4867";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome 'Un|NT_167209.1' not found in Genome fasta files for line:
+Un|NT_167209.1	unknown	exon	50939	51391	.	-	.	gene_id "LOC100289026"; gene_name "LOC100289026"; transcript_id "XR_110942.1"; tss_id "TSS25443";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome 'Un|NT_167209.1' not found in Genome fasta files for line:
+Un|NT_167209.1	unknown	exon	52732	52945	.	-	.	gene_id "LOC100289026"; gene_name "LOC100289026"; transcript_id "XR_110942.1"; tss_id "TSS25443";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome 'Un|NT_167209.1' not found in Genome fasta files for line:
+Un|NT_167209.1	unknown	exon	59179	59278	.	-	.	gene_id "LOC100289026"; gene_name "LOC100289026"; transcript_id "XR_110942.1"; tss_id "TSS25443";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome 'Un|NT_167210.1' not found in Genome fasta files for line:
+Un|NT_167210.1	unknown	exon	23806	24225	.	-	.	gene_id "LOC100289296"; gene_name "LOC100289296"; p_id "P17415"; transcript_id "XM_002343877.2"; tss_id "TSS8746";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome 'Un|NT_167213.1' not found in Genome fasta files for line:
+Un|NT_167213.1	unknown	exon	45397	45562	.	+	.	gene_id "LOC100507327"; gene_name "LOC100507327"; transcript_id "XR_110943.1"; tss_id "TSS4238";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome 'Un|NT_167213.1' not found in Genome fasta files for line:
+Un|NT_167213.1	unknown	exon	54168	54328	.	+	.	gene_id "LOC100507327"; gene_name "LOC100507327"; transcript_id "XR_110943.1"; tss_id "TSS4238";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome 'Un|NT_167213.1' not found in Genome fasta files for line:
+Un|NT_167213.1	unknown	exon	55858	57412	.	+	.	gene_id "LOC100507327"; gene_name "LOC100507327"; transcript_id "XR_110943.1"; tss_id "TSS4238";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome 'Un|NT_167213.1' not found in Genome fasta files for line:
+Un|NT_167213.1	unknown	exon	56349	58989	.	-	.	gene_id "LOC283788"; gene_name "LOC283788"; transcript_id "NR_027436.1"; tss_id "TSS25507";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome 'Un|NT_167213.1' not found in Genome fasta files for line:
+Un|NT_167213.1	unknown	exon	78842	78952	.	-	.	gene_id "LOC283788"; gene_name "LOC283788"; transcript_id "NR_027436.1"; tss_id "TSS25507";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome 'Un|NT_167213.1' not found in Genome fasta files for line:
+Un|NT_167213.1	unknown	exon	79937	80028	.	-	.	gene_id "LOC283788"; gene_name "LOC283788"; transcript_id "NR_027436.1"; tss_id "TSS25507";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome 'Un|NT_167213.1' not found in Genome fasta files for line:
+Un|NT_167213.1	unknown	exon	83213	83317	.	-	.	gene_id "LOC283788"; gene_name "LOC283788"; transcript_id "NR_027436.1"; tss_id "TSS25507";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome 'Un|NT_167213.1' not found in Genome fasta files for line:
+Un|NT_167213.1	unknown	exon	88295	88420	.	-	.	gene_id "LOC283788"; gene_name "LOC283788"; transcript_id "NR_027436.1"; tss_id "TSS25507";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome 'Un|NT_167213.1' not found in Genome fasta files for line:
+Un|NT_167213.1	unknown	exon	97294	97363	.	-	.	gene_id "LOC283788"; gene_name "LOC283788"; transcript_id "NR_027436.1"; tss_id "TSS25507";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome 'Un|NT_167213.1' not found in Genome fasta files for line:
+Un|NT_167213.1	unknown	exon	99126	99642	.	-	.	gene_id "LOC283788"; gene_name "LOC283788"; transcript_id "NR_027436.1"; tss_id "TSS25507";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome 'Un|NT_167214.1' not found in Genome fasta files for line:
+Un|NT_167214.1	unknown	exon	4557	4710	.	-	.	gene_id "LOC100507395"; gene_name "LOC100507395"; transcript_id "XR_110944.1"; tss_id "TSS15479";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome 'Un|NT_167214.1' not found in Genome fasta files for line:
+Un|NT_167214.1	unknown	exon	6708	7256	.	-	.	gene_id "LOC100507395"; gene_name "LOC100507395"; transcript_id "XR_110944.1"; tss_id "TSS15479";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome 'Un|NT_167214.1' not found in Genome fasta files for line:
+Un|NT_167214.1	unknown	exon	97129	97436	.	+	.	gene_id "LOC100507412"; gene_name "LOC100507412"; transcript_id "NR_038958.1"; tss_id "TSS28249";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome 'Un|NT_167214.1' not found in Genome fasta files for line:
+Un|NT_167214.1	unknown	exon	100239	100554	.	+	.	gene_id "LOC100507412"; gene_name "LOC100507412"; transcript_id "NR_038958.1"; tss_id "TSS28249";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome 'Un|NT_167214.1' not found in Genome fasta files for line:
+Un|NT_167214.1	unknown	exon	109078	110946	.	+	.	gene_id "RN18S1"; gene_name "RN18S1"; transcript_id "NR_003286.2"; tss_id "TSS15960";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome 'Un|NT_167214.1' not found in Genome fasta files for line:
+Un|NT_167214.1	unknown	exon	112025	112180	.	+	.	gene_id "RN5-8S1"; gene_name "RN5-8S1"; transcript_id "NR_003285.2"; tss_id "TSS14379";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome 'Un|NT_167214.1' not found in Genome fasta files for line:
+Un|NT_167214.1	unknown	exon	113348	118417	.	+	.	gene_id "RN28S1"; gene_name "RN28S1"; transcript_id "NR_003287.2"; tss_id "TSS26482";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome 'Un|NT_167214.1' not found in Genome fasta files for line:
+Un|NT_167214.1	unknown	exon	121605	121701	.	+	.	gene_id "LOC100507412"; gene_name "LOC100507412"; transcript_id "NR_038958.1"; tss_id "TSS28249";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome 'Un|NT_167214.1' not found in Genome fasta files for line:
+Un|NT_167214.1	unknown	exon	121829	122829	.	+	.	gene_id "LOC100507412"; gene_name "LOC100507412"; transcript_id "NR_038958.1"; tss_id "TSS28249";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome 'Un|NT_167214.1' not found in Genome fasta files for line:
+Un|NT_167214.1	unknown	exon	122991	123082	.	+	.	gene_id "LOC100507412"; gene_name "LOC100507412"; transcript_id "NR_038958.1"; tss_id "TSS28249";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome 'Un|NT_167214.1' not found in Genome fasta files for line:
+Un|NT_167214.1	unknown	exon	124778	124995	.	+	.	gene_id "LOC100507412"; gene_name "LOC100507412"; transcript_id "NR_038958.1"; tss_id "TSS28249";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome 'Un|NT_167214.1' not found in Genome fasta files for line:
+Un|NT_167214.1	unknown	exon	125784	126696	.	+	.	gene_id "LOC100507412"; gene_name "LOC100507412"; transcript_id "NR_038958.1"; tss_id "TSS28249";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome 'Un|NT_167216.1' not found in Genome fasta files for line:
+Un|NT_167216.1	unknown	exon	11792	11954	.	+	.	gene_id "LOC100287163"; gene_name "LOC100287163"; p_id "P5314"; transcript_id "XM_002343882.1"; tss_id "TSS830";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome 'Un|NT_167216.1' not found in Genome fasta files for line:
+Un|NT_167216.1	unknown	exon	12196	12288	.	+	.	gene_id "LOC100287163"; gene_name "LOC100287163"; p_id "P5314"; transcript_id "XM_002343882.1"; tss_id "TSS830";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome 'Un|NT_167216.1' not found in Genome fasta files for line:
+Un|NT_167216.1	unknown	exon	14212	16670	.	+	.	gene_id "LOC100287163"; gene_name "LOC100287163"; p_id "P5314"; transcript_id "XM_002343882.1"; tss_id "TSS830";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome 'Un|NT_167216.1' not found in Genome fasta files for line:
+Un|NT_167216.1	unknown	exon	87599	88113	.	-	.	gene_id "LOC285299"; gene_name "LOC285299"; p_id "P11317"; transcript_id "XM_003119203.1"; tss_id "TSS11236";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome 'Un|NT_167216.1' not found in Genome fasta files for line:
+Un|NT_167216.1	unknown	exon	88437	88514	.	-	.	gene_id "LOC285299"; gene_name "LOC285299"; p_id "P11317"; transcript_id "XM_003119203.1"; tss_id "TSS11236";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome 'Un|NT_167216.1' not found in Genome fasta files for line:
+Un|NT_167216.1	unknown	exon	88744	88821	.	-	.	gene_id "LOC285299"; gene_name "LOC285299"; p_id "P11317"; transcript_id "XM_003119203.1"; tss_id "TSS11236";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome 'Un|NT_167216.1' not found in Genome fasta files for line:
+Un|NT_167216.1	unknown	exon	89083	89260	.	-	.	gene_id "LOC285299"; gene_name "LOC285299"; p_id "P11317"; transcript_id "XM_003119203.1"; tss_id "TSS11236";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome 'Un|NT_167216.1' not found in Genome fasta files for line:
+Un|NT_167216.1	unknown	exon	128483	129017	.	+	.	gene_id "LOC100287195"; gene_name "LOC100287195"; transcript_id "XR_132905.1"; tss_id "TSS16385";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome 'Un|NT_167217.1' not found in Genome fasta files for line:
+Un|NT_167217.1	unknown	exon	46474	49125	.	-	.	gene_id "ZNF84"; gene_name "ZNF84"; p_id "P14720"; transcript_id "XM_003403586.1-1"; tss_id "TSS23466";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome 'Un|NT_167217.1' not found in Genome fasta files for line:
+Un|NT_167217.1	unknown	exon	46474	49125	.	-	.	gene_id "ZNF84"; gene_name "ZNF84"; p_id "P14720"; transcript_id "XM_003403588.1-1"; tss_id "TSS21715";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome 'Un|NT_167217.1' not found in Genome fasta files for line:
+Un|NT_167217.1	unknown	exon	46474	49125	.	-	.	gene_id "ZNF84"; gene_name "ZNF84"; p_id "P14720"; transcript_id "XM_003403585.1-1"; tss_id "TSS14354";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome 'Un|NT_167217.1' not found in Genome fasta files for line:
+Un|NT_167217.1	unknown	exon	46474	49125	.	-	.	gene_id "ZNF84"; gene_name "ZNF84"; p_id "P14720"; transcript_id "XM_003403589.1-1"; tss_id "TSS16074";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome 'Un|NT_167217.1' not found in Genome fasta files for line:
+Un|NT_167217.1	unknown	exon	46474	49125	.	-	.	gene_id "ZNF84"; gene_name "ZNF84"; p_id "P14720"; transcript_id "XM_003403581.1-1"; tss_id "TSS6601";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome 'Un|NT_167217.1' not found in Genome fasta files for line:
+Un|NT_167217.1	unknown	exon	46474	49125	.	-	.	gene_id "ZNF84"; gene_name "ZNF84"; p_id "P21856"; transcript_id "XM_003403590.1-1"; tss_id "TSS7427";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome 'Un|NT_167217.1' not found in Genome fasta files for line:
+Un|NT_167217.1	unknown	exon	46474	49125	.	-	.	gene_id "ZNF84"; gene_name "ZNF84"; p_id "P19642"; transcript_id "XM_003403591.1-1"; tss_id "TSS21751";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome 'Un|NT_167217.1' not found in Genome fasta files for line:
+Un|NT_167217.1	unknown	exon	46474	49125	.	-	.	gene_id "ZNF84"; gene_name "ZNF84"; p_id "P14720"; transcript_id "XM_003403587.1-1"; tss_id "TSS8815";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome 'Un|NT_167217.1' not found in Genome fasta files for line:
+Un|NT_167217.1	unknown	exon	46474	49125	.	-	.	gene_id "ZNF84"; gene_name "ZNF84"; p_id "P14720"; transcript_id "XM_003403584.1-1"; tss_id "TSS15292";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome 'Un|NT_167217.1' not found in Genome fasta files for line:
+Un|NT_167217.1	unknown	exon	46474	49125	.	-	.	gene_id "ZNF84"; gene_name "ZNF84"; p_id "P14720"; transcript_id "XM_003403583.1-1"; tss_id "TSS26103";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome 'Un|NT_167217.1' not found in Genome fasta files for line:
+Un|NT_167217.1	unknown	exon	46474	49125	.	-	.	gene_id "ZNF84"; gene_name "ZNF84"; p_id "P14720"; transcript_id "XM_003403582.1-1"; tss_id "TSS16075";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome 'Un|NT_167217.1' not found in Genome fasta files for line:
+Un|NT_167217.1	unknown	exon	57231	57326	.	-	.	gene_id "ZNF84"; gene_name "ZNF84"; p_id "P14720"; transcript_id "XM_003403586.1-1"; tss_id "TSS23466";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome 'Un|NT_167217.1' not found in Genome fasta files for line:
+Un|NT_167217.1	unknown	exon	57231	57326	.	-	.	gene_id "ZNF84"; gene_name "ZNF84"; p_id "P14720"; transcript_id "XM_003403588.1-1"; tss_id "TSS21715";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome 'Un|NT_167217.1' not found in Genome fasta files for line:
+Un|NT_167217.1	unknown	exon	57231	57326	.	-	.	gene_id "ZNF84"; gene_name "ZNF84"; p_id "P14720"; transcript_id "XM_003403585.1-1"; tss_id "TSS14354";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome 'Un|NT_167217.1' not found in Genome fasta files for line:
+Un|NT_167217.1	unknown	exon	57231	57326	.	-	.	gene_id "ZNF84"; gene_name "ZNF84"; p_id "P14720"; transcript_id "XM_003403589.1-1"; tss_id "TSS16074";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome 'Un|NT_167217.1' not found in Genome fasta files for line:
+Un|NT_167217.1	unknown	exon	57231	57326	.	-	.	gene_id "ZNF84"; gene_name "ZNF84"; p_id "P14720"; transcript_id "XM_003403581.1-1"; tss_id "TSS6601";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome 'Un|NT_167217.1' not found in Genome fasta files for line:
+Un|NT_167217.1	unknown	exon	57231	57326	.	-	.	gene_id "ZNF84"; gene_name "ZNF84"; p_id "P21856"; transcript_id "XM_003403590.1-1"; tss_id "TSS7427";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome 'Un|NT_167217.1' not found in Genome fasta files for line:
+Un|NT_167217.1	unknown	exon	57231	57326	.	-	.	gene_id "ZNF84"; gene_name "ZNF84"; p_id "P14720"; transcript_id "XM_003403587.1-1"; tss_id "TSS8815";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome 'Un|NT_167217.1' not found in Genome fasta files for line:
+Un|NT_167217.1	unknown	exon	57231	57326	.	-	.	gene_id "ZNF84"; gene_name "ZNF84"; p_id "P14720"; transcript_id "XM_003403584.1-1"; tss_id "TSS15292";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome 'Un|NT_167217.1' not found in Genome fasta files for line:
+Un|NT_167217.1	unknown	exon	57231	57326	.	-	.	gene_id "ZNF84"; gene_name "ZNF84"; p_id "P14720"; transcript_id "XM_003403583.1-1"; tss_id "TSS26103";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome 'Un|NT_167217.1' not found in Genome fasta files for line:
+Un|NT_167217.1	unknown	exon	57231	57326	.	-	.	gene_id "ZNF84"; gene_name "ZNF84"; p_id "P14720"; transcript_id "XM_003403582.1-1"; tss_id "TSS16075";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome 'Un|NT_167217.1' not found in Genome fasta files for line:
+Un|NT_167217.1	unknown	exon	57231	57397	.	-	.	gene_id "ZNF84"; gene_name "ZNF84"; p_id "P19642"; transcript_id "XM_003403591.1-1"; tss_id "TSS21751";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome 'Un|NT_167217.1' not found in Genome fasta files for line:
+Un|NT_167217.1	unknown	exon	57998	58124	.	-	.	gene_id "ZNF84"; gene_name "ZNF84"; p_id "P14720"; transcript_id "XM_003403586.1-1"; tss_id "TSS23466";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome 'Un|NT_167217.1' not found in Genome fasta files for line:
+Un|NT_167217.1	unknown	exon	57998	58124	.	-	.	gene_id "ZNF84"; gene_name "ZNF84"; p_id "P14720"; transcript_id "XM_003403588.1-1"; tss_id "TSS21715";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome 'Un|NT_167217.1' not found in Genome fasta files for line:
+Un|NT_167217.1	unknown	exon	57998	58124	.	-	.	gene_id "ZNF84"; gene_name "ZNF84"; p_id "P14720"; transcript_id "XM_003403585.1-1"; tss_id "TSS14354";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome 'Un|NT_167217.1' not found in Genome fasta files for line:
+Un|NT_167217.1	unknown	exon	57998	58124	.	-	.	gene_id "ZNF84"; gene_name "ZNF84"; p_id "P14720"; transcript_id "XM_003403589.1-1"; tss_id "TSS16074";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome 'Un|NT_167217.1' not found in Genome fasta files for line:
+Un|NT_167217.1	unknown	exon	57998	58124	.	-	.	gene_id "ZNF84"; gene_name "ZNF84"; p_id "P14720"; transcript_id "XM_003403581.1-1"; tss_id "TSS6601";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome 'Un|NT_167217.1' not found in Genome fasta files for line:
+Un|NT_167217.1	unknown	exon	57998	58124	.	-	.	gene_id "ZNF84"; gene_name "ZNF84"; p_id "P14720"; transcript_id "XM_003403587.1-1"; tss_id "TSS8815";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome 'Un|NT_167217.1' not found in Genome fasta files for line:
+Un|NT_167217.1	unknown	exon	57998	58124	.	-	.	gene_id "ZNF84"; gene_name "ZNF84"; p_id "P14720"; transcript_id "XM_003403584.1-1"; tss_id "TSS15292";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome 'Un|NT_167217.1' not found in Genome fasta files for line:
+Un|NT_167217.1	unknown	exon	57998	58124	.	-	.	gene_id "ZNF84"; gene_name "ZNF84"; p_id "P14720"; transcript_id "XM_003403583.1-1"; tss_id "TSS26103";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome 'Un|NT_167217.1' not found in Genome fasta files for line:
+Un|NT_167217.1	unknown	exon	57998	58124	.	-	.	gene_id "ZNF84"; gene_name "ZNF84"; p_id "P14720"; transcript_id "XM_003403582.1-1"; tss_id "TSS16075";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome 'Un|NT_167217.1' not found in Genome fasta files for line:
+Un|NT_167217.1	unknown	exon	57998	58149	.	-	.	gene_id "ZNF84"; gene_name "ZNF84"; p_id "P21856"; transcript_id "XM_003403590.1-1"; tss_id "TSS7427";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome 'Un|NT_167217.1' not found in Genome fasta files for line:
+Un|NT_167217.1	unknown	exon	64597	64794	.	-	.	gene_id "ZNF84"; gene_name "ZNF84"; p_id "P14720"; transcript_id "XM_003403589.1-1"; tss_id "TSS16074";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome 'Un|NT_167217.1' not found in Genome fasta files for line:
+Un|NT_167217.1	unknown	exon	64597	64801	.	-	.	gene_id "ZNF84"; gene_name "ZNF84"; p_id "P14720"; transcript_id "XM_003403586.1-1"; tss_id "TSS23466";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome 'Un|NT_167217.1' not found in Genome fasta files for line:
+Un|NT_167217.1	unknown	exon	64597	64801	.	-	.	gene_id "ZNF84"; gene_name "ZNF84"; p_id "P14720"; transcript_id "XM_003403588.1-1"; tss_id "TSS21715";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome 'Un|NT_167217.1' not found in Genome fasta files for line:
+Un|NT_167217.1	unknown	exon	64597	64801	.	-	.	gene_id "ZNF84"; gene_name "ZNF84"; p_id "P14720"; transcript_id "XM_003403585.1-1"; tss_id "TSS14354";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome 'Un|NT_167217.1' not found in Genome fasta files for line:
+Un|NT_167217.1	unknown	exon	64597	64801	.	-	.	gene_id "ZNF84"; gene_name "ZNF84"; p_id "P14720"; transcript_id "XM_003403581.1-1"; tss_id "TSS6601";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome 'Un|NT_167217.1' not found in Genome fasta files for line:
+Un|NT_167217.1	unknown	exon	64597	64801	.	-	.	gene_id "ZNF84"; gene_name "ZNF84"; p_id "P21856"; transcript_id "XM_003403590.1-1"; tss_id "TSS7427";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome 'Un|NT_167217.1' not found in Genome fasta files for line:
+Un|NT_167217.1	unknown	exon	64597	64801	.	-	.	gene_id "ZNF84"; gene_name "ZNF84"; p_id "P14720"; transcript_id "XM_003403582.1-1"; tss_id "TSS16075";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome 'Un|NT_167217.1' not found in Genome fasta files for line:
+Un|NT_167217.1	unknown	exon	64597	64979	.	-	.	gene_id "ZNF84"; gene_name "ZNF84"; p_id "P14720"; transcript_id "XM_003403587.1-1"; tss_id "TSS8815";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome 'Un|NT_167217.1' not found in Genome fasta files for line:
+Un|NT_167217.1	unknown	exon	64597	64979	.	-	.	gene_id "ZNF84"; gene_name "ZNF84"; p_id "P14720"; transcript_id "XM_003403584.1-1"; tss_id "TSS15292";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome 'Un|NT_167217.1' not found in Genome fasta files for line:
+Un|NT_167217.1	unknown	exon	64597	64979	.	-	.	gene_id "ZNF84"; gene_name "ZNF84"; p_id "P14720"; transcript_id "XM_003403583.1-1"; tss_id "TSS26103";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome 'Un|NT_167217.1' not found in Genome fasta files for line:
+Un|NT_167217.1	unknown	exon	67032	67191	.	-	.	gene_id "ZNF84"; gene_name "ZNF84"; p_id "P14720"; transcript_id "XM_003403587.1-1"; tss_id "TSS8815";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome 'Un|NT_167217.1' not found in Genome fasta files for line:
+Un|NT_167217.1	unknown	exon	67032	67204	.	-	.	gene_id "ZNF84"; gene_name "ZNF84"; p_id "P14720"; transcript_id "XM_003403588.1-1"; tss_id "TSS21715";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome 'Un|NT_167217.1' not found in Genome fasta files for line:
+Un|NT_167217.1	unknown	exon	67067	67204	.	-	.	gene_id "ZNF84"; gene_name "ZNF84"; p_id "P14720"; transcript_id "XM_003403585.1-1"; tss_id "TSS14354";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome 'Un|NT_167217.1' not found in Genome fasta files for line:
+Un|NT_167217.1	unknown	exon	68110	68497	.	-	.	gene_id "ZNF84"; gene_name "ZNF84"; p_id "P14720"; transcript_id "XM_003403586.1-1"; tss_id "TSS23466";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome 'Un|NT_167217.1' not found in Genome fasta files for line:
+Un|NT_167217.1	unknown	exon	68525	68549	.	-	.	gene_id "ZNF84"; gene_name "ZNF84"; p_id "P14720"; transcript_id "XM_003403583.1-1"; tss_id "TSS26103";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome 'Un|NT_167217.1' not found in Genome fasta files for line:
+Un|NT_167217.1	unknown	exon	68525	68685	.	-	.	gene_id "ZNF84"; gene_name "ZNF84"; p_id "P14720"; transcript_id "XM_003403582.1-1"; tss_id "TSS16075";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome 'Un|NT_167217.1' not found in Genome fasta files for line:
+Un|NT_167217.1	unknown	exon	68534	68553	.	-	.	gene_id "ZNF84"; gene_name "ZNF84"; p_id "P14720"; transcript_id "XM_003403588.1-1"; tss_id "TSS21715";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome 'Un|NT_167217.1' not found in Genome fasta files for line:
+Un|NT_167217.1	unknown	exon	68534	68554	.	-	.	gene_id "ZNF84"; gene_name "ZNF84"; p_id "P14720"; transcript_id "XM_003403585.1-1"; tss_id "TSS14354";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome 'Un|NT_167217.1' not found in Genome fasta files for line:
+Un|NT_167217.1	unknown	exon	68534	68556	.	-	.	gene_id "ZNF84"; gene_name "ZNF84"; p_id "P21856"; transcript_id "XM_003403590.1-1"; tss_id "TSS7427";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome 'Un|NT_167217.1' not found in Genome fasta files for line:
+Un|NT_167217.1	unknown	exon	68534	68687	.	-	.	gene_id "ZNF84"; gene_name "ZNF84"; p_id "P14720"; transcript_id "XM_003403589.1-1"; tss_id "TSS16074";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome 'Un|NT_167217.1' not found in Genome fasta files for line:
+Un|NT_167217.1	unknown	exon	68534	68778	.	-	.	gene_id "ZNF84"; gene_name "ZNF84"; p_id "P14720"; transcript_id "XM_003403584.1-1"; tss_id "TSS15292";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome 'Un|NT_167217.1' not found in Genome fasta files for line:
+Un|NT_167217.1	unknown	exon	68534	68793	.	-	.	gene_id "ZNF84"; gene_name "ZNF84"; p_id "P14720"; transcript_id "XM_003403581.1-1"; tss_id "TSS6601";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome 'Un|NT_167217.1' not found in Genome fasta files for line:
+Un|NT_167217.1	unknown	exon	93510	95942	.	-	.	gene_id "LOC100287515"; gene_name "LOC100287515"; p_id "P2950"; transcript_id "XM_003119217.1"; tss_id "TSS23944";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome 'Un|NT_167217.1' not found in Genome fasta files for line:
+Un|NT_167217.1	unknown	exon	93510	95942	.	-	.	gene_id "LOC100287515"; gene_name "LOC100287515"; p_id "P27338"; transcript_id "XM_003119215.1"; tss_id "TSS23944";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome 'Un|NT_167217.1' not found in Genome fasta files for line:
+Un|NT_167217.1	unknown	exon	93510	95942	.	-	.	gene_id "LOC100287515"; gene_name "LOC100287515"; p_id "P6601"; transcript_id "XM_003403592.1"; tss_id "TSS17496";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome 'Un|NT_167217.1' not found in Genome fasta files for line:
+Un|NT_167217.1	unknown	exon	93510	95942	.	-	.	gene_id "LOC100287515"; gene_name "LOC100287515"; p_id "P27338"; transcript_id "XM_003119216.1"; tss_id "TSS13990";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome 'Un|NT_167217.1' not found in Genome fasta files for line:
+Un|NT_167217.1	unknown	exon	98546	98641	.	-	.	gene_id "LOC100287515"; gene_name "LOC100287515"; p_id "P2950"; transcript_id "XM_003119217.1"; tss_id "TSS23944";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome 'Un|NT_167217.1' not found in Genome fasta files for line:
+Un|NT_167217.1	unknown	exon	98546	98641	.	-	.	gene_id "LOC100287515"; gene_name "LOC100287515"; p_id "P27338"; transcript_id "XM_003119215.1"; tss_id "TSS23944";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome 'Un|NT_167217.1' not found in Genome fasta files for line:
+Un|NT_167217.1	unknown	exon	98546	98641	.	-	.	gene_id "LOC100287515"; gene_name "LOC100287515"; p_id "P6601"; transcript_id "XM_003403592.1"; tss_id "TSS17496";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome 'Un|NT_167217.1' not found in Genome fasta files for line:
+Un|NT_167217.1	unknown	exon	98546	98641	.	-	.	gene_id "LOC100287515"; gene_name "LOC100287515"; p_id "P27338"; transcript_id "XM_003119216.1"; tss_id "TSS13990";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome 'Un|NT_167217.1' not found in Genome fasta files for line:
+Un|NT_167217.1	unknown	exon	98910	99036	.	-	.	gene_id "LOC100287515"; gene_name "LOC100287515"; p_id "P2950"; transcript_id "XM_003119217.1"; tss_id "TSS23944";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome 'Un|NT_167217.1' not found in Genome fasta files for line:
+Un|NT_167217.1	unknown	exon	98910	99036	.	-	.	gene_id "LOC100287515"; gene_name "LOC100287515"; p_id "P27338"; transcript_id "XM_003119215.1"; tss_id "TSS23944";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome 'Un|NT_167217.1' not found in Genome fasta files for line:
+Un|NT_167217.1	unknown	exon	98910	99036	.	-	.	gene_id "LOC100287515"; gene_name "LOC100287515"; p_id "P27338"; transcript_id "XM_003119216.1"; tss_id "TSS13990";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome 'Un|NT_167217.1' not found in Genome fasta files for line:
+Un|NT_167217.1	unknown	exon	98910	101674	.	-	.	gene_id "LOC100287515"; gene_name "LOC100287515"; p_id "P6601"; transcript_id "XM_003403592.1"; tss_id "TSS17496";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome 'Un|NT_167217.1' not found in Genome fasta files for line:
+Un|NT_167217.1	unknown	exon	104347	104445	.	-	.	gene_id "LOC100287515"; gene_name "LOC100287515"; p_id "P2950"; transcript_id "XM_003119217.1"; tss_id "TSS23944";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome 'Un|NT_167217.1' not found in Genome fasta files for line:
+Un|NT_167217.1	unknown	exon	119205	119697	.	-	.	gene_id "LOC100287515"; gene_name "LOC100287515"; p_id "P27338"; transcript_id "XM_003119216.1"; tss_id "TSS13990";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome 'Un|NT_167217.1' not found in Genome fasta files for line:
+Un|NT_167217.1	unknown	exon	119205	119711	.	-	.	gene_id "LOC100287515"; gene_name "LOC100287515"; p_id "P2950"; transcript_id "XM_003119217.1"; tss_id "TSS23944";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome 'Un|NT_167217.1' not found in Genome fasta files for line:
+Un|NT_167217.1	unknown	exon	119205	119711	.	-	.	gene_id "LOC100287515"; gene_name "LOC100287515"; p_id "P27338"; transcript_id "XM_003119215.1"; tss_id "TSS23944";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome 'Un|NT_167217.1' not found in Genome fasta files for line:
+Un|NT_167217.1	unknown	exon	119754	119909	.	-	.	gene_id "LOC100287515"; gene_name "LOC100287515"; p_id "P27338"; transcript_id "XM_003119216.1"; tss_id "TSS13990";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome 'Un|NT_167217.1' not found in Genome fasta files for line:
+Un|NT_167217.1	unknown	exon	149772	149835	.	+	.	gene_id "ZNF605"; gene_name "ZNF605"; transcript_id "XR_110947.2"; tss_id "TSS18464";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome 'Un|NT_167217.1' not found in Genome fasta files for line:
+Un|NT_167217.1	unknown	exon	160379	160555	.	+	.	gene_id "ZNF605"; gene_name "ZNF605"; transcript_id "XR_110947.2"; tss_id "TSS18464";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome 'Un|NT_167217.1' not found in Genome fasta files for line:
+Un|NT_167217.1	unknown	exon	173022	173142	.	+	.	gene_id "ZNF605"; gene_name "ZNF605"; transcript_id "XR_110947.2"; tss_id "TSS18464";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome 'Un|NT_167217.1' not found in Genome fasta files for line:
+Un|NT_167217.1	unknown	exon	173372	173464	.	+	.	gene_id "ZNF605"; gene_name "ZNF605"; transcript_id "XR_110947.2"; tss_id "TSS18464";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome 'Un|NT_167217.1' not found in Genome fasta files for line:
+Un|NT_167217.1	unknown	exon	179013	180451	.	+	.	gene_id "ZNF605"; gene_name "ZNF605"; transcript_id "XR_110947.2"; tss_id "TSS18464";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome 'Un|NT_167218.1' not found in Genome fasta files for line:
+Un|NT_167218.1	unknown	exon	102510	102591	.	+	.	gene_id "LOC100505874"; gene_name "LOC100505874"; transcript_id "XR_110949.1"; tss_id "TSS8967";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome 'Un|NT_167218.1' not found in Genome fasta files for line:
+Un|NT_167218.1	unknown	exon	102520	102591	.	+	.	gene_id "LOC100505874"; gene_name "LOC100505874"; transcript_id "XR_110948.1"; tss_id "TSS5721";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome 'Un|NT_167218.1' not found in Genome fasta files for line:
+Un|NT_167218.1	unknown	exon	102543	102591	.	+	.	gene_id "LOC100505874"; gene_name "LOC100505874"; transcript_id "XR_110950.1"; tss_id "TSS12256";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome 'Un|NT_167218.1' not found in Genome fasta files for line:
+Un|NT_167218.1	unknown	exon	105979	106136	.	+	.	gene_id "LOC100505874"; gene_name "LOC100505874"; transcript_id "XR_110950.1"; tss_id "TSS12256";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome 'Un|NT_167218.1' not found in Genome fasta files for line:
+Un|NT_167218.1	unknown	exon	106078	106136	.	+	.	gene_id "LOC100505874"; gene_name "LOC100505874"; transcript_id "XR_110948.1"; tss_id "TSS5721";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome 'Un|NT_167218.1' not found in Genome fasta files for line:
+Un|NT_167218.1	unknown	exon	108937	109569	.	+	.	gene_id "LOC100505874"; gene_name "LOC100505874"; transcript_id "XR_110949.1"; tss_id "TSS8967";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome 'Un|NT_167218.1' not found in Genome fasta files for line:
+Un|NT_167218.1	unknown	exon	108937	109743	.	+	.	gene_id "LOC100505874"; gene_name "LOC100505874"; transcript_id "XR_110948.1"; tss_id "TSS5721";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome 'Un|NT_167218.1' not found in Genome fasta files for line:
+Un|NT_167218.1	unknown	exon	108937	109743	.	+	.	gene_id "LOC100505874"; gene_name "LOC100505874"; transcript_id "XR_110950.1"; tss_id "TSS12256";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome 'Un|NT_167222.1' not found in Genome fasta files for line:
+Un|NT_167222.1	unknown	exon	29338	31035	.	-	.	gene_id "LOC100288255"; gene_name "LOC100288255"; p_id "P5039"; transcript_id "NM_001199232.1"; tss_id "TSS25899";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome 'Un|NT_167222.1' not found in Genome fasta files for line:
+Un|NT_167222.1	unknown	exon	31353	31430	.	-	.	gene_id "LOC100288255"; gene_name "LOC100288255"; p_id "P5039"; transcript_id "NM_001199232.1"; tss_id "TSS25899";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome 'Un|NT_167222.1' not found in Genome fasta files for line:
+Un|NT_167222.1	unknown	exon	31660	31734	.	-	.	gene_id "LOC100288255"; gene_name "LOC100288255"; p_id "P5039"; transcript_id "NM_001199232.1"; tss_id "TSS25899";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome 'Un|NT_167222.1' not found in Genome fasta files for line:
+Un|NT_167222.1	unknown	exon	31996	32226	.	-	.	gene_id "LOC100288255"; gene_name "LOC100288255"; p_id "P5039"; transcript_id "NM_001199232.1"; tss_id "TSS25899";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome 'Un|NT_167222.1' not found in Genome fasta files for line:
+Un|NT_167222.1	unknown	exon	105216	105384	.	+	.	gene_id "LOC100288627"; gene_name "LOC100288627"; p_id "P24584"; transcript_id "XM_003403593.1"; tss_id "TSS26898";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome 'Un|NT_167222.1' not found in Genome fasta files for line:
+Un|NT_167222.1	unknown	exon	105505	105577	.	+	.	gene_id "LOC100288627"; gene_name "LOC100288627"; p_id "P24584"; transcript_id "XM_003403593.1"; tss_id "TSS26898";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome 'Un|NT_167222.1' not found in Genome fasta files for line:
+Un|NT_167222.1	unknown	exon	105812	107267	.	+	.	gene_id "LOC100288627"; gene_name "LOC100288627"; p_id "P24584"; transcript_id "XM_003403593.1"; tss_id "TSS26898";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome 'Un|NT_167222.1' not found in Genome fasta files for line:
+Un|NT_167222.1	unknown	exon	108522	108690	.	+	.	gene_id "LOC100288657"; gene_name "LOC100288657"; p_id "P13449"; transcript_id "XM_003403594.1"; tss_id "TSS10212";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome 'Un|NT_167222.1' not found in Genome fasta files for line:
+Un|NT_167222.1	unknown	exon	108811	108883	.	+	.	gene_id "LOC100288657"; gene_name "LOC100288657"; p_id "P13449"; transcript_id "XM_003403594.1"; tss_id "TSS10212";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome 'Un|NT_167222.1' not found in Genome fasta files for line:
+Un|NT_167222.1	unknown	exon	109118	110573	.	+	.	gene_id "LOC100288657"; gene_name "LOC100288657"; p_id "P13449"; transcript_id "XM_003403594.1"; tss_id "TSS10212";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome 'Un|NT_167222.1' not found in Genome fasta files for line:
+Un|NT_167222.1	unknown	exon	112605	113887	.	+	.	gene_id "DUX4"; gene_name "DUX4"; transcript_id "NR_038191.1"; tss_id "TSS804";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome 'Un|NT_167222.1' not found in Genome fasta files for line:
+Un|NT_167222.1	unknown	exon	114024	114115	.	+	.	gene_id "DUX4"; gene_name "DUX4"; transcript_id "NR_038191.1"; tss_id "TSS804";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome 'Un|NT_167222.1' not found in Genome fasta files for line:
+Un|NT_167222.1	unknown	exon	114478	114676	.	+	.	gene_id "DUX4"; gene_name "DUX4"; transcript_id "NR_038191.1"; tss_id "TSS804";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome 'Un|NT_167232.1' not found in Genome fasta files for line:
+Un|NT_167232.1	unknown	exon	9317	9346	.	+	.	gene_id "LOC100289038"; gene_name "LOC100289038"; transcript_id "XR_132906.1"; tss_id "TSS3518";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome 'Un|NT_167232.1' not found in Genome fasta files for line:
+Un|NT_167232.1	unknown	exon	11012	11251	.	+	.	gene_id "LOC100289038"; gene_name "LOC100289038"; transcript_id "XR_132906.1"; tss_id "TSS3518";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome 'Un|NT_167232.1' not found in Genome fasta files for line:
+Un|NT_167232.1	unknown	exon	11365	11478	.	+	.	gene_id "LOC100289038"; gene_name "LOC100289038"; transcript_id "XR_132906.1"; tss_id "TSS3518";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome 'Un|NT_167232.1' not found in Genome fasta files for line:
+Un|NT_167232.1	unknown	exon	13268	13419	.	+	.	gene_id "LOC100289038"; gene_name "LOC100289038"; transcript_id "XR_132906.1"; tss_id "TSS3518";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome 'Un|NT_167232.1' not found in Genome fasta files for line:
+Un|NT_167232.1	unknown	exon	14076	14203	.	+	.	gene_id "LOC100289038"; gene_name "LOC100289038"; transcript_id "XR_132906.1"; tss_id "TSS3518";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome 'Un|NT_167232.1' not found in Genome fasta files for line:
+Un|NT_167232.1	unknown	exon	15184	15319	.	+	.	gene_id "LOC100289038"; gene_name "LOC100289038"; transcript_id "XR_132906.1"; tss_id "TSS3518";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome 'Un|NT_167232.1' not found in Genome fasta files for line:
+Un|NT_167232.1	unknown	exon	17477	18855	.	+	.	gene_id "LOC100289038"; gene_name "LOC100289038"; transcript_id "XR_132906.1"; tss_id "TSS3518";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome 'Un|NT_167232.1' not found in Genome fasta files for line:
+Un|NT_167232.1	unknown	exon	20275	20391	.	+	.	gene_id "LOC100289038"; gene_name "LOC100289038"; transcript_id "XR_132906.1"; tss_id "TSS3518";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome 'Un|NT_167232.1' not found in Genome fasta files for line:
+Un|NT_167232.1	unknown	exon	20489	20629	.	+	.	gene_id "LOC100289038"; gene_name "LOC100289038"; transcript_id "XR_132906.1"; tss_id "TSS3518";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome 'Un|NT_167232.1' not found in Genome fasta files for line:
+Un|NT_167232.1	unknown	exon	20912	21055	.	+	.	gene_id "LOC100289038"; gene_name "LOC100289038"; transcript_id "XR_132906.1"; tss_id "TSS3518";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome 'Un|NT_167232.1' not found in Genome fasta files for line:
+Un|NT_167232.1	unknown	exon	23494	23658	.	+	.	gene_id "LOC100289038"; gene_name "LOC100289038"; transcript_id "XR_132906.1"; tss_id "TSS3518";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome 'Un|NT_167232.1' not found in Genome fasta files for line:
+Un|NT_167232.1	unknown	exon	25003	25046	.	+	.	gene_id "LOC100289038"; gene_name "LOC100289038"; transcript_id "XR_132906.1"; tss_id "TSS3518";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome 'Un|NT_167232.1' not found in Genome fasta files for line:
+Un|NT_167232.1	unknown	exon	25339	25516	.	+	.	gene_id "LOC100289038"; gene_name "LOC100289038"; transcript_id "XR_132906.1"; tss_id "TSS3518";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome 'Un|NT_167232.1' not found in Genome fasta files for line:
+Un|NT_167232.1	unknown	exon	36128	36336	.	+	.	gene_id "LOC100289038"; gene_name "LOC100289038"; transcript_id "XR_132906.1"; tss_id "TSS3518";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome 'Un|NT_167235.1' not found in Genome fasta files for line:
+Un|NT_167235.1	unknown	exon	13028	13216	.	-	.	gene_id "LOC100289097"; gene_name "LOC100289097"; p_id "P24695"; transcript_id "XM_002343891.3"; tss_id "TSS24602";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome 'Un|NT_167235.1' not found in Genome fasta files for line:
+Un|NT_167235.1	unknown	exon	17119	17208	.	-	.	gene_id "LOC100289097"; gene_name "LOC100289097"; p_id "P24695"; transcript_id "XM_002343891.3"; tss_id "TSS24602";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome 'Un|NT_167235.1' not found in Genome fasta files for line:
+Un|NT_167235.1	unknown	exon	20395	20481	.	-	.	gene_id "LOC100289097"; gene_name "LOC100289097"; p_id "P24695"; transcript_id "XM_002343891.3"; tss_id "TSS24602";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome 'Un|NT_167235.1' not found in Genome fasta files for line:
+Un|NT_167235.1	unknown	exon	22732	22846	.	-	.	gene_id "LOC100289097"; gene_name "LOC100289097"; p_id "P24695"; transcript_id "XM_002343891.3"; tss_id "TSS24602";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome 'Un|NT_167235.1' not found in Genome fasta files for line:
+Un|NT_167235.1	unknown	exon	24640	24697	.	-	.	gene_id "LOC100289097"; gene_name "LOC100289097"; p_id "P24695"; transcript_id "XM_002343891.3"; tss_id "TSS24602";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome 'Un|NT_167235.1' not found in Genome fasta files for line:
+Un|NT_167235.1	unknown	exon	25477	25602	.	-	.	gene_id "LOC100289097"; gene_name "LOC100289097"; p_id "P24695"; transcript_id "XM_002343891.3"; tss_id "TSS24602";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome 'Un|NT_167235.1' not found in Genome fasta files for line:
+Un|NT_167235.1	unknown	exon	34495	34564	.	-	.	gene_id "LOC100289097"; gene_name "LOC100289097"; p_id "P24695"; transcript_id "XM_002343891.3"; tss_id "TSS24602";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome 'Un|NT_167235.1' not found in Genome fasta files for line:
+Un|NT_167235.1	unknown	exon	35760	35788	.	-	.	gene_id "LOC100289097"; gene_name "LOC100289097"; p_id "P24695"; transcript_id "XM_002343891.3"; tss_id "TSS24602";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome 'Un|NT_167236.1' not found in Genome fasta files for line:
+Un|NT_167236.1	unknown	exon	12836	14376	.	+	.	gene_id "LOC100289134"; gene_name "LOC100289134"; p_id "P21505"; transcript_id "XM_002343892.1"; tss_id "TSS28093";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome 'Un|NT_167236.1' not found in Genome fasta files for line:
+Un|NT_167236.1	unknown	exon	17445	17532	.	+	.	gene_id "LOC100289134"; gene_name "LOC100289134"; p_id "P21505"; transcript_id "XM_002343892.1"; tss_id "TSS28093";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome 'Un|NT_167236.1' not found in Genome fasta files for line:
+Un|NT_167236.1	unknown	exon	23601	26366	.	+	.	gene_id "LOC100289134"; gene_name "LOC100289134"; p_id "P21505"; transcript_id "XM_002343892.1"; tss_id "TSS28093";
+WARNING: while processing sjdbGTFfile=human_445.gtf: chromosome 'Un|NT_167236.1' not found in Genome fasta files for line:
+Un|NT_167236.1	unknown	exon	34084	34543	.	+	.	gene_id "LOC100289134"; gene_name "LOC100289134"; p_id "P21505"; transcript_id "XM_002343892.1"; tss_id "TSS28093";
+Processing pGe.sjdbGTFfile=human_445.gtf, found:
+		39854 transcripts
+		376357 exons (non-collapsed)
+		209076 collapsed junctions
+Total junctions: 209076
+Aug 07 13:51:41 ..... finished GTF processing
+
+Estimated genome size with padding and SJs: total=genome+SJ=3400425664 = 3101425664 + 299000000
+GstrandBit=32
+Number of SA indices: 5722711468
+Aug 07 13:51:53 ... starting to sort Suffix Array. This may take a long time...
+Number of chunks: 13;   chunks size limit: 3719572264 bytes
+Aug 07 13:52:07 ... sorting Suffix Array chunks and saving them to disk...
+Writing 3681611352 bytes into human_445//SA_0 ; empty space on disk = 1840573778448384 bytes ... done
+Writing 3615490424 bytes into human_445//SA_2 ; empty space on disk = 1840568454946816 bytes ... done
+Writing 3637473232 bytes into human_445//SA_1 ; empty space on disk = 1840561041317888 bytes ... done
+Writing 3717254168 bytes into human_445//SA_3 ; empty space on disk = 1840567396323328 bytes ... done
+Writing 3706583488 bytes into human_445//SA_4 ; empty space on disk = 1840533991911424 bytes ... done
+Writing 3630443240 bytes into human_445//SA_6 ; empty space on disk = 1840530366918656 bytes ... done
+Writing 3618975608 bytes into human_445//SA_5 ; empty space on disk = 1840526676660224 bytes ... done
+Writing 3673086840 bytes into human_445//SA_7 ; empty space on disk = 1840523206238208 bytes ... done
+Writing 3653138936 bytes into human_445//SA_8 ; empty space on disk = 1840513052028928 bytes ... done
+Writing 3674723712 bytes into human_445//SA_9 ; empty space on disk = 1840509100089344 bytes ...Writing 3585369120 bytes into human_445//SA_11 ; empty space on disk = 1840508717867008 bytes ... done
+ done
+Writing 3572942424 bytes into human_445//SA_10 ; empty space on disk = 1840501808095232 bytes ... done
+Writing 2014599200 bytes into human_445//SA_12 ; empty space on disk = 1840495758057472 bytes ... done
+Aug 07 14:19:24 ... loading chunks from disk, packing SA...
+Aug 07 14:20:46 ... finished generating suffix array
+Aug 07 14:20:46 ... generating Suffix Array index
+Aug 07 14:23:57 ... completed Suffix Array index
+Aug 07 14:23:58   Finished preparing junctions
+Aug 07 14:23:58 ..... inserting junctions into the genome indices
+Aug 07 14:26:00   Finished SA search: number of new junctions=209075, old junctions=0
+Aug 07 14:26:37   Finished sorting SA indicesL nInd=124607880
+Genome size with junctions=3163939089  3101425664   62513425
+GstrandBit1=32   GstrandBit=32
+Aug 07 14:27:47   Finished inserting junction indices
+Aug 07 14:28:08   Finished SAi
+Aug 07 14:28:08 ..... finished inserting junctions into genome
+Aug 07 14:28:08 ... writing Genome to disk ...
+Writing 3163939089 bytes into human_445//Genome ; empty space on disk = 1840532722204672 bytes ... done
+SA size in bytes: 24120192314
+Aug 07 14:28:10 ... writing Suffix Array to disk ...
+Writing 24120192314 bytes into human_445//SA ; empty space on disk = 1840532952469504 bytes ... done
+Aug 07 14:28:36 ... writing SAindex to disk
+Writing 8 bytes into human_445//SAindex ; empty space on disk = 1840503970619392 bytes ... done
+Writing 120 bytes into human_445//SAindex ; empty space on disk = 1840503970619392 bytes ... done
+Writing 1565873491 bytes into human_445//SAindex ; empty space on disk = 1840503970619392 bytes ... done
+Aug 07 14:28:39 ..... finished successfully
+DONE: Genome generation, EXITING

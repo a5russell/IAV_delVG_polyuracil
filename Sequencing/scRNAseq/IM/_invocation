@@ -1,0 +1,26 @@
+@include "sc_rna_counter_cs.mro"
+
+call SC_RNA_COUNTER_CS(
+    sample_id = "IM",
+    sample_def = [ 
+        {
+            "fastq_mode": "ILMN_BCL2FASTQ",
+            "gem_group": null,
+            "lanes": null,
+            "read_path": "/fh/fast/bloom_j/user/abrussel/10x_analysis/170314/runfiles/cellRangerFastQ/Chromrun",
+            "sample_indices": [ "any" ],
+            "sample_names": [ "intermediate10h" ]
+        },
+        {
+            "fastq_mode": "ILMN_BCL2FASTQ",
+            "gem_group": null,
+            "lanes": null,
+            "read_path": "/fh/fast/bloom_j/user/abrussel/10x_analysis/170314/runfiles/cellRangerFastQ2/Chromrun",
+            "sample_indices": [ "any" ],
+            "sample_names": [ "intermediate10h" ]
+        }
+    ],
+    sample_desc = "",
+    reference_path = "/fh/fast/bloom_j/user/abrussel/10x_analysis/human_flu_and_canine",
+    recovered_cells = null,
+)

@@ -1,0 +1,11 @@
+TrimmomaticPE: Started with arguments:
+ -threads 15 -phred33 Sequencing/totalRNAseq/PB1-U16A_2_R1_001.fastq.gz Sequencing/totalRNAseq/PB1-U16A_2_R2_001.fastq.gz Sequencing/totalRNAseq/trimmed_reads/PB1-U16A_2_R1_001.fastq.gz Sequencing/totalRNAseq/trimmed_reads/Unpaired_PB1-U16A_2_R1_001.fastq.gz Sequencing/totalRNAseq/trimmed_reads/PB1-U16A_2_R2_001.fastq.gz Sequencing/totalRNAseq/trimmed_reads/Unpaired_PB1-U16A_2_R2_001.fastq.gz ILLUMINACLIP:Database/human_WSN/adapter.fa:2:30:10:2:TRUE LEADING:20 SLIDINGWINDOW:4:15 MINLEN:36
+ILLUMINACLIP: Using adapter file from current working directory: /tscc/lustre/ddn/scratch/a5russell/DelVG_IFN/Database/human_WSN/adapter.fa
+Using PrefixPair: 'TACACTCTTTCCCTACACGACGCTCTTCCGATCT' and 'GTGACTGGAGTTCAGACGTGTGCTCTTCCGATCT'
+Using Long Clipping Sequence: 'AGATCGGAAGAGCGTCGTGTAGGGAAAGAGTGTA'
+Using Long Clipping Sequence: 'AGATCGGAAGAGCACACGTCTGAACTCCAGTCAC'
+Using Long Clipping Sequence: 'GTGACTGGAGTTCAGACGTGTGCTCTTCCGATCT'
+Using Long Clipping Sequence: 'TACACTCTTTCCCTACACGACGCTCTTCCGATCT'
+ILLUMINACLIP: Using 1 prefix pairs, 4 forward/reverse sequences, 0 forward only sequences, 0 reverse only sequences
+Input Read Pairs: 45310956 Both Surviving: 44183102 (97.51%) Forward Only Surviving: 491251 (1.08%) Reverse Only Surviving: 437124 (0.96%) Dropped: 199479 (0.44%)
+TrimmomaticPE: Completed successfully

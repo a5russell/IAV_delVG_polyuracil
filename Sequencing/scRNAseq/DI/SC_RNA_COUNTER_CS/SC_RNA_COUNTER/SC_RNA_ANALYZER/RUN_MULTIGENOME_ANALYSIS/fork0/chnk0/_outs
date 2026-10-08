@@ -1,0 +1,5 @@
+{
+    "multi_genome_summary": "/tscc/lustre/ddn/scratch/a5russell/DIcorr2/SC_RNA_COUNTER_CS/SC_RNA_COUNTER/SC_RNA_ANALYZER/RUN_MULTIGENOME_ANALYSIS/fork0/chnk0/files/multi_genome_summary.json", 
+    "multi_genome_json": "/tscc/lustre/ddn/scratch/a5russell/DIcorr2/SC_RNA_COUNTER_CS/SC_RNA_COUNTER/SC_RNA_ANALYZER/RUN_MULTIGENOME_ANALYSIS/fork0/chnk0/files/multi_genome_json", 
+    "multi_genome_csv": "/tscc/lustre/ddn/scratch/a5russell/DIcorr2/SC_RNA_COUNTER_CS/SC_RNA_COUNTER/SC_RNA_ANALYZER/RUN_MULTIGENOME_ANALYSIS/fork0/chnk0/files/multi_genome_csv"
+}

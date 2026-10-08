@@ -1,0 +1,19 @@
+{
+    "chemistry_name": "auto",
+    "custom_chemistry_def": null,
+    "reference_path": "/tscc/nfs/home/a5russell/scratch/human_and_canine",
+    "sample_def": [
+        {
+            "fastq_mode": "ILMN_BCL2FASTQ",
+            "gem_group": null,
+            "lanes": null,
+            "read_path": "/tscc/lustre/ddn/scratch/a5russell/DelVG_IFN/Sequencing/scRNAseq/DIcorr",
+            "sample_indices": [
+                "any"
+            ],
+            "sample_names": [
+                "bamtofastq"
+            ]
+        }
+    ]
+}

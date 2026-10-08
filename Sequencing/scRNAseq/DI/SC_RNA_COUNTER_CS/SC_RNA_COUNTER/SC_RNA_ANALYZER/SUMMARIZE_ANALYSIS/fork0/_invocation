@@ -1,0 +1,18 @@
+@include "sc_rna_counter_cs.mro"
+
+call SUMMARIZE_ANALYSIS(
+    matrix_h5 = "/tscc/lustre/ddn/scratch/a5russell/DIcorr2/SC_RNA_COUNTER_CS/SC_RNA_COUNTER/SC_RNA_ANALYZER/RUN_PREPROCESS/fork0/files/preprocessed_matrix_h5.h5",
+    pca_h5 = "/tscc/lustre/ddn/scratch/a5russell/DIcorr2/SC_RNA_COUNTER_CS/SC_RNA_COUNTER/SC_RNA_ANALYZER/RUN_PCA/fork0/files/pca_h5.h5",
+    clustering_h5 = "/tscc/lustre/ddn/scratch/a5russell/DIcorr2/SC_RNA_COUNTER_CS/SC_RNA_COUNTER/SC_RNA_ANALYZER/COMBINE_CLUSTERING/fork0/files/clustering_h5.h5",
+    diffexp_h5 = "/tscc/lustre/ddn/scratch/a5russell/DIcorr2/SC_RNA_COUNTER_CS/SC_RNA_COUNTER/SC_RNA_ANALYZER/RUN_DIFFERENTIAL_EXPRESSION/fork0/files/diffexp_h5.h5",
+    tsne_h5 = "/tscc/lustre/ddn/scratch/a5russell/DIcorr2/SC_RNA_COUNTER_CS/SC_RNA_COUNTER/SC_RNA_ANALYZER/RUN_TSNE/fork0/files/tsne_h5.h5",
+    pca_csv = "/tscc/lustre/ddn/scratch/a5russell/DIcorr2/SC_RNA_COUNTER_CS/SC_RNA_COUNTER/SC_RNA_ANALYZER/RUN_PCA/fork0/files/pca_csv",
+    clustering_csv = "/tscc/lustre/ddn/scratch/a5russell/DIcorr2/SC_RNA_COUNTER_CS/SC_RNA_COUNTER/SC_RNA_ANALYZER/COMBINE_CLUSTERING/fork0/files/clustering_csv",
+    diffexp_csv = "/tscc/lustre/ddn/scratch/a5russell/DIcorr2/SC_RNA_COUNTER_CS/SC_RNA_COUNTER/SC_RNA_ANALYZER/RUN_DIFFERENTIAL_EXPRESSION/fork0/files/diffexp_csv",
+    tsne_csv = "/tscc/lustre/ddn/scratch/a5russell/DIcorr2/SC_RNA_COUNTER_CS/SC_RNA_COUNTER/SC_RNA_ANALYZER/RUN_TSNE/fork0/files/tsne_csv",
+    multi_genome_summary = "/tscc/lustre/ddn/scratch/a5russell/DIcorr2/SC_RNA_COUNTER_CS/SC_RNA_COUNTER/SC_RNA_ANALYZER/RUN_MULTIGENOME_ANALYSIS/fork0/files/multi_genome_summary.json",
+    multi_genome_csv = "/tscc/lustre/ddn/scratch/a5russell/DIcorr2/SC_RNA_COUNTER_CS/SC_RNA_COUNTER/SC_RNA_ANALYZER/RUN_MULTIGENOME_ANALYSIS/fork0/files/multi_genome_csv",
+    multi_genome_json = "/tscc/lustre/ddn/scratch/a5russell/DIcorr2/SC_RNA_COUNTER_CS/SC_RNA_COUNTER/SC_RNA_ANALYZER/RUN_MULTIGENOME_ANALYSIS/fork0/files/multi_genome_json",
+    is_multi_genome = true,
+    skip = null,
+)

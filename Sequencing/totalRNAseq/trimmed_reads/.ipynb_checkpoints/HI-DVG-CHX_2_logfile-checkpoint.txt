@@ -1,0 +1,40 @@
+TrimmomaticPE: Started with arguments:
+ -threads 4 -phred33 Sequencing/totalRNAseq/HI-DVG-CHX_2_R1_001.fastq.gz Sequencing/totalRNAseq/HI-DVG-CHX_2_R2_001.fastq.gz Sequencing/totalRNAseq/trimmed_reads/HI-DVG-CHX_2_R1_001.fastq.gz Sequencing/totalRNAseq/trimmed_reads/Unpaired_HI-DVG-CHX_2_R1_001.fastq.gz Sequencing/totalRNAseq/trimmed_reads/HI-DVG-CHX_2_R2_001.fastq.gz Sequencing/totalRNAseq/trimmed_reads/Unpaired_HI-DVG-CHX_2_R2_001.fastq.gz ILLUMINACLIP:Database/human_WSN/adapter.fa:2:30:10:2:TRUE LEADING:20 SLIDINGWINDOW:4:15 MINLEN:36
+ILLUMINACLIP: Using adapter file from current working directory: /tscc/lustre/ddn/scratch/a5russell/DelVG_IFN/Database/human_WSN/adapter.fa
+Using PrefixPair: 'TACACTCTTTCCCTACACGACGCTCTTCCGATCT' and 'GTGACTGGAGTTCAGACGTGTGCTCTTCCGATCT'
+Using Long Clipping Sequence: 'AGATCGGAAGAGCGTCGTGTAGGGAAAGAGTGTA'
+Using Long Clipping Sequence: 'AGATCGGAAGAGCACACGTCTGAACTCCAGTCAC'
+Using Long Clipping Sequence: 'GTGACTGGAGTTCAGACGTGTGCTCTTCCGATCT'
+Using Long Clipping Sequence: 'TACACTCTTTCCCTACACGACGCTCTTCCGATCT'
+ILLUMINACLIP: Using 1 prefix pairs, 4 forward/reverse sequences, 0 forward only sequences, 0 reverse only sequences
+Exception in thread "main" java.lang.Exception: Trim Stats Collector Exception
+	at org.usadellab.trimmomatic.threading.trimstats.SelfThreadedTrimStatsCollector.run(SelfThreadedTrimStatsCollector.java:62)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: java.util.concurrent.ExecutionException: java.lang.OutOfMemoryError: Java heap space
+	at java.base/java.util.concurrent.FutureTask.report(FutureTask.java:122)
+	at java.base/java.util.concurrent.FutureTask.get(FutureTask.java:191)
+	at org.usadellab.trimmomatic.threading.trimstats.SelfThreadedTrimStatsCollector.run(SelfThreadedTrimStatsCollector.java:57)
+	... 1 more
+Caused by: java.lang.OutOfMemoryError: Java heap space
+	at java.base/java.util.Arrays.copyOf(Arrays.java:3745)
+	at java.base/java.io.ByteArrayOutputStream.grow(ByteArrayOutputStream.java:120)
+	at java.base/java.io.ByteArrayOutputStream.ensureCapacity(ByteArrayOutputStream.java:95)
+	at java.base/java.io.ByteArrayOutputStream.write(ByteArrayOutputStream.java:156)
+	at java.base/sun.nio.cs.StreamEncoder.writeBytes(StreamEncoder.java:233)
+	at java.base/sun.nio.cs.StreamEncoder.implWrite(StreamEncoder.java:303)
+	at java.base/sun.nio.cs.StreamEncoder.implWrite(StreamEncoder.java:281)
+	at java.base/sun.nio.cs.StreamEncoder.write(StreamEncoder.java:125)
+	at java.base/java.io.OutputStreamWriter.write(OutputStreamWriter.java:211)
+	at java.base/java.io.BufferedWriter.flushBuffer(BufferedWriter.java:120)
+	at java.base/java.io.BufferedWriter.write(BufferedWriter.java:233)
+	at java.base/java.io.Writer.write(Writer.java:249)
+	at org.usadellab.trimmomatic.fastq.FastqSerializer.writeRecord(FastqSerializer.java:51)
+	at org.usadellab.trimmomatic.util.compression.UncompressedBlockData.<init>(UncompressedBlockData.java:23)
+	at org.usadellab.trimmomatic.threading.BlockOfWork.processPE(BlockOfWork.java:139)
+	at org.usadellab.trimmomatic.threading.BlockOfWork.process(BlockOfWork.java:209)
+	at org.usadellab.trimmomatic.threading.BlockOfWork.call(BlockOfWork.java:219)
+	at org.usadellab.trimmomatic.threading.BlockOfWork.call(BlockOfWork.java:16)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	... 1 more

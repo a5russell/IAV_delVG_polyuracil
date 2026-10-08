@@ -1,0 +1,10 @@
+{
+    "__mem_gb": 6,
+    "__threads": 1,
+    "clustering_h5": "/tscc/lustre/ddn/scratch/a5russell/DIcorr2/SC_RNA_COUNTER_CS/SC_RNA_COUNTER/SC_RNA_ANALYZER/COMBINE_CLUSTERING/fork0/files/clustering_h5.h5",
+    "is_multi_genome": true,
+    "matrix_h5": "/tscc/lustre/ddn/scratch/a5russell/DIcorr2/SC_RNA_COUNTER_CS/SC_RNA_COUNTER/SC_RNA_ANALYZER/RUN_PREPROCESS/fork0/files/preprocessed_matrix_h5.h5",
+    "max_clusters": null,
+    "random_seed": null,
+    "skip": null
+}

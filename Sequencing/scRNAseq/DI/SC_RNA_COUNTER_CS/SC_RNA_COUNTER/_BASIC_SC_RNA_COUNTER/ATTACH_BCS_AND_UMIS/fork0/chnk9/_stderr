@@ -1,0 +1,3 @@
+[stderr]
+/tscc/nfs/home/a5russell/cellranger-1.3.1/cellranger-cs/1.3.1/lib/python/cellranger/stats.py:60: RuntimeWarning: invalid value encountered in divide
+  posterior /= posterior.sum()

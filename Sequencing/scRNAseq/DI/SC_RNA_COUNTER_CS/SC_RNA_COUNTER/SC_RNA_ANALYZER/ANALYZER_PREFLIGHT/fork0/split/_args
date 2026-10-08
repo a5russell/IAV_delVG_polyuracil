@@ -1,0 +1,22 @@
+{
+    "filtered_matrices_h5": "/tscc/lustre/ddn/scratch/a5russell/DIcorr2/SC_RNA_COUNTER_CS/SC_RNA_COUNTER/_BASIC_SC_RNA_COUNTER/FILTER_BARCODES/fork0/files/filtered_matrices_h5.h5",
+    "graphclust_neighbors": null,
+    "max_clusters": null,
+    "neighbor_a": null,
+    "neighbor_b": null,
+    "num_analysis_bcs": null,
+    "num_pca_bcs": null,
+    "num_pca_genes": null,
+    "num_principal_comps": null,
+    "random_seed": null,
+    "raw_matrices_h5": "/tscc/lustre/ddn/scratch/a5russell/DIcorr2/SC_RNA_COUNTER_CS/SC_RNA_COUNTER/_BASIC_SC_RNA_COUNTER/COUNT_GENES/fork0/files/matrices_h5.h5",
+    "skip": false,
+    "tsne_input_pcs": null,
+    "tsne_max_dims": null,
+    "tsne_max_iter": null,
+    "tsne_mom_switch_iter": null,
+    "tsne_perplexity": null,
+    "tsne_stop_lying_iter": null,
+    "tsne_theta": null,
+    "use_bcs": null
+}

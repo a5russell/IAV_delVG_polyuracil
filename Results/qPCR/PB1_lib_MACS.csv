@@ -1,0 +1,73 @@
+﻿target,MACS,replicate,Cq
+PB1 - all,Enriched,1,10.61
+PB1 - all,Enriched,1,10.44
+PB1 - all,Enriched,1,10.73
+PB1 - all,Enriched,2,11.54
+PB1 - all,Enriched,2,11.52
+PB1 - all,Enriched,2,11.48
+PB1 - all,Enriched,3,10.72
+PB1 - all,Enriched,3,10.9
+PB1 - all,Enriched,3,11.09
+PB1 - all,Depleted,1,11.01
+PB1 - all,Depleted,1,11.15
+PB1 - all,Depleted,1,11.08
+PB1 - all,Depleted,2,10.5
+PB1 - all,Depleted,2,10.29
+PB1 - all,Depleted,2,10.47
+PB1 - all,Depleted,3,11.01
+PB1 - all,Depleted,3,11.49
+PB1 - all,Depleted,3,11.17
+PB1 - DI,Enriched,1,11.34
+PB1 - DI,Enriched,1,11.45
+PB1 - DI,Enriched,1,11.56
+PB1 - DI,Enriched,2,12.42
+PB1 - DI,Enriched,2,12.64
+PB1 - DI,Enriched,2,12.42
+PB1 - DI,Enriched,3,11.85
+PB1 - DI,Enriched,3,11.76
+PB1 - DI,Enriched,3,11.69
+PB1 - DI,Depleted,1,12.26
+PB1 - DI,Depleted,1,12.33
+PB1 - DI,Depleted,1,12.29
+PB1 - DI,Depleted,2,11.74
+PB1 - DI,Depleted,2,11.99
+PB1 - DI,Depleted,2,11.97
+PB1 - DI,Depleted,3,12.79
+PB1 - DI,Depleted,3,13.13
+PB1 - DI,Depleted,3,13.29
+IFN-B,Enriched,1,20
+IFN-B,Enriched,1,19.83
+IFN-B,Enriched,1,19.9
+IFN-B,Enriched,2,20.63
+IFN-B,Enriched,2,20.47
+IFN-B,Enriched,2,20.61
+IFN-B,Enriched,3,20.02
+IFN-B,Enriched,3,19.81
+IFN-B,Enriched,3,20.07
+IFN-B,Depleted,1,25.43
+IFN-B,Depleted,1,25.53
+IFN-B,Depleted,1,25.24
+IFN-B,Depleted,2,25.53
+IFN-B,Depleted,2,25.72
+IFN-B,Depleted,2,25.39
+IFN-B,Depleted,3,25.26
+IFN-B,Depleted,3,25.37
+IFN-B,Depleted,3,25.49
+L32,Enriched,1,23.78
+L32,Enriched,1,23.56
+L32,Enriched,1,23.54
+L32,Enriched,2,24.52
+L32,Enriched,2,24.4
+L32,Enriched,2,24.48
+L32,Enriched,3,23.58
+L32,Enriched,3,23.47
+L32,Enriched,3,23.54
+L32,Depleted,1,23.56
+L32,Depleted,1,24.2
+L32,Depleted,1,23.9
+L32,Depleted,2,23.75
+L32,Depleted,2,23.86
+L32,Depleted,2,23.77
+L32,Depleted,3,23.97
+L32,Depleted,3,23.92
+L32,Depleted,3,23.73

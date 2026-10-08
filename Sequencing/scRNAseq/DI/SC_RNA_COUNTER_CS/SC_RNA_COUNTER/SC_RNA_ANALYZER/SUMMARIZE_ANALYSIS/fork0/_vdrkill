@@ -1,0 +1,10 @@
+{
+    "count": 4,
+    "size": 357466,
+    "timestamp": "2026-07-20 19:53:11",
+    "paths": [
+        "/tscc/lustre/ddn/scratch/a5russell/DIcorr2/SC_RNA_COUNTER_CS/SC_RNA_COUNTER/SC_RNA_ANALYZER/SUMMARIZE_ANALYSIS/fork0/chnk0/files/analysis",
+        "/tscc/lustre/ddn/scratch/a5russell/DIcorr2/SC_RNA_COUNTER_CS/SC_RNA_COUNTER/SC_RNA_ANALYZER/SUMMARIZE_ANALYSIS/fork0/chnk0/files/analysis_csv"
+    ],
+    "errors": null
+}

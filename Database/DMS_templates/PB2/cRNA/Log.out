@@ -1,0 +1,58 @@
+STAR version=2.7.11b
+STAR compilation time,server,dir=2025-01-09T12:32:06+0000 :/opt/conda/conda-bld/star_1736425784849/work/source
+##### Command Line:
+/tscc/nfs/home/a5russell/mambaforge/envs/NEP/bin/STAR-avx2 --runMode genomeGenerate --runThreadN 1 --genomeDir Database/DMS_templates/PB2/cRNA --genomeFastaFiles Database/DMS_templates/PB2/cRNA.fa --genomeSAindexNbases 3
+##### Initial USER parameters from Command Line:
+###### All USER parameters from Command Line:
+runMode                       genomeGenerate        ~RE-DEFINED
+runThreadN                    1     ~RE-DEFINED
+genomeDir                     Database/DMS_templates/PB2/cRNA     ~RE-DEFINED
+genomeFastaFiles              Database/DMS_templates/PB2/cRNA.fa        ~RE-DEFINED
+genomeSAindexNbases           3     ~RE-DEFINED
+##### Finished reading parameters from all sources
+
+##### Final user re-defined parameters-----------------:
+runMode                           genomeGenerate   
+runThreadN                        1
+genomeDir                         Database/DMS_templates/PB2/cRNA
+genomeFastaFiles                  Database/DMS_templates/PB2/cRNA.fa   
+genomeSAindexNbases               3
+
+-------------------------------
+##### Final effective command line:
+/tscc/nfs/home/a5russell/mambaforge/envs/NEP/bin/STAR-avx2   --runMode genomeGenerate      --runThreadN 1   --genomeDir Database/DMS_templates/PB2/cRNA   --genomeFastaFiles Database/DMS_templates/PB2/cRNA.fa      --genomeSAindexNbases 3
+----------------------------------------
+
+Number of fastq files for each mate = 1
+ParametersSolo: --soloCellFilterType CellRanger2.2 filtering parameters:  3000 0.99 10
+Finished loading and checking parameters
+--genomeDir directory created: Database/DMS_templates/PB2/cRNA/
+Nov 10 10:39:47 ... starting to generate Genome files
+Database/DMS_templates/PB2/cRNA.fa : chr # 0  "PB2_cRNA" chrStart: 0
+Chromosome sequence lengths: 
+PB2_cRNA	190
+Genome sequence total length = 190
+Genome size with padding = 262144
+!!!!! WARNING: --genomeSAindexNbases 3 is too large for the genome size=190, which may cause seg-fault at the mapping step. Re-run genome generation with recommended --genomeSAindexNbases 2
+Estimated genome size with padding and SJs: total=genome+SJ=201262144 = 262144 + 201000000
+GstrandBit=32
+Number of SA indices: 380
+Nov 10 10:39:47 ... starting to sort Suffix Array. This may take a long time...
+Number of chunks: 1;   chunks size limit: 18599685304 bytes
+Nov 10 10:39:47 ... sorting Suffix Array chunks and saving them to disk...
+Writing 3040 bytes into Database/DMS_templates/PB2/cRNA//SA_0 ; empty space on disk = 1706843223547904 bytes ... done
+Nov 10 10:39:47 ... loading chunks from disk, packing SA...
+Nov 10 10:39:47 ... finished generating suffix array
+Nov 10 10:39:47 ... generating Suffix Array index
+Nov 10 10:39:47 ... completed Suffix Array index
+Nov 10 10:39:47 ... writing Genome to disk ...
+Writing 262144 bytes into Database/DMS_templates/PB2/cRNA//Genome ; empty space on disk = 1706843223547904 bytes ... done
+SA size in bytes: 1571
+Nov 10 10:39:47 ... writing Suffix Array to disk ...
+Writing 1571 bytes into Database/DMS_templates/PB2/cRNA//SA ; empty space on disk = 1706843223547904 bytes ... done
+Nov 10 10:39:47 ... writing SAindex to disk
+Writing 8 bytes into Database/DMS_templates/PB2/cRNA//SAindex ; empty space on disk = 1706843223547904 bytes ... done
+Writing 32 bytes into Database/DMS_templates/PB2/cRNA//SAindex ; empty space on disk = 1706843223547904 bytes ... done
+Writing 371 bytes into Database/DMS_templates/PB2/cRNA//SAindex ; empty space on disk = 1706843223547904 bytes ... done
+Nov 10 10:39:47 ..... finished successfully
+DONE: Genome generation, EXITING

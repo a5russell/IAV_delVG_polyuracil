@@ -1,0 +1,226 @@
+[
+    {
+        "barcode_summary": "/tscc/lustre/ddn/scratch/a5russell/DIcorr2/SC_RNA_COUNTER_CS/SC_RNA_COUNTER/_BASIC_SC_RNA_COUNTER/COUNT_GENES/fork0/chnk0/files/barcode_summary.h5",
+        "chunked_reporter": "/tscc/lustre/ddn/scratch/a5russell/DIcorr2/SC_RNA_COUNTER_CS/SC_RNA_COUNTER/_BASIC_SC_RNA_COUNTER/COUNT_GENES/fork0/chnk0/files/chunked_reporter.pickle",
+        "matrices_h5": "/tscc/lustre/ddn/scratch/a5russell/DIcorr2/SC_RNA_COUNTER_CS/SC_RNA_COUNTER/_BASIC_SC_RNA_COUNTER/COUNT_GENES/fork0/chnk0/files/matrices_h5.h5",
+        "matrices_mex": "/tscc/lustre/ddn/scratch/a5russell/DIcorr2/SC_RNA_COUNTER_CS/SC_RNA_COUNTER/_BASIC_SC_RNA_COUNTER/COUNT_GENES/fork0/chnk0/files/matrices_mex",
+        "reporter_summary": "/tscc/lustre/ddn/scratch/a5russell/DIcorr2/SC_RNA_COUNTER_CS/SC_RNA_COUNTER/_BASIC_SC_RNA_COUNTER/COUNT_GENES/fork0/chnk0/files/reporter_summary.json"
+    },
+    {
+        "barcode_summary": "/tscc/lustre/ddn/scratch/a5russell/DIcorr2/SC_RNA_COUNTER_CS/SC_RNA_COUNTER/_BASIC_SC_RNA_COUNTER/COUNT_GENES/fork0/chnk1/files/barcode_summary.h5",
+        "chunked_reporter": "/tscc/lustre/ddn/scratch/a5russell/DIcorr2/SC_RNA_COUNTER_CS/SC_RNA_COUNTER/_BASIC_SC_RNA_COUNTER/COUNT_GENES/fork0/chnk1/files/chunked_reporter.pickle",
+        "matrices_h5": "/tscc/lustre/ddn/scratch/a5russell/DIcorr2/SC_RNA_COUNTER_CS/SC_RNA_COUNTER/_BASIC_SC_RNA_COUNTER/COUNT_GENES/fork0/chnk1/files/matrices_h5.h5",
+        "matrices_mex": "/tscc/lustre/ddn/scratch/a5russell/DIcorr2/SC_RNA_COUNTER_CS/SC_RNA_COUNTER/_BASIC_SC_RNA_COUNTER/COUNT_GENES/fork0/chnk1/files/matrices_mex",
+        "reporter_summary": "/tscc/lustre/ddn/scratch/a5russell/DIcorr2/SC_RNA_COUNTER_CS/SC_RNA_COUNTER/_BASIC_SC_RNA_COUNTER/COUNT_GENES/fork0/chnk1/files/reporter_summary.json"
+    },
+    {
+        "barcode_summary": "/tscc/lustre/ddn/scratch/a5russell/DIcorr2/SC_RNA_COUNTER_CS/SC_RNA_COUNTER/_BASIC_SC_RNA_COUNTER/COUNT_GENES/fork0/chnk2/files/barcode_summary.h5",
+        "chunked_reporter": "/tscc/lustre/ddn/scratch/a5russell/DIcorr2/SC_RNA_COUNTER_CS/SC_RNA_COUNTER/_BASIC_SC_RNA_COUNTER/COUNT_GENES/fork0/chnk2/files/chunked_reporter.pickle",
+        "matrices_h5": "/tscc/lustre/ddn/scratch/a5russell/DIcorr2/SC_RNA_COUNTER_CS/SC_RNA_COUNTER/_BASIC_SC_RNA_COUNTER/COUNT_GENES/fork0/chnk2/files/matrices_h5.h5",
+        "matrices_mex": "/tscc/lustre/ddn/scratch/a5russell/DIcorr2/SC_RNA_COUNTER_CS/SC_RNA_COUNTER/_BASIC_SC_RNA_COUNTER/COUNT_GENES/fork0/chnk2/files/matrices_mex",
+        "reporter_summary": "/tscc/lustre/ddn/scratch/a5russell/DIcorr2/SC_RNA_COUNTER_CS/SC_RNA_COUNTER/_BASIC_SC_RNA_COUNTER/COUNT_GENES/fork0/chnk2/files/reporter_summary.json"
+    },
+    {
+        "barcode_summary": "/tscc/lustre/ddn/scratch/a5russell/DIcorr2/SC_RNA_COUNTER_CS/SC_RNA_COUNTER/_BASIC_SC_RNA_COUNTER/COUNT_GENES/fork0/chnk3/files/barcode_summary.h5",
+        "chunked_reporter": "/tscc/lustre/ddn/scratch/a5russell/DIcorr2/SC_RNA_COUNTER_CS/SC_RNA_COUNTER/_BASIC_SC_RNA_COUNTER/COUNT_GENES/fork0/chnk3/files/chunked_reporter.pickle",
+        "matrices_h5": "/tscc/lustre/ddn/scratch/a5russell/DIcorr2/SC_RNA_COUNTER_CS/SC_RNA_COUNTER/_BASIC_SC_RNA_COUNTER/COUNT_GENES/fork0/chnk3/files/matrices_h5.h5",
+        "matrices_mex": "/tscc/lustre/ddn/scratch/a5russell/DIcorr2/SC_RNA_COUNTER_CS/SC_RNA_COUNTER/_BASIC_SC_RNA_COUNTER/COUNT_GENES/fork0/chnk3/files/matrices_mex",
+        "reporter_summary": "/tscc/lustre/ddn/scratch/a5russell/DIcorr2/SC_RNA_COUNTER_CS/SC_RNA_COUNTER/_BASIC_SC_RNA_COUNTER/COUNT_GENES/fork0/chnk3/files/reporter_summary.json"
+    },
+    {
+        "barcode_summary": "/tscc/lustre/ddn/scratch/a5russell/DIcorr2/SC_RNA_COUNTER_CS/SC_RNA_COUNTER/_BASIC_SC_RNA_COUNTER/COUNT_GENES/fork0/chnk4/files/barcode_summary.h5",
+        "chunked_reporter": "/tscc/lustre/ddn/scratch/a5russell/DIcorr2/SC_RNA_COUNTER_CS/SC_RNA_COUNTER/_BASIC_SC_RNA_COUNTER/COUNT_GENES/fork0/chnk4/files/chunked_reporter.pickle",
+        "matrices_h5": "/tscc/lustre/ddn/scratch/a5russell/DIcorr2/SC_RNA_COUNTER_CS/SC_RNA_COUNTER/_BASIC_SC_RNA_COUNTER/COUNT_GENES/fork0/chnk4/files/matrices_h5.h5",
+        "matrices_mex": "/tscc/lustre/ddn/scratch/a5russell/DIcorr2/SC_RNA_COUNTER_CS/SC_RNA_COUNTER/_BASIC_SC_RNA_COUNTER/COUNT_GENES/fork0/chnk4/files/matrices_mex",
+        "reporter_summary": "/tscc/lustre/ddn/scratch/a5russell/DIcorr2/SC_RNA_COUNTER_CS/SC_RNA_COUNTER/_BASIC_SC_RNA_COUNTER/COUNT_GENES/fork0/chnk4/files/reporter_summary.json"
+    },
+    {
+        "barcode_summary": "/tscc/lustre/ddn/scratch/a5russell/DIcorr2/SC_RNA_COUNTER_CS/SC_RNA_COUNTER/_BASIC_SC_RNA_COUNTER/COUNT_GENES/fork0/chnk5/files/barcode_summary.h5",
+        "chunked_reporter": "/tscc/lustre/ddn/scratch/a5russell/DIcorr2/SC_RNA_COUNTER_CS/SC_RNA_COUNTER/_BASIC_SC_RNA_COUNTER/COUNT_GENES/fork0/chnk5/files/chunked_reporter.pickle",
+        "matrices_h5": "/tscc/lustre/ddn/scratch/a5russell/DIcorr2/SC_RNA_COUNTER_CS/SC_RNA_COUNTER/_BASIC_SC_RNA_COUNTER/COUNT_GENES/fork0/chnk5/files/matrices_h5.h5",
+        "matrices_mex": "/tscc/lustre/ddn/scratch/a5russell/DIcorr2/SC_RNA_COUNTER_CS/SC_RNA_COUNTER/_BASIC_SC_RNA_COUNTER/COUNT_GENES/fork0/chnk5/files/matrices_mex",
+        "reporter_summary": "/tscc/lustre/ddn/scratch/a5russell/DIcorr2/SC_RNA_COUNTER_CS/SC_RNA_COUNTER/_BASIC_SC_RNA_COUNTER/COUNT_GENES/fork0/chnk5/files/reporter_summary.json"
+    },
+    {
+        "barcode_summary": "/tscc/lustre/ddn/scratch/a5russell/DIcorr2/SC_RNA_COUNTER_CS/SC_RNA_COUNTER/_BASIC_SC_RNA_COUNTER/COUNT_GENES/fork0/chnk6/files/barcode_summary.h5",
+        "chunked_reporter": "/tscc/lustre/ddn/scratch/a5russell/DIcorr2/SC_RNA_COUNTER_CS/SC_RNA_COUNTER/_BASIC_SC_RNA_COUNTER/COUNT_GENES/fork0/chnk6/files/chunked_reporter.pickle",
+        "matrices_h5": "/tscc/lustre/ddn/scratch/a5russell/DIcorr2/SC_RNA_COUNTER_CS/SC_RNA_COUNTER/_BASIC_SC_RNA_COUNTER/COUNT_GENES/fork0/chnk6/files/matrices_h5.h5",
+        "matrices_mex": "/tscc/lustre/ddn/scratch/a5russell/DIcorr2/SC_RNA_COUNTER_CS/SC_RNA_COUNTER/_BASIC_SC_RNA_COUNTER/COUNT_GENES/fork0/chnk6/files/matrices_mex",
+        "reporter_summary": "/tscc/lustre/ddn/scratch/a5russell/DIcorr2/SC_RNA_COUNTER_CS/SC_RNA_COUNTER/_BASIC_SC_RNA_COUNTER/COUNT_GENES/fork0/chnk6/files/reporter_summary.json"
+    },
+    {
+        "barcode_summary": "/tscc/lustre/ddn/scratch/a5russell/DIcorr2/SC_RNA_COUNTER_CS/SC_RNA_COUNTER/_BASIC_SC_RNA_COUNTER/COUNT_GENES/fork0/chnk7/files/barcode_summary.h5",
+        "chunked_reporter": "/tscc/lustre/ddn/scratch/a5russell/DIcorr2/SC_RNA_COUNTER_CS/SC_RNA_COUNTER/_BASIC_SC_RNA_COUNTER/COUNT_GENES/fork0/chnk7/files/chunked_reporter.pickle",
+        "matrices_h5": "/tscc/lustre/ddn/scratch/a5russell/DIcorr2/SC_RNA_COUNTER_CS/SC_RNA_COUNTER/_BASIC_SC_RNA_COUNTER/COUNT_GENES/fork0/chnk7/files/matrices_h5.h5",
+        "matrices_mex": "/tscc/lustre/ddn/scratch/a5russell/DIcorr2/SC_RNA_COUNTER_CS/SC_RNA_COUNTER/_BASIC_SC_RNA_COUNTER/COUNT_GENES/fork0/chnk7/files/matrices_mex",
+        "reporter_summary": "/tscc/lustre/ddn/scratch/a5russell/DIcorr2/SC_RNA_COUNTER_CS/SC_RNA_COUNTER/_BASIC_SC_RNA_COUNTER/COUNT_GENES/fork0/chnk7/files/reporter_summary.json"
+    },
+    {
+        "barcode_summary": "/tscc/lustre/ddn/scratch/a5russell/DIcorr2/SC_RNA_COUNTER_CS/SC_RNA_COUNTER/_BASIC_SC_RNA_COUNTER/COUNT_GENES/fork0/chnk8/files/barcode_summary.h5",
+        "chunked_reporter": "/tscc/lustre/ddn/scratch/a5russell/DIcorr2/SC_RNA_COUNTER_CS/SC_RNA_COUNTER/_BASIC_SC_RNA_COUNTER/COUNT_GENES/fork0/chnk8/files/chunked_reporter.pickle",
+        "matrices_h5": "/tscc/lustre/ddn/scratch/a5russell/DIcorr2/SC_RNA_COUNTER_CS/SC_RNA_COUNTER/_BASIC_SC_RNA_COUNTER/COUNT_GENES/fork0/chnk8/files/matrices_h5.h5",
+        "matrices_mex": "/tscc/lustre/ddn/scratch/a5russell/DIcorr2/SC_RNA_COUNTER_CS/SC_RNA_COUNTER/_BASIC_SC_RNA_COUNTER/COUNT_GENES/fork0/chnk8/files/matrices_mex",
+        "reporter_summary": "/tscc/lustre/ddn/scratch/a5russell/DIcorr2/SC_RNA_COUNTER_CS/SC_RNA_COUNTER/_BASIC_SC_RNA_COUNTER/COUNT_GENES/fork0/chnk8/files/reporter_summary.json"
+    },
+    {
+        "barcode_summary": "/tscc/lustre/ddn/scratch/a5russell/DIcorr2/SC_RNA_COUNTER_CS/SC_RNA_COUNTER/_BASIC_SC_RNA_COUNTER/COUNT_GENES/fork0/chnk9/files/barcode_summary.h5",
+        "chunked_reporter": "/tscc/lustre/ddn/scratch/a5russell/DIcorr2/SC_RNA_COUNTER_CS/SC_RNA_COUNTER/_BASIC_SC_RNA_COUNTER/COUNT_GENES/fork0/chnk9/files/chunked_reporter.pickle",
+        "matrices_h5": "/tscc/lustre/ddn/scratch/a5russell/DIcorr2/SC_RNA_COUNTER_CS/SC_RNA_COUNTER/_BASIC_SC_RNA_COUNTER/COUNT_GENES/fork0/chnk9/files/matrices_h5.h5",
+        "matrices_mex": "/tscc/lustre/ddn/scratch/a5russell/DIcorr2/SC_RNA_COUNTER_CS/SC_RNA_COUNTER/_BASIC_SC_RNA_COUNTER/COUNT_GENES/fork0/chnk9/files/matrices_mex",
+        "reporter_summary": "/tscc/lustre/ddn/scratch/a5russell/DIcorr2/SC_RNA_COUNTER_CS/SC_RNA_COUNTER/_BASIC_SC_RNA_COUNTER/COUNT_GENES/fork0/chnk9/files/reporter_summary.json"
+    },
+    {
+        "barcode_summary": "/tscc/lustre/ddn/scratch/a5russell/DIcorr2/SC_RNA_COUNTER_CS/SC_RNA_COUNTER/_BASIC_SC_RNA_COUNTER/COUNT_GENES/fork0/chnk10/files/barcode_summary.h5",
+        "chunked_reporter": "/tscc/lustre/ddn/scratch/a5russell/DIcorr2/SC_RNA_COUNTER_CS/SC_RNA_COUNTER/_BASIC_SC_RNA_COUNTER/COUNT_GENES/fork0/chnk10/files/chunked_reporter.pickle",
+        "matrices_h5": "/tscc/lustre/ddn/scratch/a5russell/DIcorr2/SC_RNA_COUNTER_CS/SC_RNA_COUNTER/_BASIC_SC_RNA_COUNTER/COUNT_GENES/fork0/chnk10/files/matrices_h5.h5",
+        "matrices_mex": "/tscc/lustre/ddn/scratch/a5russell/DIcorr2/SC_RNA_COUNTER_CS/SC_RNA_COUNTER/_BASIC_SC_RNA_COUNTER/COUNT_GENES/fork0/chnk10/files/matrices_mex",
+        "reporter_summary": "/tscc/lustre/ddn/scratch/a5russell/DIcorr2/SC_RNA_COUNTER_CS/SC_RNA_COUNTER/_BASIC_SC_RNA_COUNTER/COUNT_GENES/fork0/chnk10/files/reporter_summary.json"
+    },
+    {
+        "barcode_summary": "/tscc/lustre/ddn/scratch/a5russell/DIcorr2/SC_RNA_COUNTER_CS/SC_RNA_COUNTER/_BASIC_SC_RNA_COUNTER/COUNT_GENES/fork0/chnk11/files/barcode_summary.h5",
+        "chunked_reporter": "/tscc/lustre/ddn/scratch/a5russell/DIcorr2/SC_RNA_COUNTER_CS/SC_RNA_COUNTER/_BASIC_SC_RNA_COUNTER/COUNT_GENES/fork0/chnk11/files/chunked_reporter.pickle",
+        "matrices_h5": "/tscc/lustre/ddn/scratch/a5russell/DIcorr2/SC_RNA_COUNTER_CS/SC_RNA_COUNTER/_BASIC_SC_RNA_COUNTER/COUNT_GENES/fork0/chnk11/files/matrices_h5.h5",
+        "matrices_mex": "/tscc/lustre/ddn/scratch/a5russell/DIcorr2/SC_RNA_COUNTER_CS/SC_RNA_COUNTER/_BASIC_SC_RNA_COUNTER/COUNT_GENES/fork0/chnk11/files/matrices_mex",
+        "reporter_summary": "/tscc/lustre/ddn/scratch/a5russell/DIcorr2/SC_RNA_COUNTER_CS/SC_RNA_COUNTER/_BASIC_SC_RNA_COUNTER/COUNT_GENES/fork0/chnk11/files/reporter_summary.json"
+    },
+    {
+        "barcode_summary": "/tscc/lustre/ddn/scratch/a5russell/DIcorr2/SC_RNA_COUNTER_CS/SC_RNA_COUNTER/_BASIC_SC_RNA_COUNTER/COUNT_GENES/fork0/chnk12/files/barcode_summary.h5",
+        "chunked_reporter": "/tscc/lustre/ddn/scratch/a5russell/DIcorr2/SC_RNA_COUNTER_CS/SC_RNA_COUNTER/_BASIC_SC_RNA_COUNTER/COUNT_GENES/fork0/chnk12/files/chunked_reporter.pickle",
+        "matrices_h5": "/tscc/lustre/ddn/scratch/a5russell/DIcorr2/SC_RNA_COUNTER_CS/SC_RNA_COUNTER/_BASIC_SC_RNA_COUNTER/COUNT_GENES/fork0/chnk12/files/matrices_h5.h5",
+        "matrices_mex": "/tscc/lustre/ddn/scratch/a5russell/DIcorr2/SC_RNA_COUNTER_CS/SC_RNA_COUNTER/_BASIC_SC_RNA_COUNTER/COUNT_GENES/fork0/chnk12/files/matrices_mex",
+        "reporter_summary": "/tscc/lustre/ddn/scratch/a5russell/DIcorr2/SC_RNA_COUNTER_CS/SC_RNA_COUNTER/_BASIC_SC_RNA_COUNTER/COUNT_GENES/fork0/chnk12/files/reporter_summary.json"
+    },
+    {
+        "barcode_summary": "/tscc/lustre/ddn/scratch/a5russell/DIcorr2/SC_RNA_COUNTER_CS/SC_RNA_COUNTER/_BASIC_SC_RNA_COUNTER/COUNT_GENES/fork0/chnk13/files/barcode_summary.h5",
+        "chunked_reporter": "/tscc/lustre/ddn/scratch/a5russell/DIcorr2/SC_RNA_COUNTER_CS/SC_RNA_COUNTER/_BASIC_SC_RNA_COUNTER/COUNT_GENES/fork0/chnk13/files/chunked_reporter.pickle",
+        "matrices_h5": "/tscc/lustre/ddn/scratch/a5russell/DIcorr2/SC_RNA_COUNTER_CS/SC_RNA_COUNTER/_BASIC_SC_RNA_COUNTER/COUNT_GENES/fork0/chnk13/files/matrices_h5.h5",
+        "matrices_mex": "/tscc/lustre/ddn/scratch/a5russell/DIcorr2/SC_RNA_COUNTER_CS/SC_RNA_COUNTER/_BASIC_SC_RNA_COUNTER/COUNT_GENES/fork0/chnk13/files/matrices_mex",
+        "reporter_summary": "/tscc/lustre/ddn/scratch/a5russell/DIcorr2/SC_RNA_COUNTER_CS/SC_RNA_COUNTER/_BASIC_SC_RNA_COUNTER/COUNT_GENES/fork0/chnk13/files/reporter_summary.json"
+    },
+    {
+        "barcode_summary": "/tscc/lustre/ddn/scratch/a5russell/DIcorr2/SC_RNA_COUNTER_CS/SC_RNA_COUNTER/_BASIC_SC_RNA_COUNTER/COUNT_GENES/fork0/chnk14/files/barcode_summary.h5",
+        "chunked_reporter": "/tscc/lustre/ddn/scratch/a5russell/DIcorr2/SC_RNA_COUNTER_CS/SC_RNA_COUNTER/_BASIC_SC_RNA_COUNTER/COUNT_GENES/fork0/chnk14/files/chunked_reporter.pickle",
+        "matrices_h5": "/tscc/lustre/ddn/scratch/a5russell/DIcorr2/SC_RNA_COUNTER_CS/SC_RNA_COUNTER/_BASIC_SC_RNA_COUNTER/COUNT_GENES/fork0/chnk14/files/matrices_h5.h5",
+        "matrices_mex": "/tscc/lustre/ddn/scratch/a5russell/DIcorr2/SC_RNA_COUNTER_CS/SC_RNA_COUNTER/_BASIC_SC_RNA_COUNTER/COUNT_GENES/fork0/chnk14/files/matrices_mex",
+        "reporter_summary": "/tscc/lustre/ddn/scratch/a5russell/DIcorr2/SC_RNA_COUNTER_CS/SC_RNA_COUNTER/_BASIC_SC_RNA_COUNTER/COUNT_GENES/fork0/chnk14/files/reporter_summary.json"
+    },
+    {
+        "barcode_summary": "/tscc/lustre/ddn/scratch/a5russell/DIcorr2/SC_RNA_COUNTER_CS/SC_RNA_COUNTER/_BASIC_SC_RNA_COUNTER/COUNT_GENES/fork0/chnk15/files/barcode_summary.h5",
+        "chunked_reporter": "/tscc/lustre/ddn/scratch/a5russell/DIcorr2/SC_RNA_COUNTER_CS/SC_RNA_COUNTER/_BASIC_SC_RNA_COUNTER/COUNT_GENES/fork0/chnk15/files/chunked_reporter.pickle",
+        "matrices_h5": "/tscc/lustre/ddn/scratch/a5russell/DIcorr2/SC_RNA_COUNTER_CS/SC_RNA_COUNTER/_BASIC_SC_RNA_COUNTER/COUNT_GENES/fork0/chnk15/files/matrices_h5.h5",
+        "matrices_mex": "/tscc/lustre/ddn/scratch/a5russell/DIcorr2/SC_RNA_COUNTER_CS/SC_RNA_COUNTER/_BASIC_SC_RNA_COUNTER/COUNT_GENES/fork0/chnk15/files/matrices_mex",
+        "reporter_summary": "/tscc/lustre/ddn/scratch/a5russell/DIcorr2/SC_RNA_COUNTER_CS/SC_RNA_COUNTER/_BASIC_SC_RNA_COUNTER/COUNT_GENES/fork0/chnk15/files/reporter_summary.json"
+    },
+    {
+        "barcode_summary": "/tscc/lustre/ddn/scratch/a5russell/DIcorr2/SC_RNA_COUNTER_CS/SC_RNA_COUNTER/_BASIC_SC_RNA_COUNTER/COUNT_GENES/fork0/chnk16/files/barcode_summary.h5",
+        "chunked_reporter": "/tscc/lustre/ddn/scratch/a5russell/DIcorr2/SC_RNA_COUNTER_CS/SC_RNA_COUNTER/_BASIC_SC_RNA_COUNTER/COUNT_GENES/fork0/chnk16/files/chunked_reporter.pickle",
+        "matrices_h5": "/tscc/lustre/ddn/scratch/a5russell/DIcorr2/SC_RNA_COUNTER_CS/SC_RNA_COUNTER/_BASIC_SC_RNA_COUNTER/COUNT_GENES/fork0/chnk16/files/matrices_h5.h5",
+        "matrices_mex": "/tscc/lustre/ddn/scratch/a5russell/DIcorr2/SC_RNA_COUNTER_CS/SC_RNA_COUNTER/_BASIC_SC_RNA_COUNTER/COUNT_GENES/fork0/chnk16/files/matrices_mex",
+        "reporter_summary": "/tscc/lustre/ddn/scratch/a5russell/DIcorr2/SC_RNA_COUNTER_CS/SC_RNA_COUNTER/_BASIC_SC_RNA_COUNTER/COUNT_GENES/fork0/chnk16/files/reporter_summary.json"
+    },
+    {
+        "barcode_summary": "/tscc/lustre/ddn/scratch/a5russell/DIcorr2/SC_RNA_COUNTER_CS/SC_RNA_COUNTER/_BASIC_SC_RNA_COUNTER/COUNT_GENES/fork0/chnk17/files/barcode_summary.h5",
+        "chunked_reporter": "/tscc/lustre/ddn/scratch/a5russell/DIcorr2/SC_RNA_COUNTER_CS/SC_RNA_COUNTER/_BASIC_SC_RNA_COUNTER/COUNT_GENES/fork0/chnk17/files/chunked_reporter.pickle",
+        "matrices_h5": "/tscc/lustre/ddn/scratch/a5russell/DIcorr2/SC_RNA_COUNTER_CS/SC_RNA_COUNTER/_BASIC_SC_RNA_COUNTER/COUNT_GENES/fork0/chnk17/files/matrices_h5.h5",
+        "matrices_mex": "/tscc/lustre/ddn/scratch/a5russell/DIcorr2/SC_RNA_COUNTER_CS/SC_RNA_COUNTER/_BASIC_SC_RNA_COUNTER/COUNT_GENES/fork0/chnk17/files/matrices_mex",
+        "reporter_summary": "/tscc/lustre/ddn/scratch/a5russell/DIcorr2/SC_RNA_COUNTER_CS/SC_RNA_COUNTER/_BASIC_SC_RNA_COUNTER/COUNT_GENES/fork0/chnk17/files/reporter_summary.json"
+    },
+    {
+        "barcode_summary": "/tscc/lustre/ddn/scratch/a5russell/DIcorr2/SC_RNA_COUNTER_CS/SC_RNA_COUNTER/_BASIC_SC_RNA_COUNTER/COUNT_GENES/fork0/chnk18/files/barcode_summary.h5",
+        "chunked_reporter": "/tscc/lustre/ddn/scratch/a5russell/DIcorr2/SC_RNA_COUNTER_CS/SC_RNA_COUNTER/_BASIC_SC_RNA_COUNTER/COUNT_GENES/fork0/chnk18/files/chunked_reporter.pickle",
+        "matrices_h5": "/tscc/lustre/ddn/scratch/a5russell/DIcorr2/SC_RNA_COUNTER_CS/SC_RNA_COUNTER/_BASIC_SC_RNA_COUNTER/COUNT_GENES/fork0/chnk18/files/matrices_h5.h5",
+        "matrices_mex": "/tscc/lustre/ddn/scratch/a5russell/DIcorr2/SC_RNA_COUNTER_CS/SC_RNA_COUNTER/_BASIC_SC_RNA_COUNTER/COUNT_GENES/fork0/chnk18/files/matrices_mex",
+        "reporter_summary": "/tscc/lustre/ddn/scratch/a5russell/DIcorr2/SC_RNA_COUNTER_CS/SC_RNA_COUNTER/_BASIC_SC_RNA_COUNTER/COUNT_GENES/fork0/chnk18/files/reporter_summary.json"
+    },
+    {
+        "barcode_summary": "/tscc/lustre/ddn/scratch/a5russell/DIcorr2/SC_RNA_COUNTER_CS/SC_RNA_COUNTER/_BASIC_SC_RNA_COUNTER/COUNT_GENES/fork0/chnk19/files/barcode_summary.h5",
+        "chunked_reporter": "/tscc/lustre/ddn/scratch/a5russell/DIcorr2/SC_RNA_COUNTER_CS/SC_RNA_COUNTER/_BASIC_SC_RNA_COUNTER/COUNT_GENES/fork0/chnk19/files/chunked_reporter.pickle",
+        "matrices_h5": "/tscc/lustre/ddn/scratch/a5russell/DIcorr2/SC_RNA_COUNTER_CS/SC_RNA_COUNTER/_BASIC_SC_RNA_COUNTER/COUNT_GENES/fork0/chnk19/files/matrices_h5.h5",
+        "matrices_mex": "/tscc/lustre/ddn/scratch/a5russell/DIcorr2/SC_RNA_COUNTER_CS/SC_RNA_COUNTER/_BASIC_SC_RNA_COUNTER/COUNT_GENES/fork0/chnk19/files/matrices_mex",
+        "reporter_summary": "/tscc/lustre/ddn/scratch/a5russell/DIcorr2/SC_RNA_COUNTER_CS/SC_RNA_COUNTER/_BASIC_SC_RNA_COUNTER/COUNT_GENES/fork0/chnk19/files/reporter_summary.json"
+    },
+    {
+        "barcode_summary": "/tscc/lustre/ddn/scratch/a5russell/DIcorr2/SC_RNA_COUNTER_CS/SC_RNA_COUNTER/_BASIC_SC_RNA_COUNTER/COUNT_GENES/fork0/chnk20/files/barcode_summary.h5",
+        "chunked_reporter": "/tscc/lustre/ddn/scratch/a5russell/DIcorr2/SC_RNA_COUNTER_CS/SC_RNA_COUNTER/_BASIC_SC_RNA_COUNTER/COUNT_GENES/fork0/chnk20/files/chunked_reporter.pickle",
+        "matrices_h5": "/tscc/lustre/ddn/scratch/a5russell/DIcorr2/SC_RNA_COUNTER_CS/SC_RNA_COUNTER/_BASIC_SC_RNA_COUNTER/COUNT_GENES/fork0/chnk20/files/matrices_h5.h5",
+        "matrices_mex": "/tscc/lustre/ddn/scratch/a5russell/DIcorr2/SC_RNA_COUNTER_CS/SC_RNA_COUNTER/_BASIC_SC_RNA_COUNTER/COUNT_GENES/fork0/chnk20/files/matrices_mex",
+        "reporter_summary": "/tscc/lustre/ddn/scratch/a5russell/DIcorr2/SC_RNA_COUNTER_CS/SC_RNA_COUNTER/_BASIC_SC_RNA_COUNTER/COUNT_GENES/fork0/chnk20/files/reporter_summary.json"
+    },
+    {
+        "barcode_summary": "/tscc/lustre/ddn/scratch/a5russell/DIcorr2/SC_RNA_COUNTER_CS/SC_RNA_COUNTER/_BASIC_SC_RNA_COUNTER/COUNT_GENES/fork0/chnk21/files/barcode_summary.h5",
+        "chunked_reporter": "/tscc/lustre/ddn/scratch/a5russell/DIcorr2/SC_RNA_COUNTER_CS/SC_RNA_COUNTER/_BASIC_SC_RNA_COUNTER/COUNT_GENES/fork0/chnk21/files/chunked_reporter.pickle",
+        "matrices_h5": "/tscc/lustre/ddn/scratch/a5russell/DIcorr2/SC_RNA_COUNTER_CS/SC_RNA_COUNTER/_BASIC_SC_RNA_COUNTER/COUNT_GENES/fork0/chnk21/files/matrices_h5.h5",
+        "matrices_mex": "/tscc/lustre/ddn/scratch/a5russell/DIcorr2/SC_RNA_COUNTER_CS/SC_RNA_COUNTER/_BASIC_SC_RNA_COUNTER/COUNT_GENES/fork0/chnk21/files/matrices_mex",
+        "reporter_summary": "/tscc/lustre/ddn/scratch/a5russell/DIcorr2/SC_RNA_COUNTER_CS/SC_RNA_COUNTER/_BASIC_SC_RNA_COUNTER/COUNT_GENES/fork0/chnk21/files/reporter_summary.json"
+    },
+    {
+        "barcode_summary": "/tscc/lustre/ddn/scratch/a5russell/DIcorr2/SC_RNA_COUNTER_CS/SC_RNA_COUNTER/_BASIC_SC_RNA_COUNTER/COUNT_GENES/fork0/chnk22/files/barcode_summary.h5",
+        "chunked_reporter": "/tscc/lustre/ddn/scratch/a5russell/DIcorr2/SC_RNA_COUNTER_CS/SC_RNA_COUNTER/_BASIC_SC_RNA_COUNTER/COUNT_GENES/fork0/chnk22/files/chunked_reporter.pickle",
+        "matrices_h5": "/tscc/lustre/ddn/scratch/a5russell/DIcorr2/SC_RNA_COUNTER_CS/SC_RNA_COUNTER/_BASIC_SC_RNA_COUNTER/COUNT_GENES/fork0/chnk22/files/matrices_h5.h5",
+        "matrices_mex": "/tscc/lustre/ddn/scratch/a5russell/DIcorr2/SC_RNA_COUNTER_CS/SC_RNA_COUNTER/_BASIC_SC_RNA_COUNTER/COUNT_GENES/fork0/chnk22/files/matrices_mex",
+        "reporter_summary": "/tscc/lustre/ddn/scratch/a5russell/DIcorr2/SC_RNA_COUNTER_CS/SC_RNA_COUNTER/_BASIC_SC_RNA_COUNTER/COUNT_GENES/fork0/chnk22/files/reporter_summary.json"
+    },
+    {
+        "barcode_summary": "/tscc/lustre/ddn/scratch/a5russell/DIcorr2/SC_RNA_COUNTER_CS/SC_RNA_COUNTER/_BASIC_SC_RNA_COUNTER/COUNT_GENES/fork0/chnk23/files/barcode_summary.h5",
+        "chunked_reporter": "/tscc/lustre/ddn/scratch/a5russell/DIcorr2/SC_RNA_COUNTER_CS/SC_RNA_COUNTER/_BASIC_SC_RNA_COUNTER/COUNT_GENES/fork0/chnk23/files/chunked_reporter.pickle",
+        "matrices_h5": "/tscc/lustre/ddn/scratch/a5russell/DIcorr2/SC_RNA_COUNTER_CS/SC_RNA_COUNTER/_BASIC_SC_RNA_COUNTER/COUNT_GENES/fork0/chnk23/files/matrices_h5.h5",
+        "matrices_mex": "/tscc/lustre/ddn/scratch/a5russell/DIcorr2/SC_RNA_COUNTER_CS/SC_RNA_COUNTER/_BASIC_SC_RNA_COUNTER/COUNT_GENES/fork0/chnk23/files/matrices_mex",
+        "reporter_summary": "/tscc/lustre/ddn/scratch/a5russell/DIcorr2/SC_RNA_COUNTER_CS/SC_RNA_COUNTER/_BASIC_SC_RNA_COUNTER/COUNT_GENES/fork0/chnk23/files/reporter_summary.json"
+    },
+    {
+        "barcode_summary": "/tscc/lustre/ddn/scratch/a5russell/DIcorr2/SC_RNA_COUNTER_CS/SC_RNA_COUNTER/_BASIC_SC_RNA_COUNTER/COUNT_GENES/fork0/chnk24/files/barcode_summary.h5",
+        "chunked_reporter": "/tscc/lustre/ddn/scratch/a5russell/DIcorr2/SC_RNA_COUNTER_CS/SC_RNA_COUNTER/_BASIC_SC_RNA_COUNTER/COUNT_GENES/fork0/chnk24/files/chunked_reporter.pickle",
+        "matrices_h5": "/tscc/lustre/ddn/scratch/a5russell/DIcorr2/SC_RNA_COUNTER_CS/SC_RNA_COUNTER/_BASIC_SC_RNA_COUNTER/COUNT_GENES/fork0/chnk24/files/matrices_h5.h5",
+        "matrices_mex": "/tscc/lustre/ddn/scratch/a5russell/DIcorr2/SC_RNA_COUNTER_CS/SC_RNA_COUNTER/_BASIC_SC_RNA_COUNTER/COUNT_GENES/fork0/chnk24/files/matrices_mex",
+        "reporter_summary": "/tscc/lustre/ddn/scratch/a5russell/DIcorr2/SC_RNA_COUNTER_CS/SC_RNA_COUNTER/_BASIC_SC_RNA_COUNTER/COUNT_GENES/fork0/chnk24/files/reporter_summary.json"
+    },
+    {
+        "barcode_summary": "/tscc/lustre/ddn/scratch/a5russell/DIcorr2/SC_RNA_COUNTER_CS/SC_RNA_COUNTER/_BASIC_SC_RNA_COUNTER/COUNT_GENES/fork0/chnk25/files/barcode_summary.h5",
+        "chunked_reporter": "/tscc/lustre/ddn/scratch/a5russell/DIcorr2/SC_RNA_COUNTER_CS/SC_RNA_COUNTER/_BASIC_SC_RNA_COUNTER/COUNT_GENES/fork0/chnk25/files/chunked_reporter.pickle",
+        "matrices_h5": "/tscc/lustre/ddn/scratch/a5russell/DIcorr2/SC_RNA_COUNTER_CS/SC_RNA_COUNTER/_BASIC_SC_RNA_COUNTER/COUNT_GENES/fork0/chnk25/files/matrices_h5.h5",
+        "matrices_mex": "/tscc/lustre/ddn/scratch/a5russell/DIcorr2/SC_RNA_COUNTER_CS/SC_RNA_COUNTER/_BASIC_SC_RNA_COUNTER/COUNT_GENES/fork0/chnk25/files/matrices_mex",
+        "reporter_summary": "/tscc/lustre/ddn/scratch/a5russell/DIcorr2/SC_RNA_COUNTER_CS/SC_RNA_COUNTER/_BASIC_SC_RNA_COUNTER/COUNT_GENES/fork0/chnk25/files/reporter_summary.json"
+    },
+    {
+        "barcode_summary": "/tscc/lustre/ddn/scratch/a5russell/DIcorr2/SC_RNA_COUNTER_CS/SC_RNA_COUNTER/_BASIC_SC_RNA_COUNTER/COUNT_GENES/fork0/chnk26/files/barcode_summary.h5",
+        "chunked_reporter": "/tscc/lustre/ddn/scratch/a5russell/DIcorr2/SC_RNA_COUNTER_CS/SC_RNA_COUNTER/_BASIC_SC_RNA_COUNTER/COUNT_GENES/fork0/chnk26/files/chunked_reporter.pickle",
+        "matrices_h5": "/tscc/lustre/ddn/scratch/a5russell/DIcorr2/SC_RNA_COUNTER_CS/SC_RNA_COUNTER/_BASIC_SC_RNA_COUNTER/COUNT_GENES/fork0/chnk26/files/matrices_h5.h5",
+        "matrices_mex": "/tscc/lustre/ddn/scratch/a5russell/DIcorr2/SC_RNA_COUNTER_CS/SC_RNA_COUNTER/_BASIC_SC_RNA_COUNTER/COUNT_GENES/fork0/chnk26/files/matrices_mex",
+        "reporter_summary": "/tscc/lustre/ddn/scratch/a5russell/DIcorr2/SC_RNA_COUNTER_CS/SC_RNA_COUNTER/_BASIC_SC_RNA_COUNTER/COUNT_GENES/fork0/chnk26/files/reporter_summary.json"
+    },
+    {
+        "barcode_summary": "/tscc/lustre/ddn/scratch/a5russell/DIcorr2/SC_RNA_COUNTER_CS/SC_RNA_COUNTER/_BASIC_SC_RNA_COUNTER/COUNT_GENES/fork0/chnk27/files/barcode_summary.h5",
+        "chunked_reporter": "/tscc/lustre/ddn/scratch/a5russell/DIcorr2/SC_RNA_COUNTER_CS/SC_RNA_COUNTER/_BASIC_SC_RNA_COUNTER/COUNT_GENES/fork0/chnk27/files/chunked_reporter.pickle",
+        "matrices_h5": "/tscc/lustre/ddn/scratch/a5russell/DIcorr2/SC_RNA_COUNTER_CS/SC_RNA_COUNTER/_BASIC_SC_RNA_COUNTER/COUNT_GENES/fork0/chnk27/files/matrices_h5.h5",
+        "matrices_mex": "/tscc/lustre/ddn/scratch/a5russell/DIcorr2/SC_RNA_COUNTER_CS/SC_RNA_COUNTER/_BASIC_SC_RNA_COUNTER/COUNT_GENES/fork0/chnk27/files/matrices_mex",
+        "reporter_summary": "/tscc/lustre/ddn/scratch/a5russell/DIcorr2/SC_RNA_COUNTER_CS/SC_RNA_COUNTER/_BASIC_SC_RNA_COUNTER/COUNT_GENES/fork0/chnk27/files/reporter_summary.json"
+    },
+    {
+        "barcode_summary": "/tscc/lustre/ddn/scratch/a5russell/DIcorr2/SC_RNA_COUNTER_CS/SC_RNA_COUNTER/_BASIC_SC_RNA_COUNTER/COUNT_GENES/fork0/chnk28/files/barcode_summary.h5",
+        "chunked_reporter": "/tscc/lustre/ddn/scratch/a5russell/DIcorr2/SC_RNA_COUNTER_CS/SC_RNA_COUNTER/_BASIC_SC_RNA_COUNTER/COUNT_GENES/fork0/chnk28/files/chunked_reporter.pickle",
+        "matrices_h5": "/tscc/lustre/ddn/scratch/a5russell/DIcorr2/SC_RNA_COUNTER_CS/SC_RNA_COUNTER/_BASIC_SC_RNA_COUNTER/COUNT_GENES/fork0/chnk28/files/matrices_h5.h5",
+        "matrices_mex": "/tscc/lustre/ddn/scratch/a5russell/DIcorr2/SC_RNA_COUNTER_CS/SC_RNA_COUNTER/_BASIC_SC_RNA_COUNTER/COUNT_GENES/fork0/chnk28/files/matrices_mex",
+        "reporter_summary": "/tscc/lustre/ddn/scratch/a5russell/DIcorr2/SC_RNA_COUNTER_CS/SC_RNA_COUNTER/_BASIC_SC_RNA_COUNTER/COUNT_GENES/fork0/chnk28/files/reporter_summary.json"
+    },
+    {
+        "barcode_summary": "/tscc/lustre/ddn/scratch/a5russell/DIcorr2/SC_RNA_COUNTER_CS/SC_RNA_COUNTER/_BASIC_SC_RNA_COUNTER/COUNT_GENES/fork0/chnk29/files/barcode_summary.h5",
+        "chunked_reporter": "/tscc/lustre/ddn/scratch/a5russell/DIcorr2/SC_RNA_COUNTER_CS/SC_RNA_COUNTER/_BASIC_SC_RNA_COUNTER/COUNT_GENES/fork0/chnk29/files/chunked_reporter.pickle",
+        "matrices_h5": "/tscc/lustre/ddn/scratch/a5russell/DIcorr2/SC_RNA_COUNTER_CS/SC_RNA_COUNTER/_BASIC_SC_RNA_COUNTER/COUNT_GENES/fork0/chnk29/files/matrices_h5.h5",
+        "matrices_mex": "/tscc/lustre/ddn/scratch/a5russell/DIcorr2/SC_RNA_COUNTER_CS/SC_RNA_COUNTER/_BASIC_SC_RNA_COUNTER/COUNT_GENES/fork0/chnk29/files/matrices_mex",
+        "reporter_summary": "/tscc/lustre/ddn/scratch/a5russell/DIcorr2/SC_RNA_COUNTER_CS/SC_RNA_COUNTER/_BASIC_SC_RNA_COUNTER/COUNT_GENES/fork0/chnk29/files/reporter_summary.json"
+    },
+    {
+        "barcode_summary": "/tscc/lustre/ddn/scratch/a5russell/DIcorr2/SC_RNA_COUNTER_CS/SC_RNA_COUNTER/_BASIC_SC_RNA_COUNTER/COUNT_GENES/fork0/chnk30/files/barcode_summary.h5",
+        "chunked_reporter": "/tscc/lustre/ddn/scratch/a5russell/DIcorr2/SC_RNA_COUNTER_CS/SC_RNA_COUNTER/_BASIC_SC_RNA_COUNTER/COUNT_GENES/fork0/chnk30/files/chunked_reporter.pickle",
+        "matrices_h5": "/tscc/lustre/ddn/scratch/a5russell/DIcorr2/SC_RNA_COUNTER_CS/SC_RNA_COUNTER/_BASIC_SC_RNA_COUNTER/COUNT_GENES/fork0/chnk30/files/matrices_h5.h5",
+        "matrices_mex": "/tscc/lustre/ddn/scratch/a5russell/DIcorr2/SC_RNA_COUNTER_CS/SC_RNA_COUNTER/_BASIC_SC_RNA_COUNTER/COUNT_GENES/fork0/chnk30/files/matrices_mex",
+        "reporter_summary": "/tscc/lustre/ddn/scratch/a5russell/DIcorr2/SC_RNA_COUNTER_CS/SC_RNA_COUNTER/_BASIC_SC_RNA_COUNTER/COUNT_GENES/fork0/chnk30/files/reporter_summary.json"
+    },
+    {
+        "barcode_summary": "/tscc/lustre/ddn/scratch/a5russell/DIcorr2/SC_RNA_COUNTER_CS/SC_RNA_COUNTER/_BASIC_SC_RNA_COUNTER/COUNT_GENES/fork0/chnk31/files/barcode_summary.h5",
+        "chunked_reporter": "/tscc/lustre/ddn/scratch/a5russell/DIcorr2/SC_RNA_COUNTER_CS/SC_RNA_COUNTER/_BASIC_SC_RNA_COUNTER/COUNT_GENES/fork0/chnk31/files/chunked_reporter.pickle",
+        "matrices_h5": "/tscc/lustre/ddn/scratch/a5russell/DIcorr2/SC_RNA_COUNTER_CS/SC_RNA_COUNTER/_BASIC_SC_RNA_COUNTER/COUNT_GENES/fork0/chnk31/files/matrices_h5.h5",
+        "matrices_mex": "/tscc/lustre/ddn/scratch/a5russell/DIcorr2/SC_RNA_COUNTER_CS/SC_RNA_COUNTER/_BASIC_SC_RNA_COUNTER/COUNT_GENES/fork0/chnk31/files/matrices_mex",
+        "reporter_summary": "/tscc/lustre/ddn/scratch/a5russell/DIcorr2/SC_RNA_COUNTER_CS/SC_RNA_COUNTER/_BASIC_SC_RNA_COUNTER/COUNT_GENES/fork0/chnk31/files/reporter_summary.json"
+    }
+]

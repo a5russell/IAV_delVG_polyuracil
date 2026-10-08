@@ -1,0 +1,760 @@
+{
+    "chunks": [
+        {
+            "read_groups": [
+                {
+                    "PU": "DIcorr2:MissingLibrary:1:HJLLJBCXY:1", 
+                    "LB": "MissingLibrary.1", 
+                    "ID": "DIcorr2:MissingLibrary:1:HJLLJBCXY:1", 
+                    "PL": "ILLUMINA", 
+                    "SM": "DIcorr2"
+                }, 
+                {
+                    "PU": "DIcorr2:MissingLibrary:1:HJLLJBCXY:2", 
+                    "LB": "MissingLibrary.1", 
+                    "ID": "DIcorr2:MissingLibrary:1:HJLLJBCXY:2", 
+                    "PL": "ILLUMINA", 
+                    "SM": "DIcorr2"
+                }, 
+                {
+                    "PU": "DIcorr2:MissingLibrary:1:HNGGKBCXY:2", 
+                    "LB": "MissingLibrary.1", 
+                    "ID": "DIcorr2:MissingLibrary:1:HNGGKBCXY:2", 
+                    "PL": "ILLUMINA", 
+                    "SM": "DIcorr2"
+                }
+            ], 
+            "__mem_gb": 8, 
+            "chunk_input": "/tscc/lustre/ddn/scratch/a5russell/DIcorr2/SC_RNA_COUNTER_CS/SC_RNA_COUNTER/_BASIC_SC_RNA_COUNTER/ATTACH_BCS_AND_UMIS/fork0/chnk0/files/output.bam"
+        }, 
+        {
+            "read_groups": [
+                {
+                    "PU": "DIcorr2:MissingLibrary:1:HJLLJBCXY:1", 
+                    "LB": "MissingLibrary.1", 
+                    "ID": "DIcorr2:MissingLibrary:1:HJLLJBCXY:1", 
+                    "PL": "ILLUMINA", 
+                    "SM": "DIcorr2"
+                }, 
+                {
+                    "PU": "DIcorr2:MissingLibrary:1:HJLLJBCXY:2", 
+                    "LB": "MissingLibrary.1", 
+                    "ID": "DIcorr2:MissingLibrary:1:HJLLJBCXY:2", 
+                    "PL": "ILLUMINA", 
+                    "SM": "DIcorr2"
+                }, 
+                {
+                    "PU": "DIcorr2:MissingLibrary:1:HNGGKBCXY:2", 
+                    "LB": "MissingLibrary.1", 
+                    "ID": "DIcorr2:MissingLibrary:1:HNGGKBCXY:2", 
+                    "PL": "ILLUMINA", 
+                    "SM": "DIcorr2"
+                }
+            ], 
+            "__mem_gb": 8, 
+            "chunk_input": "/tscc/lustre/ddn/scratch/a5russell/DIcorr2/SC_RNA_COUNTER_CS/SC_RNA_COUNTER/_BASIC_SC_RNA_COUNTER/ATTACH_BCS_AND_UMIS/fork0/chnk1/files/output.bam"
+        }, 
+        {
+            "read_groups": [
+                {
+                    "PU": "DIcorr2:MissingLibrary:1:HJLLJBCXY:1", 
+                    "LB": "MissingLibrary.1", 
+                    "ID": "DIcorr2:MissingLibrary:1:HJLLJBCXY:1", 
+                    "PL": "ILLUMINA", 
+                    "SM": "DIcorr2"
+                }, 
+                {
+                    "PU": "DIcorr2:MissingLibrary:1:HJLLJBCXY:2", 
+                    "LB": "MissingLibrary.1", 
+                    "ID": "DIcorr2:MissingLibrary:1:HJLLJBCXY:2", 
+                    "PL": "ILLUMINA", 
+                    "SM": "DIcorr2"
+                }, 
+                {
+                    "PU": "DIcorr2:MissingLibrary:1:HNGGKBCXY:2", 
+                    "LB": "MissingLibrary.1", 
+                    "ID": "DIcorr2:MissingLibrary:1:HNGGKBCXY:2", 
+                    "PL": "ILLUMINA", 
+                    "SM": "DIcorr2"
+                }
+            ], 
+            "__mem_gb": 8, 
+            "chunk_input": "/tscc/lustre/ddn/scratch/a5russell/DIcorr2/SC_RNA_COUNTER_CS/SC_RNA_COUNTER/_BASIC_SC_RNA_COUNTER/ATTACH_BCS_AND_UMIS/fork0/chnk2/files/output.bam"
+        }, 
+        {
+            "read_groups": [
+                {
+                    "PU": "DIcorr2:MissingLibrary:1:HJLLJBCXY:1", 
+                    "LB": "MissingLibrary.1", 
+                    "ID": "DIcorr2:MissingLibrary:1:HJLLJBCXY:1", 
+                    "PL": "ILLUMINA", 
+                    "SM": "DIcorr2"
+                }, 
+                {
+                    "PU": "DIcorr2:MissingLibrary:1:HJLLJBCXY:2", 
+                    "LB": "MissingLibrary.1", 
+                    "ID": "DIcorr2:MissingLibrary:1:HJLLJBCXY:2", 
+                    "PL": "ILLUMINA", 
+                    "SM": "DIcorr2"
+                }, 
+                {
+                    "PU": "DIcorr2:MissingLibrary:1:HNGGKBCXY:2", 
+                    "LB": "MissingLibrary.1", 
+                    "ID": "DIcorr2:MissingLibrary:1:HNGGKBCXY:2", 
+                    "PL": "ILLUMINA", 
+                    "SM": "DIcorr2"
+                }
+            ], 
+            "__mem_gb": 8, 
+            "chunk_input": "/tscc/lustre/ddn/scratch/a5russell/DIcorr2/SC_RNA_COUNTER_CS/SC_RNA_COUNTER/_BASIC_SC_RNA_COUNTER/ATTACH_BCS_AND_UMIS/fork0/chnk3/files/output.bam"
+        }, 
+        {
+            "read_groups": [
+                {
+                    "PU": "DIcorr2:MissingLibrary:1:HJLLJBCXY:1", 
+                    "LB": "MissingLibrary.1", 
+                    "ID": "DIcorr2:MissingLibrary:1:HJLLJBCXY:1", 
+                    "PL": "ILLUMINA", 
+                    "SM": "DIcorr2"
+                }, 
+                {
+                    "PU": "DIcorr2:MissingLibrary:1:HJLLJBCXY:2", 
+                    "LB": "MissingLibrary.1", 
+                    "ID": "DIcorr2:MissingLibrary:1:HJLLJBCXY:2", 
+                    "PL": "ILLUMINA", 
+                    "SM": "DIcorr2"
+                }, 
+                {
+                    "PU": "DIcorr2:MissingLibrary:1:HNGGKBCXY:2", 
+                    "LB": "MissingLibrary.1", 
+                    "ID": "DIcorr2:MissingLibrary:1:HNGGKBCXY:2", 
+                    "PL": "ILLUMINA", 
+                    "SM": "DIcorr2"
+                }
+            ], 
+            "__mem_gb": 8, 
+            "chunk_input": "/tscc/lustre/ddn/scratch/a5russell/DIcorr2/SC_RNA_COUNTER_CS/SC_RNA_COUNTER/_BASIC_SC_RNA_COUNTER/ATTACH_BCS_AND_UMIS/fork0/chnk4/files/output.bam"
+        }, 
+        {
+            "read_groups": [
+                {
+                    "PU": "DIcorr2:MissingLibrary:1:HJLLJBCXY:1", 
+                    "LB": "MissingLibrary.1", 
+                    "ID": "DIcorr2:MissingLibrary:1:HJLLJBCXY:1", 
+                    "PL": "ILLUMINA", 
+                    "SM": "DIcorr2"
+                }, 
+                {
+                    "PU": "DIcorr2:MissingLibrary:1:HJLLJBCXY:2", 
+                    "LB": "MissingLibrary.1", 
+                    "ID": "DIcorr2:MissingLibrary:1:HJLLJBCXY:2", 
+                    "PL": "ILLUMINA", 
+                    "SM": "DIcorr2"
+                }, 
+                {
+                    "PU": "DIcorr2:MissingLibrary:1:HNGGKBCXY:2", 
+                    "LB": "MissingLibrary.1", 
+                    "ID": "DIcorr2:MissingLibrary:1:HNGGKBCXY:2", 
+                    "PL": "ILLUMINA", 
+                    "SM": "DIcorr2"
+                }
+            ], 
+            "__mem_gb": 8, 
+            "chunk_input": "/tscc/lustre/ddn/scratch/a5russell/DIcorr2/SC_RNA_COUNTER_CS/SC_RNA_COUNTER/_BASIC_SC_RNA_COUNTER/ATTACH_BCS_AND_UMIS/fork0/chnk5/files/output.bam"
+        }, 
+        {
+            "read_groups": [
+                {
+                    "PU": "DIcorr2:MissingLibrary:1:HJLLJBCXY:1", 
+                    "LB": "MissingLibrary.1", 
+                    "ID": "DIcorr2:MissingLibrary:1:HJLLJBCXY:1", 
+                    "PL": "ILLUMINA", 
+                    "SM": "DIcorr2"
+                }, 
+                {
+                    "PU": "DIcorr2:MissingLibrary:1:HJLLJBCXY:2", 
+                    "LB": "MissingLibrary.1", 
+                    "ID": "DIcorr2:MissingLibrary:1:HJLLJBCXY:2", 
+                    "PL": "ILLUMINA", 
+                    "SM": "DIcorr2"
+                }, 
+                {
+                    "PU": "DIcorr2:MissingLibrary:1:HNGGKBCXY:2", 
+                    "LB": "MissingLibrary.1", 
+                    "ID": "DIcorr2:MissingLibrary:1:HNGGKBCXY:2", 
+                    "PL": "ILLUMINA", 
+                    "SM": "DIcorr2"
+                }
+            ], 
+            "__mem_gb": 8, 
+            "chunk_input": "/tscc/lustre/ddn/scratch/a5russell/DIcorr2/SC_RNA_COUNTER_CS/SC_RNA_COUNTER/_BASIC_SC_RNA_COUNTER/ATTACH_BCS_AND_UMIS/fork0/chnk6/files/output.bam"
+        }, 
+        {
+            "read_groups": [
+                {
+                    "PU": "DIcorr2:MissingLibrary:1:HJLLJBCXY:1", 
+                    "LB": "MissingLibrary.1", 
+                    "ID": "DIcorr2:MissingLibrary:1:HJLLJBCXY:1", 
+                    "PL": "ILLUMINA", 
+                    "SM": "DIcorr2"
+                }, 
+                {
+                    "PU": "DIcorr2:MissingLibrary:1:HJLLJBCXY:2", 
+                    "LB": "MissingLibrary.1", 
+                    "ID": "DIcorr2:MissingLibrary:1:HJLLJBCXY:2", 
+                    "PL": "ILLUMINA", 
+                    "SM": "DIcorr2"
+                }, 
+                {
+                    "PU": "DIcorr2:MissingLibrary:1:HNGGKBCXY:2", 
+                    "LB": "MissingLibrary.1", 
+                    "ID": "DIcorr2:MissingLibrary:1:HNGGKBCXY:2", 
+                    "PL": "ILLUMINA", 
+                    "SM": "DIcorr2"
+                }
+            ], 
+            "__mem_gb": 8, 
+            "chunk_input": "/tscc/lustre/ddn/scratch/a5russell/DIcorr2/SC_RNA_COUNTER_CS/SC_RNA_COUNTER/_BASIC_SC_RNA_COUNTER/ATTACH_BCS_AND_UMIS/fork0/chnk7/files/output.bam"
+        }, 
+        {
+            "read_groups": [
+                {
+                    "PU": "DIcorr2:MissingLibrary:1:HJLLJBCXY:1", 
+                    "LB": "MissingLibrary.1", 
+                    "ID": "DIcorr2:MissingLibrary:1:HJLLJBCXY:1", 
+                    "PL": "ILLUMINA", 
+                    "SM": "DIcorr2"
+                }, 
+                {
+                    "PU": "DIcorr2:MissingLibrary:1:HJLLJBCXY:2", 
+                    "LB": "MissingLibrary.1", 
+                    "ID": "DIcorr2:MissingLibrary:1:HJLLJBCXY:2", 
+                    "PL": "ILLUMINA", 
+                    "SM": "DIcorr2"
+                }, 
+                {
+                    "PU": "DIcorr2:MissingLibrary:1:HNGGKBCXY:2", 
+                    "LB": "MissingLibrary.1", 
+                    "ID": "DIcorr2:MissingLibrary:1:HNGGKBCXY:2", 
+                    "PL": "ILLUMINA", 
+                    "SM": "DIcorr2"
+                }
+            ], 
+            "__mem_gb": 8, 
+            "chunk_input": "/tscc/lustre/ddn/scratch/a5russell/DIcorr2/SC_RNA_COUNTER_CS/SC_RNA_COUNTER/_BASIC_SC_RNA_COUNTER/ATTACH_BCS_AND_UMIS/fork0/chnk8/files/output.bam"
+        }, 
+        {
+            "read_groups": [
+                {
+                    "PU": "DIcorr2:MissingLibrary:1:HJLLJBCXY:1", 
+                    "LB": "MissingLibrary.1", 
+                    "ID": "DIcorr2:MissingLibrary:1:HJLLJBCXY:1", 
+                    "PL": "ILLUMINA", 
+                    "SM": "DIcorr2"
+                }, 
+                {
+                    "PU": "DIcorr2:MissingLibrary:1:HJLLJBCXY:2", 
+                    "LB": "MissingLibrary.1", 
+                    "ID": "DIcorr2:MissingLibrary:1:HJLLJBCXY:2", 
+                    "PL": "ILLUMINA", 
+                    "SM": "DIcorr2"
+                }, 
+                {
+                    "PU": "DIcorr2:MissingLibrary:1:HNGGKBCXY:2", 
+                    "LB": "MissingLibrary.1", 
+                    "ID": "DIcorr2:MissingLibrary:1:HNGGKBCXY:2", 
+                    "PL": "ILLUMINA", 
+                    "SM": "DIcorr2"
+                }
+            ], 
+            "__mem_gb": 8, 
+            "chunk_input": "/tscc/lustre/ddn/scratch/a5russell/DIcorr2/SC_RNA_COUNTER_CS/SC_RNA_COUNTER/_BASIC_SC_RNA_COUNTER/ATTACH_BCS_AND_UMIS/fork0/chnk9/files/output.bam"
+        }, 
+        {
+            "read_groups": [
+                {
+                    "PU": "DIcorr2:MissingLibrary:1:HJLLJBCXY:1", 
+                    "LB": "MissingLibrary.1", 
+                    "ID": "DIcorr2:MissingLibrary:1:HJLLJBCXY:1", 
+                    "PL": "ILLUMINA", 
+                    "SM": "DIcorr2"
+                }, 
+                {
+                    "PU": "DIcorr2:MissingLibrary:1:HJLLJBCXY:2", 
+                    "LB": "MissingLibrary.1", 
+                    "ID": "DIcorr2:MissingLibrary:1:HJLLJBCXY:2", 
+                    "PL": "ILLUMINA", 
+                    "SM": "DIcorr2"
+                }, 
+                {
+                    "PU": "DIcorr2:MissingLibrary:1:HNGGKBCXY:2", 
+                    "LB": "MissingLibrary.1", 
+                    "ID": "DIcorr2:MissingLibrary:1:HNGGKBCXY:2", 
+                    "PL": "ILLUMINA", 
+                    "SM": "DIcorr2"
+                }
+            ], 
+            "__mem_gb": 8, 
+            "chunk_input": "/tscc/lustre/ddn/scratch/a5russell/DIcorr2/SC_RNA_COUNTER_CS/SC_RNA_COUNTER/_BASIC_SC_RNA_COUNTER/ATTACH_BCS_AND_UMIS/fork0/chnk10/files/output.bam"
+        }, 
+        {
+            "read_groups": [
+                {
+                    "PU": "DIcorr2:MissingLibrary:1:HJLLJBCXY:1", 
+                    "LB": "MissingLibrary.1", 
+                    "ID": "DIcorr2:MissingLibrary:1:HJLLJBCXY:1", 
+                    "PL": "ILLUMINA", 
+                    "SM": "DIcorr2"
+                }, 
+                {
+                    "PU": "DIcorr2:MissingLibrary:1:HJLLJBCXY:2", 
+                    "LB": "MissingLibrary.1", 
+                    "ID": "DIcorr2:MissingLibrary:1:HJLLJBCXY:2", 
+                    "PL": "ILLUMINA", 
+                    "SM": "DIcorr2"
+                }, 
+                {
+                    "PU": "DIcorr2:MissingLibrary:1:HNGGKBCXY:2", 
+                    "LB": "MissingLibrary.1", 
+                    "ID": "DIcorr2:MissingLibrary:1:HNGGKBCXY:2", 
+                    "PL": "ILLUMINA", 
+                    "SM": "DIcorr2"
+                }
+            ], 
+            "__mem_gb": 8, 
+            "chunk_input": "/tscc/lustre/ddn/scratch/a5russell/DIcorr2/SC_RNA_COUNTER_CS/SC_RNA_COUNTER/_BASIC_SC_RNA_COUNTER/ATTACH_BCS_AND_UMIS/fork0/chnk11/files/output.bam"
+        }, 
+        {
+            "read_groups": [
+                {
+                    "PU": "DIcorr2:MissingLibrary:1:HJLLJBCXY:1", 
+                    "LB": "MissingLibrary.1", 
+                    "ID": "DIcorr2:MissingLibrary:1:HJLLJBCXY:1", 
+                    "PL": "ILLUMINA", 
+                    "SM": "DIcorr2"
+                }, 
+                {
+                    "PU": "DIcorr2:MissingLibrary:1:HJLLJBCXY:2", 
+                    "LB": "MissingLibrary.1", 
+                    "ID": "DIcorr2:MissingLibrary:1:HJLLJBCXY:2", 
+                    "PL": "ILLUMINA", 
+                    "SM": "DIcorr2"
+                }, 
+                {
+                    "PU": "DIcorr2:MissingLibrary:1:HNGGKBCXY:2", 
+                    "LB": "MissingLibrary.1", 
+                    "ID": "DIcorr2:MissingLibrary:1:HNGGKBCXY:2", 
+                    "PL": "ILLUMINA", 
+                    "SM": "DIcorr2"
+                }
+            ], 
+            "__mem_gb": 8, 
+            "chunk_input": "/tscc/lustre/ddn/scratch/a5russell/DIcorr2/SC_RNA_COUNTER_CS/SC_RNA_COUNTER/_BASIC_SC_RNA_COUNTER/ATTACH_BCS_AND_UMIS/fork0/chnk12/files/output.bam"
+        }, 
+        {
+            "read_groups": [
+                {
+                    "PU": "DIcorr2:MissingLibrary:1:HJLLJBCXY:1", 
+                    "LB": "MissingLibrary.1", 
+                    "ID": "DIcorr2:MissingLibrary:1:HJLLJBCXY:1", 
+                    "PL": "ILLUMINA", 
+                    "SM": "DIcorr2"
+                }, 
+                {
+                    "PU": "DIcorr2:MissingLibrary:1:HJLLJBCXY:2", 
+                    "LB": "MissingLibrary.1", 
+                    "ID": "DIcorr2:MissingLibrary:1:HJLLJBCXY:2", 
+                    "PL": "ILLUMINA", 
+                    "SM": "DIcorr2"
+                }, 
+                {
+                    "PU": "DIcorr2:MissingLibrary:1:HNGGKBCXY:2", 
+                    "LB": "MissingLibrary.1", 
+                    "ID": "DIcorr2:MissingLibrary:1:HNGGKBCXY:2", 
+                    "PL": "ILLUMINA", 
+                    "SM": "DIcorr2"
+                }
+            ], 
+            "__mem_gb": 8, 
+            "chunk_input": "/tscc/lustre/ddn/scratch/a5russell/DIcorr2/SC_RNA_COUNTER_CS/SC_RNA_COUNTER/_BASIC_SC_RNA_COUNTER/ATTACH_BCS_AND_UMIS/fork0/chnk13/files/output.bam"
+        }, 
+        {
+            "read_groups": [
+                {
+                    "PU": "DIcorr2:MissingLibrary:1:HJLLJBCXY:1", 
+                    "LB": "MissingLibrary.1", 
+                    "ID": "DIcorr2:MissingLibrary:1:HJLLJBCXY:1", 
+                    "PL": "ILLUMINA", 
+                    "SM": "DIcorr2"
+                }, 
+                {
+                    "PU": "DIcorr2:MissingLibrary:1:HJLLJBCXY:2", 
+                    "LB": "MissingLibrary.1", 
+                    "ID": "DIcorr2:MissingLibrary:1:HJLLJBCXY:2", 
+                    "PL": "ILLUMINA", 
+                    "SM": "DIcorr2"
+                }, 
+                {
+                    "PU": "DIcorr2:MissingLibrary:1:HNGGKBCXY:2", 
+                    "LB": "MissingLibrary.1", 
+                    "ID": "DIcorr2:MissingLibrary:1:HNGGKBCXY:2", 
+                    "PL": "ILLUMINA", 
+                    "SM": "DIcorr2"
+                }
+            ], 
+            "__mem_gb": 8, 
+            "chunk_input": "/tscc/lustre/ddn/scratch/a5russell/DIcorr2/SC_RNA_COUNTER_CS/SC_RNA_COUNTER/_BASIC_SC_RNA_COUNTER/ATTACH_BCS_AND_UMIS/fork0/chnk14/files/output.bam"
+        }, 
+        {
+            "read_groups": [
+                {
+                    "PU": "DIcorr2:MissingLibrary:1:HJLLJBCXY:1", 
+                    "LB": "MissingLibrary.1", 
+                    "ID": "DIcorr2:MissingLibrary:1:HJLLJBCXY:1", 
+                    "PL": "ILLUMINA", 
+                    "SM": "DIcorr2"
+                }, 
+                {
+                    "PU": "DIcorr2:MissingLibrary:1:HJLLJBCXY:2", 
+                    "LB": "MissingLibrary.1", 
+                    "ID": "DIcorr2:MissingLibrary:1:HJLLJBCXY:2", 
+                    "PL": "ILLUMINA", 
+                    "SM": "DIcorr2"
+                }, 
+                {
+                    "PU": "DIcorr2:MissingLibrary:1:HNGGKBCXY:2", 
+                    "LB": "MissingLibrary.1", 
+                    "ID": "DIcorr2:MissingLibrary:1:HNGGKBCXY:2", 
+                    "PL": "ILLUMINA", 
+                    "SM": "DIcorr2"
+                }
+            ], 
+            "__mem_gb": 8, 
+            "chunk_input": "/tscc/lustre/ddn/scratch/a5russell/DIcorr2/SC_RNA_COUNTER_CS/SC_RNA_COUNTER/_BASIC_SC_RNA_COUNTER/ATTACH_BCS_AND_UMIS/fork0/chnk15/files/output.bam"
+        }, 
+        {
+            "read_groups": [
+                {
+                    "PU": "DIcorr2:MissingLibrary:1:HJLLJBCXY:1", 
+                    "LB": "MissingLibrary.1", 
+                    "ID": "DIcorr2:MissingLibrary:1:HJLLJBCXY:1", 
+                    "PL": "ILLUMINA", 
+                    "SM": "DIcorr2"
+                }, 
+                {
+                    "PU": "DIcorr2:MissingLibrary:1:HJLLJBCXY:2", 
+                    "LB": "MissingLibrary.1", 
+                    "ID": "DIcorr2:MissingLibrary:1:HJLLJBCXY:2", 
+                    "PL": "ILLUMINA", 
+                    "SM": "DIcorr2"
+                }, 
+                {
+                    "PU": "DIcorr2:MissingLibrary:1:HNGGKBCXY:2", 
+                    "LB": "MissingLibrary.1", 
+                    "ID": "DIcorr2:MissingLibrary:1:HNGGKBCXY:2", 
+                    "PL": "ILLUMINA", 
+                    "SM": "DIcorr2"
+                }
+            ], 
+            "__mem_gb": 8, 
+            "chunk_input": "/tscc/lustre/ddn/scratch/a5russell/DIcorr2/SC_RNA_COUNTER_CS/SC_RNA_COUNTER/_BASIC_SC_RNA_COUNTER/ATTACH_BCS_AND_UMIS/fork0/chnk16/files/output.bam"
+        }, 
+        {
+            "read_groups": [
+                {
+                    "PU": "DIcorr2:MissingLibrary:1:HJLLJBCXY:1", 
+                    "LB": "MissingLibrary.1", 
+                    "ID": "DIcorr2:MissingLibrary:1:HJLLJBCXY:1", 
+                    "PL": "ILLUMINA", 
+                    "SM": "DIcorr2"
+                }, 
+                {
+                    "PU": "DIcorr2:MissingLibrary:1:HJLLJBCXY:2", 
+                    "LB": "MissingLibrary.1", 
+                    "ID": "DIcorr2:MissingLibrary:1:HJLLJBCXY:2", 
+                    "PL": "ILLUMINA", 
+                    "SM": "DIcorr2"
+                }, 
+                {
+                    "PU": "DIcorr2:MissingLibrary:1:HNGGKBCXY:2", 
+                    "LB": "MissingLibrary.1", 
+                    "ID": "DIcorr2:MissingLibrary:1:HNGGKBCXY:2", 
+                    "PL": "ILLUMINA", 
+                    "SM": "DIcorr2"
+                }
+            ], 
+            "__mem_gb": 8, 
+            "chunk_input": "/tscc/lustre/ddn/scratch/a5russell/DIcorr2/SC_RNA_COUNTER_CS/SC_RNA_COUNTER/_BASIC_SC_RNA_COUNTER/ATTACH_BCS_AND_UMIS/fork0/chnk17/files/output.bam"
+        }, 
+        {
+            "read_groups": [
+                {
+                    "PU": "DIcorr2:MissingLibrary:1:HJLLJBCXY:1", 
+                    "LB": "MissingLibrary.1", 
+                    "ID": "DIcorr2:MissingLibrary:1:HJLLJBCXY:1", 
+                    "PL": "ILLUMINA", 
+                    "SM": "DIcorr2"
+                }, 
+                {
+                    "PU": "DIcorr2:MissingLibrary:1:HJLLJBCXY:2", 
+                    "LB": "MissingLibrary.1", 
+                    "ID": "DIcorr2:MissingLibrary:1:HJLLJBCXY:2", 
+                    "PL": "ILLUMINA", 
+                    "SM": "DIcorr2"
+                }, 
+                {
+                    "PU": "DIcorr2:MissingLibrary:1:HNGGKBCXY:2", 
+                    "LB": "MissingLibrary.1", 
+                    "ID": "DIcorr2:MissingLibrary:1:HNGGKBCXY:2", 
+                    "PL": "ILLUMINA", 
+                    "SM": "DIcorr2"
+                }
+            ], 
+            "__mem_gb": 9, 
+            "chunk_input": "/tscc/lustre/ddn/scratch/a5russell/DIcorr2/SC_RNA_COUNTER_CS/SC_RNA_COUNTER/_BASIC_SC_RNA_COUNTER/ATTACH_BCS_AND_UMIS/fork0/chnk18/files/output.bam"
+        }, 
+        {
+            "read_groups": [
+                {
+                    "PU": "DIcorr2:MissingLibrary:1:HJLLJBCXY:1", 
+                    "LB": "MissingLibrary.1", 
+                    "ID": "DIcorr2:MissingLibrary:1:HJLLJBCXY:1", 
+                    "PL": "ILLUMINA", 
+                    "SM": "DIcorr2"
+                }, 
+                {
+                    "PU": "DIcorr2:MissingLibrary:1:HJLLJBCXY:2", 
+                    "LB": "MissingLibrary.1", 
+                    "ID": "DIcorr2:MissingLibrary:1:HJLLJBCXY:2", 
+                    "PL": "ILLUMINA", 
+                    "SM": "DIcorr2"
+                }, 
+                {
+                    "PU": "DIcorr2:MissingLibrary:1:HNGGKBCXY:2", 
+                    "LB": "MissingLibrary.1", 
+                    "ID": "DIcorr2:MissingLibrary:1:HNGGKBCXY:2", 
+                    "PL": "ILLUMINA", 
+                    "SM": "DIcorr2"
+                }
+            ], 
+            "__mem_gb": 8, 
+            "chunk_input": "/tscc/lustre/ddn/scratch/a5russell/DIcorr2/SC_RNA_COUNTER_CS/SC_RNA_COUNTER/_BASIC_SC_RNA_COUNTER/ATTACH_BCS_AND_UMIS/fork0/chnk19/files/output.bam"
+        }, 
+        {
+            "read_groups": [
+                {
+                    "PU": "DIcorr2:MissingLibrary:1:HJLLJBCXY:1", 
+                    "LB": "MissingLibrary.1", 
+                    "ID": "DIcorr2:MissingLibrary:1:HJLLJBCXY:1", 
+                    "PL": "ILLUMINA", 
+                    "SM": "DIcorr2"
+                }, 
+                {
+                    "PU": "DIcorr2:MissingLibrary:1:HJLLJBCXY:2", 
+                    "LB": "MissingLibrary.1", 
+                    "ID": "DIcorr2:MissingLibrary:1:HJLLJBCXY:2", 
+                    "PL": "ILLUMINA", 
+                    "SM": "DIcorr2"
+                }, 
+                {
+                    "PU": "DIcorr2:MissingLibrary:1:HNGGKBCXY:2", 
+                    "LB": "MissingLibrary.1", 
+                    "ID": "DIcorr2:MissingLibrary:1:HNGGKBCXY:2", 
+                    "PL": "ILLUMINA", 
+                    "SM": "DIcorr2"
+                }
+            ], 
+            "__mem_gb": 8, 
+            "chunk_input": "/tscc/lustre/ddn/scratch/a5russell/DIcorr2/SC_RNA_COUNTER_CS/SC_RNA_COUNTER/_BASIC_SC_RNA_COUNTER/ATTACH_BCS_AND_UMIS/fork0/chnk20/files/output.bam"
+        }, 
+        {
+            "read_groups": [
+                {
+                    "PU": "DIcorr2:MissingLibrary:1:HJLLJBCXY:1", 
+                    "LB": "MissingLibrary.1", 
+                    "ID": "DIcorr2:MissingLibrary:1:HJLLJBCXY:1", 
+                    "PL": "ILLUMINA", 
+                    "SM": "DIcorr2"
+                }, 
+                {
+                    "PU": "DIcorr2:MissingLibrary:1:HJLLJBCXY:2", 
+                    "LB": "MissingLibrary.1", 
+                    "ID": "DIcorr2:MissingLibrary:1:HJLLJBCXY:2", 
+                    "PL": "ILLUMINA", 
+                    "SM": "DIcorr2"
+                }, 
+                {
+                    "PU": "DIcorr2:MissingLibrary:1:HNGGKBCXY:2", 
+                    "LB": "MissingLibrary.1", 
+                    "ID": "DIcorr2:MissingLibrary:1:HNGGKBCXY:2", 
+                    "PL": "ILLUMINA", 
+                    "SM": "DIcorr2"
+                }
+            ], 
+            "__mem_gb": 9, 
+            "chunk_input": "/tscc/lustre/ddn/scratch/a5russell/DIcorr2/SC_RNA_COUNTER_CS/SC_RNA_COUNTER/_BASIC_SC_RNA_COUNTER/ATTACH_BCS_AND_UMIS/fork0/chnk21/files/output.bam"
+        }, 
+        {
+            "read_groups": [
+                {
+                    "PU": "DIcorr2:MissingLibrary:1:HJLLJBCXY:1", 
+                    "LB": "MissingLibrary.1", 
+                    "ID": "DIcorr2:MissingLibrary:1:HJLLJBCXY:1", 
+                    "PL": "ILLUMINA", 
+                    "SM": "DIcorr2"
+                }, 
+                {
+                    "PU": "DIcorr2:MissingLibrary:1:HJLLJBCXY:2", 
+                    "LB": "MissingLibrary.1", 
+                    "ID": "DIcorr2:MissingLibrary:1:HJLLJBCXY:2", 
+                    "PL": "ILLUMINA", 
+                    "SM": "DIcorr2"
+                }, 
+                {
+                    "PU": "DIcorr2:MissingLibrary:1:HNGGKBCXY:2", 
+                    "LB": "MissingLibrary.1", 
+                    "ID": "DIcorr2:MissingLibrary:1:HNGGKBCXY:2", 
+                    "PL": "ILLUMINA", 
+                    "SM": "DIcorr2"
+                }
+            ], 
+            "__mem_gb": 8, 
+            "chunk_input": "/tscc/lustre/ddn/scratch/a5russell/DIcorr2/SC_RNA_COUNTER_CS/SC_RNA_COUNTER/_BASIC_SC_RNA_COUNTER/ATTACH_BCS_AND_UMIS/fork0/chnk22/files/output.bam"
+        }, 
+        {
+            "read_groups": [
+                {
+                    "PU": "DIcorr2:MissingLibrary:1:HJLLJBCXY:1", 
+                    "LB": "MissingLibrary.1", 
+                    "ID": "DIcorr2:MissingLibrary:1:HJLLJBCXY:1", 
+                    "PL": "ILLUMINA", 
+                    "SM": "DIcorr2"
+                }, 
+                {
+                    "PU": "DIcorr2:MissingLibrary:1:HJLLJBCXY:2", 
+                    "LB": "MissingLibrary.1", 
+                    "ID": "DIcorr2:MissingLibrary:1:HJLLJBCXY:2", 
+                    "PL": "ILLUMINA", 
+                    "SM": "DIcorr2"
+                }, 
+                {
+                    "PU": "DIcorr2:MissingLibrary:1:HNGGKBCXY:2", 
+                    "LB": "MissingLibrary.1", 
+                    "ID": "DIcorr2:MissingLibrary:1:HNGGKBCXY:2", 
+                    "PL": "ILLUMINA", 
+                    "SM": "DIcorr2"
+                }
+            ], 
+            "__mem_gb": 8, 
+            "chunk_input": "/tscc/lustre/ddn/scratch/a5russell/DIcorr2/SC_RNA_COUNTER_CS/SC_RNA_COUNTER/_BASIC_SC_RNA_COUNTER/ATTACH_BCS_AND_UMIS/fork0/chnk23/files/output.bam"
+        }, 
+        {
+            "read_groups": [
+                {
+                    "PU": "DIcorr2:MissingLibrary:1:HJLLJBCXY:1", 
+                    "LB": "MissingLibrary.1", 
+                    "ID": "DIcorr2:MissingLibrary:1:HJLLJBCXY:1", 
+                    "PL": "ILLUMINA", 
+                    "SM": "DIcorr2"
+                }, 
+                {
+                    "PU": "DIcorr2:MissingLibrary:1:HJLLJBCXY:2", 
+                    "LB": "MissingLibrary.1", 
+                    "ID": "DIcorr2:MissingLibrary:1:HJLLJBCXY:2", 
+                    "PL": "ILLUMINA", 
+                    "SM": "DIcorr2"
+                }, 
+                {
+                    "PU": "DIcorr2:MissingLibrary:1:HNGGKBCXY:2", 
+                    "LB": "MissingLibrary.1", 
+                    "ID": "DIcorr2:MissingLibrary:1:HNGGKBCXY:2", 
+                    "PL": "ILLUMINA", 
+                    "SM": "DIcorr2"
+                }
+            ], 
+            "__mem_gb": 7, 
+            "chunk_input": "/tscc/lustre/ddn/scratch/a5russell/DIcorr2/SC_RNA_COUNTER_CS/SC_RNA_COUNTER/_BASIC_SC_RNA_COUNTER/ATTACH_BCS_AND_UMIS/fork0/chnk24/files/output.bam"
+        }, 
+        {
+            "read_groups": [
+                {
+                    "PU": "DIcorr2:MissingLibrary:1:HJLLJBCXY:1", 
+                    "LB": "MissingLibrary.1", 
+                    "ID": "DIcorr2:MissingLibrary:1:HJLLJBCXY:1", 
+                    "PL": "ILLUMINA", 
+                    "SM": "DIcorr2"
+                }, 
+                {
+                    "PU": "DIcorr2:MissingLibrary:1:HJLLJBCXY:2", 
+                    "LB": "MissingLibrary.1", 
+                    "ID": "DIcorr2:MissingLibrary:1:HJLLJBCXY:2", 
+                    "PL": "ILLUMINA", 
+                    "SM": "DIcorr2"
+                }, 
+                {
+                    "PU": "DIcorr2:MissingLibrary:1:HNGGKBCXY:2", 
+                    "LB": "MissingLibrary.1", 
+                    "ID": "DIcorr2:MissingLibrary:1:HNGGKBCXY:2", 
+                    "PL": "ILLUMINA", 
+                    "SM": "DIcorr2"
+                }
+            ], 
+            "__mem_gb": 8, 
+            "chunk_input": "/tscc/lustre/ddn/scratch/a5russell/DIcorr2/SC_RNA_COUNTER_CS/SC_RNA_COUNTER/_BASIC_SC_RNA_COUNTER/ATTACH_BCS_AND_UMIS/fork0/chnk25/files/output.bam"
+        }, 
+        {
+            "read_groups": [
+                {
+                    "PU": "DIcorr2:MissingLibrary:1:HJLLJBCXY:1", 
+                    "LB": "MissingLibrary.1", 
+                    "ID": "DIcorr2:MissingLibrary:1:HJLLJBCXY:1", 
+                    "PL": "ILLUMINA", 
+                    "SM": "DIcorr2"
+                }, 
+                {
+                    "PU": "DIcorr2:MissingLibrary:1:HJLLJBCXY:2", 
+                    "LB": "MissingLibrary.1", 
+                    "ID": "DIcorr2:MissingLibrary:1:HJLLJBCXY:2", 
+                    "PL": "ILLUMINA", 
+                    "SM": "DIcorr2"
+                }, 
+                {
+                    "PU": "DIcorr2:MissingLibrary:1:HNGGKBCXY:2", 
+                    "LB": "MissingLibrary.1", 
+                    "ID": "DIcorr2:MissingLibrary:1:HNGGKBCXY:2", 
+                    "PL": "ILLUMINA", 
+                    "SM": "DIcorr2"
+                }
+            ], 
+            "__mem_gb": 9, 
+            "chunk_input": "/tscc/lustre/ddn/scratch/a5russell/DIcorr2/SC_RNA_COUNTER_CS/SC_RNA_COUNTER/_BASIC_SC_RNA_COUNTER/ATTACH_BCS_AND_UMIS/fork0/chnk26/files/output.bam"
+        }, 
+        {
+            "read_groups": [
+                {
+                    "PU": "DIcorr2:MissingLibrary:1:HJLLJBCXY:1", 
+                    "LB": "MissingLibrary.1", 
+                    "ID": "DIcorr2:MissingLibrary:1:HJLLJBCXY:1", 
+                    "PL": "ILLUMINA", 
+                    "SM": "DIcorr2"
+                }, 
+                {
+                    "PU": "DIcorr2:MissingLibrary:1:HJLLJBCXY:2", 
+                    "LB": "MissingLibrary.1", 
+                    "ID": "DIcorr2:MissingLibrary:1:HJLLJBCXY:2", 
+                    "PL": "ILLUMINA", 
+                    "SM": "DIcorr2"
+                }, 
+                {
+                    "PU": "DIcorr2:MissingLibrary:1:HNGGKBCXY:2", 
+                    "LB": "MissingLibrary.1", 
+                    "ID": "DIcorr2:MissingLibrary:1:HNGGKBCXY:2", 
+                    "PL": "ILLUMINA", 
+                    "SM": "DIcorr2"
+                }
+            ], 
+            "__mem_gb": 6, 
+            "chunk_input": "/tscc/lustre/ddn/scratch/a5russell/DIcorr2/SC_RNA_COUNTER_CS/SC_RNA_COUNTER/_BASIC_SC_RNA_COUNTER/ATTACH_BCS_AND_UMIS/fork0/chnk27/files/output.bam"
+        }
+    ]
+}

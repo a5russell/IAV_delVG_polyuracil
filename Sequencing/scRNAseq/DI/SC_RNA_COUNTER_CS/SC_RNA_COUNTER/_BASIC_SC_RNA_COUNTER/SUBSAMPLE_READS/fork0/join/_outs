@@ -1,0 +1,657 @@
+{
+    "subsampled_matrices": [
+        {
+            "subsample_type": "conf_mapped_barcoded_filtered_bc_rpc", 
+            "subsample_rate": 0.15913338770753097, 
+            "filtered_matrices": "/tscc/lustre/ddn/scratch/a5russell/DIcorr2/SC_RNA_COUNTER_CS/SC_RNA_COUNTER/_BASIC_SC_RNA_COUNTER/SUBSAMPLE_READS/fork0/join/files/conf_mapped_barcoded_filtered_bc_rpc_4957_0_filtered_matrices.h5", 
+            "all_target_rpc": [
+                5000, 
+                10000, 
+                20000, 
+                50000, 
+                75000, 
+                100000, 
+                200000, 
+                300000, 
+                4957, 
+                9914, 
+                14872, 
+                19829, 
+                24786, 
+                29743, 
+                34700, 
+                39658, 
+                44615, 
+                49572
+            ], 
+            "all_subsample_types": [
+                "raw_rpc", 
+                "conf_mapped_barcoded_filtered_bc_rpc"
+            ], 
+            "raw_matrices": "/tscc/lustre/ddn/scratch/a5russell/DIcorr2/SC_RNA_COUNTER_CS/SC_RNA_COUNTER/_BASIC_SC_RNA_COUNTER/SUBSAMPLE_READS/fork0/join/files/conf_mapped_barcoded_filtered_bc_rpc_4957_0_raw_matrices.h5", 
+            "target_rpc": 4957
+        }, 
+        {
+            "subsample_type": "conf_mapped_barcoded_filtered_bc_rpc", 
+            "subsample_rate": 0.16051380644294025, 
+            "filtered_matrices": "/tscc/lustre/ddn/scratch/a5russell/DIcorr2/SC_RNA_COUNTER_CS/SC_RNA_COUNTER/_BASIC_SC_RNA_COUNTER/SUBSAMPLE_READS/fork0/join/files/conf_mapped_barcoded_filtered_bc_rpc_5000_1_filtered_matrices.h5", 
+            "all_target_rpc": [
+                5000, 
+                10000, 
+                20000, 
+                50000, 
+                75000, 
+                100000, 
+                200000, 
+                300000, 
+                4957, 
+                9914, 
+                14872, 
+                19829, 
+                24786, 
+                29743, 
+                34700, 
+                39658, 
+                44615, 
+                49572
+            ], 
+            "all_subsample_types": [
+                "raw_rpc", 
+                "conf_mapped_barcoded_filtered_bc_rpc"
+            ], 
+            "raw_matrices": "/tscc/lustre/ddn/scratch/a5russell/DIcorr2/SC_RNA_COUNTER_CS/SC_RNA_COUNTER/_BASIC_SC_RNA_COUNTER/SUBSAMPLE_READS/fork0/join/files/conf_mapped_barcoded_filtered_bc_rpc_5000_1_raw_matrices.h5", 
+            "target_rpc": 5000
+        }, 
+        {
+            "subsample_type": "conf_mapped_barcoded_filtered_bc_rpc", 
+            "subsample_rate": 0.31826677541506193, 
+            "filtered_matrices": "/tscc/lustre/ddn/scratch/a5russell/DIcorr2/SC_RNA_COUNTER_CS/SC_RNA_COUNTER/_BASIC_SC_RNA_COUNTER/SUBSAMPLE_READS/fork0/join/files/conf_mapped_barcoded_filtered_bc_rpc_9914_2_filtered_matrices.h5", 
+            "all_target_rpc": [
+                5000, 
+                10000, 
+                20000, 
+                50000, 
+                75000, 
+                100000, 
+                200000, 
+                300000, 
+                4957, 
+                9914, 
+                14872, 
+                19829, 
+                24786, 
+                29743, 
+                34700, 
+                39658, 
+                44615, 
+                49572
+            ], 
+            "all_subsample_types": [
+                "raw_rpc", 
+                "conf_mapped_barcoded_filtered_bc_rpc"
+            ], 
+            "raw_matrices": "/tscc/lustre/ddn/scratch/a5russell/DIcorr2/SC_RNA_COUNTER_CS/SC_RNA_COUNTER/_BASIC_SC_RNA_COUNTER/SUBSAMPLE_READS/fork0/join/files/conf_mapped_barcoded_filtered_bc_rpc_9914_2_raw_matrices.h5", 
+            "target_rpc": 9914
+        }, 
+        {
+            "subsample_type": "conf_mapped_barcoded_filtered_bc_rpc", 
+            "subsample_rate": 0.3210276128858805, 
+            "filtered_matrices": "/tscc/lustre/ddn/scratch/a5russell/DIcorr2/SC_RNA_COUNTER_CS/SC_RNA_COUNTER/_BASIC_SC_RNA_COUNTER/SUBSAMPLE_READS/fork0/join/files/conf_mapped_barcoded_filtered_bc_rpc_10000_3_filtered_matrices.h5", 
+            "all_target_rpc": [
+                5000, 
+                10000, 
+                20000, 
+                50000, 
+                75000, 
+                100000, 
+                200000, 
+                300000, 
+                4957, 
+                9914, 
+                14872, 
+                19829, 
+                24786, 
+                29743, 
+                34700, 
+                39658, 
+                44615, 
+                49572
+            ], 
+            "all_subsample_types": [
+                "raw_rpc", 
+                "conf_mapped_barcoded_filtered_bc_rpc"
+            ], 
+            "raw_matrices": "/tscc/lustre/ddn/scratch/a5russell/DIcorr2/SC_RNA_COUNTER_CS/SC_RNA_COUNTER/_BASIC_SC_RNA_COUNTER/SUBSAMPLE_READS/fork0/join/files/conf_mapped_barcoded_filtered_bc_rpc_10000_3_raw_matrices.h5", 
+            "target_rpc": 10000
+        }, 
+        {
+            "subsample_type": "conf_mapped_barcoded_filtered_bc_rpc", 
+            "subsample_rate": 0.4774322658838815, 
+            "filtered_matrices": "/tscc/lustre/ddn/scratch/a5russell/DIcorr2/SC_RNA_COUNTER_CS/SC_RNA_COUNTER/_BASIC_SC_RNA_COUNTER/SUBSAMPLE_READS/fork0/join/files/conf_mapped_barcoded_filtered_bc_rpc_14872_4_filtered_matrices.h5", 
+            "all_target_rpc": [
+                5000, 
+                10000, 
+                20000, 
+                50000, 
+                75000, 
+                100000, 
+                200000, 
+                300000, 
+                4957, 
+                9914, 
+                14872, 
+                19829, 
+                24786, 
+                29743, 
+                34700, 
+                39658, 
+                44615, 
+                49572
+            ], 
+            "all_subsample_types": [
+                "raw_rpc", 
+                "conf_mapped_barcoded_filtered_bc_rpc"
+            ], 
+            "raw_matrices": "/tscc/lustre/ddn/scratch/a5russell/DIcorr2/SC_RNA_COUNTER_CS/SC_RNA_COUNTER/_BASIC_SC_RNA_COUNTER/SUBSAMPLE_READS/fork0/join/files/conf_mapped_barcoded_filtered_bc_rpc_14872_4_raw_matrices.h5", 
+            "target_rpc": 14872
+        }, 
+        {
+            "subsample_type": "conf_mapped_barcoded_filtered_bc_rpc", 
+            "subsample_rate": 0.6365656535914125, 
+            "filtered_matrices": "/tscc/lustre/ddn/scratch/a5russell/DIcorr2/SC_RNA_COUNTER_CS/SC_RNA_COUNTER/_BASIC_SC_RNA_COUNTER/SUBSAMPLE_READS/fork0/join/files/conf_mapped_barcoded_filtered_bc_rpc_19829_5_filtered_matrices.h5", 
+            "all_target_rpc": [
+                5000, 
+                10000, 
+                20000, 
+                50000, 
+                75000, 
+                100000, 
+                200000, 
+                300000, 
+                4957, 
+                9914, 
+                14872, 
+                19829, 
+                24786, 
+                29743, 
+                34700, 
+                39658, 
+                44615, 
+                49572
+            ], 
+            "all_subsample_types": [
+                "raw_rpc", 
+                "conf_mapped_barcoded_filtered_bc_rpc"
+            ], 
+            "raw_matrices": "/tscc/lustre/ddn/scratch/a5russell/DIcorr2/SC_RNA_COUNTER_CS/SC_RNA_COUNTER/_BASIC_SC_RNA_COUNTER/SUBSAMPLE_READS/fork0/join/files/conf_mapped_barcoded_filtered_bc_rpc_19829_5_raw_matrices.h5", 
+            "target_rpc": 19829
+        }, 
+        {
+            "subsample_type": "conf_mapped_barcoded_filtered_bc_rpc", 
+            "subsample_rate": 0.642055225771761, 
+            "filtered_matrices": "/tscc/lustre/ddn/scratch/a5russell/DIcorr2/SC_RNA_COUNTER_CS/SC_RNA_COUNTER/_BASIC_SC_RNA_COUNTER/SUBSAMPLE_READS/fork0/join/files/conf_mapped_barcoded_filtered_bc_rpc_20000_6_filtered_matrices.h5", 
+            "all_target_rpc": [
+                5000, 
+                10000, 
+                20000, 
+                50000, 
+                75000, 
+                100000, 
+                200000, 
+                300000, 
+                4957, 
+                9914, 
+                14872, 
+                19829, 
+                24786, 
+                29743, 
+                34700, 
+                39658, 
+                44615, 
+                49572
+            ], 
+            "all_subsample_types": [
+                "raw_rpc", 
+                "conf_mapped_barcoded_filtered_bc_rpc"
+            ], 
+            "raw_matrices": "/tscc/lustre/ddn/scratch/a5russell/DIcorr2/SC_RNA_COUNTER_CS/SC_RNA_COUNTER/_BASIC_SC_RNA_COUNTER/SUBSAMPLE_READS/fork0/join/files/conf_mapped_barcoded_filtered_bc_rpc_20000_6_raw_matrices.h5", 
+            "target_rpc": 20000
+        }, 
+        {
+            "subsample_type": "conf_mapped_barcoded_filtered_bc_rpc", 
+            "subsample_rate": 0.7956990412989434, 
+            "filtered_matrices": "/tscc/lustre/ddn/scratch/a5russell/DIcorr2/SC_RNA_COUNTER_CS/SC_RNA_COUNTER/_BASIC_SC_RNA_COUNTER/SUBSAMPLE_READS/fork0/join/files/conf_mapped_barcoded_filtered_bc_rpc_24786_7_filtered_matrices.h5", 
+            "all_target_rpc": [
+                5000, 
+                10000, 
+                20000, 
+                50000, 
+                75000, 
+                100000, 
+                200000, 
+                300000, 
+                4957, 
+                9914, 
+                14872, 
+                19829, 
+                24786, 
+                29743, 
+                34700, 
+                39658, 
+                44615, 
+                49572
+            ], 
+            "all_subsample_types": [
+                "raw_rpc", 
+                "conf_mapped_barcoded_filtered_bc_rpc"
+            ], 
+            "raw_matrices": "/tscc/lustre/ddn/scratch/a5russell/DIcorr2/SC_RNA_COUNTER_CS/SC_RNA_COUNTER/_BASIC_SC_RNA_COUNTER/SUBSAMPLE_READS/fork0/join/files/conf_mapped_barcoded_filtered_bc_rpc_24786_7_raw_matrices.h5", 
+            "target_rpc": 24786
+        }, 
+        {
+            "subsample_type": "conf_mapped_barcoded_filtered_bc_rpc", 
+            "subsample_rate": 0.9548324290064745, 
+            "filtered_matrices": "/tscc/lustre/ddn/scratch/a5russell/DIcorr2/SC_RNA_COUNTER_CS/SC_RNA_COUNTER/_BASIC_SC_RNA_COUNTER/SUBSAMPLE_READS/fork0/join/files/conf_mapped_barcoded_filtered_bc_rpc_29743_8_filtered_matrices.h5", 
+            "all_target_rpc": [
+                5000, 
+                10000, 
+                20000, 
+                50000, 
+                75000, 
+                100000, 
+                200000, 
+                300000, 
+                4957, 
+                9914, 
+                14872, 
+                19829, 
+                24786, 
+                29743, 
+                34700, 
+                39658, 
+                44615, 
+                49572
+            ], 
+            "all_subsample_types": [
+                "raw_rpc", 
+                "conf_mapped_barcoded_filtered_bc_rpc"
+            ], 
+            "raw_matrices": "/tscc/lustre/ddn/scratch/a5russell/DIcorr2/SC_RNA_COUNTER_CS/SC_RNA_COUNTER/_BASIC_SC_RNA_COUNTER/SUBSAMPLE_READS/fork0/join/files/conf_mapped_barcoded_filtered_bc_rpc_29743_8_raw_matrices.h5", 
+            "target_rpc": 29743
+        }, 
+        {
+            "subsample_type": "raw_rpc", 
+            "subsample_rate": 0.09999609148298473, 
+            "filtered_matrices": "/tscc/lustre/ddn/scratch/a5russell/DIcorr2/SC_RNA_COUNTER_CS/SC_RNA_COUNTER/_BASIC_SC_RNA_COUNTER/SUBSAMPLE_READS/fork0/join/files/raw_rpc_4957_9_filtered_matrices.h5", 
+            "all_target_rpc": [
+                5000, 
+                10000, 
+                20000, 
+                50000, 
+                75000, 
+                100000, 
+                200000, 
+                300000, 
+                4957, 
+                9914, 
+                14872, 
+                19829, 
+                24786, 
+                29743, 
+                34700, 
+                39658, 
+                44615, 
+                49572
+            ], 
+            "all_subsample_types": [
+                "raw_rpc", 
+                "conf_mapped_barcoded_filtered_bc_rpc"
+            ], 
+            "raw_matrices": "/tscc/lustre/ddn/scratch/a5russell/DIcorr2/SC_RNA_COUNTER_CS/SC_RNA_COUNTER/_BASIC_SC_RNA_COUNTER/SUBSAMPLE_READS/fork0/join/files/raw_rpc_4957_9_raw_matrices.h5", 
+            "target_rpc": 4957
+        }, 
+        {
+            "subsample_type": "raw_rpc", 
+            "subsample_rate": 0.10086351881723636, 
+            "filtered_matrices": "/tscc/lustre/ddn/scratch/a5russell/DIcorr2/SC_RNA_COUNTER_CS/SC_RNA_COUNTER/_BASIC_SC_RNA_COUNTER/SUBSAMPLE_READS/fork0/join/files/raw_rpc_5000_10_filtered_matrices.h5", 
+            "all_target_rpc": [
+                5000, 
+                10000, 
+                20000, 
+                50000, 
+                75000, 
+                100000, 
+                200000, 
+                300000, 
+                4957, 
+                9914, 
+                14872, 
+                19829, 
+                24786, 
+                29743, 
+                34700, 
+                39658, 
+                44615, 
+                49572
+            ], 
+            "all_subsample_types": [
+                "raw_rpc", 
+                "conf_mapped_barcoded_filtered_bc_rpc"
+            ], 
+            "raw_matrices": "/tscc/lustre/ddn/scratch/a5russell/DIcorr2/SC_RNA_COUNTER_CS/SC_RNA_COUNTER/_BASIC_SC_RNA_COUNTER/SUBSAMPLE_READS/fork0/join/files/raw_rpc_5000_10_raw_matrices.h5", 
+            "target_rpc": 5000
+        }, 
+        {
+            "subsample_type": "raw_rpc", 
+            "subsample_rate": 0.1999921946227455, 
+            "filtered_matrices": "/tscc/lustre/ddn/scratch/a5russell/DIcorr2/SC_RNA_COUNTER_CS/SC_RNA_COUNTER/_BASIC_SC_RNA_COUNTER/SUBSAMPLE_READS/fork0/join/files/raw_rpc_9914_11_filtered_matrices.h5", 
+            "all_target_rpc": [
+                5000, 
+                10000, 
+                20000, 
+                50000, 
+                75000, 
+                100000, 
+                200000, 
+                300000, 
+                4957, 
+                9914, 
+                14872, 
+                19829, 
+                24786, 
+                29743, 
+                34700, 
+                39658, 
+                44615, 
+                49572
+            ], 
+            "all_subsample_types": [
+                "raw_rpc", 
+                "conf_mapped_barcoded_filtered_bc_rpc"
+            ], 
+            "raw_matrices": "/tscc/lustre/ddn/scratch/a5russell/DIcorr2/SC_RNA_COUNTER_CS/SC_RNA_COUNTER/_BASIC_SC_RNA_COUNTER/SUBSAMPLE_READS/fork0/join/files/raw_rpc_9914_11_raw_matrices.h5", 
+            "target_rpc": 9914
+        }, 
+        {
+            "subsample_type": "raw_rpc", 
+            "subsample_rate": 0.2017270492912488, 
+            "filtered_matrices": "/tscc/lustre/ddn/scratch/a5russell/DIcorr2/SC_RNA_COUNTER_CS/SC_RNA_COUNTER/_BASIC_SC_RNA_COUNTER/SUBSAMPLE_READS/fork0/join/files/raw_rpc_10000_12_filtered_matrices.h5", 
+            "all_target_rpc": [
+                5000, 
+                10000, 
+                20000, 
+                50000, 
+                75000, 
+                100000, 
+                200000, 
+                300000, 
+                4957, 
+                9914, 
+                14872, 
+                19829, 
+                24786, 
+                29743, 
+                34700, 
+                39658, 
+                44615, 
+                49572
+            ], 
+            "all_subsample_types": [
+                "raw_rpc", 
+                "conf_mapped_barcoded_filtered_bc_rpc"
+            ], 
+            "raw_matrices": "/tscc/lustre/ddn/scratch/a5russell/DIcorr2/SC_RNA_COUNTER_CS/SC_RNA_COUNTER/_BASIC_SC_RNA_COUNTER/SUBSAMPLE_READS/fork0/join/files/raw_rpc_10000_12_raw_matrices.h5", 
+            "target_rpc": 10000
+        }, 
+        {
+            "subsample_type": "raw_rpc", 
+            "subsample_rate": 0.3000084639851023, 
+            "filtered_matrices": "/tscc/lustre/ddn/scratch/a5russell/DIcorr2/SC_RNA_COUNTER_CS/SC_RNA_COUNTER/_BASIC_SC_RNA_COUNTER/SUBSAMPLE_READS/fork0/join/files/raw_rpc_14872_13_filtered_matrices.h5", 
+            "all_target_rpc": [
+                5000, 
+                10000, 
+                20000, 
+                50000, 
+                75000, 
+                100000, 
+                200000, 
+                300000, 
+                4957, 
+                9914, 
+                14872, 
+                19829, 
+                24786, 
+                29743, 
+                34700, 
+                39658, 
+                44615, 
+                49572
+            ], 
+            "all_subsample_types": [
+                "raw_rpc", 
+                "conf_mapped_barcoded_filtered_bc_rpc"
+            ], 
+            "raw_matrices": "/tscc/lustre/ddn/scratch/a5russell/DIcorr2/SC_RNA_COUNTER_CS/SC_RNA_COUNTER/_BASIC_SC_RNA_COUNTER/SUBSAMPLE_READS/fork0/join/files/raw_rpc_14872_13_raw_matrices.h5", 
+            "target_rpc": 14872
+        }, 
+        {
+            "subsample_type": "raw_rpc", 
+            "subsample_rate": 0.40000456712486304, 
+            "filtered_matrices": "/tscc/lustre/ddn/scratch/a5russell/DIcorr2/SC_RNA_COUNTER_CS/SC_RNA_COUNTER/_BASIC_SC_RNA_COUNTER/SUBSAMPLE_READS/fork0/join/files/raw_rpc_19829_14_filtered_matrices.h5", 
+            "all_target_rpc": [
+                5000, 
+                10000, 
+                20000, 
+                50000, 
+                75000, 
+                100000, 
+                200000, 
+                300000, 
+                4957, 
+                9914, 
+                14872, 
+                19829, 
+                24786, 
+                29743, 
+                34700, 
+                39658, 
+                44615, 
+                49572
+            ], 
+            "all_subsample_types": [
+                "raw_rpc", 
+                "conf_mapped_barcoded_filtered_bc_rpc"
+            ], 
+            "raw_matrices": "/tscc/lustre/ddn/scratch/a5russell/DIcorr2/SC_RNA_COUNTER_CS/SC_RNA_COUNTER/_BASIC_SC_RNA_COUNTER/SUBSAMPLE_READS/fork0/join/files/raw_rpc_19829_14_raw_matrices.h5", 
+            "target_rpc": 19829
+        }, 
+        {
+            "subsample_type": "raw_rpc", 
+            "subsample_rate": 0.4034540985824976, 
+            "filtered_matrices": "/tscc/lustre/ddn/scratch/a5russell/DIcorr2/SC_RNA_COUNTER_CS/SC_RNA_COUNTER/_BASIC_SC_RNA_COUNTER/SUBSAMPLE_READS/fork0/join/files/raw_rpc_20000_15_filtered_matrices.h5", 
+            "all_target_rpc": [
+                5000, 
+                10000, 
+                20000, 
+                50000, 
+                75000, 
+                100000, 
+                200000, 
+                300000, 
+                4957, 
+                9914, 
+                14872, 
+                19829, 
+                24786, 
+                29743, 
+                34700, 
+                39658, 
+                44615, 
+                49572
+            ], 
+            "all_subsample_types": [
+                "raw_rpc", 
+                "conf_mapped_barcoded_filtered_bc_rpc"
+            ], 
+            "raw_matrices": "/tscc/lustre/ddn/scratch/a5russell/DIcorr2/SC_RNA_COUNTER_CS/SC_RNA_COUNTER/_BASIC_SC_RNA_COUNTER/SUBSAMPLE_READS/fork0/join/files/raw_rpc_20000_15_raw_matrices.h5", 
+            "target_rpc": 20000
+        }, 
+        {
+            "subsample_type": "raw_rpc", 
+            "subsample_rate": 0.5000006586078478, 
+            "filtered_matrices": "/tscc/lustre/ddn/scratch/a5russell/DIcorr2/SC_RNA_COUNTER_CS/SC_RNA_COUNTER/_BASIC_SC_RNA_COUNTER/SUBSAMPLE_READS/fork0/join/files/raw_rpc_24786_16_filtered_matrices.h5", 
+            "all_target_rpc": [
+                5000, 
+                10000, 
+                20000, 
+                50000, 
+                75000, 
+                100000, 
+                200000, 
+                300000, 
+                4957, 
+                9914, 
+                14872, 
+                19829, 
+                24786, 
+                29743, 
+                34700, 
+                39658, 
+                44615, 
+                49572
+            ], 
+            "all_subsample_types": [
+                "raw_rpc", 
+                "conf_mapped_barcoded_filtered_bc_rpc"
+            ], 
+            "raw_matrices": "/tscc/lustre/ddn/scratch/a5russell/DIcorr2/SC_RNA_COUNTER_CS/SC_RNA_COUNTER/_BASIC_SC_RNA_COUNTER/SUBSAMPLE_READS/fork0/join/files/raw_rpc_24786_16_raw_matrices.h5", 
+            "target_rpc": 24786
+        }, 
+        {
+            "subsample_type": "raw_rpc", 
+            "subsample_rate": 0.5999967617476086, 
+            "filtered_matrices": "/tscc/lustre/ddn/scratch/a5russell/DIcorr2/SC_RNA_COUNTER_CS/SC_RNA_COUNTER/_BASIC_SC_RNA_COUNTER/SUBSAMPLE_READS/fork0/join/files/raw_rpc_29743_17_filtered_matrices.h5", 
+            "all_target_rpc": [
+                5000, 
+                10000, 
+                20000, 
+                50000, 
+                75000, 
+                100000, 
+                200000, 
+                300000, 
+                4957, 
+                9914, 
+                14872, 
+                19829, 
+                24786, 
+                29743, 
+                34700, 
+                39658, 
+                44615, 
+                49572
+            ], 
+            "all_subsample_types": [
+                "raw_rpc", 
+                "conf_mapped_barcoded_filtered_bc_rpc"
+            ], 
+            "raw_matrices": "/tscc/lustre/ddn/scratch/a5russell/DIcorr2/SC_RNA_COUNTER_CS/SC_RNA_COUNTER/_BASIC_SC_RNA_COUNTER/SUBSAMPLE_READS/fork0/join/files/raw_rpc_29743_17_raw_matrices.h5", 
+            "target_rpc": 29743
+        }, 
+        {
+            "subsample_type": "raw_rpc", 
+            "subsample_rate": 0.6999928532305933, 
+            "filtered_matrices": "/tscc/lustre/ddn/scratch/a5russell/DIcorr2/SC_RNA_COUNTER_CS/SC_RNA_COUNTER/_BASIC_SC_RNA_COUNTER/SUBSAMPLE_READS/fork0/join/files/raw_rpc_34700_18_filtered_matrices.h5", 
+            "all_target_rpc": [
+                5000, 
+                10000, 
+                20000, 
+                50000, 
+                75000, 
+                100000, 
+                200000, 
+                300000, 
+                4957, 
+                9914, 
+                14872, 
+                19829, 
+                24786, 
+                29743, 
+                34700, 
+                39658, 
+                44615, 
+                49572
+            ], 
+            "all_subsample_types": [
+                "raw_rpc", 
+                "conf_mapped_barcoded_filtered_bc_rpc"
+            ], 
+            "raw_matrices": "/tscc/lustre/ddn/scratch/a5russell/DIcorr2/SC_RNA_COUNTER_CS/SC_RNA_COUNTER/_BASIC_SC_RNA_COUNTER/SUBSAMPLE_READS/fork0/join/files/raw_rpc_34700_18_raw_matrices.h5", 
+            "target_rpc": 34700
+        }, 
+        {
+            "subsample_type": "raw_rpc", 
+            "subsample_rate": 0.8000091342497261, 
+            "filtered_matrices": "/tscc/lustre/ddn/scratch/a5russell/DIcorr2/SC_RNA_COUNTER_CS/SC_RNA_COUNTER/_BASIC_SC_RNA_COUNTER/SUBSAMPLE_READS/fork0/join/files/raw_rpc_39658_19_filtered_matrices.h5", 
+            "all_target_rpc": [
+                5000, 
+                10000, 
+                20000, 
+                50000, 
+                75000, 
+                100000, 
+                200000, 
+                300000, 
+                4957, 
+                9914, 
+                14872, 
+                19829, 
+                24786, 
+                29743, 
+                34700, 
+                39658, 
+                44615, 
+                49572
+            ], 
+            "all_subsample_types": [
+                "raw_rpc", 
+                "conf_mapped_barcoded_filtered_bc_rpc"
+            ], 
+            "raw_matrices": "/tscc/lustre/ddn/scratch/a5russell/DIcorr2/SC_RNA_COUNTER_CS/SC_RNA_COUNTER/_BASIC_SC_RNA_COUNTER/SUBSAMPLE_READS/fork0/join/files/raw_rpc_39658_19_raw_matrices.h5", 
+            "target_rpc": 39658
+        }, 
+        {
+            "subsample_type": "raw_rpc", 
+            "subsample_rate": 0.9000052257327108, 
+            "filtered_matrices": "/tscc/lustre/ddn/scratch/a5russell/DIcorr2/SC_RNA_COUNTER_CS/SC_RNA_COUNTER/_BASIC_SC_RNA_COUNTER/SUBSAMPLE_READS/fork0/join/files/raw_rpc_44615_20_filtered_matrices.h5", 
+            "all_target_rpc": [
+                5000, 
+                10000, 
+                20000, 
+                50000, 
+                75000, 
+                100000, 
+                200000, 
+                300000, 
+                4957, 
+                9914, 
+                14872, 
+                19829, 
+                24786, 
+                29743, 
+                34700, 
+                39658, 
+                44615, 
+                49572
+            ], 
+            "all_subsample_types": [
+                "raw_rpc", 
+                "conf_mapped_barcoded_filtered_bc_rpc"
+            ], 
+            "raw_matrices": "/tscc/lustre/ddn/scratch/a5russell/DIcorr2/SC_RNA_COUNTER_CS/SC_RNA_COUNTER/_BASIC_SC_RNA_COUNTER/SUBSAMPLE_READS/fork0/join/files/raw_rpc_44615_20_raw_matrices.h5", 
+            "target_rpc": 44615
+        }
+    ], 
+    "chunked_reporter": "/tscc/lustre/ddn/scratch/a5russell/DIcorr2/SC_RNA_COUNTER_CS/SC_RNA_COUNTER/_BASIC_SC_RNA_COUNTER/SUBSAMPLE_READS/fork0/files/chunked_reporter.pickle", 
+    "summary": "/tscc/lustre/ddn/scratch/a5russell/DIcorr2/SC_RNA_COUNTER_CS/SC_RNA_COUNTER/_BASIC_SC_RNA_COUNTER/SUBSAMPLE_READS/fork0/files/summary.json"
+}

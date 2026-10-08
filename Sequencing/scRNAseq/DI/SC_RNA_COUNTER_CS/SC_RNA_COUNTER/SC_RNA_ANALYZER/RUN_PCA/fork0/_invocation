@@ -1,0 +1,11 @@
+@include "sc_rna_counter_cs.mro"
+
+call RUN_PCA(
+    matrix_h5 = "/tscc/lustre/ddn/scratch/a5russell/DIcorr2/SC_RNA_COUNTER_CS/SC_RNA_COUNTER/SC_RNA_ANALYZER/RUN_PREPROCESS/fork0/files/preprocessed_matrix_h5.h5",
+    is_multi_genome = true,
+    skip = null,
+    random_seed = null,
+    num_bcs = null,
+    num_genes = null,
+    num_pcs = null,
+)

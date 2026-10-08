@@ -1,0 +1,21 @@
+{
+    "__mem_gb": 6,
+    "__threads": 1,
+    "chemistry_name": "auto",
+    "custom_chemistry_def": null,
+    "sample_def": [
+        {
+            "fastq_mode": "ILMN_BCL2FASTQ",
+            "gem_group": null,
+            "lanes": null,
+            "read_path": "/tscc/lustre/ddn/scratch/a5russell/DelVG_IFN/Sequencing/scRNAseq/DIcorr",
+            "sample_indices": [
+                "any"
+            ],
+            "sample_names": [
+                "bamtofastq"
+            ]
+        }
+    ],
+    "sample_id": "DIcorr2"
+}

@@ -1,0 +1,1 @@
+/fh/fast/bloom_j/user/abrussel/10x_analysis/cellranger-1.3.1/cellranger-cs/1.3.1/bin/count --id=IM --fastqs=/fh/fast/bloom_j/user/abrussel/10x_analysis/170314/runfiles/cellRangerFastQ,/fh/fast/bloom_j/user/abrussel/10x_analysis/170314/runfiles/cellRangerFastQ2/Chromrun --sample=intermediate10h --transcriptome=/fh/fast/bloom_j/user/abrussel/10x_analysis/human_flu_and_canine

@@ -1,0 +1,3 @@
+[stderr]
+/tscc/nfs/home/a5russell/cellranger-1.3.1/cellranger-cs/1.3.1/lib/python/cellranger/stats.py:201: VisibleDeprecationWarning: using a non-integer number instead of an integer will result in an error in the future
+  top_bc_idx = np.sort(np.argsort(bc_counts)[::-1][0:top_n])

@@ -1,0 +1,236 @@
+Mon Jul 20 19:53:14 PDT 2026
+
+=====================================================================
+System Info
+uname -a
+---------------------------------------------------------------------
+Linux tscc-13-21 5.14.0-611.34.1.el9_7.x86_64 #1 SMP PREEMPT_DYNAMIC Mon Feb 23 12:07:36 UTC 2026 x86_64 x86_64 x86_64 GNU/Linux
+=====================================================================
+
+=====================================================================
+Linux Distro
+cat /etc/cm-release /etc/os-release /etc/redhat-release /etc/rocky-release /etc/system-release | sort -u
+---------------------------------------------------------------------
+ANSI_COLOR="0;32"
+BUG_REPORT_URL="https://bugs.rockylinux.org/"
+CPE_NAME="cpe:/o:rocky:rocky:9::baseos"
+Cluster Manager v9.2
+HOME_URL="https://rockylinux.org/"
+ID="rocky"
+ID_LIKE="rhel centos fedora"
+LOGO="fedora-logo-icon"
+NAME="Rocky Linux"
+PLATFORM_ID="platform:el9"
+PRETTY_NAME="Rocky Linux 9.7 (Blue Onyx)"
+REDHAT_SUPPORT_PRODUCT="Rocky Linux"
+REDHAT_SUPPORT_PRODUCT_VERSION="9.7"
+ROCKY_SUPPORT_PRODUCT="Rocky-Linux-9"
+ROCKY_SUPPORT_PRODUCT_VERSION="9.7"
+Rocky Linux release 9.7 (Blue Onyx)
+SUPPORT_END="2032-05-31"
+VENDOR_NAME="RESF"
+VENDOR_URL="https://resf.org/"
+VERSION="9.7 (Blue Onyx)"
+VERSION_ID="9.7"
+slave
+=====================================================================
+
+=====================================================================
+Kernel Build
+cat /proc/version
+---------------------------------------------------------------------
+Linux version 5.14.0-611.34.1.el9_7.x86_64 (mockbuild@iad1-prod-build001.bld.equ.rockylinux.org) (gcc (GCC) 11.5.0 20240719 (Red Hat 11.5.0-11), GNU ld version 2.35.2-67.el9_7.1) #1 SMP PREEMPT_DYNAMIC Mon Feb 23 12:07:36 UTC 2026
+=====================================================================
+
+=====================================================================
+CPU Model
+grep -m 1 'model name' /proc/cpuinfo | cut -d ':' -f 2 | sed 's/^[ \t]*//'
+---------------------------------------------------------------------
+INTEL(R) XEON(R) GOLD 6544Y
+=====================================================================
+
+=====================================================================
+CPU Sockets
+grep 'physical id' /proc/cpuinfo | sort -u | wc -l
+---------------------------------------------------------------------
+2
+=====================================================================
+
+=====================================================================
+CPU Cores
+grep -c processor /proc/cpuinfo
+---------------------------------------------------------------------
+32
+=====================================================================
+
+=====================================================================
+Memory Total
+grep MemTotal /proc/meminfo | cut -d ':' -f 2 | sed 's/^[ \t]*//'
+---------------------------------------------------------------------
+263422408 kB
+=====================================================================
+
+=====================================================================
+Disk Space
+df -Ph | awk '{print $2, $3, $4}'
+---------------------------------------------------------------------
+Size Used Avail
+4.0M 0 4.0M
+126G 2.1M 126G
+63G 17G 43G
+126G 0 126G
+4.0M 0 4.0M
+304K 174K 126K
+100M 0 100M
+20G 75M 19G
+1.5T 356K 1.4T
+121T 23T 99T
+136T 38T 99T
+446G 139G 307G
+2.3P 454T 1.7P
+26G 4.0K 26G
+26G 4.0K 26G
+=====================================================================
+
+=====================================================================
+Filesystem Options
+mount | cut -d ' ' -f 5,6
+---------------------------------------------------------------------
+proc (rw,nosuid,relatime)
+sysfs (rw,relatime)
+devtmpfs (rw,relatime,size=4096k,nr_inodes=32903420,mode=755,inode64)
+tmpfs (rw,relatime,inode64)
+ext4 (rw,noatime,nodiratime,stripe=64)
+securityfs (rw,nosuid,nodev,noexec,relatime)
+tmpfs (rw,inode64)
+devpts (rw,relatime,gid=5,mode=620,ptmxmode=000)
+tmpfs (ro,nosuid,nodev,noexec,size=4096k,nr_inodes=1024,mode=755,inode64)
+cgroup (rw,nosuid,nodev,noexec,relatime,xattr,release_agent=/usr/lib/systemd/systemd-cgroups-agent,name=systemd)
+pstore (rw,nosuid,nodev,noexec,relatime)
+efivarfs (rw,nosuid,nodev,noexec,relatime)
+bpf (rw,nosuid,nodev,noexec,relatime,mode=700)
+cgroup (rw,nosuid,nodev,noexec,relatime,rdma)
+cgroup (rw,nosuid,nodev,noexec,relatime,pids)
+cgroup (rw,nosuid,nodev,noexec,relatime,net_cls,net_prio)
+cgroup (rw,nosuid,nodev,noexec,relatime,cpu,cpuacct)
+cgroup (rw,nosuid,nodev,noexec,relatime,memory)
+cgroup (rw,nosuid,nodev,noexec,relatime,blkio)
+cgroup (rw,nosuid,nodev,noexec,relatime,perf_event)
+cgroup (rw,nosuid,nodev,noexec,relatime,devices)
+cgroup (rw,nosuid,nodev,noexec,relatime,misc)
+cgroup (rw,nosuid,nodev,noexec,relatime,hugetlb)
+cgroup (rw,nosuid,nodev,noexec,relatime,cpuset)
+cgroup (rw,nosuid,nodev,noexec,relatime,freezer)
+autofs (rw,relatime,fd=30,pgrp=1,timeout=0,minproto=5,maxproto=5,direct,pipe_ino=15576)
+mqueue (rw,nosuid,nodev,noexec,relatime)
+hugetlbfs (rw,relatime,pagesize=2M)
+debugfs (rw,nosuid,nodev,noexec,relatime)
+tracefs (rw,nosuid,nodev,noexec,relatime)
+fusectl (rw,nosuid,nodev,noexec,relatime)
+configfs (rw,nosuid,nodev,noexec,relatime)
+ramfs (ro,nosuid,nodev,noexec,relatime,mode=700)
+ramfs (ro,nosuid,nodev,noexec,relatime,mode=700)
+ramfs (ro,nosuid,nodev,noexec,relatime,mode=700)
+vfat (rw,noatime,nodiratime,fmask=0022,dmask=0022,codepage=437,iocharset=ascii,shortname=mixed,errors=remount-ro)
+ext4 (rw,nosuid,nodev,noatime,nodiratime,stripe=64)
+ext4 (rw,nosuid,nodev,noatime,nodiratime,stripe=32,jqfmt=vfsv0,usrjquota=aquota.user,grpjquota=aquota.grp)
+ramfs (ro,nosuid,nodev,noexec,relatime,mode=700)
+binfmt_misc (rw,nosuid,nodev,noexec,relatime)
+rpc_pipefs (rw,relatime)
+nfs (ro,relatime,vers=3,rsize=32768,wsize=32768,namlen=255,hard,proto=tcp,timeo=600,retrans=2,sec=sys,mountaddr=132.249.107.41,mountvers=3,mountport=4002,mountproto=udp,local_lock=none,addr=132.249.107.41)
+nfs (rw,nosuid,nodev,relatime,vers=3,rsize=32768,wsize=32768,namlen=255,hard,proto=tcp,timeo=600,retrans=2,sec=sys,mountaddr=132.249.107.41,mountvers=3,mountport=4002,mountproto=tcp,local_lock=none,addr=132.249.107.41)
+nfs (rw,relatime,vers=3,rsize=32768,wsize=32768,namlen=255,hard,proto=tcp,timeo=600,retrans=2,sec=sys,mountaddr=10.1.255.254,mountvers=3,mountport=4002,mountproto=udp,local_lock=none,addr=10.1.255.254)
+lustre (rw,nosuid,nodev,flock,lazystatfs,encrypt,_netdev,x-systemd.after=network-online.target)
+autofs (rw,relatime,fd=7,pgrp=21847,timeout=1200,minproto=5,maxproto=5,indirect,pipe_ino=161253)
+tmpfs (rw,nosuid,nodev,relatime,size=26342240k,nr_inodes=6585560,mode=700,uid=542450,gid=12873,inode64)
+tmpfs (rw,nosuid,nodev,relatime,size=26342240k,nr_inodes=6585560,mode=700,uid=524385,gid=11260,inode64)
+=====================================================================
+
+=====================================================================
+User Limits
+bash -c 'ulimit -a'
+---------------------------------------------------------------------
+real-time non-blocking time  (microseconds, -R) unlimited
+core file size              (blocks, -c) unlimited
+data seg size               (kbytes, -d) unlimited
+scheduling priority                 (-e) 0
+file size                   (blocks, -f) unlimited
+pending signals                     (-i) 1028231
+max locked memory           (kbytes, -l) unlimited
+max memory size             (kbytes, -m) 100663296
+open files                          (-n) 131072
+pipe size                (512 bytes, -p) 8
+POSIX message queues         (bytes, -q) 819200
+real-time priority                  (-r) 0
+stack size                  (kbytes, -s) unlimited
+cpu time                   (seconds, -t) unlimited
+max user processes                  (-u) 1028231
+virtual memory              (kbytes, -v) unlimited
+file locks                          (-x) unlimited
+=====================================================================
+
+=====================================================================
+Global File Limit
+cat /proc/sys/fs/file-{max,nr}
+---------------------------------------------------------------------
+=====================================================================
+
+=====================================================================
+SGE Submit
+which qsub
+---------------------------------------------------------------------
+=====================================================================
+
+=====================================================================
+LSF Submit
+which bsub
+---------------------------------------------------------------------
+=====================================================================
+
+=====================================================================
+BCL2FASTQ 1
+which configureBclToFastq.pl
+---------------------------------------------------------------------
+=====================================================================
+
+=====================================================================
+BCL2FASTQ 2
+which bcl2fastq
+---------------------------------------------------------------------
+=====================================================================
+
+=====================================================================
+Java
+which java
+---------------------------------------------------------------------
+/tscc/nfs/home/a5russell/mambaforge/envs/NEP/bin/java
+=====================================================================
+
+=====================================================================
+Java Version
+java -version 2>&1 | cat
+---------------------------------------------------------------------
+openjdk version "11.0.1" 2018-10-16 LTS
+OpenJDK Runtime Environment Zulu11.2+3 (build 11.0.1+13-LTS)
+OpenJDK 64-Bit Server VM Zulu11.2+3 (build 11.0.1+13-LTS, mixed mode)
+=====================================================================
+
+=====================================================================
+10X Refdata
+echo $TENX_REFDATA
+---------------------------------------------------------------------
+
+=====================================================================
+
+=====================================================================
+10X Refdata Version
+cat $TENX_REFDATA/version
+---------------------------------------------------------------------
+=====================================================================
+
+=====================================================================
+qconf
+which qconf
+---------------------------------------------------------------------
+=====================================================================
+

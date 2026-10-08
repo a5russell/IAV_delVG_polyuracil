@@ -1,0 +1,7 @@
+	/tscc/nfs/home/a5russell/mambaforge/envs/NEP/bin/STAR-avx2 --runMode alignReads --runThreadN 6 --genomeDir Database/nativeRACE/RACE_targets --readFilesIn Sequencing/native/depleted/vir1_1_Capped_vir1-neg-1_R2_001.fastq --outFileNamePrefix Results/nativeSeqAlign/depleted/vir1-neg-1Capped --outSAMtype BAM Unsorted --alignIntronMax 1
+	STAR version: 2.7.11b   compiled: 2025-07-24T03:06:21+0000 :/opt/conda/conda-bld/star_1753326220084/work/source
+Jul 09 10:10:42 ..... started STAR run
+Jul 09 10:10:42 ..... loading genome
+Jul 09 10:10:42 ..... started mapping
+Jul 09 10:10:49 ..... finished mapping
+Jul 09 10:10:49 ..... finished successfully
