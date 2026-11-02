@@ -42,9 +42,13 @@ The following python packages and versions were used. All were installed using c
 - <b>statsmodels</b> run with version 0.14.1. (https://www.statsmodels.org/stable/index.html)
 - <b>PyDESeq2</b>    run with version 0.5.4. (https://pydeseq2.readthedocs.io/en/stable/index.html)
 
+anticipated install time for all packages ~1hr.
+
 ## Jupyter notebooks
 
 General descriptions of pipelines within each notebook described below.
+
+Anticipated run time depends on resources, using parallel processing and 6 cores entire pipeline takes ~1 week to run.
 
 ### Assigment_alignment_DMS_libraries.ipynb
 
